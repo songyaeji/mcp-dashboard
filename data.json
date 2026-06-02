@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-02T05:14:44+00:00",
+  "generatedAt": "2026-06-02T05:22:25+00:00",
   "lastCrawl": "2026-06-02",
   "crawl": {
     "servers": 9459,
@@ -470,6 +470,14 @@
         "color": "#ef4444"
       }
     ],
+    "toolDelta": {
+      "newTools": 2047,
+      "droppedTools": 719,
+      "removedTools": 340,
+      "unreachedTools": 379,
+      "net": 1328,
+      "prevDate": "2026-06-01"
+    },
     "stealth": 179,
     "crossRegistry": 1910,
     "crossSource": 1670
