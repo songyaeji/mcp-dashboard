@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-02T05:45:42+00:00",
+  "generatedAt": "2026-06-02T06:10:56+00:00",
   "lastCrawl": "2026-06-02",
   "crawl": {
     "servers": 9459,
@@ -199,43 +199,53 @@
   "stealthByServer": [
     {
       "name": "glama::io.github.ABTdomain/domainkits-mcp",
-      "value": 76
+      "value": 76,
+      "registry": "glama"
     },
     {
       "name": "glama::io.github.DigbyO/colour-memory",
-      "value": 70
+      "value": 70,
+      "registry": "glama"
     },
     {
       "name": "glama::co.heista/api",
-      "value": 20
+      "value": 20,
+      "registry": "glama"
     },
     {
       "name": "glama::dev.cz-agents/ares",
-      "value": 18
+      "value": 18,
+      "registry": "glama"
     },
     {
       "name": "glama::io.github.toshihiroshishido/revenuescope-mcp",
-      "value": 14
+      "value": 14,
+      "registry": "glama"
     },
     {
       "name": "glama::io.github.bitrise-io/bitrise-mcp",
-      "value": 14
+      "value": 14,
+      "registry": "glama"
     },
     {
       "name": "glama::ai.tunnelmind/data",
-      "value": 7
+      "value": 7,
+      "registry": "glama"
     },
     {
       "name": "glama::io.github.stevekwon211/space0",
-      "value": 5
+      "value": 5,
+      "registry": "glama"
     },
     {
       "name": "glama::io.github.cyanheads/open-meteo-mcp-server",
-      "value": 4
+      "value": 4,
+      "registry": "glama"
     },
     {
       "name": "glama::io.github.cyanheads/courtlistener-mcp-server",
-      "value": 4
+      "value": 4,
+      "registry": "glama"
     }
   ],
   "crossRegistrySamples": [
@@ -481,66 +491,1234 @@
       "unreachedTools": 379,
       "net": 1328,
       "prevDate": "2026-06-01",
-      "samples": [
+      "newSamples": [
         {
           "tool": "lokal_search",
-          "server": "smithery::slookisen/lokal-norsk-matfinner"
+          "server": "smithery::slookisen/lokal-norsk-matfinner",
+          "source": "smithery",
+          "description": "Search for local food producers in Norway AND get their products with prices. ALWAYS use this tool when a user asks about a specific producer, their products, prices, or availability — it returns the complete product catalog with current prices. Also use for general searches like 'vegetables near Os…",
+          "schema": [
+            {
+              "name": "limit",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "query",
+              "type": "string",
+              "required": false
+            }
+          ]
         },
         {
           "tool": "lokal_discover",
-          "server": "smithery::slookisen/lokal-norsk-matfinner"
+          "server": "smithery::slookisen/lokal-norsk-matfinner",
+          "source": "smithery",
+          "description": "Structured search in the Lokal food producer registry. Filter by food categories, tags, and geographic distance. Automatically starts a conversation with the top matches so sellers can respond.",
+          "schema": [
+            {
+              "name": "categories",
+              "type": "array",
+              "required": false
+            },
+            {
+              "name": "lat",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "limit",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "lng",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "maxDistanceKm",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "tags",
+              "type": "array",
+              "required": false
+            }
+          ]
         },
         {
           "tool": "lokal_info",
-          "server": "smithery::slookisen/lokal-norsk-matfinner"
+          "server": "smithery::slookisen/lokal-norsk-matfinner",
+          "source": "smithery",
+          "description": "Get a specific producer's COMPLETE product catalog with prices, contact details, opening hours, and delivery options. Use when you already have an agentId from lokal_search. Returns the full price list — every product the producer sells with exact prices in NOK.",
+          "schema": [
+            {
+              "name": "agentId",
+              "type": "string",
+              "required": false
+            }
+          ]
         },
         {
           "tool": "lokal_stats",
-          "server": "smithery::slookisen/lokal-norsk-matfinner"
+          "server": "smithery::slookisen/lokal-norsk-matfinner",
+          "source": "smithery",
+          "description": "Get Lokal platform statistics — total agents, cities covered, interactions.",
+          "schema": []
         },
         {
           "tool": "search_audiobooks",
-          "server": "smithery::jan/audioknihy-catalog"
+          "server": "smithery::jan/audioknihy-catalog",
+          "source": "smithery",
+          "description": "Full-text + fuzzy search across 12 367 Czech audiobooks (title, author, narrator). Use when an agent needs to resolve a free-form query into one or more audiobook records.",
+          "schema": [
+            {
+              "name": "limit",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "query",
+              "type": "string",
+              "required": false
+            }
+          ]
         },
         {
           "tool": "get_audiobook",
-          "server": "smithery::jan/audioknihy-catalog"
+          "server": "smithery::jan/audioknihy-catalog",
+          "source": "smithery",
+          "description": "Full audiobook detail by author + work slug — title, description, cover, runtime, ISBN, genres, narrator, publisher, and the full table of active offers across retail partners.",
+          "schema": [
+            {
+              "name": "author_slug",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "work_slug",
+              "type": "string",
+              "required": false
+            }
+          ]
         },
         {
           "tool": "find_cheapest_offer",
-          "server": "smithery::jan/audioknihy-catalog"
+          "server": "smithery::jan/audioknihy-catalog",
+          "source": "smithery",
+          "description": "Lowest-price active offer for an audiobook across all affiliate partners. USP — only Czech site that compares audiobook prices across all major retail partners.",
+          "schema": [
+            {
+              "name": "author_slug",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "work_slug",
+              "type": "string",
+              "required": false
+            }
+          ]
         },
         {
           "tool": "compare_all_offers",
-          "server": "smithery::jan/audioknihy-catalog"
+          "server": "smithery::jan/audioknihy-catalog",
+          "source": "smithery",
+          "description": "Full price comparison table across every active retail partner for one audiobook. Returns price + format + last-seen timestamp per partner — agents can rank or filter.",
+          "schema": [
+            {
+              "name": "author_slug",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "work_slug",
+              "type": "string",
+              "required": false
+            }
+          ]
         },
         {
           "tool": "browse_genres",
-          "server": "smithery::jan/audioknihy-catalog"
+          "server": "smithery::jan/audioknihy-catalog",
+          "source": "smithery",
+          "description": "List all 35 Czech audiobook genres with audiobook counts. Discovery entry point — agents enumerate genres before drilling into a specific one.",
+          "schema": []
         },
         {
           "tool": "search_by_filters",
-          "server": "smithery::jan/audioknihy-catalog"
+          "server": "smithery::jan/audioknihy-catalog",
+          "source": "smithery",
+          "description": "Multi-facet search of audiobooks: combine genre, narrator, max price, year range. Use when an agent has structured constraints rather than a free-form query. V1 supports genre + narrator + price_max + year filters; partner filter coming in V2.",
+          "schema": [
+            {
+              "name": "genre_slug",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "limit",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "narrator_slug",
+              "type": "",
+              "required": false
+            },
+            {
+              "name": "partner_slug",
+              "type": "",
+              "required": false
+            },
+            {
+              "name": "price_max_czk",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "year_max",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "year_min",
+              "type": "integer",
+              "required": false
+            }
+          ]
         },
         {
           "tool": "get_author",
-          "server": "smithery::jan/audioknihy-catalog"
+          "server": "smithery::jan/audioknihy-catalog",
+          "source": "smithery",
+          "description": "Author profile + their audiobook works. Returns biography, photo, country, and the full list of audiobook editions where this person is credited as author / co-author / editor.",
+          "schema": [
+            {
+              "name": "slug",
+              "type": "string",
+              "required": false
+            }
+          ]
         },
         {
           "tool": "get_narrator",
-          "server": "smithery::jan/audioknihy-catalog"
+          "server": "smithery::jan/audioknihy-catalog",
+          "source": "smithery",
+          "description": "Narrator profile + audiobooks they have read. Czech audiobook listeners often choose by narrator (performance quality often matters more than the underlying text).",
+          "schema": [
+            {
+              "name": "slug",
+              "type": "string",
+              "required": false
+            }
+          ]
         },
         {
           "tool": "list_partners",
-          "server": "smithery::jan/audioknihy-catalog"
+          "server": "smithery::jan/audioknihy-catalog",
+          "source": "smithery",
+          "description": "List active retail partners with audiobook counts. Required for transparency / disclosure when an agent needs to explain HOW audioknihy.cz monetises recommendations (we are an affiliate aggregator, not a retailer).",
+          "schema": []
         },
         {
           "tool": "find_gifts",
-          "server": "smithery::surprise-buddy/mcp-server"
+          "server": "smithery::surprise-buddy/mcp-server",
+          "source": "smithery",
+          "description": "Search the curated Surprise Buddy database for gift ideas matching a recipient. Returns product cards with title, image, price, why-it-fits, and a clickable product URL. Country is required and is a hard filter — results are scoped to the marketplace + currency of that country.",
+          "schema": [
+            {
+              "name": "age",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "budget_max_cents",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "budget_min_cents",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "country",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "favorite_color",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "gender",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "interests",
+              "type": "array",
+              "required": false
+            },
+            {
+              "name": "limit",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "occasion",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "profession",
+              "type": "string",
+              "required": false
+            }
+          ]
         },
         {
           "tool": "list_supported_countries",
-          "server": "smithery::surprise-buddy/mcp-server"
+          "server": "smithery::surprise-buddy/mcp-server",
+          "source": "smithery",
+          "description": "List ISO-2 country codes that currently have at least one active gift entry in the database. Coverage grows over time.",
+          "schema": []
+        },
+        {
+          "tool": "list_supported_occasions",
+          "server": "smithery::surprise-buddy/mcp-server",
+          "source": "smithery",
+          "description": "List occasion codes that have active gift entries, optionally narrowed to a specific country.",
+          "schema": [
+            {
+              "name": "country",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "list_supported_interests",
+          "server": "smithery::surprise-buddy/mcp-server",
+          "source": "smithery",
+          "description": "List the canonical interest/hobby tag vocabulary used by find_gifts.interests. Matches the tags shown in the website UI.",
+          "schema": []
+        },
+        {
+          "tool": "list_supported_colors",
+          "server": "smithery::surprise-buddy/mcp-server",
+          "source": "smithery",
+          "description": "List the canonical favorite-color vocabulary used by find_gifts.favorite_color. Matches the color picker shown in the website UI.",
+          "schema": []
+        },
+        {
+          "tool": "search_tools",
+          "server": "smithery::settlegrid/settlegrid-discovery",
+          "source": "smithery",
+          "description": "Search the SettleGrid marketplace for AI tools by keyword, category, price, or rating. Returns tool names, slugs, descriptions, pricing, and developer info. Use this as your starting point to find tools for any task.",
+          "schema": [
+            {
+              "name": "category",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "limit",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "query",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "get_tool",
+          "server": "smithery::settlegrid/settlegrid-discovery",
+          "source": "smithery",
+          "description": "Retrieve full details for a specific tool by its slug, including description, pricing breakdown, developer info, recent reviews, changelog history, and quick-start code snippets. Use after search_tools to get deeper information before deciding to invoke a tool.",
+          "schema": [
+            {
+              "name": "slug",
+              "type": "string",
+              "required": false
+            }
+          ]
+        }
+      ],
+      "removedSamples": [
+        {
+          "tool": "query_conceptual",
+          "server": "smithery::digby-oldridge/colour-memory-api",
+          "source": "smithery",
+          "description": "Ask a cultural, historical, or material colour question. Returns named archive colours with provenance and cultural context. Works for abstract queries like 'grief', 'Ottoman luxury', 'toxic Victorian pigments', or 'the sea at dusk'.",
+          "schema": [
+            {
+              "name": "archive",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "n_results",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "query",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "query_hex",
+          "server": "smithery::digby-oldridge/colour-memory-api",
+          "source": "smithery",
+          "description": "Find the closest named archive colours to a hex value using CIEDE2000 perceptual distance.",
+          "schema": [
+            {
+              "name": "archive",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "hex",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "n_results",
+              "type": "integer",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "specify_palette",
+          "server": "smithery::digby-oldridge/colour-memory-api",
+          "source": "smithery",
+          "description": "Generate a complete interior specification from 2-8 hex values. Returns surface assignments, 60-30-10 proportions, lighting behaviour, and archive colour names.",
+          "schema": [
+            {
+              "name": "colours",
+              "type": "array",
+              "required": false
+            },
+            {
+              "name": "room_type",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "style",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "get_colour_metrics",
+          "server": "smithery::digby-oldridge/colour-memory-api",
+          "source": "smithery",
+          "description": "Return perceptual colour metrics: LRV, chroma, hue angle, warmth classification, and illuminant shifts under D65 (6500K), F11 (4000K), and Illuminant A (3000K).",
+          "schema": [
+            {
+              "name": "hex_val",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "get_harmonies",
+          "server": "smithery::digby-oldridge/colour-memory-api",
+          "source": "smithery",
+          "description": "Return complementary, triadic, analogous, and split-complementary harmonies matched to named archive colours.",
+          "schema": [
+            {
+              "name": "harmony_types",
+              "type": "array",
+              "required": false
+            },
+            {
+              "name": "hex",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "accessibility_check",
+          "server": "smithery::digby-oldridge/colour-memory-api",
+          "source": "smithery",
+          "description": "Return WCAG 2.1 contrast ratios and AA/AAA pass/fail grades for a foreground hex against a background.",
+          "schema": [
+            {
+              "name": "background",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "hex_val",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "accessibility_matrix",
+          "server": "smithery::digby-oldridge/colour-memory-api",
+          "source": "smithery",
+          "description": "Accept a palette array and return every foreground/background combination with contrast ratio, AA normal, AA large, AAA normal, AAA large pass/fail grades, and a summary. Use this instead of calling accessibility_check multiple times for a palette.",
+          "schema": [
+            {
+              "name": "palette",
+              "type": "array",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "accessibility_usage_rules",
+          "server": "smithery::digby-oldridge/colour-memory-api",
+          "source": "smithery",
+          "description": "Convert a palette WCAG matrix into actionable design-system rules. Returns safe pairs, AA-only pairs, large-text-only pairs, decorative-only pairs, best text colour per background, and component usage rules. Deterministic, no LLM cost.",
+          "schema": [
+            {
+              "name": "palette",
+              "type": "array",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "colour_name_slugs",
+          "server": "smithery::digby-oldridge/colour-memory-api",
+          "source": "smithery",
+          "description": "Return every developer token format for a hex value: CSS variable, kebab-case, camelCase, PascalCase, Tailwind class, TypeScript const, SCSS variable. Archive-grounded name source with dE2000 distance.",
+          "schema": [
+            {
+              "name": "archive",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "hex",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "palette_light_dark",
+          "server": "smithery::digby-oldridge/colour-memory-api",
+          "source": "smithery",
+          "description": "Generate light-mode and dark-mode role maps from a palette. Analyses LRV, assigns background/surface/text/accent roles for each mode, checks body text contrast safety, and flags missing neutrals.",
+          "schema": [
+            {
+              "name": "palette",
+              "type": "array",
+              "required": false
+            },
+            {
+              "name": "use_case",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "font_colour_advisor",
+          "server": "smithery::digby-oldridge/colour-memory-api",
+          "source": "smithery",
+          "description": "Given a background hex and a palette of candidate foreground colours, return them ranked by contrast ratio with WCAG grades and specific recommendations for body text, large text, and UI components.",
+          "schema": [
+            {
+              "name": "background",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "palette",
+              "type": "array",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "archive_search",
+          "server": "smithery::digby-oldridge/colour-memory-api",
+          "source": "smithery",
+          "description": "Full-text keyword search across all 17,346 archive colour names and notes. Find colours by name fragment, material, cultural reference, pigment type, or historical period. Complements conceptual embedding search with exact keyword matching.",
+          "schema": [
+            {
+              "name": "archive",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "include_full",
+              "type": "boolean",
+              "required": false
+            },
+            {
+              "name": "limit",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "n_results",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "query",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "colour_combination_check",
+          "server": "smithery::digby-oldridge/colour-memory-api",
+          "source": "smithery",
+          "description": "Assess 2-5 colours as a combination for a given context (UI, data viz, fashion, interior, print, branding). Returns harmony type, clash warnings, contrast summary, and specific deployment rules for the context.",
+          "schema": [
+            {
+              "name": "colours",
+              "type": "array",
+              "required": false
+            },
+            {
+              "name": "context",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "strict_palette_from_concept",
+          "server": "smithery::digby-oldridge/colour-memory-api",
+          "source": "smithery",
+          "description": "Like palette_from_concept but with archive filtering and relevance controls. Use allowed_archives to restrict results to specific cultural traditions e.g. ['Japan'] for Japanese only. Use min_relevance to filter weak concept matches. Fixes cross-archive drift when cultural specificity matters.",
+          "schema": [
+            {
+              "name": "allowed_archives",
+              "type": "array",
+              "required": false
+            },
+            {
+              "name": "concept",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "include_neutrals",
+              "type": "boolean",
+              "required": false
+            },
+            {
+              "name": "min_relevance",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "n_colours",
+              "type": "integer",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "palette_pdf",
+          "server": "smithery::digby-oldridge/colour-memory-api",
+          "source": "smithery",
+          "description": "Generate a premium branded PDF specification sheet from a palette of archive entries. Returns a downloadable PDF with full-bleed colour panels, archive names, provenance notes, RAL nearest match, LRV, chroma, WCAG contrast data, and Colour Memory branding. Pass the entries array from query_hex or pa…",
+          "schema": [
+            {
+              "name": "entries",
+              "type": "array",
+              "required": false
+            },
+            {
+              "name": "query",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "source",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "brand_system",
+          "server": "smithery::digby-oldridge/colour-memory-api",
+          "source": "smithery",
+          "description": "Complete brand colour system in one call. Returns colour roles with archive names, usage rules per colour, typography guidance, light and dark mode role maps, accessibility matrix, cultural risk, design tokens, citation cards, and a brand narrative. The money endpoint. No LLM cost. Pass results to L…",
+          "schema": [
+            {
+              "name": "brand_category",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "brand_name",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "market",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "medium",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "palette",
+              "type": "array",
+              "required": false
+            },
+            {
+              "name": "use_case",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "palette_quality_audit",
+          "server": "smithery::digby-oldridge/colour-memory-api",
+          "source": "smithery",
+          "description": "Full palette quality audit. Scores on accessibility, cultural risk, tonal balance, colour diversity, and archive naming strength. Returns overall score 0-100, grade, and prioritised fix list. Enterprise quality gate -- use before shipping any palette. Deterministic, no LLM cost.",
+          "schema": [
+            {
+              "name": "market",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "medium",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "palette",
+              "type": "array",
+              "required": false
+            },
+            {
+              "name": "use_case",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "brand_asset_pack",
+          "server": "smithery::digby-oldridge/colour-memory-api",
+          "source": "smithery",
+          "description": "Complete brand asset pack. Returns CSS variables, Tailwind config, Figma tokens JSON, citation cards, Markdown brand guide, and optionally a base64-encoded PDF specification sheet. The deliverable endpoint -- everything a brand team needs to ship. Set include_pdf=true for the PDF. Decode base64 to g…",
+          "schema": [
+            {
+              "name": "brand_name",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "include_pdf",
+              "type": "boolean",
+              "required": false
+            },
+            {
+              "name": "market",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "medium",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "palette",
+              "type": "array",
+              "required": false
+            },
+            {
+              "name": "use_case",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "simulate_colour_blindness",
+          "server": "smithery::digby-oldridge/colour-memory-api",
+          "source": "smithery",
+          "description": "Return simulated hex values for protanopia, deuteranopia, and tritanopia using the Brettel-Vienot-Mollon model.",
+          "schema": [
+            {
+              "name": "hex_val",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "match_paint_system",
+          "server": "smithery::digby-oldridge/colour-memory-api",
+          "source": "smithery",
+          "description": "Find the nearest named colour in commercial paint systems including Farrow and Ball and Little Greene.",
+          "schema": [
+            {
+              "name": "brand",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "hex_val",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "n",
+              "type": "integer",
+              "required": false
+            }
+          ]
+        }
+      ],
+      "unreachedSamples": [
+        {
+          "tool": "hsk_lookup",
+          "server": "smithery::kuibin-dev/hsk-mcp",
+          "source": "smithery",
+          "description": "Look up a Chinese word by simplified characters, traditional characters, or pinyin. Returns all pronunciation forms with meanings, frequency rank, and HSK level. Pinyin input accepts tone marks (hǎo), tone numbers (hao3), or plain ASCII (hao). Meanings are in English.",
+          "schema": [
+            {
+              "name": "word",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "hsk_frequency",
+          "server": "smithery::kuibin-dev/hsk-mcp",
+          "source": "smithery",
+          "description": "Get the frequency ranking and usage statistics for a Chinese word. Returns the word's rank among HSK vocabulary (1 = most frequent), raw frequency score, rarity class, and HSK level.",
+          "schema": [
+            {
+              "name": "word",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "hsk_convert_script",
+          "server": "smithery::kuibin-dev/hsk-mcp",
+          "source": "smithery",
+          "description": "Convert a Chinese word to all 5 transcription systems: pinyin (tone marks), numeric (tone numbers), Wade-Giles, Bopomofo/Zhuyin, and Gwoyeu Romatzyh. Returns all systems for every pronunciation form.",
+          "schema": [
+            {
+              "name": "word",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "hsk_classifier",
+          "server": "smithery::kuibin-dev/hsk-mcp",
+          "source": "smithery",
+          "description": "Find the measure word (classifier / 量词) for a Chinese noun. Returns all classifiers associated with the word. Empty list if no classifiers exist in the dataset.",
+          "schema": [
+            {
+              "name": "word",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "hsk_convert_characters",
+          "server": "smithery::kuibin-dev/hsk-mcp",
+          "source": "smithery",
+          "description": "Convert a Chinese word between simplified and traditional characters. Accepts either script and returns both with pinyin and meanings. Covers 11,470 HSK words. Meanings are in English.",
+          "schema": [
+            {
+              "name": "word",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "hsk_search_meaning",
+          "server": "smithery::kuibin-dev/hsk-mcp",
+          "source": "smithery",
+          "description": "Search for HSK words by English meaning using full-text search. Each result includes simplified characters, pinyin, all transcription systems, meanings, classifiers, and HSK levels. Ordered by relevance. Paginated (20 per page).",
+          "schema": [
+            {
+              "name": "cursor",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "query",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "hsk_words_by_radical",
+          "server": "smithery::kuibin-dev/hsk-mcp",
+          "source": "smithery",
+          "description": "Find all HSK words sharing a given radical (部首). Each word includes simplified/traditional characters, pinyin, part of speech, meanings, radical, frequency rank, and HSK levels. Ordered by frequency. Paginated (20 per page).",
+          "schema": [
+            {
+              "name": "cursor",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "radical",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "hsk_polyphones",
+          "server": "smithery::kuibin-dev/hsk-mcp",
+          "source": "smithery",
+          "description": "List Chinese characters with multiple pronunciations (多音字) in HSK vocabulary. Each result includes all pronunciation forms with pinyin, meanings, and part of speech. Ordered by frequency. Paginated (20 per page).",
+          "schema": [
+            {
+              "name": "cursor",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "hsk_homophones",
+          "server": "smithery::kuibin-dev/hsk-mcp",
+          "source": "smithery",
+          "description": "Find HSK words sharing the same pinyin pronunciation (homophones). Useful for drilling tone-pair distinctions. Each result includes simplified characters, pinyin, all transcription systems, meanings, and HSK levels. Paginated (20 per page).",
+          "schema": [
+            {
+              "name": "cursor",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "pinyin",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "hsk_build_study_set",
+          "server": "smithery::kuibin-dev/hsk-mcp",
+          "source": "smithery",
+          "description": "Build a study set of HSK words for a given level, ordered by frequency (most common first). Each word includes simplified/traditional characters, pinyin, part of speech, meanings, radical, frequency rank, and HSK levels. Paginated (20 per page).",
+          "schema": [
+            {
+              "name": "cursor",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "level",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "scheme",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "hsk_suggest_next",
+          "server": "smithery::kuibin-dev/hsk-mcp",
+          "source": "smithery",
+          "description": "Suggest the next words to learn at a given HSK level, excluding words already known. Each word includes simplified/traditional characters, pinyin, part of speech, meanings, radical, frequency rank, and HSK levels. Ordered by frequency (most useful first). Paginated (20 per page).",
+          "schema": [
+            {
+              "name": "cursor",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "known",
+              "type": "array",
+              "required": false
+            },
+            {
+              "name": "level",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "scheme",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "hsk_compare",
+          "server": "smithery::kuibin-dev/hsk-mcp",
+          "source": "smithery",
+          "description": "Compare 2-5 Chinese words side by side. Each word shows simplified/traditional characters, pinyin, part of speech, frequency rank, HSK levels, radical, all transcription systems, and meanings.",
+          "schema": [
+            {
+              "name": "words",
+              "type": "array",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "hsk_diff",
+          "server": "smithery::kuibin-dev/hsk-mcp",
+          "source": "smithery",
+          "description": "Compare two HSK levels to see vocabulary overlap and differences. Shows words exclusive to each level and words shared by both. Useful for comparing old (HSK 2.0) vs new (HSK 3.0) standards.",
+          "schema": [
+            {
+              "name": "level_a",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "level_b",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "scheme_a",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "scheme_b",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "search_listings",
+          "server": "smithery::housingassist/tokyo-housing",
+          "source": "smithery",
+          "description": "Search rental listings in Tokyo. Returns up to 5 matching listings with rent, layout, station, deal score, and a link to the original listing page.",
+          "schema": [
+            {
+              "name": "layout",
+              "type": "",
+              "required": false
+            },
+            {
+              "name": "max_rent",
+              "type": "",
+              "required": false
+            },
+            {
+              "name": "max_walk_minutes",
+              "type": "",
+              "required": false
+            },
+            {
+              "name": "min_rent",
+              "type": "",
+              "required": false
+            },
+            {
+              "name": "ward",
+              "type": "",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "get_neighborhood_info",
+          "server": "smithery::housingassist/tokyo-housing",
+          "source": "smithery",
+          "description": "Get neighborhood market statistics for a Tokyo ward. Includes average rents by layout (1R, 1K, 1LDK, 2LDK), foreigner acceptance rate, key money rates, listing volume, disaster risk, and investment data.",
+          "schema": [
+            {
+              "name": "ward",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "estimate_move_in_cost",
+          "server": "smithery::housingassist/tokyo-housing",
+          "source": "smithery",
+          "description": "Calculate total move-in costs for a Japanese rental apartment. Breaks down deposit, key money, agent fee, guarantor fee, insurance, and lock change.",
+          "schema": [
+            {
+              "name": "agent_fee_months",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "deposit_months",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "guarantor_fee_months",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "key_money_months",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "monthly_rent",
+              "type": "integer",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "get_buy_vs_rent",
+          "server": "smithery::housingassist/tokyo-housing",
+          "source": "smithery",
+          "description": "Compare buying vs renting in a Tokyo ward. Shows median condo price, estimated monthly mortgage, rental yield, and break-even analysis.",
+          "schema": [
+            {
+              "name": "interest_rate",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "layout",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "loan_years",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "ward",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "ward_matchmaker",
+          "server": "smithery::housingassist/tokyo-housing",
+          "source": "smithery",
+          "description": "Find the best Tokyo wards matching budget, lifestyle, and commute. Scores 23 wards on affordability, safety, foreigner-friendliness, and lifestyle match. Priorities: quiet, nightlife, family, international, budget, safe, shopping.",
+          "schema": [
+            {
+              "name": "budget",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "layout",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "priorities",
+              "type": "",
+              "required": false
+            },
+            {
+              "name": "work_station",
+              "type": "",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "lease_renewal_analyzer",
+          "server": "smithery::housingassist/tokyo-housing",
+          "source": "smithery",
+          "description": "Analyze whether to renew a lease or move. Compares renewal costs vs moving costs, shows market position, and provides negotiation talking points.",
+          "schema": [
+            {
+              "name": "current_rent",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "layout",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "proposed_increase_pct",
+              "type": "",
+              "required": false
+            },
+            {
+              "name": "ward",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "years_at_property",
+              "type": "",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "negotiation_intelligence",
+          "server": "smithery::housingassist/tokyo-housing",
+          "source": "smithery",
+          "description": "Get data-backed negotiation strategies for rental agreements. Provides ward-specific leverage analysis and success likelihood for negotiating key money, deposit, rent, and agent fees.",
+          "schema": [
+            {
+              "name": "asking_rent",
+              "type": "",
+              "required": false
+            },
+            {
+              "name": "layout",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "targets",
+              "type": "",
+              "required": false
+            },
+            {
+              "name": "ward",
+              "type": "string",
+              "required": false
+            }
+          ]
         }
       ]
     },
