@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-02T05:08:25+00:00",
+  "generatedAt": "2026-06-02T05:14:44+00:00",
   "lastCrawl": "2026-06-02",
   "crawl": {
     "servers": 9459,
@@ -378,7 +378,9 @@
       "serversCumulative": 9378,
       "newServers": 9378,
       "snapshots": 119869,
+      "snapshotsCumulative": 119869,
       "tools": 90976,
+      "toolsCumulative": 90976,
       "changes": 0,
       "stealth": 80,
       "crossRegistry": 1912,
@@ -390,7 +392,9 @@
       "serversCumulative": 9459,
       "newServers": 81,
       "snapshots": 121086,
+      "snapshotsCumulative": 240955,
       "tools": 92304,
+      "toolsCumulative": 93023,
       "changes": 1687,
       "stealth": 179,
       "crossRegistry": 1910,
