@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-06-02T03:53:08+00:00",
+  "generatedAt": "2026-06-02T04:12:33+00:00",
   "lastCrawl": "2026-06-02",
   "crawl": {
     "servers": 9459,
-    "tools": 91568,
-    "snapshots": 176975,
-    "stealthTools": 80,
-    "crossRegistryAnomalies": 1912,
-    "crossSourceAnomalies": 1125
+    "tools": 93023,
+    "snapshots": 240955,
+    "stealthTools": 259,
+    "crossRegistryAnomalies": 3822,
+    "crossSourceAnomalies": 2795
   },
   "registries": [
     {
@@ -179,43 +179,43 @@
   "stealthByServer": [
     {
       "name": "glama::io.github.ABTdomain/domainkits-mcp",
-      "value": 38
-    },
-    {
-      "name": "glama::dev.cz-agents/ares",
-      "value": 9
-    },
-    {
-      "name": "glama::co.heista/api",
-      "value": 8
-    },
-    {
-      "name": "glama::io.github.toshihiroshishido/revenuescope-mcp",
-      "value": 7
+      "value": 76
     },
     {
       "name": "glama::io.github.DigbyO/colour-memory",
-      "value": 5
+      "value": 70
+    },
+    {
+      "name": "glama::co.heista/api",
+      "value": 20
+    },
+    {
+      "name": "glama::dev.cz-agents/ares",
+      "value": 18
+    },
+    {
+      "name": "glama::io.github.toshihiroshishido/revenuescope-mcp",
+      "value": 14
+    },
+    {
+      "name": "glama::io.github.bitrise-io/bitrise-mcp",
+      "value": 14
     },
     {
       "name": "glama::ai.tunnelmind/data",
-      "value": 3
-    },
-    {
-      "name": "glama::io.github.cyanheads/open-meteo-mcp-server",
-      "value": 2
-    },
-    {
-      "name": "glama::io.github.cyanheads/courtlistener-mcp-server",
-      "value": 2
+      "value": 7
     },
     {
       "name": "glama::io.github.stevekwon211/space0",
-      "value": 1
+      "value": 5
     },
     {
-      "name": "glama::io.github.saloprj/dialogbrain",
-      "value": 1
+      "name": "glama::io.github.cyanheads/open-meteo-mcp-server",
+      "value": 4
+    },
+    {
+      "name": "glama::io.github.cyanheads/courtlistener-mcp-server",
+      "value": 4
     }
   ]
 }
