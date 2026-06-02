@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-02T05:22:25+00:00",
+  "generatedAt": "2026-06-02T05:26:50+00:00",
   "lastCrawl": "2026-06-02",
   "crawl": {
     "servers": 9459,
@@ -146,42 +146,42 @@
   ],
   "topByTools": [
     {
-      "name": "smithery::pipeworx/gateway",
+      "name": "pipeworx gateway",
       "value": 2530,
       "registry": "smithery"
     },
     {
-      "name": "official::com.adbutler/mcp-server",
+      "name": "AdButler",
       "value": 622,
       "registry": "official"
     },
     {
-      "name": "smithery::apibase-pro/api-hub",
+      "name": "APIbase",
       "value": 618,
       "registry": "smithery"
     },
     {
-      "name": "smithery::creativelead/unclick",
+      "name": "UnClick",
       "value": 451,
       "registry": "smithery"
     },
     {
-      "name": "official::cloud.theprotocol/registry",
+      "name": "TheProtocol — Sovereign AI Agent Platform",
       "value": 380,
       "registry": "official"
     },
     {
-      "name": "smithery::PostHog",
+      "name": "PostHog",
       "value": 329,
       "registry": "smithery"
     },
     {
-      "name": "official::network.tenzro/tenzro",
+      "name": "Tenzro Ledger MCP",
       "value": 313,
       "registry": "official"
     },
     {
-      "name": "glama::network.tenzro/tenzro",
+      "name": "Tenzro Ledger MCP",
       "value": 313,
       "registry": "glama"
     },
@@ -191,7 +191,7 @@
       "registry": "official"
     },
     {
-      "name": "smithery::getgapup/gapup-mcp",
+      "name": " Gapup MCP — 270+ Agent-payable AI Tools",
       "value": 271,
       "registry": "smithery"
     }
