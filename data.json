@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-02T04:12:33+00:00",
+  "generatedAt": "2026-06-02T04:25:07+00:00",
   "lastCrawl": "2026-06-02",
   "crawl": {
     "servers": 9459,
@@ -217,5 +217,103 @@
       "name": "glama::io.github.cyanheads/courtlistener-mcp-server",
       "value": 4
     }
-  ]
+  ],
+  "trend": [
+    {
+      "date": "2026-06-01",
+      "serversCumulative": 9378,
+      "newServers": 9378,
+      "snapshots": 119869,
+      "tools": 90976,
+      "changes": 0,
+      "stealth": 80,
+      "crossRegistry": 1912,
+      "crossSource": 1125,
+      "tdqsAvg": 0
+    },
+    {
+      "date": "2026-06-02",
+      "serversCumulative": 9459,
+      "newServers": 81,
+      "snapshots": 121086,
+      "tools": 92304,
+      "changes": 1687,
+      "stealth": 179,
+      "crossRegistry": 1910,
+      "crossSource": 1670,
+      "tdqsAvg": 0
+    }
+  ],
+  "changeTimeline": [
+    {
+      "date": "2026-06-02",
+      "description_modified": 1167,
+      "schema_modified": 118,
+      "both_modified": 62,
+      "removed": 340
+    }
+  ],
+  "latestCrawl": {
+    "date": "2026-06-02",
+    "collectors": [
+      {
+        "name": "official",
+        "status": "completed",
+        "servers": 4381,
+        "tools": 0,
+        "changes": 0,
+        "color": "#6366f1"
+      },
+      {
+        "name": "smithery",
+        "status": "completed",
+        "servers": 1363,
+        "tools": 25492,
+        "changes": 66,
+        "color": "#06b6d4"
+      },
+      {
+        "name": "glama",
+        "status": "completed",
+        "servers": 3741,
+        "tools": 31811,
+        "changes": 0,
+        "color": "#8b5cf6"
+      },
+      {
+        "name": "direct_mcp",
+        "status": "completed",
+        "servers": 4220,
+        "tools": 63994,
+        "changes": 1621,
+        "color": "#6366f1"
+      }
+    ],
+    "newServers": 81,
+    "changeBreakdown": [
+      {
+        "type": "description_modified",
+        "count": 1167,
+        "color": "#06b6d4"
+      },
+      {
+        "type": "schema_modified",
+        "count": 118,
+        "color": "#f59e0b"
+      },
+      {
+        "type": "both_modified",
+        "count": 62,
+        "color": "#a78bfa"
+      },
+      {
+        "type": "removed",
+        "count": 340,
+        "color": "#ef4444"
+      }
+    ],
+    "stealth": 179,
+    "crossRegistry": 1910,
+    "crossSource": 1670
+  }
 }
