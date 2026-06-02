@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-02T04:34:38+00:00",
+  "generatedAt": "2026-06-02T05:08:25+00:00",
   "lastCrawl": "2026-06-02",
   "crawl": {
     "servers": 9459,
@@ -95,85 +95,105 @@
   "topByUse": [
     {
       "name": "Math-MCP",
-      "value": 1527765
+      "value": 1527765,
+      "registry": "smithery"
     },
     {
       "name": "Google Sheets",
-      "value": 44456
+      "value": 44456,
+      "registry": "smithery"
     },
     {
       "name": "Gmail",
-      "value": 33376
+      "value": 33376,
+      "registry": "smithery"
     },
     {
       "name": "Exa Search",
-      "value": 21531
+      "value": 21531,
+      "registry": "smithery"
     },
     {
       "name": "AI Research Assistant",
-      "value": 20649
+      "value": 20649,
+      "registry": "smithery"
     },
     {
       "name": "Mesh MCP",
-      "value": 18865
+      "value": 18865,
+      "registry": "smithery"
     },
     {
       "name": "AKShare One MCP Server",
-      "value": 13600
+      "value": 13600,
+      "registry": "smithery"
     },
     {
       "name": "Brave Search",
-      "value": 11570
+      "value": 11570,
+      "registry": "smithery"
     },
     {
       "name": "Google Tasks",
-      "value": 10410
+      "value": 10410,
+      "registry": "smithery"
     },
     {
       "name": "MLB Stats Server",
-      "value": 9830
+      "value": 9830,
+      "registry": "smithery"
     }
   ],
   "topByTools": [
     {
       "name": "smithery::pipeworx/gateway",
-      "value": 2530
+      "value": 2530,
+      "registry": "smithery"
     },
     {
       "name": "official::com.adbutler/mcp-server",
-      "value": 622
+      "value": 622,
+      "registry": "official"
     },
     {
       "name": "smithery::apibase-pro/api-hub",
-      "value": 618
+      "value": 618,
+      "registry": "smithery"
     },
     {
       "name": "smithery::creativelead/unclick",
-      "value": 451
+      "value": 451,
+      "registry": "smithery"
     },
     {
       "name": "official::cloud.theprotocol/registry",
-      "value": 380
+      "value": 380,
+      "registry": "official"
     },
     {
       "name": "smithery::PostHog",
-      "value": 329
+      "value": 329,
+      "registry": "smithery"
     },
     {
       "name": "official::network.tenzro/tenzro",
-      "value": 313
+      "value": 313,
+      "registry": "official"
     },
     {
       "name": "glama::network.tenzro/tenzro",
-      "value": 313
+      "value": 313,
+      "registry": "glama"
     },
     {
       "name": "official::io.github.getgapup/mcp-knowledge",
-      "value": 271
+      "value": 271,
+      "registry": "official"
     },
     {
       "name": "smithery::getgapup/gapup-mcp",
-      "value": 271
+      "value": 271,
+      "registry": "smithery"
     }
   ],
   "stealthByServer": [
@@ -216,6 +236,140 @@
     {
       "name": "glama::io.github.cyanheads/courtlistener-mcp-server",
       "value": 4
+    }
+  ],
+  "crossRegistrySamples": [
+    {
+      "server": "official::io.github.0nork/0nMCP",
+      "registryA": "official::io.github.0nork/0nMCP",
+      "registryB": "glama::io.github.0nork/0nMCP",
+      "match": "remote_url"
+    },
+    {
+      "server": "official::io.github.davidsiegel59/4bots-content",
+      "registryA": "official::io.github.davidsiegel59/4bots-content",
+      "registryB": "glama::io.github.davidsiegel59/4bots-content",
+      "match": "remote_url"
+    },
+    {
+      "server": "official::net.4bots/4bots",
+      "registryA": "official::net.4bots/4bots",
+      "registryB": "glama::net.4bots/4bots",
+      "match": "remote_url"
+    },
+    {
+      "server": "official::io.github.andrew-ji-cupix/cupix-compass",
+      "registryA": "official::io.github.andrew-ji-cupix/cupix-compass",
+      "registryB": "glama::io.github.andrew-ji-cupix/cupix-compass",
+      "match": "remote_url"
+    },
+    {
+      "server": "official::io.github.khalidsaidi/a2abench",
+      "registryA": "official::io.github.khalidsaidi/a2abench",
+      "registryB": "glama::io.github.khalidsaidi/a2abench",
+      "match": "remote_url"
+    },
+    {
+      "server": "official::io.github.atomadictech/aaaa-nexus",
+      "registryA": "official::io.github.atomadictech/aaaa-nexus",
+      "registryB": "glama::io.github.atomadictech/aaaa-nexus",
+      "match": "remote_url"
+    },
+    {
+      "server": "official::io.scanbimlabs/acc-mcp",
+      "registryA": "official::io.scanbimlabs/acc-mcp",
+      "registryB": "glama::io.scanbimlabs/acc-mcp",
+      "match": "remote_url"
+    },
+    {
+      "server": "official::dev.cz-agents/adis",
+      "registryA": "official::dev.cz-agents/adis",
+      "registryB": "glama::dev.cz-agents/adis",
+      "match": "remote_url"
+    }
+  ],
+  "crossSourceSamples": [
+    {
+      "tool": "get_template",
+      "server": "glama::net.4bots/4bots",
+      "sourceA": "registry",
+      "sourceB": "direct_mcp"
+    },
+    {
+      "tool": "list_products",
+      "server": "glama::ai.agenticshelf/mcp",
+      "sourceA": "registry",
+      "sourceB": "direct_mcp"
+    },
+    {
+      "tool": "list_numbers",
+      "server": "glama::dev.agentsim/mcp",
+      "sourceA": "registry",
+      "sourceB": "direct_mcp"
+    },
+    {
+      "tool": "provision_number",
+      "server": "glama::dev.agentsim/mcp",
+      "sourceA": "registry",
+      "sourceB": "direct_mcp"
+    },
+    {
+      "tool": "register",
+      "server": "glama::io.github.JoursBleu/agent-tools-mcp",
+      "sourceA": "registry",
+      "sourceB": "direct_mcp"
+    },
+    {
+      "tool": "search",
+      "server": "glama::io.github.JoursBleu/agent-tools-mcp",
+      "sourceA": "registry",
+      "sourceB": "direct_mcp"
+    },
+    {
+      "tool": "analyze_business_context",
+      "server": "glama::io.github.tenkai2018/ai-business-system-advisor-mcp",
+      "sourceA": "registry",
+      "sourceB": "direct_mcp"
+    },
+    {
+      "tool": "assess_trust_control_risks",
+      "server": "glama::io.github.tenkai2018/ai-business-system-advisor-mcp",
+      "sourceA": "registry",
+      "sourceB": "direct_mcp"
+    }
+  ],
+  "stealthSamples": [
+    {
+      "tool": "mcp-security-scanner",
+      "server": "glama::io.github.0xAxiom/axiom-agentic-tools"
+    },
+    {
+      "tool": "archive_report_brief",
+      "server": "glama::io.github.DigbyO/colour-memory"
+    },
+    {
+      "tool": "heritage_evolution_palette",
+      "server": "glama::io.github.DigbyO/colour-memory"
+    },
+    {
+      "tool": "brand_collision_check",
+      "server": "glama::io.github.DigbyO/colour-memory"
+    },
+    {
+      "tool": "product_line_colour_namer",
+      "server": "glama::io.github.DigbyO/colour-memory"
+    },
+    {
+      "tool": "ui_state_palette",
+      "server": "glama::io.github.DigbyO/colour-memory"
+    },
+    {
+      "tool": "active",
+      "server": "glama::io.github.ABTdomain/domainkits-mcp"
+    },
+    {
+      "tool": "aged",
+      "server": "glama::io.github.ABTdomain/domainkits-mcp"
     }
   ],
   "trend": [
