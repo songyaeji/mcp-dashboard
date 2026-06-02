@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-02T05:26:50+00:00",
+  "generatedAt": "2026-06-02T05:33:01+00:00",
   "lastCrawl": "2026-06-02",
   "crawl": {
     "servers": 9459,
@@ -420,6 +420,7 @@
         "servers": 4381,
         "tools": 0,
         "changes": 0,
+        "snapshots": 0,
         "color": "#6366f1"
       },
       {
@@ -428,6 +429,7 @@
         "servers": 1363,
         "tools": 25492,
         "changes": 66,
+        "snapshots": 25492,
         "color": "#06b6d4"
       },
       {
@@ -436,6 +438,7 @@
         "servers": 3741,
         "tools": 31811,
         "changes": 0,
+        "snapshots": 31811,
         "color": "#8b5cf6"
       },
       {
@@ -444,6 +447,7 @@
         "servers": 4220,
         "tools": 63994,
         "changes": 1621,
+        "snapshots": 63994,
         "color": "#6366f1"
       }
     ],
