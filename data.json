@@ -1,0 +1,221 @@
+{
+  "generatedAt": "2026-06-02T03:49:55+00:00",
+  "lastCrawl": "2026-06-02",
+  "crawl": {
+    "servers": 9459,
+    "tools": 91568,
+    "snapshots": 176975,
+    "stealthTools": 80,
+    "crossRegistryAnomalies": 1912,
+    "crossSourceAnomalies": 1125
+  },
+  "registries": [
+    {
+      "name": "Official",
+      "servers": 4387,
+      "color": "#6366f1"
+    },
+    {
+      "name": "Glama",
+      "servers": 3696,
+      "color": "#8b5cf6"
+    },
+    {
+      "name": "Smithery",
+      "servers": 1376,
+      "color": "#06b6d4"
+    }
+  ],
+  "health": [
+    {
+      "name": "Healthy",
+      "value": 1933,
+      "color": "#22c55e"
+    },
+    {
+      "name": "Unhealthy",
+      "value": 1763,
+      "color": "#ef4444"
+    },
+    {
+      "name": "Unknown",
+      "value": 5763,
+      "color": "#6b7280"
+    }
+  ],
+  "tdqs": [
+    {
+      "grade": "A",
+      "count": 1631,
+      "color": "#22c55e"
+    },
+    {
+      "grade": "B",
+      "count": 423,
+      "color": "#84cc16"
+    },
+    {
+      "grade": "C",
+      "count": 141,
+      "color": "#f59e0b"
+    },
+    {
+      "grade": "D",
+      "count": 4,
+      "color": "#ef4444"
+    },
+    {
+      "grade": "미평가",
+      "count": 7260,
+      "color": "#374151"
+    }
+  ],
+  "transport": [
+    {
+      "name": "streamable-http",
+      "value": 3967,
+      "color": "#6366f1"
+    },
+    {
+      "name": "Streamable HTTP",
+      "value": 3696,
+      "color": "#06b6d4"
+    },
+    {
+      "name": "http",
+      "value": 1376,
+      "color": "#8b5cf6"
+    },
+    {
+      "name": "sse",
+      "value": 420,
+      "color": "#a78bfa"
+    }
+  ],
+  "topByUse": [
+    {
+      "name": "Math-MCP",
+      "value": 1527765
+    },
+    {
+      "name": "Google Sheets",
+      "value": 44456
+    },
+    {
+      "name": "Gmail",
+      "value": 33376
+    },
+    {
+      "name": "Exa Search",
+      "value": 21531
+    },
+    {
+      "name": "AI Research Assistant",
+      "value": 20649
+    },
+    {
+      "name": "Mesh MCP",
+      "value": 18865
+    },
+    {
+      "name": "AKShare One MCP Server",
+      "value": 13600
+    },
+    {
+      "name": "Brave Search",
+      "value": 11570
+    },
+    {
+      "name": "Google Tasks",
+      "value": 10410
+    },
+    {
+      "name": "MLB Stats Server",
+      "value": 9830
+    }
+  ],
+  "topByTools": [
+    {
+      "name": "smithery::pipeworx/gateway",
+      "value": 2530
+    },
+    {
+      "name": "official::com.adbutler/mcp-server",
+      "value": 622
+    },
+    {
+      "name": "smithery::apibase-pro/api-hub",
+      "value": 618
+    },
+    {
+      "name": "smithery::creativelead/unclick",
+      "value": 451
+    },
+    {
+      "name": "official::cloud.theprotocol/registry",
+      "value": 380
+    },
+    {
+      "name": "smithery::PostHog",
+      "value": 329
+    },
+    {
+      "name": "official::network.tenzro/tenzro",
+      "value": 313
+    },
+    {
+      "name": "glama::network.tenzro/tenzro",
+      "value": 313
+    },
+    {
+      "name": "official::io.github.getgapup/mcp-knowledge",
+      "value": 271
+    },
+    {
+      "name": "smithery::getgapup/gapup-mcp",
+      "value": 271
+    }
+  ],
+  "stealthByServer": [
+    {
+      "name": "glama::io.github.ABTdomain/domainkits-mcp",
+      "value": 38
+    },
+    {
+      "name": "glama::dev.cz-agents/ares",
+      "value": 9
+    },
+    {
+      "name": "glama::co.heista/api",
+      "value": 8
+    },
+    {
+      "name": "glama::io.github.toshihiroshishido/revenuescope-mcp",
+      "value": 7
+    },
+    {
+      "name": "glama::io.github.DigbyO/colour-memory",
+      "value": 5
+    },
+    {
+      "name": "glama::ai.tunnelmind/data",
+      "value": 3
+    },
+    {
+      "name": "glama::io.github.cyanheads/open-meteo-mcp-server",
+      "value": 2
+    },
+    {
+      "name": "glama::io.github.cyanheads/courtlistener-mcp-server",
+      "value": 2
+    },
+    {
+      "name": "glama::io.github.stevekwon211/space0",
+      "value": 1
+    },
+    {
+      "name": "glama::io.github.saloprj/dialogbrain",
+      "value": 1
+    }
+  ]
+}
