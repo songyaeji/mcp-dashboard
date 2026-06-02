@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-02T05:33:01+00:00",
+  "generatedAt": "2026-06-02T05:45:42+00:00",
   "lastCrawl": "2026-06-02",
   "crawl": {
     "servers": 9459,
@@ -480,7 +480,69 @@
       "removedTools": 340,
       "unreachedTools": 379,
       "net": 1328,
-      "prevDate": "2026-06-01"
+      "prevDate": "2026-06-01",
+      "samples": [
+        {
+          "tool": "lokal_search",
+          "server": "smithery::slookisen/lokal-norsk-matfinner"
+        },
+        {
+          "tool": "lokal_discover",
+          "server": "smithery::slookisen/lokal-norsk-matfinner"
+        },
+        {
+          "tool": "lokal_info",
+          "server": "smithery::slookisen/lokal-norsk-matfinner"
+        },
+        {
+          "tool": "lokal_stats",
+          "server": "smithery::slookisen/lokal-norsk-matfinner"
+        },
+        {
+          "tool": "search_audiobooks",
+          "server": "smithery::jan/audioknihy-catalog"
+        },
+        {
+          "tool": "get_audiobook",
+          "server": "smithery::jan/audioknihy-catalog"
+        },
+        {
+          "tool": "find_cheapest_offer",
+          "server": "smithery::jan/audioknihy-catalog"
+        },
+        {
+          "tool": "compare_all_offers",
+          "server": "smithery::jan/audioknihy-catalog"
+        },
+        {
+          "tool": "browse_genres",
+          "server": "smithery::jan/audioknihy-catalog"
+        },
+        {
+          "tool": "search_by_filters",
+          "server": "smithery::jan/audioknihy-catalog"
+        },
+        {
+          "tool": "get_author",
+          "server": "smithery::jan/audioknihy-catalog"
+        },
+        {
+          "tool": "get_narrator",
+          "server": "smithery::jan/audioknihy-catalog"
+        },
+        {
+          "tool": "list_partners",
+          "server": "smithery::jan/audioknihy-catalog"
+        },
+        {
+          "tool": "find_gifts",
+          "server": "smithery::surprise-buddy/mcp-server"
+        },
+        {
+          "tool": "list_supported_countries",
+          "server": "smithery::surprise-buddy/mcp-server"
+        }
+      ]
     },
     "stealth": 179,
     "crossRegistry": 1910,
