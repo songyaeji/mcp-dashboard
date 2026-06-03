@@ -1,62 +1,62 @@
 {
-  "generatedAt": "2026-06-02T15:53:54+00:00",
-  "lastCrawl": "2026-06-03",
+  "generatedAt": "2026-06-03T15:47:35+00:00",
+  "lastCrawl": "2026-06-04",
   "crawl": {
-    "servers": 9541,
-    "tools": 93741,
-    "snapshots": 363009,
-    "stealthTools": 297,
-    "crossRegistryAnomalies": 5756,
-    "crossSourceAnomalies": 3908
+    "servers": 9830,
+    "tools": 98240,
+    "snapshots": 489169,
+    "stealthTools": 338,
+    "crossRegistryAnomalies": 7825,
+    "crossSourceAnomalies": 5485
   },
   "registries": [
     {
       "name": "Official",
-      "servers": 4428,
+      "servers": 4514,
       "color": "#6366f1"
     },
     {
       "name": "Glama",
-      "servers": 3727,
+      "servers": 3889,
       "color": "#8b5cf6"
     },
     {
       "name": "Smithery",
-      "servers": 1386,
+      "servers": 1427,
       "color": "#06b6d4"
     }
   ],
   "health": [
     {
       "name": "Healthy",
-      "value": 1944,
+      "value": 1961,
       "color": "#22c55e"
     },
     {
       "name": "Unhealthy",
-      "value": 1783,
+      "value": 1769,
       "color": "#ef4444"
     },
     {
       "name": "Unknown",
-      "value": 5814,
+      "value": 6100,
       "color": "#6b7280"
     }
   ],
   "tdqs": [
     {
       "grade": "A",
-      "count": 1632,
+      "count": 1657,
       "color": "#22c55e"
     },
     {
       "grade": "B",
-      "count": 422,
+      "count": 425,
       "color": "#84cc16"
     },
     {
       "grade": "C",
-      "count": 141,
+      "count": 140,
       "color": "#f59e0b"
     },
     {
@@ -66,24 +66,24 @@
     },
     {
       "grade": "미평가",
-      "count": 7342,
+      "count": 7604,
       "color": "#374151"
     }
   ],
   "transport": [
     {
       "name": "streamable-http",
-      "value": 4007,
+      "value": 4093,
       "color": "#6366f1"
     },
     {
       "name": "Streamable HTTP",
-      "value": 3727,
+      "value": 3889,
       "color": "#06b6d4"
     },
     {
       "name": "http",
-      "value": 1386,
+      "value": 1427,
       "color": "#8b5cf6"
     },
     {
@@ -95,52 +95,52 @@
   "topByUse": [
     {
       "name": "Math-MCP",
-      "value": 1439926,
+      "value": 1307395,
       "registry": "smithery"
     },
     {
       "name": "Google Sheets",
-      "value": 45515,
+      "value": 46264,
       "registry": "smithery"
     },
     {
       "name": "Gmail",
-      "value": 34073,
+      "value": 34802,
       "registry": "smithery"
     },
     {
       "name": "Exa Search",
-      "value": 21372,
+      "value": 20840,
       "registry": "smithery"
     },
     {
       "name": "AI Research Assistant",
-      "value": 20654,
+      "value": 19627,
       "registry": "smithery"
     },
     {
       "name": "Mesh MCP",
-      "value": 18937,
+      "value": 19134,
       "registry": "smithery"
     },
     {
       "name": "AKShare One MCP Server",
-      "value": 13694,
+      "value": 13647,
       "registry": "smithery"
     },
     {
       "name": "Brave Search",
-      "value": 11632,
+      "value": 11574,
       "registry": "smithery"
     },
     {
       "name": "Google Tasks",
-      "value": 10676,
+      "value": 10783,
       "registry": "smithery"
     },
     {
       "name": "MLB Stats Server",
-      "value": 9851,
+      "value": 9645,
       "registry": "smithery"
     }
   ],
@@ -199,7 +199,7 @@
   "stealthByServer": [
     {
       "name": "glama::io.github.ABTdomain/domainkits-mcp",
-      "value": 114,
+      "value": 152,
       "registry": "glama"
     },
     {
@@ -424,6 +424,20 @@
       "crossRegistry": 1934,
       "crossSource": 1113,
       "tdqsAvg": 0
+    },
+    {
+      "date": "2026-06-04",
+      "serversCumulative": 9830,
+      "newServers": 289,
+      "snapshots": 126160,
+      "snapshotsCumulative": 489169,
+      "tools": 96844,
+      "toolsCumulative": 98240,
+      "changes": 11687,
+      "stealth": 41,
+      "crossRegistry": 2069,
+      "crossSource": 1577,
+      "tdqsAvg": 0
     }
   ],
   "changeTimeline": [
@@ -440,15 +454,22 @@
       "schema_modified": 202,
       "both_modified": 118,
       "removed": 316
+    },
+    {
+      "date": "2026-06-04",
+      "description_modified": 7154,
+      "schema_modified": 1921,
+      "both_modified": 1937,
+      "removed": 675
     }
   ],
   "latestCrawl": {
-    "date": "2026-06-03",
+    "date": "2026-06-04",
     "collectors": [
       {
         "name": "official",
         "status": "completed",
-        "servers": 4422,
+        "servers": 4508,
         "tools": 0,
         "changes": 0,
         "snapshots": 0,
@@ -457,62 +478,938 @@
       {
         "name": "smithery",
         "status": "completed",
-        "servers": 1359,
-        "tools": 25539,
-        "changes": 29,
-        "snapshots": 25539,
+        "servers": 1393,
+        "tools": 26378,
+        "changes": 82,
+        "snapshots": 26378,
         "color": "#06b6d4"
       },
       {
         "name": "glama",
         "status": "completed",
-        "servers": 3770,
-        "tools": 32088,
-        "changes": 749,
-        "snapshots": 32088,
+        "servers": 3939,
+        "tools": 31812,
+        "changes": 4050,
+        "snapshots": 31812,
         "color": "#8b5cf6"
       },
       {
         "name": "direct_mcp",
         "status": "completed",
-        "servers": 4241,
-        "tools": 64638,
-        "changes": 1632,
-        "snapshots": 64638,
+        "servers": 4429,
+        "tools": 68147,
+        "changes": 7589,
+        "snapshots": 68147,
         "color": "#6366f1"
       }
     ],
-    "newServers": 82,
+    "newServers": 289,
     "changeBreakdown": [
       {
         "type": "description_modified",
-        "count": 1772,
+        "count": 7154,
         "color": "#06b6d4"
       },
       {
         "type": "schema_modified",
-        "count": 202,
+        "count": 1921,
         "color": "#f59e0b"
       },
       {
         "type": "both_modified",
-        "count": 118,
+        "count": 1937,
         "color": "#a78bfa"
       },
       {
         "type": "removed",
-        "count": 316,
+        "count": 675,
         "color": "#ef4444"
       }
     ],
     "toolDelta": {
-      "newTools": 1121,
-      "droppedTools": 519,
-      "removedTools": 316,
-      "unreachedTools": 203,
-      "net": 602,
-      "prevDate": "2026-06-02",
+      "newTools": 4707,
+      "droppedTools": 769,
+      "removedTools": 675,
+      "unreachedTools": 94,
+      "net": 3938,
+      "prevDate": "2026-06-03",
       "newSamples": [
+        {
+          "tool": "search_agents",
+          "server": "smithery::heather-macavelia/ai-agent-index",
+          "source": "smithery",
+          "description": "Search the AI Agent Index for agents matching specific criteria. Returns structured agent data. Use this to find agents by category, sub-type, pricing model, integration, or capability tag.",
+          "schema": [
+            {
+              "name": "agent_type",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "capability",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "category",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "integration",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "limit",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "pricing",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "query",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "get_agent",
+          "server": "smithery::heather-macavelia/ai-agent-index",
+          "source": "smithery",
+          "description": "Get full structured details for a specific AI agent by its slug identifier. Returns pricing, capabilities, integrations, agent_type, pros, limitations, and ratings.",
+          "schema": [
+            {
+              "name": "slug",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "list_categories",
+          "server": "smithery::heather-macavelia/ai-agent-index",
+          "source": "smithery",
+          "description": "List all available AI agent categories in the AI Agent Index. Returns category slugs, display names, and agent counts.",
+          "schema": []
+        },
+        {
+          "tool": "listRecipes",
+          "server": "smithery::signerlabs/shipswift",
+          "source": "smithery",
+          "description": "List production-ready SwiftUI code recipes. Each recipe is a complete, copy-paste-ready implementation — not a tutorial. Covers native iOS features (SwiftUI, Swift Charts, SpriteKit, Vision, AVFoundation, StoreKit 2, NavigationStack) and backend infrastructure (AWS CDK, Hono, Node.js, Cognito, Dynam…",
+          "schema": [
+            {
+              "name": "category",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "getRecipe",
+          "server": "smithery::signerlabs/shipswift",
+          "source": "smithery",
+          "description": "Get a recipe by ID. Returns complete, copy-paste-ready Swift source code with architecture explanation and implementation steps. Module recipes may also include backend code (Hono/Node.js + AWS CDK).",
+          "schema": [
+            {
+              "name": "id",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "searchRecipes",
+          "server": "smithery::signerlabs/shipswift",
+          "source": "smithery",
+          "description": "Search recipes by keyword across titles, descriptions, tags, and full source code. Use for any iOS, SwiftUI, or backend topic — e.g. subscription, authentication, camera, animation, chart, onboarding, paywall, infrastructure.",
+          "schema": [
+            {
+              "name": "query",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "audit_task",
+          "server": "smithery::xrpl/agent-trust",
+          "source": "smithery",
+          "description": "Verify whether completed work meets a task specification using AI.\n\nBefore calling, send 0.1 XRP to rmcSrkpZ2i2kuvtCPeTVetee9SixP4djR on XRPL Mainnet.\nEach fee_hash is single-use (anti-replay protection).\n\nReturns:\n    status (approved/rejected), verdict (PASS/FAIL), score (0-100),\n    summary, deta…",
+          "schema": [
+            {
+              "name": "fee_hash",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "require_consensus",
+              "type": "boolean",
+              "required": false
+            },
+            {
+              "name": "task",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "task_category",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "work",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "create_escrow_vault",
+          "server": "smithery::xrpl/agent-trust",
+          "source": "smithery",
+          "description": "Create an AI-gated XRPL escrow vault. Funds release automatically to the\nworker when their submission is approved by the AI referee.\n\nTypical flow after job board negotiation:\n  1. award_job() returns the worker's address and agreed price\n  2. Pay 0.1 XRP protocol fee to rmcSrkpZ2i2kuvtCPeTVetee9Six…",
+          "schema": [
+            {
+              "name": "amount_rlusd",
+              "type": "",
+              "required": false
+            },
+            {
+              "name": "amount_xrp",
+              "type": "",
+              "required": false
+            },
+            {
+              "name": "buyer_address",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "buyer_name",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "cancel_after_hrs",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "category",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "currency",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "escrow_id",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "fee_hash",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "max_submissions",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "project_label",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "task_description",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "worker_address",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "confirm_escrow_transaction",
+          "server": "smithery::xrpl/agent-trust",
+          "source": "smithery",
+          "description": "Register the on-chain EscrowCreate transaction hash with the referee.\n\nCall this after submitting the EscrowCreate transaction on XRPL.\nThe referee caches the escrow sequence number automatically so the\nworker does not need to provide it when claiming payment.\n\nReturns:\n    status: \"confirmed\", sequ…",
+          "schema": [
+            {
+              "name": "escrow_id",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "tx_hash",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "evaluate_escrow_work",
+          "server": "smithery::xrpl/agent-trust",
+          "source": "smithery",
+          "description": "Submit proof of completed work against an existing escrow vault.\n\nOn approval, payment releases automatically — no EscrowFinish needed.\nXRPL transaction hashes (64-char hex) in the work field are automatically\nverified on the ledger. Useful as proof of NFT transfers, token payments,\nor any on-chain …",
+          "schema": [
+            {
+              "name": "escrow_id",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "evidence_links",
+              "type": "",
+              "required": false
+            },
+            {
+              "name": "require_consensus",
+              "type": "boolean",
+              "required": false
+            },
+            {
+              "name": "task_category",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "work",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "get_escrow_info",
+          "server": "smithery::xrpl/agent-trust",
+          "source": "smithery",
+          "description": "Retrieve metadata about an existing escrow vault.\n\nNever returns the fulfillment key — that is only returned on approval.\n\nReturns:\n    task_description, buyer_name, worker_address, amount, deadline,\n    escrow_sequence, status, submission_count, attempts_remaining.",
+          "schema": [
+            {
+              "name": "escrow_id",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "list_marketplace_jobs",
+          "server": "smithery::xrpl/agent-trust",
+          "source": "smithery",
+          "description": "Browse open bounties on the AgentTrust marketplace.\n\nThe primary way autonomous agents discover work available on the protocol.\nAll bounties are backed by XRPL escrow and pay automatically on AI approval.\n\nJob statuses:\n  OPEN   — unclaimed open bounty; call claim_job() to lock it to your wallet.\n  …",
+          "schema": [
+            {
+              "name": "category",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "limit",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "min_bounty_xrp",
+              "type": "number",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "get_rlusd_quote",
+          "server": "smithery::xrpl/agent-trust",
+          "source": "smithery",
+          "description": "Get a live XRP to RLUSD conversion quote via the XRPL DEX.\n\nUse before creating an RLUSD-denominated escrow or before claiming an\nescrow if you want to understand the current USD value.\n\nReturns:\n    estimated_rlusd, trust_line_ok, slippage_warning, trust_line_instructions.",
+          "schema": [
+            {
+              "name": "worker_address",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "xrp_amount",
+              "type": "number",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "list_marketplace_skills",
+          "server": "smithery::xrpl/agent-trust",
+          "source": "smithery",
+          "description": "Browse agents and humans offering skills on the AgentTrust marketplace.\n\nSkill listings are published by workers (agents or humans) who want to be\nfound and hired directly — no bidding required. Each listing shows the\nposter's XRPL wallet address so a buyer can skip the job board entirely\nand go str…",
+          "schema": [
+            {
+              "name": "category",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "limit",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "max_rate",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "min_rate",
+              "type": "number",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "create_skill_listing",
+          "server": "smithery::xrpl/agent-trust",
+          "source": "smithery",
+          "description": "List a skill on the AgentTrust marketplace for 30 days.\n\nBefore calling, pay the 0.1 XRP/month listing fee to rmcSrkpZ2i2kuvtCPeTVetee9SixP4djR\non XRPL Mainnet and provide the transaction hash as fee_hash.\n\nOnce listed, your skill is visible to:\n  - Humans browsing the AgentTrust marketplace UI\n  - …",
+          "schema": [
+            {
+              "name": "category",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "description",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "fee_hash",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "poster",
+              "type": "",
+              "required": false
+            },
+            {
+              "name": "poster_name",
+              "type": "",
+              "required": false
+            },
+            {
+              "name": "rate",
+              "type": "",
+              "required": false
+            },
+            {
+              "name": "rate_xrp",
+              "type": "",
+              "required": false
+            },
+            {
+              "name": "skill_id",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "tags",
+              "type": "",
+              "required": false
+            },
+            {
+              "name": "title",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "direct_hire",
+          "server": "smithery::xrpl/agent-trust",
+          "source": "smithery",
+          "description": "Get the wallet address and hiring details for a skill listing — skipping the job board entirely.\n\nUse this when you've found a skill provider via list_marketplace_skills() and want\nto hire them directly without going through the bid/award process.\n\nReturns the worker's XRPL wallet address and ready-…",
+          "schema": [
+            {
+              "name": "skill_id",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "get_xrp_price",
+          "server": "smithery::xrpl/agent-trust",
+          "source": "smithery",
+          "description": "Get the current live XRP price in USD and GBP.\n\nUse this to convert XRP bounty amounts to fiat before deciding whether\na job is worth taking.\n\nReturns:\n    usd, gbp, cached (True if recently cached due to source being briefly unavailable).",
+          "schema": []
+        },
+        {
+          "tool": "post_job",
+          "server": "smithery::xrpl/agent-trust",
+          "source": "smithery",
+          "description": "Post a job to the AgentTrust job board. No fee, no funds held.\n\nWorker agents discover the job via list_open_jobs(), submit bids via submit_bid(),\nand you negotiate. When happy, call award_job() to accept a bid and get the\nworker's wallet address. Then create the bilateral XRPL escrow via create_esc…",
+          "schema": [
+            {
+              "name": "budget_xrp",
+              "type": "",
+              "required": false
+            },
+            {
+              "name": "buyer_address",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "buyer_name",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "category",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "description",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "expires_hrs",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "job_id",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "title",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "list_open_jobs",
+          "server": "smithery::xrpl/agent-trust",
+          "source": "smithery",
+          "description": "Browse jobs posted on the AgentTrust job board that are open for bidding.\n\nThese are buyer requests for work — no escrow exists yet. Submit a bid via\nsubmit_bid(), and if the buyer awards it to you they will create an escrow\nwith your wallet address so you get paid automatically on approval.\n\nWorkfl…",
+          "schema": [
+            {
+              "name": "category",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "limit",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "min_budget",
+              "type": "number",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "submit_bid",
+          "server": "smithery::xrpl/agent-trust",
+          "source": "smithery",
+          "description": "Submit a bid on an open job posting.\n\nThe buyer reviews all bids and awards the job via award_job().\n\nHuman workers: include worker_email to receive automatic award and escrow notifications.\nAI agents: poll view_job(job_id) to check bid status — no email needed.\n\nReturns:\n    status: \"submitted\", bi…",
+          "schema": [
+            {
+              "name": "job_id",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "proposal",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "proposed_xrp",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "worker_address",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "worker_email",
+              "type": "",
+              "required": false
+            },
+            {
+              "name": "worker_name",
+              "type": "string",
+              "required": false
+            }
+          ]
+        }
+      ],
+      "removedSamples": [
+        {
+          "tool": "n8n_scaffold_node",
+          "server": "smithery::automatelab/n8n-mcp",
+          "source": "smithery",
+          "description": "Scaffold a TypeScript skeleton for an n8n custom node from a plain-English description. Returns a single TypeScript file implementing INodeType with description, credentials reference, and an execute method stub.",
+          "schema": [
+            {
+              "name": "description",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "nodeName",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "n8n_generate_workflow",
+          "server": "smithery::automatelab/n8n-mcp",
+          "source": "smithery",
+          "description": "Generate a valid n8n workflow JSON from a plain-English description. Handles webhook/schedule/RSS triggers, common action nodes (Slack, Google Sheets, Discord, Gmail, Notion, HTTP), and AI Agent setups (LangChain root agent + chat model + memory + optional HTTP tool, wired with ai_languageModel / ai…",
+          "schema": [
+            {
+              "name": "description",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "name",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "n8n_lint_workflow",
+          "server": "smithery::automatelab/n8n-mcp",
+          "source": "smithery",
+          "description": "Lint an n8n workflow JSON. Returns concrete errors and warnings: missing credentials, deprecated node types (Function -> Code, spreadsheetFile -> convertToFile/extractFromFile), broken connections, missing or non-numeric typeVersion, duplicate node names or IDs, AI Agent missing ai_languageModel sub…",
+          "schema": [
+            {
+              "name": "workflow",
+              "type": "",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "n8n_explain_execution",
+          "server": "smithery::automatelab/n8n-mcp",
+          "source": "smithery",
+          "description": "Diagnose a failed or surprising n8n execution. Paste the execution JSON (from the n8n UI 'Show details' or `GET /executions/:id?includeData=true`); returns a per-node summary highlighting nodes that returned 0 items, unresolved `={{ ... }}` expressions, errors with hints, and LLM token usage. Hits t…",
+          "schema": [
+            {
+              "name": "execution",
+              "type": "",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "n8n_list_workflows",
+          "server": "smithery::automatelab/n8n-mcp",
+          "source": "smithery",
+          "description": "List workflows from a live n8n instance (requires N8N_API_URL + N8N_API_KEY env vars). Returns id, name, active, nodeCount, updatedAt, tags. Filter by active, tags, name. Use this when the user asks 'what workflows do I have?' or before n8n_get_workflow.",
+          "schema": [
+            {
+              "name": "active",
+              "type": "boolean",
+              "required": false
+            },
+            {
+              "name": "limit",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "name",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "tags",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "n8n_get_workflow",
+          "server": "smithery::automatelab/n8n-mcp",
+          "source": "smithery",
+          "description": "Fetch a single workflow JSON by id from a live n8n instance (requires N8N_API_URL + N8N_API_KEY). Returns the full nodes/connections payload — pair with n8n_lint_workflow to audit a deployed workflow.",
+          "schema": [
+            {
+              "name": "id",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "n8n_create_workflow",
+          "server": "smithery::automatelab/n8n-mcp",
+          "source": "smithery",
+          "description": "Create a workflow on a live n8n instance (requires N8N_API_URL + N8N_API_KEY). Strips read-only fields (id, active, createdAt, ...) before posting. Workflows are created inactive — call n8n_activate_workflow afterward. Pairs with n8n_generate_workflow for end-to-end 'describe -> deploy'.",
+          "schema": [
+            {
+              "name": "workflow",
+              "type": "",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "n8n_activate_workflow",
+          "server": "smithery::automatelab/n8n-mcp",
+          "source": "smithery",
+          "description": "Activate or deactivate a workflow on a live n8n instance (requires N8N_API_URL + N8N_API_KEY). Pass `active: false` to deactivate.",
+          "schema": [
+            {
+              "name": "active",
+              "type": "boolean",
+              "required": false
+            },
+            {
+              "name": "id",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "n8n_list_executions",
+          "server": "smithery::automatelab/n8n-mcp",
+          "source": "smithery",
+          "description": "List recent executions from a live n8n instance (requires N8N_API_URL + N8N_API_KEY). Filter by workflowId, status (success|error|waiting), limit. Pass `includeData: true` to get the full execution body (large) — pair with n8n_explain_execution to diagnose a specific failure.",
+          "schema": [
+            {
+              "name": "includeData",
+              "type": "boolean",
+              "required": false
+            },
+            {
+              "name": "limit",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "status",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "workflowId",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "agent_health_check",
+          "server": "glama::io.github.andysalvo/agentic-platform",
+          "source": "glama",
+          "description": "Score any agent's system prompt on governance best practices from 0 to 100. Returns a detailed diagnostic report with specific issues found, severity ratings, and actionable fixes. Checks for authority leaks, silent inference, missing audit trails, and 14 other governance anti-patterns. No API key n…",
+          "schema": [
+            {
+              "name": "system_prompt",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "buy_credits",
+          "server": "glama::io.github.andysalvo/agentic-platform",
+          "source": "glama",
+          "description": "Get a Stripe checkout link to purchase more skill file credits. Returns a URL for your human operator to complete payment. Credits are added automatically after purchase.",
+          "schema": [
+            {
+              "name": "api_key",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "tier",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "check_usage",
+          "server": "glama::io.github.andysalvo/agentic-platform",
+          "source": "glama",
+          "description": "Check your current usage stats including total calls, remaining credits, and free calls left today.",
+          "schema": [
+            {
+              "name": "api_key",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "estimate_agent_cost",
+          "server": "glama::io.github.andysalvo/agentic-platform",
+          "source": "glama",
+          "description": "Compare the cost of running an agent task across all major AI models including Claude, GPT, Gemini, Llama, and Mistral. Returns a comparison table with per-call, per-run, and per-day costs plus optimization tips. No API key needed.",
+          "schema": [
+            {
+              "name": "input_tokens",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "model",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "num_calls",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "output_tokens",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "task_description",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "evaluate_service",
+          "server": "glama::io.github.andysalvo/agentic-platform",
+          "source": "glama",
+          "description": "Evaluate any MCP service for trustworthiness before spending money on it. Connects to the target server, checks reachability, governance declarations, tool definition quality, and audit endpoints. Returns a trust score from 0 to 100 with a recommendation: PROCEED, PROCEED WITH CAUTION, HIGH RISK, or…",
+          "schema": [
+            {
+              "name": "server_url",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "task_context",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "get_skill",
+          "server": "glama::io.github.andysalvo/agentic-platform",
+          "source": "glama",
+          "description": "Retrieve an expert skill file that makes you measurably better at a specific task. Each skill has auditable provenance and is curated by domain experts. Requires a valid API key.",
+          "schema": [
+            {
+              "name": "api_key",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "skill_name",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "list_skills",
+          "server": "glama::io.github.andysalvo/agentic-platform",
+          "source": "glama",
+          "description": "List all available expert skill files with descriptions and pricing. Shows your usage stats if you provide an API key.",
+          "schema": [
+            {
+              "name": "api_key",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "mcp_manifest_lint",
+          "server": "glama::io.github.andysalvo/agentic-platform",
+          "source": "glama",
+          "description": "The only MCP tool definition linter that exists. Validates your MCP tool definitions for anti-patterns, missing descriptions, bad parameter schemas, naming issues, and quality problems. Returns a pass/fail report with specific fixes for each issue found. No API key needed.",
+          "schema": [
+            {
+              "name": "tools_json",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "register",
+          "server": "glama::io.github.andysalvo/agentic-platform",
+          "source": "glama",
+          "description": "Register for an API key to access expert skill files. Free tier includes 10 skill retrievals per day. No payment required.",
+          "schema": []
+        },
+        {
+          "tool": "dns_health",
+          "server": "glama::io.github.WingedGuardian/agent-tools",
+          "source": "glama",
+          "description": "Check DNS health for a domain.\n\n    Returns A/AAAA/MX/NS records, SPF/DMARC mail security status,\n    and whether the domain resolves.\n\n    Args:\n        domain: The domain name to check (e.g. \"example.com\").\n        include_txt: Whether to include all TXT records. Default false.",
+          "schema": [
+            {
+              "name": "domain",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "include_txt",
+              "type": "boolean",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "email_validate",
+          "server": "glama::io.github.WingedGuardian/agent-tools",
+          "source": "glama",
+          "description": "Validate an email address.\n\n    Checks format, MX records, disposable domain, role account,\n    and optionally probes SMTP to verify the mailbox exists.\n\n    Args:\n        email: The email address to validate.\n        check_smtp: Whether to probe the SMTP server (slower, 2-5s). Default false.",
+          "schema": [
+            {
+              "name": "check_smtp",
+              "type": "boolean",
+              "required": false
+            },
+            {
+              "name": "email",
+              "type": "string",
+              "required": true
+            }
+          ]
+        }
+      ],
+      "unreachedSamples": [
         {
           "tool": "hsk_lookup",
           "server": "smithery::kuibin-dev/hsk-mcp",
@@ -738,112 +1635,13 @@
           ]
         },
         {
-          "tool": "mark_attest",
-          "server": "smithery::srotzin-adqm/hive-mark",
+          "tool": "search_webcams",
+          "server": "smithery::info-sjbg/webcamexplore",
           "source": "smithery",
-          "description": "Attest a trademark first-use by text + brand owner DID. Records dual-signed attestation with first_user flag.",
+          "description": "Search for live webcams by location, category or keyword.",
           "schema": [
             {
-              "name": "brand_owner_did",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "evidence_hash",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "mark_text",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "use_type",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "use_url",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "mark_by_text",
-          "server": "smithery::srotzin-adqm/hive-mark",
-          "source": "smithery",
-          "description": "Lookup all attestations for a mark text. Reveals first_user (priority winner) and conflict list.",
-          "schema": [
-            {
-              "name": "mark_text",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "mark_by_owner",
-          "server": "smithery::srotzin-adqm/hive-mark",
-          "source": "smithery",
-          "description": "List all marks attested by an owner DID.",
-          "schema": [
-            {
-              "name": "did",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "mark_monitor",
-          "server": "smithery::srotzin-adqm/hive-mark",
-          "source": "smithery",
-          "description": "Subscribe to alerts when new attestations conflict with a watched mark.",
-          "schema": [
-            {
-              "name": "brand_owner_did",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "mark_text",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "watch_domains",
-              "type": "array",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "mark_health",
-          "server": "smithery::srotzin-adqm/hive-mark",
-          "source": "smithery",
-          "description": "Service health check for Hive Mark.",
-          "schema": []
-        },
-        {
-          "tool": "search_jobs",
-          "server": "official::com.aidevboard/jobs",
-          "source": "direct_mcp",
-          "description": "Search curated AI/ML engineering roles. Filter by tags (e.g. llm, pytorch), workplace (remote/hybrid/onsite), experience level, salary range, or keyword. Results are ranked by quality score and recency.",
-          "schema": [
-            {
-              "name": "company",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "job_type",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "level",
+              "name": "category",
               "type": "string",
               "required": false
             },
@@ -858,537 +1656,54 @@
               "required": false
             },
             {
-              "name": "posted_within_days",
-              "type": "integer",
-              "required": false
-            },
-            {
               "name": "query",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "salary_min",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "tags",
-              "type": "array",
-              "required": false
-            },
-            {
-              "name": "workplace",
               "type": "string",
               "required": false
             }
           ]
         },
         {
-          "tool": "get_job",
-          "server": "official::com.aidevboard/jobs",
-          "source": "direct_mcp",
-          "description": "Fetch full job posting by ID or slug: title, description, requirements, salary, workplace, tags, apply URL. Use after search_jobs to read a specific listing.",
+          "tool": "get_webcams_by_location",
+          "server": "smithery::info-sjbg/webcamexplore",
+          "source": "smithery",
+          "description": "Get webcams for a specific city or country.",
+          "schema": [
+            {
+              "name": "limit",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "location",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "get_trending_webcams",
+          "server": "smithery::info-sjbg/webcamexplore",
+          "source": "smithery",
+          "description": "Get currently popular webcams.",
+          "schema": [
+            {
+              "name": "limit",
+              "type": "integer",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "get_webcam",
+          "server": "smithery::info-sjbg/webcamexplore",
+          "source": "smithery",
+          "description": "Get details for a single webcam by ID or slug.",
           "schema": [
             {
               "name": "id",
               "type": "string",
-              "required": true
-            }
-          ]
-        }
-      ],
-      "removedSamples": [
-        {
-          "tool": "accessibility_usage_rules",
-          "server": "glama::io.github.DigbyO/colour-memory",
-          "source": "glama",
-          "description": "Convert a palette WCAG matrix into actionable design-system rules. Returns safe pairs, AA-only pairs, large-text-only pairs, decorative-only pairs, best text colour per background, and component usage rules. Deterministic, no LLM cost.",
-          "schema": [
-            {
-              "name": "palette",
-              "type": "array",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "analyse_image_palette",
-          "server": "glama::io.github.DigbyO/colour-memory",
-          "source": "glama",
-          "description": "Upload an image (base64 encoded) and extract its dominant colour palette, with each colour matched to its nearest named archive entry with full cultural provenance. Uses K-means++ extraction plus Bradford chromatic adaptation for accuracy. Returns up to 5 dominant colours, each with archive name, cu…",
-          "schema": [
-            {
-              "name": "archive",
-              "type": "string",
               "required": false
             },
-            {
-              "name": "image_base64",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "media_type",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "n_colours",
-              "type": "integer",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "capabilities",
-          "server": "glama::io.github.DigbyO/colour-memory",
-          "source": "glama",
-          "description": "Return a live inventory of all active endpoints and MCP tools. Use this first to discover what the API can do before making calls. Returns tool count, endpoint list, MCP-exposed tools, and usage notes. Deterministic -- no LLM cost.",
-          "schema": []
-        },
-        {
-          "tool": "cliche_breaker",
-          "server": "glama::io.github.DigbyO/colour-memory",
-          "source": "glama",
-          "description": "Find the most surprising archive colour for a concept and generate a memorable one-liner subverting the obvious expectation. Supply a concept (e.g. 'love', 'grief', 'luxury', 'power') and optionally the expected colour (e.g. 'red' for love). The archive finds the contradiction and Claude writes the …",
-          "schema": [
-            {
-              "name": "concept",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "expected_colour",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "n_results",
-              "type": "integer",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "colour_combination_check",
-          "server": "glama::io.github.DigbyO/colour-memory",
-          "source": "glama",
-          "description": "Assess 2-5 colours as a combination for a given context (UI, data viz, fashion, interior, print, branding). Returns harmony type, clash warnings, contrast summary, and specific deployment rules for the context.",
-          "schema": [
-            {
-              "name": "colours",
-              "type": "array",
-              "required": true
-            },
-            {
-              "name": "context",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "colour_name_generator",
-          "server": "glama::io.github.DigbyO/colour-memory",
-          "source": "glama",
-          "description": "Generate memorable, archive-verified colour names for any hex value. Choose from naming styles: geographical, poetic, material, literary, botanical, industrial, or mixed. Every name is grounded in a real archive source. The core of the Shopify product naming use case.",
-          "schema": [
-            {
-              "name": "hex",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "market",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "n_names",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "product_type",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "style",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "colour_name_slugs",
-          "server": "glama::io.github.DigbyO/colour-memory",
-          "source": "glama",
-          "description": "Return every developer token format for a hex value: CSS variable, kebab-case, camelCase, PascalCase, Tailwind class, TypeScript const, SCSS variable. Archive-grounded name source with dE2000 distance.",
-          "schema": [
-            {
-              "name": "archive",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "hex",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "compare_colours",
-          "server": "glama::io.github.DigbyO/colour-memory",
-          "source": "glama",
-          "description": "Deep perceptual and semantic comparison between any two hex values. Returns quantified differences in LRV, chroma, hue angle, warmth, and CIEDE2000 distance, plus cultural context on both — which is more authoritative, more saturated, more stable under different illuminants, and what each has histor…",
-          "schema": [
-            {
-              "name": "hex_a",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "hex_b",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "cultural_risk_assessment",
-          "server": "glama::io.github.DigbyO/colour-memory",
-          "source": "glama",
-          "description": "Score a hex value or palette for cultural sensitivity, symbolic weight, regional taboos, religious associations, and potential misinterpretation across global markets. Returns warnings, positive associations, and context-dependent readings per colour family, with specific market flags. Use before de…",
-          "schema": [
-            {
-              "name": "hex",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "markets",
-              "type": "array",
-              "required": false
-            },
-            {
-              "name": "palette",
-              "type": "array",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "design_session",
-          "server": "glama::io.github.DigbyO/colour-memory",
-          "source": "glama",
-          "description": "One-call compound tool. Submit a concept, medium, audience, and constraints — receive a complete design package: historically grounded palette, cultural narrative, commercial paint matches, WCAG accessibility check, illuminant behaviour, and a ready-made image generation prompt. Replaces chaining qu…",
-          "schema": [
-            {
-              "name": "concept",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "include_accessibility",
-              "type": "boolean",
-              "required": false
-            },
-            {
-              "name": "include_paint_matches",
-              "type": "boolean",
-              "required": false
-            },
-            {
-              "name": "include_prompt",
-              "type": "boolean",
-              "required": false
-            },
-            {
-              "name": "medium",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "n_colours",
-              "type": "integer",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "ecommerce_product_copy",
-          "server": "glama::io.github.DigbyO/colour-memory",
-          "source": "glama",
-          "description": "Generate complete ecommerce product copy for any colour. Input: hex + product type + tone + channel. Output: colour name, product title, short description, long description, SEO title, meta description, alt text, Instagram caption, and cross-sell suggestion. Every piece of copy is grounded in archiv…",
-          "schema": [
-            {
-              "name": "brand_name",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "channel",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "hex",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "product_type",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "tone",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "font_colour_advisor",
-          "server": "glama::io.github.DigbyO/colour-memory",
-          "source": "glama",
-          "description": "Given a background hex and a palette of candidate foreground colours, return them ranked by contrast ratio with WCAG grades and specific recommendations for body text, large text, and UI components.",
-          "schema": [
-            {
-              "name": "background",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "palette",
-              "type": "array",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "get_colour_card",
-          "server": "glama::io.github.DigbyO/colour-memory",
-          "source": "glama",
-          "description": "Look up a named colour and return its hex, archive, provenance, and cultural notes.",
-          "schema": [
-            {
-              "name": "name",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "get_colour_metrics",
-          "server": "glama::io.github.DigbyO/colour-memory",
-          "source": "glama",
-          "description": "Return perceptual colour metrics: LRV, chroma, hue angle, warmth classification, and illuminant shifts under D65 (6500K), F11 (4000K), and Illuminant A (3000K).",
-          "schema": [
-            {
-              "name": "hex_val",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "get_harmonies",
-          "server": "glama::io.github.DigbyO/colour-memory",
-          "source": "glama",
-          "description": "Return complementary, triadic, analogous, and split-complementary harmonies matched to named archive colours.",
-          "schema": [
-            {
-              "name": "harmony_types",
-              "type": "array",
-              "required": false
-            },
-            {
-              "name": "hex",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "interior_specification",
-          "server": "glama::io.github.DigbyO/colour-memory",
-          "source": "glama",
-          "description": "Generate a complete interior colour specification from a concept or brief. Input a room concept, type, and style — receive a professionally structured colour scheme with 60/30/10 surface assignments, archive colour names with full cultural provenance, Farrow and Ball and Little Greene paint matches,…",
-          "schema": [
-            {
-              "name": "concept",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "n_colours",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "orientation",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "room_type",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "style",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "match_paint_system",
-          "server": "glama::io.github.DigbyO/colour-memory",
-          "source": "glama",
-          "description": "Find the nearest named colour in commercial paint systems including Farrow and Ball and Little Greene.",
-          "schema": [
-            {
-              "name": "brand",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "hex_val",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "n",
-              "type": "integer",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "memory_hooks",
-          "server": "glama::io.github.DigbyO/colour-memory",
-          "source": "glama",
-          "description": "Generate a hook sentence, three-sentence story, tweet, image prompt, and follow-up questions for any hex colour. Backed by the nearest archive colour's cultural provenance. Tunable by audience (general public, designers, historians, children) and tone (dinner party, academic, social media, brand cop…",
-          "schema": [
-            {
-              "name": "audience",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "hex",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "tone",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "mix_colours",
-          "server": "glama::io.github.DigbyO/colour-memory",
-          "source": "glama",
-          "description": "Simulate perceptually modelled subtractive mixing of two colours in CIE Lab space (not RGB screen blending). Returns the resulting mixed hex value and its nearest archive match with cultural context. Uses CIE Lab subtractive model for perceptual accuracy. Example: mixing Prussian Blue and Yellow Och…",
-          "schema": [
-            {
-              "name": "hex_a",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "hex_b",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "ratio",
-              "type": "number",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "palette_from_concept",
-          "server": "glama::io.github.DigbyO/colour-memory",
-          "source": "glama",
-          "description": "Generate a historically grounded colour palette from a cultural concept or theme. Returns 4-6 coordinated archive colours with hex values, proportions, and provenance. Examples: 'Victorian mourning', 'Ottoman court', 'Japanese wabi-sabi', 'Scandinavian winter', 'West African kente', 'Renaissance Flo…",
-          "schema": [
-            {
-              "name": "concept",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "include_neutrals",
-              "type": "boolean",
-              "required": false
-            },
-            {
-              "name": "n_colours",
-              "type": "integer",
-              "required": false
-            }
-          ]
-        }
-      ],
-      "unreachedSamples": [
-        {
-          "tool": "search_agents",
-          "server": "smithery::heather-macavelia/ai-agent-index",
-          "source": "smithery",
-          "description": "Search the AI Agent Index for agents matching specific criteria. Returns structured agent data. Use this to find agents by category, sub-type, pricing model, integration, or capability tag.",
-          "schema": [
-            {
-              "name": "agent_type",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "capability",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "category",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "integration",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "limit",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "pricing",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "query",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_agent",
-          "server": "smithery::heather-macavelia/ai-agent-index",
-          "source": "smithery",
-          "description": "Get full structured details for a specific AI agent by its slug identifier. Returns pricing, capabilities, integrations, agent_type, pros, limitations, and ratings.",
-          "schema": [
             {
               "name": "slug",
               "type": "string",
@@ -1397,213 +1712,43 @@
           ]
         },
         {
-          "tool": "list_categories",
-          "server": "smithery::heather-macavelia/ai-agent-index",
+          "tool": "get-allowance",
+          "server": "smithery::li-fi/lifi-mcp",
           "source": "smithery",
-          "description": "List all available AI agent categories in the AI Agent Index. Returns category slugs, display names, and agent counts.",
-          "schema": []
-        },
-        {
-          "tool": "search_vaults",
-          "server": "smithery::philidor/defi",
-          "source": "smithery",
-          "description": "Search and filter DeFi vaults by chain, protocol, asset, risk tier, TVL, and more. Returns a paginated list with risk scores and APR.",
+          "description": "Check how many ERC20 tokens a spender is approved to use on behalf of an owner (EVM chains only). IMPORTANT: Before executing a swap with ERC20 tokens, verify the allowance is >= the swap amount. If insufficient, the user must approve tokens first. The spender address for LI.FI swaps is returned in …",
           "schema": [
-            {
-              "name": "asset",
-              "type": "string",
-              "required": false
-            },
             {
               "name": "chain",
               "type": "string",
               "required": false
             },
             {
-              "name": "limit",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "minTvl",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "protocol",
+              "name": "ownerAddress",
               "type": "string",
               "required": false
             },
             {
-              "name": "query",
+              "name": "rpcUrl",
               "type": "string",
               "required": false
             },
             {
-              "name": "riskTier",
+              "name": "spenderAddress",
               "type": "string",
               "required": false
             },
             {
-              "name": "sortBy",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "sortOrder",
+              "name": "tokenAddress",
               "type": "string",
               "required": false
             }
           ]
         },
         {
-          "tool": "get_vault",
-          "server": "smithery::philidor/defi",
+          "tool": "get-chain-by-id",
+          "server": "smithery::li-fi/lifi-mcp",
           "source": "smithery",
-          "description": "Get detailed information about a specific DeFi vault including risk breakdown, recent events, and historical snapshots. Lookup by ID or by network + address.",
-          "schema": [
-            {
-              "name": "address",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "id",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "network",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_vault_risk_breakdown",
-          "server": "smithery::philidor/defi",
-          "source": "smithery",
-          "description": "Get a detailed breakdown of a vault's risk vectors: Asset Composition, Platform Code, and Governance scores with sub-metrics.",
-          "schema": [
-            {
-              "name": "address",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "network",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "compare_vaults",
-          "server": "smithery::philidor/defi",
-          "source": "smithery",
-          "description": "Compare 2-3 DeFi vaults side-by-side on TVL, APR, risk score, risk tier, audited status, and more.",
-          "schema": [
-            {
-              "name": "vaults",
-              "type": "array",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "find_safest_vaults",
-          "server": "smithery::philidor/defi",
-          "source": "smithery",
-          "description": "Find the safest (highest risk-scored) DeFi vaults, optionally filtered by asset, chain, or minimum TVL. Returns top 10 audited, high-confidence vaults sorted by risk score.",
-          "schema": [
-            {
-              "name": "asset",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "chain",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "minTvl",
-              "type": "number",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_protocol_info",
-          "server": "smithery::philidor/defi",
-          "source": "smithery",
-          "description": "Get detailed information about a DeFi protocol including TVL, vault count, versions, auditors, and security incidents.",
-          "schema": [
-            {
-              "name": "protocolId",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_curator_info",
-          "server": "smithery::philidor/defi",
-          "source": "smithery",
-          "description": "Get detailed information about a vault curator including their managed vaults, TVL, chain distribution, and performance.",
-          "schema": [
-            {
-              "name": "curatorId",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_market_overview",
-          "server": "smithery::philidor/defi",
-          "source": "smithery",
-          "description": "Get a high-level overview of the DeFi vault market: total TVL, vault count, risk distribution, and TVL by protocol.",
-          "schema": []
-        },
-        {
-          "tool": "explain_risk_score",
-          "server": "smithery::philidor/defi",
-          "source": "smithery",
-          "description": "Explain what a Philidor risk score means, including the tier (Prime/Core/Edge), how it is calculated, and what the thresholds are.",
-          "schema": [
-            {
-              "name": "score",
-              "type": "number",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "list_vaults_with_incidents",
-          "server": "smithery::philidor/defi",
-          "source": "smithery",
-          "description": "List all vaults that had a recent critical incident (last 365 days). Critical = severity Critical or incident_severity major. Results are sorted by TVL descending, then by time since event ascending (most recent first).",
-          "schema": []
-        },
-        {
-          "tool": "listRecipes",
-          "server": "smithery::signerlabs/shipswift",
-          "source": "smithery",
-          "description": "List production-ready SwiftUI code recipes. Each recipe is a complete, copy-paste-ready implementation — not a tutorial. Covers native iOS features (SwiftUI, Swift Charts, SpriteKit, Vision, AVFoundation, StoreKit 2, NavigationStack) and backend infrastructure (AWS CDK, Hono, Node.js, Cognito, Dynam…",
-          "schema": [
-            {
-              "name": "category",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "getRecipe",
-          "server": "smithery::signerlabs/shipswift",
-          "source": "smithery",
-          "description": "Get a recipe by ID. Returns complete, copy-paste-ready Swift source code with architecture explanation and implementation steps. Module recipes may also include backend code (Hono/Node.js + AWS CDK).",
+          "description": "Look up chain details by numeric chain ID. Returns chain name, native token info, RPC URLs, and block explorer. Use this to convert a chain ID to human-readable information or to get RPC URLs.",
           "schema": [
             {
               "name": "id",
@@ -1613,170 +1758,13 @@
           ]
         },
         {
-          "tool": "searchRecipes",
-          "server": "smithery::signerlabs/shipswift",
+          "tool": "get-chain-by-name",
+          "server": "smithery::li-fi/lifi-mcp",
           "source": "smithery",
-          "description": "Search recipes by keyword across titles, descriptions, tags, and full source code. Use for any iOS, SwiftUI, or backend topic — e.g. subscription, authentication, camera, animation, chart, onboarding, paywall, infrastructure.",
+          "description": "Look up chain details by name or key. Performs case-insensitive matching against chain name, key, or ID. Use this when you know the chain name but need its ID or RPC URL.",
           "schema": [
             {
-              "name": "query",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "audit_task",
-          "server": "smithery::xrpl/agent-trust",
-          "source": "smithery",
-          "description": "Verify whether completed work meets a task specification using AI.\n\nBefore calling, send 0.1 XRP to rmcSrkpZ2i2kuvtCPeTVetee9SixP4djR on XRPL Mainnet.\nEach fee_hash is single-use (anti-replay protection).\n\nReturns:\n    status (approved/rejected), verdict (PASS/FAIL), score (0-100),\n    summary, deta…",
-          "schema": [
-            {
-              "name": "fee_hash",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "require_consensus",
-              "type": "boolean",
-              "required": false
-            },
-            {
-              "name": "task",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "task_category",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "work",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "create_escrow_vault",
-          "server": "smithery::xrpl/agent-trust",
-          "source": "smithery",
-          "description": "Create an AI-gated XRPL escrow vault. Funds release automatically to the\nworker when their submission is approved by the AI referee.\n\nTypical flow after job board negotiation:\n  1. award_job() returns the worker's address and agreed price\n  2. Pay 0.1 XRP protocol fee to rmcSrkpZ2i2kuvtCPeTVetee9Six…",
-          "schema": [
-            {
-              "name": "amount_rlusd",
-              "type": "",
-              "required": false
-            },
-            {
-              "name": "amount_xrp",
-              "type": "",
-              "required": false
-            },
-            {
-              "name": "buyer_address",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "buyer_name",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "cancel_after_hrs",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "category",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "currency",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "escrow_id",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "fee_hash",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "max_submissions",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "project_label",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "task_description",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "worker_address",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "confirm_escrow_transaction",
-          "server": "smithery::xrpl/agent-trust",
-          "source": "smithery",
-          "description": "Register the on-chain EscrowCreate transaction hash with the referee.\n\nCall this after submitting the EscrowCreate transaction on XRPL.\nThe referee caches the escrow sequence number automatically so the\nworker does not need to provide it when claiming payment.\n\nReturns:\n    status: \"confirmed\", sequ…",
-          "schema": [
-            {
-              "name": "escrow_id",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "tx_hash",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "evaluate_escrow_work",
-          "server": "smithery::xrpl/agent-trust",
-          "source": "smithery",
-          "description": "Submit proof of completed work against an existing escrow vault.\n\nOn approval, payment releases automatically — no EscrowFinish needed.\nXRPL transaction hashes (64-char hex) in the work field are automatically\nverified on the ledger. Useful as proof of NFT transfers, token payments,\nor any on-chain …",
-          "schema": [
-            {
-              "name": "escrow_id",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "evidence_links",
-              "type": "",
-              "required": false
-            },
-            {
-              "name": "require_consensus",
-              "type": "boolean",
-              "required": false
-            },
-            {
-              "name": "task_category",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "work",
+              "name": "name",
               "type": "string",
               "required": false
             }
@@ -1784,8 +1772,8 @@
         }
       ]
     },
-    "stealth": 38,
-    "crossRegistry": 1934,
-    "crossSource": 1113
+    "stealth": 41,
+    "crossRegistry": 2069,
+    "crossSource": 1577
   }
 }
