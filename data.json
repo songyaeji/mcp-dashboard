@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T03:28:37+00:00",
+  "generatedAt": "2026-06-04T03:42:05+00:00",
   "lastCrawl": "2026-06-04",
   "crawl": {
     "servers": 9830,
@@ -482,6 +482,68 @@
       "tdqsAvg": 0
     }
   ],
+  "registryTrend": [
+    {
+      "date": "2026-06-01",
+      "official_servers": 4329,
+      "official_new": 4329,
+      "official_tools": 32675,
+      "official_changes": 0,
+      "glama_servers": 3696,
+      "glama_new": 3696,
+      "glama_tools": 33252,
+      "glama_changes": 0,
+      "smithery_servers": 1353,
+      "smithery_new": 1353,
+      "smithery_tools": 25049,
+      "smithery_changes": 0
+    },
+    {
+      "date": "2026-06-02",
+      "official_servers": 4387,
+      "official_new": 58,
+      "official_tools": 33454,
+      "official_changes": 860,
+      "glama_servers": 3696,
+      "glama_new": 0,
+      "glama_tools": 33361,
+      "glama_changes": 761,
+      "smithery_servers": 1376,
+      "smithery_new": 23,
+      "smithery_tools": 25489,
+      "smithery_changes": 66
+    },
+    {
+      "date": "2026-06-03",
+      "official_servers": 4428,
+      "official_new": 41,
+      "official_tools": 33909,
+      "official_changes": 868,
+      "glama_servers": 3727,
+      "glama_new": 31,
+      "glama_tools": 33461,
+      "glama_changes": 1511,
+      "smithery_servers": 1386,
+      "smithery_new": 10,
+      "smithery_tools": 25536,
+      "smithery_changes": 29
+    },
+    {
+      "date": "2026-06-04",
+      "official_servers": 4514,
+      "official_new": 86,
+      "official_tools": 35164,
+      "official_changes": 3884,
+      "glama_servers": 3889,
+      "glama_new": 162,
+      "glama_tools": 35305,
+      "glama_changes": 7721,
+      "smithery_servers": 1427,
+      "smithery_new": 41,
+      "smithery_tools": 26375,
+      "smithery_changes": 82
+    }
+  ],
   "changeTimeline": [
     {
       "date": "2026-06-02",
@@ -515,6 +577,12 @@
         "tools": 0,
         "changes": 0,
         "snapshots": 0,
+        "changeBreakdown": {
+          "description_modified": 0,
+          "schema_modified": 0,
+          "both_modified": 0,
+          "removed": 0
+        },
         "color": "#6366f1"
       },
       {
@@ -524,6 +592,12 @@
         "tools": 26378,
         "changes": 82,
         "snapshots": 26378,
+        "changeBreakdown": {
+          "description_modified": 5,
+          "schema_modified": 3,
+          "both_modified": 0,
+          "removed": 74
+        },
         "color": "#06b6d4"
       },
       {
@@ -533,6 +607,12 @@
         "tools": 31812,
         "changes": 4050,
         "snapshots": 31812,
+        "changeBreakdown": {
+          "description_modified": 2307,
+          "schema_modified": 610,
+          "both_modified": 610,
+          "removed": 489
+        },
         "color": "#8b5cf6"
       },
       {
@@ -542,6 +622,12 @@
         "tools": 68147,
         "changes": 7589,
         "snapshots": 68147,
+        "changeBreakdown": {
+          "description_modified": 4842,
+          "schema_modified": 1308,
+          "both_modified": 1327,
+          "removed": 112
+        },
         "color": "#6366f1"
       }
     ],
