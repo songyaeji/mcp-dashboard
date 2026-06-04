@@ -1,62 +1,62 @@
 {
-  "generatedAt": "2026-06-04T04:05:56+00:00",
-  "lastCrawl": "2026-06-04",
+  "generatedAt": "2026-06-04T15:58:10+00:00",
+  "lastCrawl": "2026-06-05",
   "crawl": {
-    "servers": 9830,
-    "tools": 98240,
-    "snapshots": 489169,
-    "stealthTools": 338,
-    "crossRegistryAnomalies": 7825,
-    "crossSourceAnomalies": 5485
+    "servers": 10033,
+    "tools": 103036,
+    "snapshots": 622640,
+    "stealthTools": 387,
+    "crossRegistryAnomalies": 9945,
+    "crossSourceAnomalies": 10535
   },
   "registries": [
     {
       "name": "Official",
-      "servers": 4514,
+      "servers": 4586,
       "color": "#6366f1"
     },
     {
       "name": "Glama",
-      "servers": 3889,
+      "servers": 3955,
       "color": "#8b5cf6"
     },
     {
       "name": "Smithery",
-      "servers": 1427,
+      "servers": 1492,
       "color": "#06b6d4"
     }
   ],
   "health": [
     {
       "name": "Healthy",
-      "value": 1961,
+      "value": 2124,
       "color": "#22c55e"
     },
     {
       "name": "Unhealthy",
-      "value": 1769,
+      "value": 1830,
       "color": "#ef4444"
     },
     {
       "name": "Unknown",
-      "value": 6100,
+      "value": 6079,
       "color": "#6b7280"
     }
   ],
   "tdqs": [
     {
       "grade": "A",
-      "count": 1657,
+      "count": 1808,
       "color": "#22c55e"
     },
     {
       "grade": "B",
-      "count": 425,
+      "count": 438,
       "color": "#84cc16"
     },
     {
       "grade": "C",
-      "count": 140,
+      "count": 146,
       "color": "#f59e0b"
     },
     {
@@ -66,24 +66,24 @@
     },
     {
       "grade": "미평가",
-      "count": 7604,
+      "count": 7637,
       "color": "#374151"
     }
   ],
   "protocol": [
     {
       "name": "2024-11-05",
-      "value": 2649,
+      "value": 2688,
       "color": "#6366f1"
     },
     {
       "name": "2025-03-26",
-      "value": 1546,
+      "value": 1620,
       "color": "#06b6d4"
     },
     {
       "name": "2025-06-18",
-      "value": 208,
+      "value": 210,
       "color": "#8b5cf6"
     },
     {
@@ -103,86 +103,86 @@
     },
     {
       "name": "미보고",
-      "value": 5346,
+      "value": 5434,
       "color": "#374151"
     }
   ],
   "toolDist": [
     {
       "name": "0",
-      "servers": 3888,
+      "servers": 3910,
       "color": "#6b7280"
     },
     {
       "name": "1-5",
-      "servers": 1996,
+      "servers": 2036,
       "color": "#06b6d4"
     },
     {
       "name": "6-10",
-      "servers": 1198,
+      "servers": 1223,
       "color": "#6366f1"
     },
     {
       "name": "11-20",
-      "servers": 833,
+      "servers": 799,
       "color": "#8b5cf6"
     },
     {
       "name": "20+",
-      "servers": 1915,
+      "servers": 2065,
       "color": "#22c55e"
     }
   ],
   "topByUse": [
     {
       "name": "Math-MCP",
-      "value": 1307395,
+      "value": 1198796,
       "registry": "smithery"
     },
     {
       "name": "Google Sheets",
-      "value": 46264,
+      "value": 46841,
       "registry": "smithery"
     },
     {
       "name": "Gmail",
-      "value": 34802,
+      "value": 34546,
       "registry": "smithery"
     },
     {
       "name": "Exa Search",
-      "value": 20840,
+      "value": 20821,
       "registry": "smithery"
     },
     {
       "name": "AI Research Assistant",
-      "value": 19627,
+      "value": 19505,
       "registry": "smithery"
     },
     {
       "name": "Mesh MCP",
-      "value": 19134,
+      "value": 19168,
       "registry": "smithery"
     },
     {
       "name": "AKShare One MCP Server",
-      "value": 13647,
+      "value": 13659,
       "registry": "smithery"
     },
     {
       "name": "Brave Search",
-      "value": 11574,
+      "value": 12047,
       "registry": "smithery"
     },
     {
       "name": "Google Tasks",
-      "value": 10783,
+      "value": 11165,
       "registry": "smithery"
     },
     {
       "name": "MLB Stats Server",
-      "value": 9645,
+      "value": 9581,
       "registry": "smithery"
     }
   ],
@@ -241,7 +241,7 @@
   "stealthByServer": [
     {
       "name": "glama::io.github.ABTdomain/domainkits-mcp",
-      "value": 152,
+      "value": 190,
       "registry": "glama"
     },
     {
@@ -480,6 +480,20 @@
       "crossRegistry": 2069,
       "crossSource": 1577,
       "tdqsAvg": 0
+    },
+    {
+      "date": "2026-06-05",
+      "serversCumulative": 10033,
+      "newServers": 203,
+      "snapshots": 133471,
+      "snapshotsCumulative": 622640,
+      "tools": 100773,
+      "toolsCumulative": 103036,
+      "changes": 9689,
+      "stealth": 49,
+      "crossRegistry": 2120,
+      "crossSource": 5050,
+      "tdqsAvg": 0
     }
   ],
   "registryTrend": [
@@ -542,13 +556,28 @@
       "smithery_new": 41,
       "smithery_tools": 26375,
       "smithery_changes": 82
+    },
+    {
+      "date": "2026-06-05",
+      "official_servers": 4586,
+      "official_new": 72,
+      "official_tools": 37064,
+      "official_changes": 4085,
+      "glama_servers": 3955,
+      "glama_new": 66,
+      "glama_tools": 37054,
+      "glama_changes": 5581,
+      "smithery_servers": 1492,
+      "smithery_new": 65,
+      "smithery_tools": 26655,
+      "smithery_changes": 23
     }
   ],
   "cumulativeCollectors": [
     {
       "name": "official",
-      "servers": 4514,
-      "tools": 35606,
+      "servers": 4586,
+      "tools": 37732,
       "changeBreakdown": {
         "description_modified": 0,
         "schema_modified": 0,
@@ -559,37 +588,37 @@
     },
     {
       "name": "glama",
-      "servers": 3889,
-      "tools": 35838,
+      "servers": 3955,
+      "tools": 37653,
       "changeBreakdown": {
-        "description_modified": 2903,
-        "schema_modified": 676,
-        "both_modified": 663,
-        "removed": 521
+        "description_modified": 3483,
+        "schema_modified": 841,
+        "both_modified": 681,
+        "removed": 1079
       },
       "color": "#8b5cf6"
     },
     {
       "name": "smithery",
-      "servers": 1427,
-      "tools": 26796,
+      "servers": 1492,
+      "tools": 27651,
       "changeBreakdown": {
-        "description_modified": 35,
-        "schema_modified": 5,
-        "both_modified": 3,
+        "description_modified": 53,
+        "schema_modified": 7,
+        "both_modified": 6,
         "removed": 134
       },
       "color": "#06b6d4"
     },
     {
       "name": "direct_mcp",
-      "servers": 4362,
-      "tools": 68759,
+      "servers": 4478,
+      "tools": 72727,
       "changeBreakdown": {
-        "description_modified": 7155,
-        "schema_modified": 1560,
-        "both_modified": 1451,
-        "removed": 676
+        "description_modified": 14805,
+        "schema_modified": 1863,
+        "both_modified": 1617,
+        "removed": 902
       },
       "color": "#10b981"
     }
@@ -615,15 +644,22 @@
       "schema_modified": 1921,
       "both_modified": 1937,
       "removed": 675
+    },
+    {
+      "date": "2026-06-05",
+      "description_modified": 8248,
+      "schema_modified": 470,
+      "both_modified": 187,
+      "removed": 784
     }
   ],
   "latestCrawl": {
-    "date": "2026-06-04",
+    "date": "2026-06-05",
     "collectors": [
       {
         "name": "official",
         "status": "completed",
-        "servers": 4508,
+        "servers": 4578,
         "tools": 0,
         "changes": 0,
         "snapshots": 0,
@@ -638,956 +674,80 @@
       {
         "name": "smithery",
         "status": "completed",
-        "servers": 1393,
-        "tools": 26378,
-        "changes": 82,
-        "snapshots": 26378,
+        "servers": 1411,
+        "tools": 26658,
+        "changes": 23,
+        "snapshots": 26658,
         "changeBreakdown": {
-          "description_modified": 5,
-          "schema_modified": 3,
-          "both_modified": 0,
-          "removed": 74
+          "description_modified": 18,
+          "schema_modified": 2,
+          "both_modified": 3,
+          "removed": 0
         },
         "color": "#06b6d4"
       },
       {
         "name": "glama",
         "status": "completed",
-        "servers": 3939,
-        "tools": 31812,
-        "changes": 4050,
-        "snapshots": 31812,
+        "servers": 4004,
+        "tools": 35690,
+        "changes": 1357,
+        "snapshots": 35690,
         "changeBreakdown": {
-          "description_modified": 2307,
-          "schema_modified": 610,
-          "both_modified": 610,
-          "removed": 489
+          "description_modified": 580,
+          "schema_modified": 165,
+          "both_modified": 18,
+          "removed": 558
         },
         "color": "#8b5cf6"
       },
       {
         "name": "direct_mcp",
         "status": "completed",
-        "servers": 4429,
-        "tools": 68147,
-        "changes": 7589,
-        "snapshots": 68147,
+        "servers": 4517,
+        "tools": 71444,
+        "changes": 8345,
+        "snapshots": 71444,
         "changeBreakdown": {
-          "description_modified": 4842,
-          "schema_modified": 1308,
-          "both_modified": 1327,
-          "removed": 112
+          "description_modified": 7650,
+          "schema_modified": 303,
+          "both_modified": 166,
+          "removed": 226
         },
         "color": "#6366f1"
       }
     ],
-    "newServers": 289,
+    "newServers": 203,
     "changeBreakdown": [
       {
         "type": "description_modified",
-        "count": 7154,
+        "count": 8248,
         "color": "#06b6d4"
       },
       {
         "type": "schema_modified",
-        "count": 1921,
+        "count": 470,
         "color": "#f59e0b"
       },
       {
         "type": "both_modified",
-        "count": 1937,
+        "count": 187,
         "color": "#a78bfa"
       },
       {
         "type": "removed",
-        "count": 675,
+        "count": 784,
         "color": "#ef4444"
       }
     ],
     "toolDelta": {
-      "newTools": 4707,
-      "droppedTools": 769,
-      "removedTools": 675,
-      "unreachedTools": 94,
-      "net": 3938,
-      "prevDate": "2026-06-03",
+      "newTools": 4952,
+      "droppedTools": 1023,
+      "removedTools": 784,
+      "unreachedTools": 239,
+      "net": 3929,
+      "prevDate": "2026-06-04",
       "newSamples": [
-        {
-          "tool": "search_agents",
-          "server": "smithery::heather-macavelia/ai-agent-index",
-          "source": "smithery",
-          "description": "Search the AI Agent Index for agents matching specific criteria. Returns structured agent data. Use this to find agents by category, sub-type, pricing model, integration, or capability tag.",
-          "schema": [
-            {
-              "name": "agent_type",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "capability",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "category",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "integration",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "limit",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "pricing",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "query",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_agent",
-          "server": "smithery::heather-macavelia/ai-agent-index",
-          "source": "smithery",
-          "description": "Get full structured details for a specific AI agent by its slug identifier. Returns pricing, capabilities, integrations, agent_type, pros, limitations, and ratings.",
-          "schema": [
-            {
-              "name": "slug",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "list_categories",
-          "server": "smithery::heather-macavelia/ai-agent-index",
-          "source": "smithery",
-          "description": "List all available AI agent categories in the AI Agent Index. Returns category slugs, display names, and agent counts.",
-          "schema": []
-        },
-        {
-          "tool": "listRecipes",
-          "server": "smithery::signerlabs/shipswift",
-          "source": "smithery",
-          "description": "List production-ready SwiftUI code recipes. Each recipe is a complete, copy-paste-ready implementation — not a tutorial. Covers native iOS features (SwiftUI, Swift Charts, SpriteKit, Vision, AVFoundation, StoreKit 2, NavigationStack) and backend infrastructure (AWS CDK, Hono, Node.js, Cognito, Dynam…",
-          "schema": [
-            {
-              "name": "category",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "getRecipe",
-          "server": "smithery::signerlabs/shipswift",
-          "source": "smithery",
-          "description": "Get a recipe by ID. Returns complete, copy-paste-ready Swift source code with architecture explanation and implementation steps. Module recipes may also include backend code (Hono/Node.js + AWS CDK).",
-          "schema": [
-            {
-              "name": "id",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "searchRecipes",
-          "server": "smithery::signerlabs/shipswift",
-          "source": "smithery",
-          "description": "Search recipes by keyword across titles, descriptions, tags, and full source code. Use for any iOS, SwiftUI, or backend topic — e.g. subscription, authentication, camera, animation, chart, onboarding, paywall, infrastructure.",
-          "schema": [
-            {
-              "name": "query",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "audit_task",
-          "server": "smithery::xrpl/agent-trust",
-          "source": "smithery",
-          "description": "Verify whether completed work meets a task specification using AI.\n\nBefore calling, send 0.1 XRP to rmcSrkpZ2i2kuvtCPeTVetee9SixP4djR on XRPL Mainnet.\nEach fee_hash is single-use (anti-replay protection).\n\nReturns:\n    status (approved/rejected), verdict (PASS/FAIL), score (0-100),\n    summary, deta…",
-          "schema": [
-            {
-              "name": "fee_hash",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "require_consensus",
-              "type": "boolean",
-              "required": false
-            },
-            {
-              "name": "task",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "task_category",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "work",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "create_escrow_vault",
-          "server": "smithery::xrpl/agent-trust",
-          "source": "smithery",
-          "description": "Create an AI-gated XRPL escrow vault. Funds release automatically to the\nworker when their submission is approved by the AI referee.\n\nTypical flow after job board negotiation:\n  1. award_job() returns the worker's address and agreed price\n  2. Pay 0.1 XRP protocol fee to rmcSrkpZ2i2kuvtCPeTVetee9Six…",
-          "schema": [
-            {
-              "name": "amount_rlusd",
-              "type": "",
-              "required": false
-            },
-            {
-              "name": "amount_xrp",
-              "type": "",
-              "required": false
-            },
-            {
-              "name": "buyer_address",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "buyer_name",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "cancel_after_hrs",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "category",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "currency",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "escrow_id",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "fee_hash",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "max_submissions",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "project_label",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "task_description",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "worker_address",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "confirm_escrow_transaction",
-          "server": "smithery::xrpl/agent-trust",
-          "source": "smithery",
-          "description": "Register the on-chain EscrowCreate transaction hash with the referee.\n\nCall this after submitting the EscrowCreate transaction on XRPL.\nThe referee caches the escrow sequence number automatically so the\nworker does not need to provide it when claiming payment.\n\nReturns:\n    status: \"confirmed\", sequ…",
-          "schema": [
-            {
-              "name": "escrow_id",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "tx_hash",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "evaluate_escrow_work",
-          "server": "smithery::xrpl/agent-trust",
-          "source": "smithery",
-          "description": "Submit proof of completed work against an existing escrow vault.\n\nOn approval, payment releases automatically — no EscrowFinish needed.\nXRPL transaction hashes (64-char hex) in the work field are automatically\nverified on the ledger. Useful as proof of NFT transfers, token payments,\nor any on-chain …",
-          "schema": [
-            {
-              "name": "escrow_id",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "evidence_links",
-              "type": "",
-              "required": false
-            },
-            {
-              "name": "require_consensus",
-              "type": "boolean",
-              "required": false
-            },
-            {
-              "name": "task_category",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "work",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_escrow_info",
-          "server": "smithery::xrpl/agent-trust",
-          "source": "smithery",
-          "description": "Retrieve metadata about an existing escrow vault.\n\nNever returns the fulfillment key — that is only returned on approval.\n\nReturns:\n    task_description, buyer_name, worker_address, amount, deadline,\n    escrow_sequence, status, submission_count, attempts_remaining.",
-          "schema": [
-            {
-              "name": "escrow_id",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "list_marketplace_jobs",
-          "server": "smithery::xrpl/agent-trust",
-          "source": "smithery",
-          "description": "Browse open bounties on the AgentTrust marketplace.\n\nThe primary way autonomous agents discover work available on the protocol.\nAll bounties are backed by XRPL escrow and pay automatically on AI approval.\n\nJob statuses:\n  OPEN   — unclaimed open bounty; call claim_job() to lock it to your wallet.\n  …",
-          "schema": [
-            {
-              "name": "category",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "limit",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "min_bounty_xrp",
-              "type": "number",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_rlusd_quote",
-          "server": "smithery::xrpl/agent-trust",
-          "source": "smithery",
-          "description": "Get a live XRP to RLUSD conversion quote via the XRPL DEX.\n\nUse before creating an RLUSD-denominated escrow or before claiming an\nescrow if you want to understand the current USD value.\n\nReturns:\n    estimated_rlusd, trust_line_ok, slippage_warning, trust_line_instructions.",
-          "schema": [
-            {
-              "name": "worker_address",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "xrp_amount",
-              "type": "number",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "list_marketplace_skills",
-          "server": "smithery::xrpl/agent-trust",
-          "source": "smithery",
-          "description": "Browse agents and humans offering skills on the AgentTrust marketplace.\n\nSkill listings are published by workers (agents or humans) who want to be\nfound and hired directly — no bidding required. Each listing shows the\nposter's XRPL wallet address so a buyer can skip the job board entirely\nand go str…",
-          "schema": [
-            {
-              "name": "category",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "limit",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "max_rate",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "min_rate",
-              "type": "number",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "create_skill_listing",
-          "server": "smithery::xrpl/agent-trust",
-          "source": "smithery",
-          "description": "List a skill on the AgentTrust marketplace for 30 days.\n\nBefore calling, pay the 0.1 XRP/month listing fee to rmcSrkpZ2i2kuvtCPeTVetee9SixP4djR\non XRPL Mainnet and provide the transaction hash as fee_hash.\n\nOnce listed, your skill is visible to:\n  - Humans browsing the AgentTrust marketplace UI\n  - …",
-          "schema": [
-            {
-              "name": "category",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "description",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "fee_hash",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "poster",
-              "type": "",
-              "required": false
-            },
-            {
-              "name": "poster_name",
-              "type": "",
-              "required": false
-            },
-            {
-              "name": "rate",
-              "type": "",
-              "required": false
-            },
-            {
-              "name": "rate_xrp",
-              "type": "",
-              "required": false
-            },
-            {
-              "name": "skill_id",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "tags",
-              "type": "",
-              "required": false
-            },
-            {
-              "name": "title",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "direct_hire",
-          "server": "smithery::xrpl/agent-trust",
-          "source": "smithery",
-          "description": "Get the wallet address and hiring details for a skill listing — skipping the job board entirely.\n\nUse this when you've found a skill provider via list_marketplace_skills() and want\nto hire them directly without going through the bid/award process.\n\nReturns the worker's XRPL wallet address and ready-…",
-          "schema": [
-            {
-              "name": "skill_id",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_xrp_price",
-          "server": "smithery::xrpl/agent-trust",
-          "source": "smithery",
-          "description": "Get the current live XRP price in USD and GBP.\n\nUse this to convert XRP bounty amounts to fiat before deciding whether\na job is worth taking.\n\nReturns:\n    usd, gbp, cached (True if recently cached due to source being briefly unavailable).",
-          "schema": []
-        },
-        {
-          "tool": "post_job",
-          "server": "smithery::xrpl/agent-trust",
-          "source": "smithery",
-          "description": "Post a job to the AgentTrust job board. No fee, no funds held.\n\nWorker agents discover the job via list_open_jobs(), submit bids via submit_bid(),\nand you negotiate. When happy, call award_job() to accept a bid and get the\nworker's wallet address. Then create the bilateral XRPL escrow via create_esc…",
-          "schema": [
-            {
-              "name": "budget_xrp",
-              "type": "",
-              "required": false
-            },
-            {
-              "name": "buyer_address",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "buyer_name",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "category",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "description",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "expires_hrs",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "job_id",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "title",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "list_open_jobs",
-          "server": "smithery::xrpl/agent-trust",
-          "source": "smithery",
-          "description": "Browse jobs posted on the AgentTrust job board that are open for bidding.\n\nThese are buyer requests for work — no escrow exists yet. Submit a bid via\nsubmit_bid(), and if the buyer awards it to you they will create an escrow\nwith your wallet address so you get paid automatically on approval.\n\nWorkfl…",
-          "schema": [
-            {
-              "name": "category",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "limit",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "min_budget",
-              "type": "number",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "submit_bid",
-          "server": "smithery::xrpl/agent-trust",
-          "source": "smithery",
-          "description": "Submit a bid on an open job posting.\n\nThe buyer reviews all bids and awards the job via award_job().\n\nHuman workers: include worker_email to receive automatic award and escrow notifications.\nAI agents: poll view_job(job_id) to check bid status — no email needed.\n\nReturns:\n    status: \"submitted\", bi…",
-          "schema": [
-            {
-              "name": "job_id",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "proposal",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "proposed_xrp",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "worker_address",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "worker_email",
-              "type": "",
-              "required": false
-            },
-            {
-              "name": "worker_name",
-              "type": "string",
-              "required": false
-            }
-          ]
-        }
-      ],
-      "removedSamples": [
-        {
-          "tool": "n8n_scaffold_node",
-          "server": "smithery::automatelab/n8n-mcp",
-          "source": "smithery",
-          "description": "Scaffold a TypeScript skeleton for an n8n custom node from a plain-English description. Returns a single TypeScript file implementing INodeType with description, credentials reference, and an execute method stub.",
-          "schema": [
-            {
-              "name": "description",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "nodeName",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "n8n_generate_workflow",
-          "server": "smithery::automatelab/n8n-mcp",
-          "source": "smithery",
-          "description": "Generate a valid n8n workflow JSON from a plain-English description. Handles webhook/schedule/RSS triggers, common action nodes (Slack, Google Sheets, Discord, Gmail, Notion, HTTP), and AI Agent setups (LangChain root agent + chat model + memory + optional HTTP tool, wired with ai_languageModel / ai…",
-          "schema": [
-            {
-              "name": "description",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "name",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "n8n_lint_workflow",
-          "server": "smithery::automatelab/n8n-mcp",
-          "source": "smithery",
-          "description": "Lint an n8n workflow JSON. Returns concrete errors and warnings: missing credentials, deprecated node types (Function -> Code, spreadsheetFile -> convertToFile/extractFromFile), broken connections, missing or non-numeric typeVersion, duplicate node names or IDs, AI Agent missing ai_languageModel sub…",
-          "schema": [
-            {
-              "name": "workflow",
-              "type": "",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "n8n_explain_execution",
-          "server": "smithery::automatelab/n8n-mcp",
-          "source": "smithery",
-          "description": "Diagnose a failed or surprising n8n execution. Paste the execution JSON (from the n8n UI 'Show details' or `GET /executions/:id?includeData=true`); returns a per-node summary highlighting nodes that returned 0 items, unresolved `={{ ... }}` expressions, errors with hints, and LLM token usage. Hits t…",
-          "schema": [
-            {
-              "name": "execution",
-              "type": "",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "n8n_list_workflows",
-          "server": "smithery::automatelab/n8n-mcp",
-          "source": "smithery",
-          "description": "List workflows from a live n8n instance (requires N8N_API_URL + N8N_API_KEY env vars). Returns id, name, active, nodeCount, updatedAt, tags. Filter by active, tags, name. Use this when the user asks 'what workflows do I have?' or before n8n_get_workflow.",
-          "schema": [
-            {
-              "name": "active",
-              "type": "boolean",
-              "required": false
-            },
-            {
-              "name": "limit",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "name",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "tags",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "n8n_get_workflow",
-          "server": "smithery::automatelab/n8n-mcp",
-          "source": "smithery",
-          "description": "Fetch a single workflow JSON by id from a live n8n instance (requires N8N_API_URL + N8N_API_KEY). Returns the full nodes/connections payload — pair with n8n_lint_workflow to audit a deployed workflow.",
-          "schema": [
-            {
-              "name": "id",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "n8n_create_workflow",
-          "server": "smithery::automatelab/n8n-mcp",
-          "source": "smithery",
-          "description": "Create a workflow on a live n8n instance (requires N8N_API_URL + N8N_API_KEY). Strips read-only fields (id, active, createdAt, ...) before posting. Workflows are created inactive — call n8n_activate_workflow afterward. Pairs with n8n_generate_workflow for end-to-end 'describe -> deploy'.",
-          "schema": [
-            {
-              "name": "workflow",
-              "type": "",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "n8n_activate_workflow",
-          "server": "smithery::automatelab/n8n-mcp",
-          "source": "smithery",
-          "description": "Activate or deactivate a workflow on a live n8n instance (requires N8N_API_URL + N8N_API_KEY). Pass `active: false` to deactivate.",
-          "schema": [
-            {
-              "name": "active",
-              "type": "boolean",
-              "required": false
-            },
-            {
-              "name": "id",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "n8n_list_executions",
-          "server": "smithery::automatelab/n8n-mcp",
-          "source": "smithery",
-          "description": "List recent executions from a live n8n instance (requires N8N_API_URL + N8N_API_KEY). Filter by workflowId, status (success|error|waiting), limit. Pass `includeData: true` to get the full execution body (large) — pair with n8n_explain_execution to diagnose a specific failure.",
-          "schema": [
-            {
-              "name": "includeData",
-              "type": "boolean",
-              "required": false
-            },
-            {
-              "name": "limit",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "status",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "workflowId",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "agent_health_check",
-          "server": "glama::io.github.andysalvo/agentic-platform",
-          "source": "glama",
-          "description": "Score any agent's system prompt on governance best practices from 0 to 100. Returns a detailed diagnostic report with specific issues found, severity ratings, and actionable fixes. Checks for authority leaks, silent inference, missing audit trails, and 14 other governance anti-patterns. No API key n…",
-          "schema": [
-            {
-              "name": "system_prompt",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "buy_credits",
-          "server": "glama::io.github.andysalvo/agentic-platform",
-          "source": "glama",
-          "description": "Get a Stripe checkout link to purchase more skill file credits. Returns a URL for your human operator to complete payment. Credits are added automatically after purchase.",
-          "schema": [
-            {
-              "name": "api_key",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "tier",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "check_usage",
-          "server": "glama::io.github.andysalvo/agentic-platform",
-          "source": "glama",
-          "description": "Check your current usage stats including total calls, remaining credits, and free calls left today.",
-          "schema": [
-            {
-              "name": "api_key",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "estimate_agent_cost",
-          "server": "glama::io.github.andysalvo/agentic-platform",
-          "source": "glama",
-          "description": "Compare the cost of running an agent task across all major AI models including Claude, GPT, Gemini, Llama, and Mistral. Returns a comparison table with per-call, per-run, and per-day costs plus optimization tips. No API key needed.",
-          "schema": [
-            {
-              "name": "input_tokens",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "model",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "num_calls",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "output_tokens",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "task_description",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "evaluate_service",
-          "server": "glama::io.github.andysalvo/agentic-platform",
-          "source": "glama",
-          "description": "Evaluate any MCP service for trustworthiness before spending money on it. Connects to the target server, checks reachability, governance declarations, tool definition quality, and audit endpoints. Returns a trust score from 0 to 100 with a recommendation: PROCEED, PROCEED WITH CAUTION, HIGH RISK, or…",
-          "schema": [
-            {
-              "name": "server_url",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "task_context",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_skill",
-          "server": "glama::io.github.andysalvo/agentic-platform",
-          "source": "glama",
-          "description": "Retrieve an expert skill file that makes you measurably better at a specific task. Each skill has auditable provenance and is curated by domain experts. Requires a valid API key.",
-          "schema": [
-            {
-              "name": "api_key",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "skill_name",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "list_skills",
-          "server": "glama::io.github.andysalvo/agentic-platform",
-          "source": "glama",
-          "description": "List all available expert skill files with descriptions and pricing. Shows your usage stats if you provide an API key.",
-          "schema": [
-            {
-              "name": "api_key",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "mcp_manifest_lint",
-          "server": "glama::io.github.andysalvo/agentic-platform",
-          "source": "glama",
-          "description": "The only MCP tool definition linter that exists. Validates your MCP tool definitions for anti-patterns, missing descriptions, bad parameter schemas, naming issues, and quality problems. Returns a pass/fail report with specific fixes for each issue found. No API key needed.",
-          "schema": [
-            {
-              "name": "tools_json",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "register",
-          "server": "glama::io.github.andysalvo/agentic-platform",
-          "source": "glama",
-          "description": "Register for an API key to access expert skill files. Free tier includes 10 skill retrievals per day. No payment required.",
-          "schema": []
-        },
-        {
-          "tool": "dns_health",
-          "server": "glama::io.github.WingedGuardian/agent-tools",
-          "source": "glama",
-          "description": "Check DNS health for a domain.\n\n    Returns A/AAAA/MX/NS records, SPF/DMARC mail security status,\n    and whether the domain resolves.\n\n    Args:\n        domain: The domain name to check (e.g. \"example.com\").\n        include_txt: Whether to include all TXT records. Default false.",
-          "schema": [
-            {
-              "name": "domain",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "include_txt",
-              "type": "boolean",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "email_validate",
-          "server": "glama::io.github.WingedGuardian/agent-tools",
-          "source": "glama",
-          "description": "Validate an email address.\n\n    Checks format, MX records, disposable domain, role account,\n    and optionally probes SMTP to verify the mailbox exists.\n\n    Args:\n        email: The email address to validate.\n        check_smtp: Whether to probe the SMTP server (slower, 2-5s). Default false.",
-          "schema": [
-            {
-              "name": "check_smtp",
-              "type": "boolean",
-              "required": false
-            },
-            {
-              "name": "email",
-              "type": "string",
-              "required": true
-            }
-          ]
-        }
-      ],
-      "unreachedSamples": [
         {
           "tool": "hsk_lookup",
           "server": "smithery::kuibin-dev/hsk-mcp",
@@ -1948,10 +1108,886 @@
             }
           ]
         }
+      ],
+      "removedSamples": [
+        {
+          "tool": "agent_health_check",
+          "server": "glama::io.github.andysalvo/agentic-platform",
+          "source": "glama",
+          "description": "Score any agent's system prompt on governance best practices from 0 to 100. Returns a detailed diagnostic report with specific issues found, severity ratings, and actionable fixes. Checks for authority leaks, silent inference, missing audit trails, and 14 other governance anti-patterns. No API key n…",
+          "schema": [
+            {
+              "name": "system_prompt",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "buy_credits",
+          "server": "glama::io.github.andysalvo/agentic-platform",
+          "source": "glama",
+          "description": "Get a Stripe checkout link to purchase more skill file credits. Returns a URL for your human operator to complete payment. Credits are added automatically after purchase.",
+          "schema": [
+            {
+              "name": "api_key",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "tier",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "check_usage",
+          "server": "glama::io.github.andysalvo/agentic-platform",
+          "source": "glama",
+          "description": "Check your current usage stats including total calls, remaining credits, and free calls left today.",
+          "schema": [
+            {
+              "name": "api_key",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "estimate_agent_cost",
+          "server": "glama::io.github.andysalvo/agentic-platform",
+          "source": "glama",
+          "description": "Compare the cost of running an agent task across all major AI models including Claude, GPT, Gemini, Llama, and Mistral. Returns a comparison table with per-call, per-run, and per-day costs plus optimization tips. No API key needed.",
+          "schema": [
+            {
+              "name": "input_tokens",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "model",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "num_calls",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "output_tokens",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "task_description",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "evaluate_service",
+          "server": "glama::io.github.andysalvo/agentic-platform",
+          "source": "glama",
+          "description": "Evaluate any MCP service for trustworthiness before spending money on it. Connects to the target server, checks reachability, governance declarations, tool definition quality, and audit endpoints. Returns a trust score from 0 to 100 with a recommendation: PROCEED, PROCEED WITH CAUTION, HIGH RISK, or…",
+          "schema": [
+            {
+              "name": "server_url",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "task_context",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "get_skill",
+          "server": "glama::io.github.andysalvo/agentic-platform",
+          "source": "glama",
+          "description": "Retrieve an expert skill file that makes you measurably better at a specific task. Each skill has auditable provenance and is curated by domain experts. Requires a valid API key.",
+          "schema": [
+            {
+              "name": "api_key",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "skill_name",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "list_skills",
+          "server": "glama::io.github.andysalvo/agentic-platform",
+          "source": "glama",
+          "description": "List all available expert skill files with descriptions and pricing. Shows your usage stats if you provide an API key.",
+          "schema": [
+            {
+              "name": "api_key",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "mcp_manifest_lint",
+          "server": "glama::io.github.andysalvo/agentic-platform",
+          "source": "glama",
+          "description": "The only MCP tool definition linter that exists. Validates your MCP tool definitions for anti-patterns, missing descriptions, bad parameter schemas, naming issues, and quality problems. Returns a pass/fail report with specific fixes for each issue found. No API key needed.",
+          "schema": [
+            {
+              "name": "tools_json",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "register",
+          "server": "glama::io.github.andysalvo/agentic-platform",
+          "source": "glama",
+          "description": "Register for an API key to access expert skill files. Free tier includes 10 skill retrievals per day. No payment required.",
+          "schema": []
+        },
+        {
+          "tool": "dns_health",
+          "server": "glama::io.github.WingedGuardian/agent-tools",
+          "source": "glama",
+          "description": "Check DNS health for a domain.\n\n    Returns A/AAAA/MX/NS records, SPF/DMARC mail security status,\n    and whether the domain resolves.\n\n    Args:\n        domain: The domain name to check (e.g. \"example.com\").\n        include_txt: Whether to include all TXT records. Default false.",
+          "schema": [
+            {
+              "name": "domain",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "include_txt",
+              "type": "boolean",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "email_validate",
+          "server": "glama::io.github.WingedGuardian/agent-tools",
+          "source": "glama",
+          "description": "Validate an email address.\n\n    Checks format, MX records, disposable domain, role account,\n    and optionally probes SMTP to verify the mailbox exists.\n\n    Args:\n        email: The email address to validate.\n        check_smtp: Whether to probe the SMTP server (slower, 2-5s). Default false.",
+          "schema": [
+            {
+              "name": "check_smtp",
+              "type": "boolean",
+              "required": false
+            },
+            {
+              "name": "email",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "extract_text",
+          "server": "glama::io.github.WingedGuardian/agent-tools",
+          "source": "glama",
+          "description": "Extract clean readable text from a webpage.\n\n    Strips HTML, navigation, ads, scripts, and boilerplate.\n    Returns clean text, title, description, word count, and language.\n\n    Args:\n        url: The URL to extract text from.\n        max_length: Max characters to return (100-50000). Default 5000.",
+          "schema": [
+            {
+              "name": "max_length",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "url",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "headers_analyze",
+          "server": "glama::io.github.WingedGuardian/agent-tools",
+          "source": "glama",
+          "description": "Analyze HTTP response headers for a URL.\n\n    Returns all response headers plus a security header audit\n    with a 0-100 score checking HSTS, CSP, X-Frame-Options, etc.\n\n    Args:\n        url: The URL to analyze (e.g. \"https://example.com\").",
+          "schema": [
+            {
+              "name": "url",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "ip_lookup",
+          "server": "glama::io.github.WingedGuardian/agent-tools",
+          "source": "glama",
+          "description": "Look up an IP address.\n\n    Returns geolocation, ISP, proxy/hosting detection, and reverse DNS.\n\n    Args:\n        ip: IPv4 or IPv6 address to look up.\n        geo: Include geolocation data (country, city, lat/lon). Default true.",
+          "schema": [
+            {
+              "name": "geo",
+              "type": "boolean",
+              "required": false
+            },
+            {
+              "name": "ip",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "qr_generate",
+          "server": "glama::io.github.WingedGuardian/agent-tools",
+          "source": "glama",
+          "description": "Generate a QR code image from text or URL.\n\n    Returns base64-encoded PNG image data.\n\n    Args:\n        data: The text or URL to encode in the QR code.\n        size: Image size in pixels (64-2048). Default 256.",
+          "schema": [
+            {
+              "name": "data",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "size",
+              "type": "integer",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "tech_detect",
+          "server": "glama::io.github.WingedGuardian/agent-tools",
+          "source": "glama",
+          "description": "Detect the technology stack of a website.\n\n    Analyzes HTTP headers, HTML, and script sources to identify\n    frameworks (React, Vue, Next.js), CMS (WordPress, Shopify),\n    CDN (Cloudflare, Fastly), analytics, and more.\n\n    Args:\n        url: The URL to analyze (e.g. \"https://example.com\").",
+          "schema": [
+            {
+              "name": "url",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "url_health",
+          "server": "glama::io.github.WingedGuardian/agent-tools",
+          "source": "glama",
+          "description": "Check if a URL is alive and healthy.\n\n    Returns status code, redirect chain, SSL certificate info,\n    response time, and server details.\n\n    Args:\n        url: The URL to check (e.g. \"https://example.com\").\n        follow_redirects: Whether to follow redirects. Default true.",
+          "schema": [
+            {
+              "name": "follow_redirects",
+              "type": "boolean",
+              "required": false
+            },
+            {
+              "name": "url",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "whois_lookup",
+          "server": "glama::io.github.WingedGuardian/agent-tools",
+          "source": "glama",
+          "description": "WHOIS lookup for a domain.\n\n    Returns registrar, creation/expiration dates, nameservers,\n    domain status codes, and registrant info when available.\n\n    Args:\n        domain: The domain name to look up (e.g. \"example.com\").",
+          "schema": [
+            {
+              "name": "domain",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "ado_analyze_pr_impact",
+          "server": "glama::io.github.alimbenhelal-pro/alm-xpp-mcp",
+          "source": "glama",
+          "description": "[~] PRIORITY TRIGGER: Use this tool when the user says 'analyse PR', 'review PR', 'check PR', 'PR #', 'impact du PR', 'analyse la PR', 'what changed in PR', 'D365 impact of PR', 'code review PR', 'violations in PR', 'PR review'. NEVER call search_d365_code when 'PR' or 'Pull Request' + a number is m…",
+          "schema": [
+            {
+              "name": "includeWarnings",
+              "type": "boolean",
+              "required": false
+            },
+            {
+              "name": "maxFilesDeep",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "prId",
+              "type": "integer",
+              "required": true
+            },
+            {
+              "name": "project",
+              "type": [
+                "string",
+                "null"
+              ],
+              "required": false
+            },
+            {
+              "name": "repositoryId",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "ado_analyze_workitem",
+          "server": "glama::io.github.alimbenhelal-pro/alm-xpp-mcp",
+          "source": "glama",
+          "description": "AZURE DEVOPS ONLY -- Fetch a Work Item and assemble ALL technical context needed for D365 F&O expert analysis. [~] PRIORITY TRIGGER: 'analyse le workitem', 'analyse la tâche', 'analyse le FDD/RDD/CR/IDD', 'read the work item', 'check the bug', 'look at ticket', 'review task', '#1234', 'WI#', 'WI ', …",
+          "schema": [
+            {
+              "name": "focusObjects",
+              "type": [
+                "string",
+                "null"
+              ],
+              "required": false
+            },
+            {
+              "name": "includeImages",
+              "type": "boolean",
+              "required": false
+            },
+            {
+              "name": "maxComments",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "project",
+              "type": [
+                "string",
+                "null"
+              ],
+              "required": false
+            },
+            {
+              "name": "sourceBranch",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "workItemId",
+              "type": "integer",
+              "required": true
+            }
+          ]
+        }
+      ],
+      "unreachedSamples": [
+        {
+          "tool": "search_docs",
+          "server": "smithery::web3auth/integrate",
+          "source": "smithery",
+          "description": "Search MetaMask Embedded Wallets (Web3Auth) documentation and examples. Use for SDK discovery, feature lookup, and finding relevant examples. Returns doc page links with snippets and matching example projects.",
+          "schema": [
+            {
+              "name": "category",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "chain",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "platform",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "query",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "get_doc",
+          "server": "smithery::web3auth/integrate",
+          "source": "smithery",
+          "description": "Fetch the full content of a MetaMask Embedded Wallets documentation page. Use after search_docs to read the actual doc. Tries Algolia, then llms.txt, then GitHub raw MDX as fallbacks.",
+          "schema": [
+            {
+              "name": "url",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "get_example",
+          "server": "smithery::web3auth/integrate",
+          "source": "smithery",
+          "description": "Fetch the complete source code of a Web3Auth integration example from GitHub. Returns all source files needed to understand how the integration works. Examples are the PRIMARY reference for integration patterns — always prefer example code over raw SDK source.",
+          "schema": [
+            {
+              "name": "auth_method",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "category",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "chain",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "name",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "platform",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "get_sdk_reference",
+          "server": "smithery::web3auth/integrate",
+          "source": "smithery",
+          "description": "Fetch SDK source code (type definitions, interfaces, hooks) from the open-source Web3Auth SDK repos. Use for REFERENCE and DEBUGGING only — to verify exact type shapes, constructor signatures, available hooks, and error types. Do NOT use this to discover features; many SDK options are internal or le…",
+          "schema": [
+            {
+              "name": "focus",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "module",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "platform",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "search_community",
+          "server": "smithery::web3auth/integrate",
+          "source": "smithery",
+          "description": "Search or fetch posts from the MetaMask Embedded Wallets community forum (builder.metamask.io). Use for troubleshooting real user issues, finding workarounds, and checking if an issue is known. Provide a query to search or a topic_id to read the full discussion.",
+          "schema": [
+            {
+              "name": "query",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "topic_id",
+              "type": "integer",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "search_agents",
+          "server": "smithery::heather-macavelia/ai-agent-index",
+          "source": "smithery",
+          "description": "Search the AI Agent Index for agents matching specific criteria. Returns structured agent data. Use this to find agents by category, sub-type, pricing model, integration, or capability tag.",
+          "schema": [
+            {
+              "name": "agent_type",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "capability",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "category",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "integration",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "limit",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "pricing",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "query",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "get_agent",
+          "server": "smithery::heather-macavelia/ai-agent-index",
+          "source": "smithery",
+          "description": "Get full structured details for a specific AI agent by its slug identifier. Returns pricing, capabilities, integrations, agent_type, pros, limitations, and ratings.",
+          "schema": [
+            {
+              "name": "slug",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "list_categories",
+          "server": "smithery::heather-macavelia/ai-agent-index",
+          "source": "smithery",
+          "description": "List all available AI agent categories in the AI Agent Index. Returns category slugs, display names, and agent counts.",
+          "schema": []
+        },
+        {
+          "tool": "search_songs",
+          "server": "smithery::fouldomain/phish-analytics",
+          "source": "smithery",
+          "description": "Search for Phish songs by name. Returns song info, play counts, and audio stats.",
+          "schema": [
+            {
+              "name": "query",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "best_versions",
+          "server": "smithery::fouldomain/phish-analytics",
+          "source": "smithery",
+          "description": "Get the top-rated versions of a specific Phish song. Filter by year, year range, era, venue, or state.",
+          "schema": [
+            {
+              "name": "end_year",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "era",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "limit",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "song",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "start_year",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "state",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "venue",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "year",
+              "type": "number",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "get_show",
+          "server": "smithery::fouldomain/phish-analytics",
+          "source": "smithery",
+          "description": "Get details about a specific Phish show by date (YYYY-MM-DD format).",
+          "schema": [
+            {
+              "name": "date",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "top_shows",
+          "server": "smithery::fouldomain/phish-analytics",
+          "source": "smithery",
+          "description": "Get the highest-rated Phish shows. Filter by year, year range, era, tour, venue, or state.",
+          "schema": [
+            {
+              "name": "end_year",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "era",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "limit",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "start_year",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "state",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "tour",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "venue",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "year",
+              "type": "number",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "song_stats",
+          "server": "smithery::fouldomain/phish-analytics",
+          "source": "smithery",
+          "description": "Get detailed statistics about a Phish song: total plays, debut, gap, average duration, and audio analysis.",
+          "schema": [
+            {
+              "name": "song",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "find_jams",
+          "server": "smithery::fouldomain/phish-analytics",
+          "source": "smithery",
+          "description": "Find Phish jams matching specific criteria. Filter by song, year/era, venue, state, tags (Dark, Funk, Bliss, Type II, etc.), BPM, duration, groove. Sort by score, duration, or groove.",
+          "schema": [
+            {
+              "name": "end_year",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "era",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "limit",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "max_bpm",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "min_bpm",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "min_duration_minutes",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "min_groove",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "song",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "sort",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "start_year",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "state",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "tags",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "venue",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "year",
+              "type": "number",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "bustouts",
+          "server": "smithery::fouldomain/phish-analytics",
+          "source": "smithery",
+          "description": "Find songs with long gaps between performances (bustouts). Without a year, shows current bustout candidates. With a year, shows bustouts that happened that year.",
+          "schema": [
+            {
+              "name": "limit",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "min_gap",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "year",
+              "type": "number",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "shows_by_venue",
+          "server": "smithery::fouldomain/phish-analytics",
+          "source": "smithery",
+          "description": "Find Phish shows at a specific venue, city, or state.",
+          "schema": [
+            {
+              "name": "city",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "limit",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "state",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "venue",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "year",
+              "type": "number",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "listRecipes",
+          "server": "smithery::signerlabs/shipswift",
+          "source": "smithery",
+          "description": "List production-ready SwiftUI code recipes. Each recipe is a complete, copy-paste-ready implementation — not a tutorial. Covers native iOS features (SwiftUI, Swift Charts, SpriteKit, Vision, AVFoundation, StoreKit 2, NavigationStack) and backend infrastructure (AWS CDK, Hono, Node.js, Cognito, Dynam…",
+          "schema": [
+            {
+              "name": "category",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "getRecipe",
+          "server": "smithery::signerlabs/shipswift",
+          "source": "smithery",
+          "description": "Get a recipe by ID. Returns complete, copy-paste-ready Swift source code with architecture explanation and implementation steps. Module recipes may also include backend code (Hono/Node.js + AWS CDK).",
+          "schema": [
+            {
+              "name": "id",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "searchRecipes",
+          "server": "smithery::signerlabs/shipswift",
+          "source": "smithery",
+          "description": "Search recipes by keyword across titles, descriptions, tags, and full source code. Use for any iOS, SwiftUI, or backend topic — e.g. subscription, authentication, camera, animation, chart, onboarding, paywall, infrastructure.",
+          "schema": [
+            {
+              "name": "query",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "lookup_company_cz",
+          "server": "smithery::janmacher02-xl8y/ares-mcp",
+          "source": "smithery",
+          "description": "Look up a Czech company in the ARES registry by IČO. Returns full profile: name, address, VAT number, legal form, NACE codes, registration status across all registries.",
+          "schema": [
+            {
+              "name": "ico",
+              "type": "string",
+              "required": false
+            }
+          ]
+        }
       ]
     },
-    "stealth": 41,
-    "crossRegistry": 2069,
-    "crossSource": 1577
+    "stealth": 49,
+    "crossRegistry": 2120,
+    "crossSource": 5050
   }
 }
