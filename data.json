@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T15:47:35+00:00",
+  "generatedAt": "2026-06-04T03:25:37+00:00",
   "lastCrawl": "2026-06-04",
   "crawl": {
     "servers": 9830,
@@ -70,26 +70,68 @@
       "color": "#374151"
     }
   ],
-  "transport": [
+  "protocol": [
     {
-      "name": "streamable-http",
-      "value": 4093,
+      "name": "2024-11-05",
+      "value": 2649,
       "color": "#6366f1"
     },
     {
-      "name": "Streamable HTTP",
-      "value": 3889,
+      "name": "2025-03-26",
+      "value": 1546,
       "color": "#06b6d4"
     },
     {
-      "name": "http",
-      "value": 1427,
+      "name": "2025-06-18",
+      "value": 208,
       "color": "#8b5cf6"
     },
     {
-      "name": "sse",
-      "value": 421,
+      "name": "2025-11-05",
+      "value": 5,
       "color": "#a78bfa"
+    },
+    {
+      "name": "2025-11-25",
+      "value": 73,
+      "color": "#f59e0b"
+    },
+    {
+      "name": "2026-07-28",
+      "value": 3,
+      "color": "#22c55e"
+    },
+    {
+      "name": "미보고",
+      "value": 5346,
+      "color": "#374151"
+    }
+  ],
+  "toolDist": [
+    {
+      "name": "0",
+      "servers": 3888,
+      "color": "#6b7280"
+    },
+    {
+      "name": "1-5",
+      "servers": 1996,
+      "color": "#06b6d4"
+    },
+    {
+      "name": "6-10",
+      "servers": 1198,
+      "color": "#6366f1"
+    },
+    {
+      "name": "11-20",
+      "servers": 833,
+      "color": "#8b5cf6"
+    },
+    {
+      "name": "20+",
+      "servers": 1915,
+      "color": "#22c55e"
     }
   ],
   "topByUse": [
