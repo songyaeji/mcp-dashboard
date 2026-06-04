@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T03:51:56+00:00",
+  "generatedAt": "2026-06-04T04:05:56+00:00",
   "lastCrawl": "2026-06-04",
   "crawl": {
     "servers": 9830,
@@ -542,6 +542,56 @@
       "smithery_new": 41,
       "smithery_tools": 26375,
       "smithery_changes": 82
+    }
+  ],
+  "cumulativeCollectors": [
+    {
+      "name": "official",
+      "servers": 4514,
+      "tools": 35606,
+      "changeBreakdown": {
+        "description_modified": 0,
+        "schema_modified": 0,
+        "both_modified": 0,
+        "removed": 0
+      },
+      "color": "#6366f1"
+    },
+    {
+      "name": "glama",
+      "servers": 3889,
+      "tools": 35838,
+      "changeBreakdown": {
+        "description_modified": 2903,
+        "schema_modified": 676,
+        "both_modified": 663,
+        "removed": 521
+      },
+      "color": "#8b5cf6"
+    },
+    {
+      "name": "smithery",
+      "servers": 1427,
+      "tools": 26796,
+      "changeBreakdown": {
+        "description_modified": 35,
+        "schema_modified": 5,
+        "both_modified": 3,
+        "removed": 134
+      },
+      "color": "#06b6d4"
+    },
+    {
+      "name": "direct_mcp",
+      "servers": 4362,
+      "tools": 68759,
+      "changeBreakdown": {
+        "description_modified": 7155,
+        "schema_modified": 1560,
+        "both_modified": 1451,
+        "removed": 676
+      },
+      "color": "#10b981"
     }
   ],
   "changeTimeline": [
