@@ -1,45 +1,45 @@
 {
-  "generatedAt": "2026-06-05T15:55:40+00:00",
-  "lastCrawl": "2026-06-06",
+  "generatedAt": "2026-06-06T15:50:37+00:00",
+  "lastCrawl": "2026-06-07",
   "crawl": {
-    "servers": 10103,
-    "tools": 104088,
-    "snapshots": 756972,
-    "stealthTools": 428,
-    "crossRegistryAnomalies": 12070,
-    "crossSourceAnomalies": 11623
+    "servers": 10163,
+    "tools": 105291,
+    "snapshots": 892251,
+    "stealthTools": 573,
+    "crossRegistryAnomalies": 14186,
+    "crossSourceAnomalies": 12872
   },
   "registries": [
     {
       "name": "Official",
-      "servers": 4617,
+      "servers": 4645,
       "color": "#6366f1"
     },
     {
       "name": "Glama",
-      "servers": 3983,
+      "servers": 3993,
       "color": "#8b5cf6"
     },
     {
       "name": "Smithery",
-      "servers": 1503,
+      "servers": 1525,
       "color": "#06b6d4"
     }
   ],
   "health": [
     {
       "name": "Healthy",
-      "value": 2119,
+      "value": 1750,
       "color": "#22c55e"
     },
     {
       "name": "Unhealthy",
-      "value": 1840,
+      "value": 2211,
       "color": "#ef4444"
     },
     {
       "name": "Unknown",
-      "value": 6144,
+      "value": 6202,
       "color": "#6b7280"
     }
   ],
@@ -66,14 +66,14 @@
     },
     {
       "grade": "미평가",
-      "count": 7705,
+      "count": 7765,
       "color": "#374151"
     }
   ],
   "protocol": [
     {
       "name": "2024-11-05",
-      "value": 2711,
+      "value": 2733,
       "color": "#6366f1"
     },
     {
@@ -83,7 +83,7 @@
     },
     {
       "name": "2025-06-18",
-      "value": 218,
+      "value": 219,
       "color": "#8b5cf6"
     },
     {
@@ -103,86 +103,86 @@
     },
     {
       "name": "미보고",
-      "value": 5473,
+      "value": 5510,
       "color": "#374151"
     }
   ],
   "toolDist": [
     {
       "name": "0",
-      "servers": 3941,
+      "servers": 3958,
       "color": "#6b7280"
     },
     {
       "name": "1-5",
-      "servers": 2038,
+      "servers": 2049,
       "color": "#06b6d4"
     },
     {
       "name": "6-10",
-      "servers": 1235,
+      "servers": 1255,
       "color": "#6366f1"
     },
     {
       "name": "11-20",
-      "servers": 811,
+      "servers": 814,
       "color": "#8b5cf6"
     },
     {
       "name": "20+",
-      "servers": 2078,
+      "servers": 2087,
       "color": "#22c55e"
     }
   ],
   "topByUse": [
     {
       "name": "Math-MCP",
-      "value": 1084258,
+      "value": 1054324,
       "registry": "smithery"
     },
     {
       "name": "Google Sheets",
-      "value": 47660,
+      "value": 46985,
       "registry": "smithery"
     },
     {
       "name": "Gmail",
-      "value": 34568,
+      "value": 34479,
       "registry": "smithery"
     },
     {
       "name": "Exa Search",
-      "value": 21311,
+      "value": 21903,
       "registry": "smithery"
     },
     {
       "name": "Mesh MCP",
-      "value": 19225,
+      "value": 19257,
       "registry": "smithery"
     },
     {
       "name": "AI Research Assistant",
-      "value": 19153,
+      "value": 19146,
       "registry": "smithery"
     },
     {
       "name": "AKShare One MCP Server",
-      "value": 13666,
-      "registry": "smithery"
-    },
-    {
-      "name": "Brave Search",
-      "value": 12100,
+      "value": 13697,
       "registry": "smithery"
     },
     {
       "name": "Google Tasks",
-      "value": 11684,
+      "value": 12023,
+      "registry": "smithery"
+    },
+    {
+      "name": "Brave Search",
+      "value": 11838,
       "registry": "smithery"
     },
     {
       "name": "MLB Stats Server",
-      "value": 9518,
+      "value": 9657,
       "registry": "smithery"
     }
   ],
@@ -218,6 +218,11 @@
       "registry": "smithery"
     },
     {
+      "name": "Crawlora",
+      "value": 319,
+      "registry": "smithery"
+    },
+    {
       "name": "Tenzro Ledger MCP",
       "value": 313,
       "registry": "official"
@@ -231,22 +236,22 @@
       "name": "official::io.github.getgapup/mcp-knowledge",
       "value": 271,
       "registry": "official"
-    },
-    {
-      "name": " Gapup MCP — 270+ Agent-payable AI Tools",
-      "value": 271,
-      "registry": "smithery"
     }
   ],
   "stealthByServer": [
     {
       "name": "glama::io.github.ABTdomain/domainkits-mcp",
-      "value": 228,
+      "value": 266,
       "registry": "glama"
     },
     {
       "name": "glama::io.github.DigbyO/colour-memory",
       "value": 70,
+      "registry": "glama"
+    },
+    {
+      "name": "glama::io.github.jackculpan/awardtravelfinder",
+      "value": 45,
       "registry": "glama"
     },
     {
@@ -256,7 +261,12 @@
     },
     {
       "name": "glama::dev.cz-agents/ares",
-      "value": 18,
+      "value": 19,
+      "registry": "glama"
+    },
+    {
+      "name": "glama::io.github.trycourier/courier",
+      "value": 15,
       "registry": "glama"
     },
     {
@@ -270,23 +280,13 @@
       "registry": "glama"
     },
     {
-      "name": "glama::ai.tunnelmind/data",
-      "value": 7,
+      "name": "glama::io.github.xyzzylabs/tc39-mcp",
+      "value": 11,
       "registry": "glama"
     },
     {
-      "name": "glama::io.github.stevekwon211/space0",
-      "value": 5,
-      "registry": "glama"
-    },
-    {
-      "name": "glama::io.github.cyanheads/open-meteo-mcp-server",
-      "value": 4,
-      "registry": "glama"
-    },
-    {
-      "name": "glama::io.github.cyanheads/courtlistener-mcp-server",
-      "value": 4,
+      "name": "glama::io.github.piiiico/agentlair",
+      "value": 10,
       "registry": "glama"
     }
   ],
@@ -508,6 +508,20 @@
       "crossRegistry": 2125,
       "crossSource": 1088,
       "tdqsAvg": 0
+    },
+    {
+      "date": "2026-06-07",
+      "serversCumulative": 10163,
+      "newServers": 60,
+      "snapshots": 135279,
+      "snapshotsCumulative": 892251,
+      "tools": 102279,
+      "toolsCumulative": 105291,
+      "changes": 2982,
+      "stealth": 145,
+      "crossRegistry": 2116,
+      "crossSource": 1249,
+      "tdqsAvg": 0
     }
   ],
   "registryTrend": [
@@ -600,13 +614,28 @@
       "smithery_new": 11,
       "smithery_tools": 26688,
       "smithery_changes": 44
+    },
+    {
+      "date": "2026-06-07",
+      "official_servers": 4645,
+      "official_new": 28,
+      "official_tools": 37573,
+      "official_changes": 834,
+      "glama_servers": 3993,
+      "glama_new": 10,
+      "glama_tools": 37661,
+      "glama_changes": 2125,
+      "smithery_servers": 1525,
+      "smithery_new": 22,
+      "smithery_tools": 27045,
+      "smithery_changes": 23
     }
   ],
   "cumulativeCollectors": [
     {
       "name": "official",
-      "servers": 4617,
-      "tools": 38071,
+      "servers": 4645,
+      "tools": 38430,
       "changeBreakdown": {
         "description_modified": 0,
         "schema_modified": 0,
@@ -617,37 +646,37 @@
     },
     {
       "name": "glama",
-      "servers": 3983,
-      "tools": 38221,
+      "servers": 3993,
+      "tools": 38497,
       "changeBreakdown": {
-        "description_modified": 7525,
-        "schema_modified": 1003,
-        "both_modified": 762,
-        "removed": 1807
+        "description_modified": 8073,
+        "schema_modified": 1024,
+        "both_modified": 770,
+        "removed": 2503
       },
       "color": "#8b5cf6"
     },
     {
       "name": "smithery",
-      "servers": 1503,
-      "tools": 27796,
+      "servers": 1525,
+      "tools": 28364,
       "changeBreakdown": {
-        "description_modified": 59,
-        "schema_modified": 7,
-        "both_modified": 33,
-        "removed": 145
+        "description_modified": 64,
+        "schema_modified": 13,
+        "both_modified": 35,
+        "removed": 155
       },
       "color": "#06b6d4"
     },
     {
       "name": "direct_mcp",
-      "servers": 4508,
-      "tools": 73644,
+      "servers": 4529,
+      "tools": 74277,
       "changeBreakdown": {
-        "description_modified": 16523,
-        "schema_modified": 2055,
-        "both_modified": 1696,
-        "removed": 1140
+        "description_modified": 17936,
+        "schema_modified": 2113,
+        "both_modified": 1773,
+        "removed": 1278
       },
       "color": "#10b981"
     }
@@ -687,15 +716,22 @@
       "schema_modified": 354,
       "both_modified": 187,
       "removed": 977
+    },
+    {
+      "date": "2026-06-07",
+      "description_modified": 1966,
+      "schema_modified": 85,
+      "both_modified": 87,
+      "removed": 844
     }
   ],
   "latestCrawl": {
-    "date": "2026-06-06",
+    "date": "2026-06-07",
     "collectors": [
       {
         "name": "official",
         "status": "completed",
-        "servers": 4609,
+        "servers": 4635,
         "tools": 0,
         "changes": 0,
         "snapshots": 0,
@@ -710,677 +746,555 @@
       {
         "name": "smithery",
         "status": "completed",
-        "servers": 1413,
-        "tools": 26691,
-        "changes": 44,
-        "snapshots": 26691,
+        "servers": 1423,
+        "tools": 27048,
+        "changes": 23,
+        "snapshots": 27048,
         "changeBreakdown": {
-          "description_modified": 6,
-          "schema_modified": 0,
-          "both_modified": 27,
-          "removed": 11
+          "description_modified": 5,
+          "schema_modified": 6,
+          "both_modified": 2,
+          "removed": 10
         },
         "color": "#06b6d4"
       },
       {
         "name": "glama",
         "status": "completed",
-        "servers": 4031,
-        "tools": 35674,
-        "changes": 5048,
-        "snapshots": 35674,
+        "servers": 4042,
+        "tools": 35701,
+        "changes": 1308,
+        "snapshots": 35701,
         "changeBreakdown": {
-          "description_modified": 4042,
-          "schema_modified": 162,
-          "both_modified": 81,
-          "removed": 728
+          "description_modified": 548,
+          "schema_modified": 21,
+          "both_modified": 8,
+          "removed": 696
         },
         "color": "#8b5cf6"
       },
       {
         "name": "direct_mcp",
         "status": "completed",
-        "servers": 4539,
-        "tools": 72288,
-        "changes": 2227,
-        "snapshots": 72288,
+        "servers": 4528,
+        "tools": 72851,
+        "changes": 1686,
+        "snapshots": 72851,
         "changeBreakdown": {
-          "description_modified": 1718,
-          "schema_modified": 192,
-          "both_modified": 79,
-          "removed": 238
+          "description_modified": 1413,
+          "schema_modified": 58,
+          "both_modified": 77,
+          "removed": 138
         },
         "color": "#6366f1"
       }
     ],
-    "newServers": 70,
+    "newServers": 60,
     "changeBreakdown": [
       {
         "type": "description_modified",
-        "count": 5766,
+        "count": 1966,
         "color": "#06b6d4"
       },
       {
         "type": "schema_modified",
-        "count": 354,
+        "count": 85,
         "color": "#f59e0b"
       },
       {
         "type": "both_modified",
-        "count": 187,
+        "count": 87,
         "color": "#a78bfa"
       },
       {
         "type": "removed",
-        "count": 977,
+        "count": 844,
         "color": "#ef4444"
       }
     ],
     "toolDelta": {
-      "newTools": 1628,
-      "droppedTools": 1093,
-      "removedTools": 977,
-      "unreachedTools": 116,
-      "net": 535,
-      "prevDate": "2026-06-05",
+      "newTools": 1454,
+      "droppedTools": 483,
+      "removedTools": 844,
+      "unreachedTools": 0,
+      "net": 971,
+      "prevDate": "2026-06-06",
       "newSamples": [
         {
-          "tool": "access_token",
-          "server": "smithery::buildkite",
+          "tool": "search_songs",
+          "server": "smithery::fouldomain/phish-analytics",
           "source": "smithery",
-          "description": "Get information about the current API access token including its scopes and UUID",
-          "schema": []
-        },
-        {
-          "tool": "create_build",
-          "server": "smithery::buildkite",
-          "source": "smithery",
-          "description": "Trigger a new build on a Buildkite pipeline for a specific commit and branch, with optional environment variables, metadata, and author information",
+          "description": "Search for Phish songs by name. Returns song info, play counts, and audio stats.",
           "schema": [
             {
-              "name": "branch",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "commit",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "environment",
-              "type": [
-                "null",
-                "array"
-              ],
-              "required": false
-            },
-            {
-              "name": "ignore_branch_filters",
-              "type": "boolean",
-              "required": false
-            },
-            {
-              "name": "message",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "metadata",
-              "type": [
-                "null",
-                "array"
-              ],
-              "required": false
-            },
-            {
-              "name": "org_slug",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "pipeline_slug",
+              "name": "query",
               "type": "string",
               "required": false
             }
           ]
         },
         {
-          "tool": "create_cluster",
-          "server": "smithery::buildkite",
+          "tool": "best_versions",
+          "server": "smithery::fouldomain/phish-analytics",
           "source": "smithery",
-          "description": "Create a new cluster in an organization",
+          "description": "Get the top-rated versions of a specific Phish song. Filter by year, year range, era, venue, or state.",
           "schema": [
             {
-              "name": "color",
+              "name": "end_year",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "era",
               "type": "string",
               "required": false
             },
             {
-              "name": "description",
+              "name": "limit",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "song",
               "type": "string",
               "required": false
             },
             {
-              "name": "emoji",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "name",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "org_slug",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "create_cluster_queue",
-          "server": "smithery::buildkite",
-          "source": "smithery",
-          "description": "Create a new queue in a cluster",
-          "schema": [
-            {
-              "name": "cluster_id",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "description",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "key",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "org_slug",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "create_pipeline",
-          "server": "smithery::buildkite",
-          "source": "smithery",
-          "description": "Set up a new CI/CD pipeline in Buildkite with YAML configuration, repository connection, and cluster assignment",
-          "schema": [
-            {
-              "name": "cancel_running_branch_builds",
-              "type": "boolean",
-              "required": false
-            },
-            {
-              "name": "cluster_id",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "configuration",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "create_webhook",
-              "type": "boolean",
-              "required": false
-            },
-            {
-              "name": "default_branch",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "description",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "name",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "org_slug",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "repository_url",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "skip_queued_branch_builds",
-              "type": "boolean",
-              "required": false
-            },
-            {
-              "name": "tags",
-              "type": [
-                "null",
-                "array"
-              ],
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "current_user",
-          "server": "smithery::buildkite",
-          "source": "smithery",
-          "description": "Get details about the user account that owns the API token, including name, email, avatar, and account creation date",
-          "schema": []
-        },
-        {
-          "tool": "get_artifact",
-          "server": "smithery::buildkite",
-          "source": "smithery",
-          "description": "Get detailed information about a specific artifact including its metadata, file size, SHA-1 hash, and download URL",
-          "schema": [
-            {
-              "name": "url",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_build",
-          "server": "smithery::buildkite",
-          "source": "smithery",
-          "description": "Get build information including job IDs, names, and states. Use job_state to filter (e.g. 'failed,broken'). Returns enough detail to identify which jobs to investigate with log and artifact tools",
-          "schema": [
-            {
-              "name": "build_number",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "detail_level",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "include_agent",
-              "type": "boolean",
-              "required": false
-            },
-            {
-              "name": "job_state",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "org_slug",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "pipeline_slug",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_build_test_engine_runs",
-          "server": "smithery::buildkite",
-          "source": "smithery",
-          "description": "Get test engine runs data for a specific build in Buildkite. This can be used to look up Test Runs.",
-          "schema": [
-            {
-              "name": "build_number",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "org_slug",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "pipeline_slug",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_cluster",
-          "server": "smithery::buildkite",
-          "source": "smithery",
-          "description": "Get detailed information about a specific cluster including its name, description, default queue, and configuration",
-          "schema": [
-            {
-              "name": "cluster_id",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "org_slug",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_cluster_queue",
-          "server": "smithery::buildkite",
-          "source": "smithery",
-          "description": "Get detailed information about a specific queue including its key, description, dispatch status, and hosted agent configuration",
-          "schema": [
-            {
-              "name": "cluster_id",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "org_slug",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "queue_id",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_failed_executions",
-          "server": "smithery::buildkite",
-          "source": "smithery",
-          "description": "Get failed test executions for a specific test run in Buildkite Test Engine. Optionally get the expanded failure details such as full error messages and stack traces.",
-          "schema": [
-            {
-              "name": "include_failure_expanded",
-              "type": "boolean",
-              "required": false
-            },
-            {
-              "name": "org_slug",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "page",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "per_page",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "run_id",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "test_suite_slug",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_pipeline",
-          "server": "smithery::buildkite",
-          "source": "smithery",
-          "description": "Get detailed information about a specific pipeline including its configuration, steps, environment variables, and build statistics",
-          "schema": [
-            {
-              "name": "detail_level",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "org_slug",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "pipeline_slug",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_test",
-          "server": "smithery::buildkite",
-          "source": "smithery",
-          "description": "Get a specific test in Buildkite Test Engine. This provides additional metadata for failed test executions",
-          "schema": [
-            {
-              "name": "org_slug",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "test_id",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "test_suite_slug",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_test_run",
-          "server": "smithery::buildkite",
-          "source": "smithery",
-          "description": "Get a specific test run in Buildkite Test Engine",
-          "schema": [
-            {
-              "name": "org_slug",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "run_id",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "test_suite_slug",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "list_annotations",
-          "server": "smithery::buildkite",
-          "source": "smithery",
-          "description": "List all annotations for a build, including their context, style (success/info/warning/error), rendered HTML content, and creation timestamps",
-          "schema": [
-            {
-              "name": "build_number",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "org_slug",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "page",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "per_page",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "pipeline_slug",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "list_artifacts_for_build",
-          "server": "smithery::buildkite",
-          "source": "smithery",
-          "description": "List all artifacts for a build across all jobs, including file details, paths, sizes, MIME types, and download URLs",
-          "schema": [
-            {
-              "name": "build_number",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "org_slug",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "page",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "per_page",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "pipeline_slug",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "list_artifacts_for_job",
-          "server": "smithery::buildkite",
-          "source": "smithery",
-          "description": "List all artifacts for an individual job, including file details, paths, sizes, MIME types, and download URLs",
-          "schema": [
-            {
-              "name": "build_number",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "job_id",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "org_slug",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "page",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "per_page",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "pipeline_slug",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "list_builds",
-          "server": "smithery::buildkite",
-          "source": "smithery",
-          "description": "List builds for a pipeline or across all pipelines in an organization. When pipeline_slug is omitted, lists builds across all pipelines in the organization",
-          "schema": [
-            {
-              "name": "branch",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "commit",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "creator",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "detail_level",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "org_slug",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "page",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "per_page",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "pipeline_slug",
-              "type": "string",
+              "name": "start_year",
+              "type": "number",
               "required": false
             },
             {
               "name": "state",
               "type": "string",
               "required": false
+            },
+            {
+              "name": "venue",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "year",
+              "type": "number",
+              "required": false
             }
           ]
         },
         {
-          "tool": "list_cluster_queues",
-          "server": "smithery::buildkite",
+          "tool": "get_show",
+          "server": "smithery::fouldomain/phish-analytics",
           "source": "smithery",
-          "description": "List all queues in a cluster with their keys, descriptions, dispatch status, and agent configuration",
+          "description": "Get details about a specific Phish show by date (YYYY-MM-DD format).",
           "schema": [
             {
-              "name": "cluster_id",
+              "name": "date",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "top_shows",
+          "server": "smithery::fouldomain/phish-analytics",
+          "source": "smithery",
+          "description": "Get the highest-rated Phish shows. Filter by year, year range, era, tour, venue, or state.",
+          "schema": [
+            {
+              "name": "end_year",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "era",
               "type": "string",
               "required": false
             },
             {
-              "name": "org_slug",
+              "name": "limit",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "start_year",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "state",
               "type": "string",
               "required": false
             },
             {
-              "name": "page",
+              "name": "tour",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "venue",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "year",
+              "type": "number",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "song_stats",
+          "server": "smithery::fouldomain/phish-analytics",
+          "source": "smithery",
+          "description": "Get detailed statistics about a Phish song: total plays, debut, gap, average duration, and audio analysis.",
+          "schema": [
+            {
+              "name": "song",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "find_jams",
+          "server": "smithery::fouldomain/phish-analytics",
+          "source": "smithery",
+          "description": "Find Phish jams matching specific criteria. Filter by song, year/era, venue, state, tags (Dark, Funk, Bliss, Type II, etc.), BPM, duration, groove. Sort by score, duration, or groove.",
+          "schema": [
+            {
+              "name": "end_year",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "era",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "limit",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "max_bpm",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "min_bpm",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "min_duration_minutes",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "min_groove",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "song",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "sort",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "start_year",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "state",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "tags",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "venue",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "year",
+              "type": "number",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "bustouts",
+          "server": "smithery::fouldomain/phish-analytics",
+          "source": "smithery",
+          "description": "Find songs with long gaps between performances (bustouts). Without a year, shows current bustout candidates. With a year, shows bustouts that happened that year.",
+          "schema": [
+            {
+              "name": "limit",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "min_gap",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "year",
+              "type": "number",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "shows_by_venue",
+          "server": "smithery::fouldomain/phish-analytics",
+          "source": "smithery",
+          "description": "Find Phish shows at a specific venue, city, or state.",
+          "schema": [
+            {
+              "name": "city",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "limit",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "state",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "venue",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "year",
+              "type": "number",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "lookup_company_cz",
+          "server": "smithery::janmacher02-xl8y/ares-mcp",
+          "source": "smithery",
+          "description": "Look up a Czech company in the ARES registry by IČO. Returns full profile: name, address, VAT number, legal form, NACE codes, registration status across all registries.",
+          "schema": [
+            {
+              "name": "ico",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "search_companies_cz",
+          "server": "smithery::janmacher02-xl8y/ares-mcp",
+          "source": "smithery",
+          "description": "Search Czech companies by name in ARES. Returns up to 10 matching companies with IČO and address.",
+          "schema": [
+            {
+              "name": "limit",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "name",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "check_insolvency_cz",
+          "server": "smithery::janmacher02-xl8y/ares-mcp",
+          "source": "smithery",
+          "description": "Check if a Czech company or person is in insolvency proceedings via the ISIR (Insolvenční rejstřík). Returns active insolvency cases.",
+          "schema": [
+            {
+              "name": "ico",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "name",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "lookup_company_sk",
+          "server": "smithery::janmacher02-xl8y/ares-mcp",
+          "source": "smithery",
+          "description": "Look up a Slovak company in the ORSR (Obchodný register SR) by IČO. Returns company name, address, legal form and registration details.",
+          "schema": [
+            {
+              "name": "ico",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "bulk_lookup_companies_cz",
+          "server": "smithery::janmacher02-xl8y/ares-mcp",
+          "source": "smithery",
+          "description": "Look up multiple Czech companies at once by their IČO numbers. Returns basic info for each. Maximum 10 companies per request.",
+          "schema": [
+            {
+              "name": "icos",
+              "type": "array",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "record",
+          "server": "smithery::evozim-hv/handoff-tracker",
+          "source": "smithery",
+          "description": "Memoria a Corto Plazo para Enjambres — /api/record endpoint. Fee: $0.02 USDC via x402.",
+          "schema": [
+            {
+              "name": "payload",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "bundle_urls",
+          "server": "glama::at.uurl/bundler",
+          "source": "glama",
+          "description": "Bundle multiple URLs into a single short link on UURL.at. Returns the short URL and QR code URLs (.svg and .png). Use this when you want to share multiple reference links as one URL.",
+          "schema": [
+            {
+              "name": "urls",
+              "type": "array",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "get_bundle",
+          "server": "glama::at.uurl/bundler",
+          "source": "glama",
+          "description": "Retrieve the URLs and metadata from a UURL.at short link, including QR code URLs. Use this to inspect what URLs are behind a uurl.at link.",
+          "schema": [
+            {
+              "name": "rid",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "waveguard_scan",
+          "server": "official::com.emergentphysicslab/waveguard",
+          "source": "direct_mcp",
+          "description": "Find outliers and anomalies in structured data — ideal as a second step after pulling records from Google Sheets, Airtable, Supabase, Notion databases, HubSpot, Financial APIs, GitHub, NPM, or any source that returns rows of JSON. Fully stateless: send known-good rows as training and suspect rows as…",
+          "schema": [
+            {
+              "name": "encoder_type",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "field_level",
               "type": "integer",
               "required": false
             },
             {
-              "name": "per_page",
+              "name": "sensitivity",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "test",
+              "type": "array",
+              "required": true
+            },
+            {
+              "name": "training",
+              "type": "array",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "waveguard_scan_timeseries",
+          "server": "official::com.emergentphysicslab/waveguard",
+          "source": "direct_mcp",
+          "description": "Detect anomalies in time-series data — use after pulling numeric metrics from monitoring APIs, financial data sources, IoT sensors, or spreadsheet columns. Send a single numeric array and specify a window size. Early windows define 'normal', recent windows are tested for anomalies.\n\nTypical workflow…",
+          "schema": [
+            {
+              "name": "data",
+              "type": "array",
+              "required": true
+            },
+            {
+              "name": "sensitivity",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "test_windows",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "window_size",
+              "type": "integer",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "waveguard_health",
+          "server": "official::com.emergentphysicslab/waveguard",
+          "source": "direct_mcp",
+          "description": "Check WaveGuard API health, GPU availability, version, and engine status. No authentication required. Returns status, version, and GPU info.",
+          "schema": [
+            {
+              "name": "verbose",
+              "type": "boolean",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "waveguard_fingerprint",
+          "server": "official::com.emergentphysicslab/waveguard",
+          "source": "direct_mcp",
+          "description": "Get a physics embedding of any data item (52-dim at Level 0, 62-dim at Level 1 with phase statistics). The fingerprint captures structural properties via wave-equation dynamics — useful for similarity search, clustering, baseline comparison, and drift detection. Works on JSON objects, token metrics,…",
+          "schema": [
+            {
+              "name": "data",
+              "type": "",
+              "required": true
+            },
+            {
+              "name": "encoder_type",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "field_level",
               "type": "integer",
               "required": false
             }
@@ -1388,363 +1302,6 @@
         }
       ],
       "removedSamples": [
-        {
-          "tool": "server.capabilities",
-          "server": "smithery::aurelianflo/core",
-          "source": "smithery",
-          "description": "Free first-call capability and connection check for AurelianFlo; use it before paid tools to inspect OFAC screening workflows, access modes, and x402 payment requirements.",
-          "schema": []
-        },
-        {
-          "tool": "queue.saved.list",
-          "server": "smithery::aurelianflo/core",
-          "source": "smithery",
-          "description": "Free read-only saved queue status utility for agents asking whether AurelianFlo can list prior compliance.queue.optimize results. AurelianFlo does not persist saved queues server-side; rerun compliance.queue.optimize with the original review_items to recreate a queue.",
-          "schema": [
-            {
-              "name": "case_reference",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "limit",
-              "type": "integer",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "report.saved.retrieve",
-          "server": "smithery::aurelianflo/core",
-          "source": "smithery",
-          "description": "Free read-only past report retrieval status utility for agents asking about previously generated reports. AurelianFlo returns report artifacts inline as artifact.contentBase64 and does not persist hosted report files server-side.",
-          "schema": [
-            {
-              "name": "file_name",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "report_id",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "settlement_tx",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "wallet.ofac.report",
-          "server": "smithery::aurelianflo/core",
-          "source": "smithery",
-          "description": "Run a paid OFAC screening report for one crypto wallet and return structured JSON or an inline PDF/DOCX artifact. Use wallet.ofac.screen for a quick single-address status check, or wallet.ofac.batch for multiple addresses.",
-          "schema": [
-            {
-              "name": "address",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "asset",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "output_format",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "wallet.ofac.screen",
-          "server": "smithery::aurelianflo/core",
-          "source": "smithery",
-          "description": "Screen one crypto wallet address against OFAC SDN digital currency designations and return exact hits, sanctioned entity metadata, asset coverage, and a manual-review signal. Use this for one-off status checks; use wallet.ofac.report for PDF/DOCX output or wallet.ofac.batch for multiple addresses.",
-          "schema": [
-            {
-              "name": "address",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "asset",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "wallet.ofac.batch",
-          "server": "smithery::aurelianflo/core",
-          "source": "smithery",
-          "description": "Screen 1-100 crypto wallet addresses against OFAC SDN digital currency designations before payout, onboarding, or treasury movement, returning per-wallet results plus a batch-level proceed-or-pause decision. Use this instead of wallet.ofac.screen for multiple addresses; use compliance.edd.report whe…",
-          "schema": [
-            {
-              "name": "addresses",
-              "type": "array",
-              "required": false
-            },
-            {
-              "name": "asset",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "compliance.edd.report",
-          "server": "smithery::aurelianflo/core",
-          "source": "smithery",
-          "description": "Build a paid enhanced due diligence memo for a wallet set using exact-match OFAC screening, sanctions evidence, and follow-up actions, returning structured JSON or an inline PDF/DOCX artifact. Use this for case handoff; use wallet.ofac.batch for screening-only results or report.pdf.generate/report.d…",
-          "schema": [
-            {
-              "name": "addresses",
-              "type": "array",
-              "required": false
-            },
-            {
-              "name": "artifact_only",
-              "type": "boolean",
-              "required": false
-            },
-            {
-              "name": "asset",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "case_name",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "jurisdiction",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "output_format",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "reference_id",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "requested_by",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "review_reason",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "subject_name",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "compliance.exposure.forecast",
-          "server": "smithery::aurelianflo/core",
-          "source": "smithery",
-          "description": "Forecast future OFAC wallet exposure for a wallet set using stored OFAC snapshot diffs when available, listedOn backfill when honest, or an explicit caller prior; returns current exact-match baseline, metadata-weighted per-wallet risk, and report-shaped output. Use this when current screening is not…",
-          "schema": [
-            {
-              "name": "address_metadata",
-              "type": "array",
-              "required": false
-            },
-            {
-              "name": "addresses",
-              "type": "array",
-              "required": false
-            },
-            {
-              "name": "asset",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "horizon_days",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "iterations",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "priors",
-              "type": "object",
-              "required": false
-            },
-            {
-              "name": "summary_focus",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "target",
-              "type": "object",
-              "required": false
-            },
-            {
-              "name": "tier_weights",
-              "type": "object",
-              "required": false
-            },
-            {
-              "name": "title",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "compliance.queue.optimize",
-          "server": "smithery::aurelianflo/core",
-          "source": "smithery",
-          "description": "Optimize a compliance review queue using current OFAC exact matches, future exposure probabilities, exposure value, relationship tier, recency, and reviewer capacity. Use this when review_items and review_budget are known; use compliance.exposure.forecast for probability-only analysis or compliance.…",
-          "schema": [
-            {
-              "name": "asset",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "horizon_days",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "iterations",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "objective",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "priors",
-              "type": "object",
-              "required": false
-            },
-            {
-              "name": "review_budget",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "review_items",
-              "type": "array",
-              "required": false
-            },
-            {
-              "name": "summary_focus",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "tier_weights",
-              "type": "object",
-              "required": false
-            },
-            {
-              "name": "title",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "report.pdf.generate",
-          "server": "smithery::aurelianflo/core",
-          "source": "smithery",
-          "description": "Return an inline PDF artifact from supplied report_meta, tables, metrics, and summary content; this read-only renderer does not persist hosted files. Use this only when a structured report payload already exists; use report.docx.generate for editable Word output or compliance.edd.report to build the…",
-          "schema": [
-            {
-              "name": "executive_summary",
-              "type": "array",
-              "required": false
-            },
-            {
-              "name": "export_artifacts",
-              "type": "object",
-              "required": false
-            },
-            {
-              "name": "headline_metrics",
-              "type": "array",
-              "required": false
-            },
-            {
-              "name": "report_meta",
-              "type": "object",
-              "required": false
-            },
-            {
-              "name": "result",
-              "type": "object",
-              "required": false
-            },
-            {
-              "name": "tables",
-              "type": "object",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "report.docx.generate",
-          "server": "smithery::aurelianflo/core",
-          "source": "smithery",
-          "description": "Return an inline DOCX artifact from supplied report_meta, tables, metrics, and summary content; this read-only renderer does not persist hosted files. Use this only when a structured report payload already exists; use report.pdf.generate for fixed-layout output or compliance.edd.report to build the …",
-          "schema": [
-            {
-              "name": "executive_summary",
-              "type": "array",
-              "required": false
-            },
-            {
-              "name": "export_artifacts",
-              "type": "object",
-              "required": false
-            },
-            {
-              "name": "headline_metrics",
-              "type": "array",
-              "required": false
-            },
-            {
-              "name": "report_meta",
-              "type": "object",
-              "required": false
-            },
-            {
-              "name": "result",
-              "type": "object",
-              "required": false
-            },
-            {
-              "name": "tables",
-              "type": "object",
-              "required": false
-            }
-          ]
-        },
         {
           "tool": "agent_health_check",
           "server": "glama::io.github.andysalvo/agentic-platform",
@@ -1890,37 +1447,244 @@
           "source": "glama",
           "description": "Register for an API key to access expert skill files. Free tier includes 10 skill retrievals per day. No payment required.",
           "schema": []
+        },
+        {
+          "tool": "dns_health",
+          "server": "glama::io.github.WingedGuardian/agent-tools",
+          "source": "glama",
+          "description": "Check DNS health for a domain.\n\n    Returns A/AAAA/MX/NS records, SPF/DMARC mail security status,\n    and whether the domain resolves.\n\n    Args:\n        domain: The domain name to check (e.g. \"example.com\").\n        include_txt: Whether to include all TXT records. Default false.",
+          "schema": [
+            {
+              "name": "domain",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "include_txt",
+              "type": "boolean",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "email_validate",
+          "server": "glama::io.github.WingedGuardian/agent-tools",
+          "source": "glama",
+          "description": "Validate an email address.\n\n    Checks format, MX records, disposable domain, role account,\n    and optionally probes SMTP to verify the mailbox exists.\n\n    Args:\n        email: The email address to validate.\n        check_smtp: Whether to probe the SMTP server (slower, 2-5s). Default false.",
+          "schema": [
+            {
+              "name": "check_smtp",
+              "type": "boolean",
+              "required": false
+            },
+            {
+              "name": "email",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "extract_text",
+          "server": "glama::io.github.WingedGuardian/agent-tools",
+          "source": "glama",
+          "description": "Extract clean readable text from a webpage.\n\n    Strips HTML, navigation, ads, scripts, and boilerplate.\n    Returns clean text, title, description, word count, and language.\n\n    Args:\n        url: The URL to extract text from.\n        max_length: Max characters to return (100-50000). Default 5000.",
+          "schema": [
+            {
+              "name": "max_length",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "url",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "headers_analyze",
+          "server": "glama::io.github.WingedGuardian/agent-tools",
+          "source": "glama",
+          "description": "Analyze HTTP response headers for a URL.\n\n    Returns all response headers plus a security header audit\n    with a 0-100 score checking HSTS, CSP, X-Frame-Options, etc.\n\n    Args:\n        url: The URL to analyze (e.g. \"https://example.com\").",
+          "schema": [
+            {
+              "name": "url",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "ip_lookup",
+          "server": "glama::io.github.WingedGuardian/agent-tools",
+          "source": "glama",
+          "description": "Look up an IP address.\n\n    Returns geolocation, ISP, proxy/hosting detection, and reverse DNS.\n\n    Args:\n        ip: IPv4 or IPv6 address to look up.\n        geo: Include geolocation data (country, city, lat/lon). Default true.",
+          "schema": [
+            {
+              "name": "geo",
+              "type": "boolean",
+              "required": false
+            },
+            {
+              "name": "ip",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "qr_generate",
+          "server": "glama::io.github.WingedGuardian/agent-tools",
+          "source": "glama",
+          "description": "Generate a QR code image from text or URL.\n\n    Returns base64-encoded PNG image data.\n\n    Args:\n        data: The text or URL to encode in the QR code.\n        size: Image size in pixels (64-2048). Default 256.",
+          "schema": [
+            {
+              "name": "data",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "size",
+              "type": "integer",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "tech_detect",
+          "server": "glama::io.github.WingedGuardian/agent-tools",
+          "source": "glama",
+          "description": "Detect the technology stack of a website.\n\n    Analyzes HTTP headers, HTML, and script sources to identify\n    frameworks (React, Vue, Next.js), CMS (WordPress, Shopify),\n    CDN (Cloudflare, Fastly), analytics, and more.\n\n    Args:\n        url: The URL to analyze (e.g. \"https://example.com\").",
+          "schema": [
+            {
+              "name": "url",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "url_health",
+          "server": "glama::io.github.WingedGuardian/agent-tools",
+          "source": "glama",
+          "description": "Check if a URL is alive and healthy.\n\n    Returns status code, redirect chain, SSL certificate info,\n    response time, and server details.\n\n    Args:\n        url: The URL to check (e.g. \"https://example.com\").\n        follow_redirects: Whether to follow redirects. Default true.",
+          "schema": [
+            {
+              "name": "follow_redirects",
+              "type": "boolean",
+              "required": false
+            },
+            {
+              "name": "url",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "whois_lookup",
+          "server": "glama::io.github.WingedGuardian/agent-tools",
+          "source": "glama",
+          "description": "WHOIS lookup for a domain.\n\n    Returns registrar, creation/expiration dates, nameservers,\n    domain status codes, and registrant info when available.\n\n    Args:\n        domain: The domain name to look up (e.g. \"example.com\").",
+          "schema": [
+            {
+              "name": "domain",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "check_availability",
+          "server": "glama::io.github.Kaanthan24/agnigateway-mcp",
+          "source": "glama",
+          "description": "Check current availability and price for a specific offer.",
+          "schema": [
+            {
+              "name": "source_id",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "get_bundle",
+          "server": "glama::io.github.Kaanthan24/agnigateway-mcp",
+          "source": "glama",
+          "description": "Get a composed bundle for a hotel: the hotel product plus matching addon services (co-working pass, airport transfer, etc.). Returns a bundle_value_score and merged summary.",
+          "schema": [
+            {
+              "name": "addon_types",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "hotel_source_id",
+              "type": "string",
+              "required": true
+            }
+          ]
         }
       ],
       "unreachedSamples": [
         {
-          "tool": "tat_search",
-          "server": "smithery::theagenttimes/news",
+          "tool": "bn_ping",
+          "server": "smithery::node2flow/binance",
           "source": "smithery",
-          "description": "Search The Agent Times agent-news layer across structured events, articles, and agent-action/product metadata. Uses backend typo correction, alias expansion, required-term coverage, global ranking, and low-confidence rejection. Returns search_confidence, warnings, relevance_score, match_quality, mat…",
+          "description": "Test connectivity to Binance API. Returns empty object if successful. Use to verify API is reachable.",
           "schema": [
             {
-              "name": "actionability",
+              "name": "_fields",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "bn_server_time",
+          "server": "smithery::node2flow/binance",
+          "source": "smithery",
+          "description": "Get Binance server time (millisecond timestamp). Use to check connectivity and sync timestamps for signed requests.",
+          "schema": [
+            {
+              "name": "_fields",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "bn_exchange_info",
+          "server": "smithery::node2flow/binance",
+          "source": "smithery",
+          "description": "Get exchange information including trading rules, symbol list, filters (PRICE_FILTER, LOT_SIZE, MIN_NOTIONAL), and rate limits. Optionally filter by symbol.",
+          "schema": [
+            {
+              "name": "_fields",
               "type": "string",
               "required": false
             },
             {
-              "name": "include_articles",
-              "type": "boolean",
+              "name": "symbol",
+              "type": "string",
               "required": false
             },
             {
-              "name": "include_events",
-              "type": "boolean",
+              "name": "symbols",
+              "type": "string",
               "required": false
-            },
+            }
+          ]
+        },
+        {
+          "tool": "bn_order_book",
+          "server": "smithery::node2flow/binance",
+          "source": "smithery",
+          "description": "Get order book (bids and asks) for a symbol. Weight varies by limit: 5 (1-100), 25 (101-500), 50 (501-1000), 250 (1001-5000).",
+          "schema": [
             {
-              "name": "include_products",
-              "type": "boolean",
-              "required": false
-            },
-            {
-              "name": "intent",
+              "name": "_fields",
               "type": "string",
               "required": false
             },
@@ -1930,280 +1694,20 @@
               "required": false
             },
             {
-              "name": "query",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "section",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "sort",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "tag",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "topic",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "urgency",
+              "name": "symbol",
               "type": "string",
               "required": false
             }
           ]
         },
         {
-          "tool": "tat_ask",
-          "server": "smithery::theagenttimes/news",
+          "tool": "bn_recent_trades",
+          "server": "smithery::node2flow/binance",
           "source": "smithery",
-          "description": "Ask The Agent Times a question through the trusted answer pipeline: TAT corpus/events/action metadata plus backend-controlled external research, with citations, confidence, Ethics Engine score, agent voice score, and answer-standard receipt. Returns insufficient_evidence instead of unsourced claims.",
+          "description": "Get recent trades for a symbol. Returns up to 1000 most recent trades with price, quantity, and time.",
           "schema": [
             {
-              "name": "max_sources",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "question",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "source_agent",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "tat_get_event",
-          "server": "smithery::theagenttimes/news",
-          "source": "smithery",
-          "description": "Fetch one structured agent-news event by event_id, including sources, confidence, ethics score, agent voice score, recommended actions, and standard receipt.",
-          "schema": [
-            {
-              "name": "event_id",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "tat_stats",
-          "server": "smithery::theagenttimes/news",
-          "source": "smithery",
-          "description": "Return firehose/demo counters for recent agent-news events: counts, verification rate, average confidence, source count, urgency, and actionability breakdowns.",
-          "schema": [
-            {
-              "name": "hours",
-              "type": "integer",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "tat_get_answer_standard",
-          "server": "smithery::theagenttimes/news",
-          "source": "smithery",
-          "description": "Return the current The Agent Times MCP Answer Standard so agents can explain why a TAT answer/event is trusted, or why insufficient_evidence was returned.",
-          "schema": []
-        },
-        {
-          "tool": "tat_recommend",
-          "server": "smithery::theagenttimes/news",
-          "source": "smithery",
-          "description": "Return sourced recommendations for an agent/operator use case using TAT trusted corpus, events, and answer standard. Not an external-resource safety checker.",
-          "schema": [
-            {
-              "name": "constraints",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "source_agent",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "use_case",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "tat_get_comments",
-          "server": "smithery::theagenttimes/news",
-          "source": "smithery",
-          "description": "Read threaded comments on a TAT article, with agent attribution and endorsement counts.",
-          "schema": [
-            {
-              "name": "article_slug",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "sort",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "tat_post_comment",
-          "server": "smithery::theagenttimes/news",
-          "source": "smithery",
-          "description": "Post a signed/logged agent comment on a TAT article. Use only when the user explicitly asks to post.",
-          "schema": [
-            {
-              "name": "agent_name",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "article_slug",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "body",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "model",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "operator",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "parent_id",
-              "type": "integer",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_latest_articles",
-          "server": "smithery::theagenttimes/news",
-          "source": "smithery",
-          "description": "Get the latest articles from The Agent Times. Returns headlines, summaries, sources, confidence levels, and Ed25519 provenance status.",
-          "schema": [
-            {
-              "name": "limit",
-              "type": "integer",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_section_articles",
-          "server": "smithery::theagenttimes/news",
-          "source": "smithery",
-          "description": "Get articles from a specific section. Each article includes Ed25519 provenance status. Sections: platforms, open-source, research, commerce, sales, marketing, engineering, adtech, infrastructure, regulations, funding, labor, opinion.",
-          "schema": [
-            {
-              "name": "limit",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "section",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_article",
-          "server": "smithery::theagenttimes/news",
-          "source": "smithery",
-          "description": "Get a full article by slug, including the complete body text and Ed25519 provenance verification status. Optionally include detailed provenance and governance blocks.",
-          "schema": [
-            {
-              "name": "include_governance",
-              "type": "boolean",
-              "required": false
-            },
-            {
-              "name": "include_provenance",
-              "type": "boolean",
-              "required": false
-            },
-            {
-              "name": "slug",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "product_research_request",
-          "server": "smithery::theagenttimes/news",
-          "source": "smithery",
-          "description": "Request product research for a shopping or product-selection need. Returns a cached product research result if available; otherwise creates or reuses a queued research job and returns a research_id plus polling instructions.",
-          "schema": [
-            {
-              "name": "budget",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "category",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "preferences",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "source_agent",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "product_research_get_status",
-          "server": "smithery::theagenttimes/news",
-          "source": "smithery",
-          "description": "Poll a queued product research job by research_id. Returns the completed product research result once ready, or next-step polling instructions while still pending.",
-          "schema": [
-            {
-              "name": "research_id",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "source_agent",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "search_articles",
-          "server": "smithery::theagenttimes/news",
-          "source": "smithery",
-          "description": "Search The Agent Times article corpus with typo-tolerant required-term coverage, relevance diagnostics, and filters over title, slug, tags, summary, body, and publication metadata.",
-          "schema": [
-            {
-              "name": "intent",
+              "name": "_fields",
               "type": "string",
               "required": false
             },
@@ -2213,133 +1717,482 @@
               "required": false
             },
             {
-              "name": "offset",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "published_after",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "published_before",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "query",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "section",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "sort",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "tag",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "topic",
+              "name": "symbol",
               "type": "string",
               "required": false
             }
           ]
         },
         {
-          "tool": "get_related_articles",
-          "server": "smithery::theagenttimes/news",
+          "tool": "bn_aggregate_trades",
+          "server": "smithery::node2flow/binance",
           "source": "smithery",
-          "description": "Get related articles for an article slug using section/topic/tag overlap.",
+          "description": "Get compressed/aggregate trades for a symbol. Trades that fill at the same time, price, and side are aggregated into a single entry.",
           "schema": [
+            {
+              "name": "_fields",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "endTime",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "fromId",
+              "type": "integer",
+              "required": false
+            },
             {
               "name": "limit",
               "type": "integer",
               "required": false
             },
             {
-              "name": "slug",
-              "type": "string",
+              "name": "startTime",
+              "type": "integer",
               "required": false
             },
             {
-              "name": "strategy",
+              "name": "symbol",
               "type": "string",
               "required": false
             }
           ]
         },
         {
-          "tool": "list_topics",
-          "server": "smithery::theagenttimes/news",
+          "tool": "bn_klines",
+          "server": "smithery::node2flow/binance",
           "source": "smithery",
-          "description": "List known topic hubs extracted from the corpus.",
+          "description": "Get candlestick/kline data (OHLCV) for a symbol. Returns arrays of [openTime, open, high, low, close, volume, closeTime, quoteVolume, trades, takerBuyBase, takerBuyQuote].",
           "schema": [
             {
+              "name": "_fields",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "endTime",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "interval",
+              "type": "string",
+              "required": false
+            },
+            {
               "name": "limit",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "startTime",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "symbol",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "bn_avg_price",
+          "server": "smithery::node2flow/binance",
+          "source": "smithery",
+          "description": "Get current average price for a symbol. Returns the weighted average price over the last 5 minutes.",
+          "schema": [
+            {
+              "name": "_fields",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "symbol",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "bn_ticker_24hr",
+          "server": "smithery::node2flow/binance",
+          "source": "smithery",
+          "description": "Get 24-hour price change statistics. Weight: 2 (single symbol), 80 (all symbols). Includes price change, volume, high/low, and trade count.",
+          "schema": [
+            {
+              "name": "_fields",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "symbol",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "bn_ticker_price",
+          "server": "smithery::node2flow/binance",
+          "source": "smithery",
+          "description": "Get latest price for a symbol or all symbols. Lightweight endpoint for quick price checks.",
+          "schema": [
+            {
+              "name": "_fields",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "symbol",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "bn_book_ticker",
+          "server": "smithery::node2flow/binance",
+          "source": "smithery",
+          "description": "Get best bid/ask price and quantity for a symbol or all symbols. Useful for spread analysis.",
+          "schema": [
+            {
+              "name": "_fields",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "symbol",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "bn_new_order",
+          "server": "smithery::node2flow/binance",
+          "source": "smithery",
+          "description": "Place a new order. WARNING: This uses REAL MONEY on Binance Global. Supports LIMIT, MARKET, STOP_LOSS, STOP_LOSS_LIMIT, TAKE_PROFIT, TAKE_PROFIT_LIMIT, LIMIT_MAKER order types. Use bn_test_order first to validate.",
+          "schema": [
+            {
+              "name": "newClientOrderId",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "price",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "quantity",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "quoteOrderQty",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "recvWindow",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "side",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "stopPrice",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "symbol",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "timeInForce",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "type",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "bn_test_order",
+          "server": "smithery::node2flow/binance",
+          "source": "smithery",
+          "description": "Test new order creation (dry run). Validates all parameters without actually placing the order. No funds are used. Always test before placing real orders.",
+          "schema": [
+            {
+              "name": "newClientOrderId",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "price",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "quantity",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "quoteOrderQty",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "recvWindow",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "side",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "stopPrice",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "symbol",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "timeInForce",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "type",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "bn_query_order",
+          "server": "smithery::node2flow/binance",
+          "source": "smithery",
+          "description": "Query a specific order by orderId or origClientOrderId. Returns order status, filled quantity, and execution details.",
+          "schema": [
+            {
+              "name": "_fields",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "orderId",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "origClientOrderId",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "recvWindow",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "symbol",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "bn_cancel_order",
+          "server": "smithery::node2flow/binance",
+          "source": "smithery",
+          "description": "Cancel an active order by orderId or origClientOrderId.",
+          "schema": [
+            {
+              "name": "orderId",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "origClientOrderId",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "recvWindow",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "symbol",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "bn_cancel_all_orders",
+          "server": "smithery::node2flow/binance",
+          "source": "smithery",
+          "description": "Cancel all open orders for a symbol. WARNING: This cancels ALL pending orders at once. Cannot be undone.",
+          "schema": [
+            {
+              "name": "recvWindow",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "symbol",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "bn_open_orders",
+          "server": "smithery::node2flow/binance",
+          "source": "smithery",
+          "description": "Get all open orders for a symbol or all symbols. Weight: 3 (with symbol), 40 (without symbol).",
+          "schema": [
+            {
+              "name": "_fields",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "recvWindow",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "symbol",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "bn_all_orders",
+          "server": "smithery::node2flow/binance",
+          "source": "smithery",
+          "description": "Get all orders (active, canceled, filled) for a symbol. Supports time range and pagination via orderId.",
+          "schema": [
+            {
+              "name": "_fields",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "endTime",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "limit",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "orderId",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "recvWindow",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "startTime",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "symbol",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "bn_account_info",
+          "server": "smithery::node2flow/binance",
+          "source": "smithery",
+          "description": "Get account information including balances, commission rates, and trading permissions. Returns all asset balances (free + locked).",
+          "schema": [
+            {
+              "name": "_fields",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "recvWindow",
               "type": "integer",
               "required": false
             }
           ]
         },
         {
-          "tool": "get_topic_hub",
-          "server": "smithery::theagenttimes/news",
+          "tool": "bn_my_trades",
+          "server": "smithery::node2flow/binance",
           "source": "smithery",
-          "description": "Get a topic hub with start-here articles, latest coverage, and intent tags.",
+          "description": "Get trade execution history for a specific symbol. Returns price, quantity, commission, and whether you were buyer/maker.",
           "schema": [
             {
-              "name": "topic",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_trust_summary",
-          "server": "smithery::theagenttimes/news",
-          "source": "smithery",
-          "description": "Get publication-level trust metrics: confidence mix, provenance coverage, source density, and section-level trust summaries.",
-          "schema": []
-        },
-        {
-          "tool": "get_editorial_standards",
-          "server": "smithery::theagenttimes/news",
-          "source": "smithery",
-          "description": "Get The Agent Times editorial standards and code of conduct summary.",
-          "schema": []
-        },
-        {
-          "tool": "report_usage",
-          "server": "smithery::theagenttimes/news",
-          "source": "smithery",
-          "description": "Voluntarily declare which TAT articles you used to produce your output. Transparent agents build trust and get recognized as verified consumers. No auth required — just tell us what you used.",
-          "schema": [
-            {
-              "name": "agent_name",
+              "name": "_fields",
               "type": "string",
               "required": false
             },
             {
-              "name": "article_slugs",
-              "type": "array",
+              "name": "endTime",
+              "type": "integer",
               "required": false
             },
             {
-              "name": "output_description",
-              "type": "string",
+              "name": "fromId",
+              "type": "integer",
               "required": false
             },
             {
-              "name": "output_url",
+              "name": "limit",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "orderId",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "recvWindow",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "startTime",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "symbol",
               "type": "string",
               "required": false
             }
@@ -2347,8 +2200,8 @@
         }
       ]
     },
-    "stealth": 41,
-    "crossRegistry": 2125,
-    "crossSource": 1088
+    "stealth": 145,
+    "crossRegistry": 2116,
+    "crossSource": 1249
   }
 }
