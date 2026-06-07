@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-06-06T15:50:37+00:00",
-  "lastCrawl": "2026-06-07",
+  "generatedAt": "2026-06-07T15:50:49+00:00",
+  "lastCrawl": "2026-06-08",
   "crawl": {
-    "servers": 10163,
-    "tools": 105291,
-    "snapshots": 892251,
-    "stealthTools": 573,
-    "crossRegistryAnomalies": 14186,
-    "crossSourceAnomalies": 12872
+    "servers": 10230,
+    "tools": 106376,
+    "snapshots": 1028129,
+    "stealthTools": 815,
+    "crossRegistryAnomalies": 16302,
+    "crossSourceAnomalies": 14755
   },
   "registries": [
     {
       "name": "Official",
-      "servers": 4645,
+      "servers": 4699,
       "color": "#6366f1"
     },
     {
@@ -22,7 +22,7 @@
     },
     {
       "name": "Smithery",
-      "servers": 1525,
+      "servers": 1538,
       "color": "#06b6d4"
     }
   ],
@@ -39,7 +39,7 @@
     },
     {
       "name": "Unknown",
-      "value": 6202,
+      "value": 6269,
       "color": "#6b7280"
     }
   ],
@@ -66,14 +66,14 @@
     },
     {
       "grade": "미평가",
-      "count": 7765,
+      "count": 7832,
       "color": "#374151"
     }
   ],
   "protocol": [
     {
       "name": "2024-11-05",
-      "value": 2733,
+      "value": 2773,
       "color": "#6366f1"
     },
     {
@@ -83,7 +83,7 @@
     },
     {
       "name": "2025-06-18",
-      "value": 219,
+      "value": 222,
       "color": "#8b5cf6"
     },
     {
@@ -97,92 +97,87 @@
       "color": "#f59e0b"
     },
     {
-      "name": "2026-07-28",
-      "value": 3,
-      "color": "#22c55e"
-    },
-    {
       "name": "미보고",
-      "value": 5510,
+      "value": 5537,
       "color": "#374151"
     }
   ],
   "toolDist": [
     {
       "name": "0",
-      "servers": 3958,
+      "servers": 3976,
       "color": "#6b7280"
     },
     {
       "name": "1-5",
-      "servers": 2049,
+      "servers": 2059,
       "color": "#06b6d4"
     },
     {
       "name": "6-10",
-      "servers": 1255,
+      "servers": 1262,
       "color": "#6366f1"
     },
     {
       "name": "11-20",
-      "servers": 814,
+      "servers": 840,
       "color": "#8b5cf6"
     },
     {
       "name": "20+",
-      "servers": 2087,
+      "servers": 2093,
       "color": "#22c55e"
     }
   ],
   "topByUse": [
     {
       "name": "Math-MCP",
-      "value": 1054324,
+      "value": 963300,
       "registry": "smithery"
     },
     {
       "name": "Google Sheets",
-      "value": 46985,
+      "value": 46709,
       "registry": "smithery"
     },
     {
       "name": "Gmail",
-      "value": 34479,
+      "value": 34564,
       "registry": "smithery"
     },
     {
       "name": "Exa Search",
-      "value": 21903,
+      "value": 21665,
       "registry": "smithery"
     },
     {
       "name": "Mesh MCP",
-      "value": 19257,
+      "value": 19240,
       "registry": "smithery"
     },
     {
       "name": "AI Research Assistant",
-      "value": 19146,
+      "value": 18747,
+      "registry": "smithery"
+    },
+    {
+      "name": "SparkForge",
+      "value": 16466,
       "registry": "smithery"
     },
     {
       "name": "AKShare One MCP Server",
-      "value": 13697,
+      "value": 13422,
       "registry": "smithery"
     },
     {
       "name": "Google Tasks",
-      "value": 12023,
+      "value": 12686,
       "registry": "smithery"
     },
     {
       "name": "Brave Search",
-      "value": 11838,
-      "registry": "smithery"
-    },
-    {
-      "name": "MLB Stats Server",
-      "value": 9657,
+      "value": 11608,
       "registry": "smithery"
     }
   ],
@@ -213,6 +208,16 @@
       "registry": "official"
     },
     {
+      "name": "Tenzro Ledger MCP",
+      "value": 358,
+      "registry": "official"
+    },
+    {
+      "name": "Tenzro Ledger MCP",
+      "value": 358,
+      "registry": "glama"
+    },
+    {
       "name": "PostHog",
       "value": 329,
       "registry": "smithery"
@@ -223,16 +228,6 @@
       "registry": "smithery"
     },
     {
-      "name": "Tenzro Ledger MCP",
-      "value": 313,
-      "registry": "official"
-    },
-    {
-      "name": "Tenzro Ledger MCP",
-      "value": 313,
-      "registry": "glama"
-    },
-    {
       "name": "official::io.github.getgapup/mcp-knowledge",
       "value": 271,
       "registry": "official"
@@ -241,12 +236,17 @@
   "stealthByServer": [
     {
       "name": "glama::io.github.ABTdomain/domainkits-mcp",
-      "value": 266,
+      "value": 304,
       "registry": "glama"
     },
     {
       "name": "glama::io.github.DigbyO/colour-memory",
-      "value": 70,
+      "value": 74,
+      "registry": "glama"
+    },
+    {
+      "name": "glama::network.tenzro/tenzro",
+      "value": 45,
       "registry": "glama"
     },
     {
@@ -255,38 +255,33 @@
       "registry": "glama"
     },
     {
-      "name": "glama::co.heista/api",
-      "value": 20,
-      "registry": "glama"
-    },
-    {
-      "name": "glama::dev.cz-agents/ares",
-      "value": 19,
+      "name": "glama::io.github.tdobrowolski1/flashalpha",
+      "value": 31,
       "registry": "glama"
     },
     {
       "name": "glama::io.github.trycourier/courier",
-      "value": 15,
+      "value": 30,
       "registry": "glama"
     },
     {
-      "name": "glama::io.github.toshihiroshishido/revenuescope-mcp",
-      "value": 14,
-      "registry": "glama"
-    },
-    {
-      "name": "glama::io.github.bitrise-io/bitrise-mcp",
-      "value": 14,
+      "name": "glama::io.github.saloprj/dialogbrain",
+      "value": 25,
       "registry": "glama"
     },
     {
       "name": "glama::io.github.xyzzylabs/tc39-mcp",
-      "value": 11,
+      "value": 22,
       "registry": "glama"
     },
     {
-      "name": "glama::io.github.piiiico/agentlair",
-      "value": 10,
+      "name": "glama::dev.cz-agents/ares",
+      "value": 20,
+      "registry": "glama"
+    },
+    {
+      "name": "glama::co.heista/api",
+      "value": 20,
       "registry": "glama"
     }
   ],
@@ -522,6 +517,20 @@
       "crossRegistry": 2116,
       "crossSource": 1249,
       "tdqsAvg": 0
+    },
+    {
+      "date": "2026-06-08",
+      "serversCumulative": 10230,
+      "newServers": 67,
+      "snapshots": 135878,
+      "snapshotsCumulative": 1028129,
+      "tools": 103018,
+      "toolsCumulative": 106376,
+      "changes": 2723,
+      "stealth": 242,
+      "crossRegistry": 2116,
+      "crossSource": 1883,
+      "tdqsAvg": 0
     }
   ],
   "registryTrend": [
@@ -629,13 +638,28 @@
       "smithery_new": 22,
       "smithery_tools": 27045,
       "smithery_changes": 23
+    },
+    {
+      "date": "2026-06-08",
+      "official_servers": 4699,
+      "official_new": 54,
+      "official_tools": 38030,
+      "official_changes": 966,
+      "glama_servers": 3993,
+      "glama_new": 0,
+      "glama_tools": 37829,
+      "glama_changes": 1653,
+      "smithery_servers": 1538,
+      "smithery_new": 13,
+      "smithery_tools": 27159,
+      "smithery_changes": 104
     }
   ],
   "cumulativeCollectors": [
     {
       "name": "official",
-      "servers": 4645,
-      "tools": 38430,
+      "servers": 4699,
+      "tools": 38974,
       "changeBreakdown": {
         "description_modified": 0,
         "schema_modified": 0,
@@ -647,36 +671,36 @@
     {
       "name": "glama",
       "servers": 3993,
-      "tools": 38497,
+      "tools": 38736,
       "changeBreakdown": {
         "description_modified": 8073,
         "schema_modified": 1024,
         "both_modified": 770,
-        "removed": 2503
+        "removed": 3196
       },
       "color": "#8b5cf6"
     },
     {
       "name": "smithery",
-      "servers": 1525,
-      "tools": 28364,
+      "servers": 1538,
+      "tools": 28666,
       "changeBreakdown": {
-        "description_modified": 64,
-        "schema_modified": 13,
-        "both_modified": 35,
-        "removed": 155
+        "description_modified": 74,
+        "schema_modified": 24,
+        "both_modified": 53,
+        "removed": 220
       },
       "color": "#06b6d4"
     },
     {
       "name": "direct_mcp",
-      "servers": 4529,
-      "tools": 74277,
+      "servers": 4568,
+      "tools": 75072,
       "changeBreakdown": {
-        "description_modified": 17936,
-        "schema_modified": 2113,
-        "both_modified": 1773,
-        "removed": 1278
+        "description_modified": 19336,
+        "schema_modified": 2228,
+        "both_modified": 1956,
+        "removed": 1506
       },
       "color": "#10b981"
     }
@@ -723,15 +747,22 @@
       "schema_modified": 85,
       "both_modified": 87,
       "removed": 844
+    },
+    {
+      "date": "2026-06-08",
+      "description_modified": 1410,
+      "schema_modified": 126,
+      "both_modified": 201,
+      "removed": 986
     }
   ],
   "latestCrawl": {
-    "date": "2026-06-07",
+    "date": "2026-06-08",
     "collectors": [
       {
         "name": "official",
         "status": "completed",
-        "servers": 4635,
+        "servers": 4688,
         "tools": 0,
         "changes": 0,
         "snapshots": 0,
@@ -746,85 +777,268 @@
       {
         "name": "smithery",
         "status": "completed",
-        "servers": 1423,
-        "tools": 27048,
-        "changes": 23,
-        "snapshots": 27048,
+        "servers": 1426,
+        "tools": 27162,
+        "changes": 104,
+        "snapshots": 27162,
         "changeBreakdown": {
-          "description_modified": 5,
-          "schema_modified": 6,
-          "both_modified": 2,
-          "removed": 10
+          "description_modified": 10,
+          "schema_modified": 11,
+          "both_modified": 18,
+          "removed": 65
         },
         "color": "#06b6d4"
       },
       {
         "name": "glama",
         "status": "completed",
-        "servers": 4042,
-        "tools": 35701,
-        "changes": 1308,
-        "snapshots": 35701,
+        "servers": 4041,
+        "tools": 35693,
+        "changes": 727,
+        "snapshots": 35693,
         "changeBreakdown": {
-          "description_modified": 548,
-          "schema_modified": 21,
-          "both_modified": 8,
-          "removed": 696
+          "description_modified": 0,
+          "schema_modified": 0,
+          "both_modified": 0,
+          "removed": 693
         },
         "color": "#8b5cf6"
       },
       {
         "name": "direct_mcp",
         "status": "completed",
-        "servers": 4528,
-        "tools": 72851,
-        "changes": 1686,
-        "snapshots": 72851,
+        "servers": 4568,
+        "tools": 73336,
+        "changes": 1926,
+        "snapshots": 73336,
         "changeBreakdown": {
-          "description_modified": 1413,
-          "schema_modified": 58,
-          "both_modified": 77,
-          "removed": 138
+          "description_modified": 1400,
+          "schema_modified": 115,
+          "both_modified": 183,
+          "removed": 228
         },
         "color": "#6366f1"
       }
     ],
-    "newServers": 60,
+    "newServers": 67,
     "changeBreakdown": [
       {
         "type": "description_modified",
-        "count": 1966,
+        "count": 1410,
         "color": "#06b6d4"
       },
       {
         "type": "schema_modified",
-        "count": 85,
+        "count": 126,
         "color": "#f59e0b"
       },
       {
         "type": "both_modified",
-        "count": 87,
+        "count": 201,
         "color": "#a78bfa"
       },
       {
         "type": "removed",
-        "count": 844,
+        "count": 986,
         "color": "#ef4444"
       }
     ],
     "toolDelta": {
-      "newTools": 1454,
-      "droppedTools": 483,
-      "removedTools": 844,
+      "newTools": 1284,
+      "droppedTools": 545,
+      "removedTools": 986,
       "unreachedTools": 0,
-      "net": 971,
-      "prevDate": "2026-06-06",
+      "net": 739,
+      "prevDate": "2026-06-07",
       "newSamples": [
         {
-          "tool": "search_songs",
-          "server": "smithery::fouldomain/phish-analytics",
+          "tool": "search_vaults",
+          "server": "smithery::philidor/defi",
           "source": "smithery",
-          "description": "Search for Phish songs by name. Returns song info, play counts, and audio stats.",
+          "description": "Search and filter DeFi vaults by chain, protocol, asset, risk tier, TVL, and more. Returns a paginated list with risk scores and APR.",
+          "schema": [
+            {
+              "name": "asset",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "chain",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "limit",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "minTvl",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "protocol",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "query",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "riskTier",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "sortBy",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "sortOrder",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "get_vault",
+          "server": "smithery::philidor/defi",
+          "source": "smithery",
+          "description": "Get detailed information about a specific DeFi vault including risk breakdown, recent events, and historical snapshots. Lookup by ID or by network + address.",
+          "schema": [
+            {
+              "name": "address",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "id",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "network",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "get_vault_risk_breakdown",
+          "server": "smithery::philidor/defi",
+          "source": "smithery",
+          "description": "Get a detailed breakdown of a vault's risk vectors: Asset Composition, Platform Code, and Governance scores with sub-metrics.",
+          "schema": [
+            {
+              "name": "address",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "network",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "compare_vaults",
+          "server": "smithery::philidor/defi",
+          "source": "smithery",
+          "description": "Compare 2-3 DeFi vaults side-by-side on TVL, APR, risk score, risk tier, audited status, and more.",
+          "schema": [
+            {
+              "name": "vaults",
+              "type": "array",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "find_safest_vaults",
+          "server": "smithery::philidor/defi",
+          "source": "smithery",
+          "description": "Find the safest (highest risk-scored) DeFi vaults, optionally filtered by asset, chain, or minimum TVL. Returns top 10 audited, high-confidence vaults sorted by risk score.",
+          "schema": [
+            {
+              "name": "asset",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "chain",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "minTvl",
+              "type": "number",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "get_protocol_info",
+          "server": "smithery::philidor/defi",
+          "source": "smithery",
+          "description": "Get detailed information about a DeFi protocol including TVL, vault count, versions, auditors, and security incidents.",
+          "schema": [
+            {
+              "name": "protocolId",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "get_curator_info",
+          "server": "smithery::philidor/defi",
+          "source": "smithery",
+          "description": "Get detailed information about a vault curator including their managed vaults, TVL, chain distribution, and performance.",
+          "schema": [
+            {
+              "name": "curatorId",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "get_market_overview",
+          "server": "smithery::philidor/defi",
+          "source": "smithery",
+          "description": "Get a high-level overview of the DeFi vault market: total TVL, vault count, risk distribution, and TVL by protocol.",
+          "schema": []
+        },
+        {
+          "tool": "explain_risk_score",
+          "server": "smithery::philidor/defi",
+          "source": "smithery",
+          "description": "Explain what a Philidor risk score means, including the tier (Prime/Core/Edge), how it is calculated, and what the thresholds are.",
+          "schema": [
+            {
+              "name": "score",
+              "type": "number",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "list_vaults_with_incidents",
+          "server": "smithery::philidor/defi",
+          "source": "smithery",
+          "description": "List all vaults that had a recent critical incident (last 365 days). Critical = severity Critical or incident_severity major. Results are sorted by TVL descending, then by time since event ascending (most recent first).",
+          "schema": []
+        },
+        {
+          "tool": "search",
+          "server": "smithery::glassnode/glassnode-mcp",
+          "source": "smithery",
+          "description": "Returns the list of available MCP tools for cryptocurrency data access.",
           "schema": [
             {
               "name": "query",
@@ -834,19 +1048,110 @@
           ]
         },
         {
-          "tool": "best_versions",
-          "server": "smithery::fouldomain/phish-analytics",
+          "tool": "fetch",
+          "server": "smithery::glassnode/glassnode-mcp",
           "source": "smithery",
-          "description": "Get the top-rated versions of a specific Phish song. Filter by year, year range, era, venue, or state.",
+          "description": "Fetches a specific tool's documentation by ID.",
           "schema": [
             {
-              "name": "end_year",
+              "name": "id",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "fetch_metric",
+          "server": "smithery::glassnode/glassnode-mcp",
+          "source": "smithery",
+          "description": "Fetch data for a single asset from Glassnode API.\n\nUse this tool when you need to:\n- Fetch data for ONE specific asset\n- Get detailed data for a single cryptocurrency\n\nIMPORTANT: If you need data for MULTIPLE assets, use fetch_bulk_metrics instead!\nThis tool should only be used for single-asset requ…",
+          "schema": [
+            {
+              "name": "endpoint",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "params",
+              "type": "",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "fetch_bulk_metrics",
+          "server": "smithery::glassnode/glassnode-mcp",
+          "source": "smithery",
+          "description": "Fetch data for multiple assets efficiently using Glassnode's bulk endpoint.\n\nPREFERRED: Use this tool when you need to:\n- Fetch the same metric for MULTIPLE assets (2 or more)\n- Compare data across different cryptocurrencies\n- Get comprehensive market data for several assets\n- Avoid making multiple …",
+          "schema": [
+            {
+              "name": "assets",
+              "type": "array",
+              "required": false
+            },
+            {
+              "name": "endpoint",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "params",
+              "type": "",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "get_assets_list",
+          "server": "smithery::glassnode/glassnode-mcp",
+          "source": "smithery",
+          "description": "Get a list of all cryptocurrency assets supported by Glassnode API. Use to verify asset support, get correct asset symbols, or display available assets.",
+          "schema": [
+            {
+              "name": "filter",
+              "type": [
+                "string",
+                "null"
+              ],
+              "required": false
+            },
+            {
+              "name": "full_list",
+              "type": [
+                "boolean",
+                "null"
+              ],
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "get_metrics_list",
+          "server": "smithery::glassnode/glassnode-mcp",
+          "source": "smithery",
+          "description": "Get a list of all available metrics and their paths from Glassnode API. Use to find correct metric paths, discover available metrics, or validate metric existence.",
+          "schema": [
+            {
+              "name": "limit",
               "type": "number",
               "required": false
             },
             {
-              "name": "era",
-              "type": "string",
+              "name": "offset",
+              "type": "number",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "get_asset_metrics",
+          "server": "smithery::glassnode/glassnode-mcp",
+          "source": "smithery",
+          "description": "Get a list of available metrics for one or more assets. Use to find supported metrics for assets, filter metrics by asset, or check asset-specific metric availability.",
+          "schema": [
+            {
+              "name": "assets",
+              "type": "",
               "required": false
             },
             {
@@ -855,447 +1160,62 @@
               "required": false
             },
             {
-              "name": "song",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "start_year",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "state",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "venue",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "year",
+              "name": "offset",
               "type": "number",
               "required": false
             }
           ]
         },
         {
-          "tool": "get_show",
-          "server": "smithery::fouldomain/phish-analytics",
+          "tool": "get_metric_metadata",
+          "server": "smithery::glassnode/glassnode-mcp",
           "source": "smithery",
-          "description": "Get details about a specific Phish show by date (YYYY-MM-DD format).",
+          "description": "Get metadata for a specific metric including parameters, tier, and examples. Use after get_metrics_list() to verify metric path.",
           "schema": [
             {
-              "name": "date",
+              "name": "metric",
               "type": "string",
               "required": false
             }
           ]
         },
         {
-          "tool": "top_shows",
-          "server": "smithery::fouldomain/phish-analytics",
+          "tool": "get_articles",
+          "server": "smithery::glassnode/glassnode-mcp",
           "source": "smithery",
-          "description": "Get the highest-rated Phish shows. Filter by year, year range, era, tour, venue, or state.",
+          "description": "Get premium research articles from Glassnode Insights - institutional-grade on-chain market intelligence featuring Market Pulse, Week On-chain analysis, Market Vectors, Partner Reports, and exclusive research. Access professional-grade insights into Bitcoin, Ethereum, DeFi, and altcoin markets with …",
           "schema": [
-            {
-              "name": "end_year",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "era",
-              "type": "string",
-              "required": false
-            },
             {
               "name": "limit",
               "type": "number",
               "required": false
             },
             {
-              "name": "start_year",
+              "name": "page",
               "type": "number",
-              "required": false
-            },
-            {
-              "name": "state",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "tour",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "venue",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "year",
-              "type": "number",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "song_stats",
-          "server": "smithery::fouldomain/phish-analytics",
-          "source": "smithery",
-          "description": "Get detailed statistics about a Phish song: total plays, debut, gap, average duration, and audio analysis.",
-          "schema": [
-            {
-              "name": "song",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "find_jams",
-          "server": "smithery::fouldomain/phish-analytics",
-          "source": "smithery",
-          "description": "Find Phish jams matching specific criteria. Filter by song, year/era, venue, state, tags (Dark, Funk, Bliss, Type II, etc.), BPM, duration, groove. Sort by score, duration, or groove.",
-          "schema": [
-            {
-              "name": "end_year",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "era",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "limit",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "max_bpm",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "min_bpm",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "min_duration_minutes",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "min_groove",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "song",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "sort",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "start_year",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "state",
-              "type": "string",
               "required": false
             },
             {
               "name": "tags",
               "type": "string",
               "required": false
-            },
-            {
-              "name": "venue",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "year",
-              "type": "number",
-              "required": false
             }
           ]
         },
         {
-          "tool": "bustouts",
-          "server": "smithery::fouldomain/phish-analytics",
+          "tool": "get_article",
+          "server": "smithery::glassnode/glassnode-mcp",
           "source": "smithery",
-          "description": "Find songs with long gaps between performances (bustouts). Without a year, shows current bustout candidates. With a year, shows bustouts that happened that year.",
+          "description": "Get a specific premium research article from Glassnode Insights by slug or ID. Access detailed institutional-grade market intelligence including full article content, HTML markup, and metadata. Retrieve comprehensive on-chain analysis, market vectors, systematic research, and exclusive insights for …",
           "schema": [
             {
-              "name": "limit",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "min_gap",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "year",
-              "type": "number",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "shows_by_venue",
-          "server": "smithery::fouldomain/phish-analytics",
-          "source": "smithery",
-          "description": "Find Phish shows at a specific venue, city, or state.",
-          "schema": [
-            {
-              "name": "city",
+              "name": "id",
               "type": "string",
               "required": false
             },
             {
-              "name": "limit",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "state",
+              "name": "slug",
               "type": "string",
-              "required": false
-            },
-            {
-              "name": "venue",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "year",
-              "type": "number",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "lookup_company_cz",
-          "server": "smithery::janmacher02-xl8y/ares-mcp",
-          "source": "smithery",
-          "description": "Look up a Czech company in the ARES registry by IČO. Returns full profile: name, address, VAT number, legal form, NACE codes, registration status across all registries.",
-          "schema": [
-            {
-              "name": "ico",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "search_companies_cz",
-          "server": "smithery::janmacher02-xl8y/ares-mcp",
-          "source": "smithery",
-          "description": "Search Czech companies by name in ARES. Returns up to 10 matching companies with IČO and address.",
-          "schema": [
-            {
-              "name": "limit",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "name",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "check_insolvency_cz",
-          "server": "smithery::janmacher02-xl8y/ares-mcp",
-          "source": "smithery",
-          "description": "Check if a Czech company or person is in insolvency proceedings via the ISIR (Insolvenční rejstřík). Returns active insolvency cases.",
-          "schema": [
-            {
-              "name": "ico",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "name",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "lookup_company_sk",
-          "server": "smithery::janmacher02-xl8y/ares-mcp",
-          "source": "smithery",
-          "description": "Look up a Slovak company in the ORSR (Obchodný register SR) by IČO. Returns company name, address, legal form and registration details.",
-          "schema": [
-            {
-              "name": "ico",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "bulk_lookup_companies_cz",
-          "server": "smithery::janmacher02-xl8y/ares-mcp",
-          "source": "smithery",
-          "description": "Look up multiple Czech companies at once by their IČO numbers. Returns basic info for each. Maximum 10 companies per request.",
-          "schema": [
-            {
-              "name": "icos",
-              "type": "array",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "record",
-          "server": "smithery::evozim-hv/handoff-tracker",
-          "source": "smithery",
-          "description": "Memoria a Corto Plazo para Enjambres — /api/record endpoint. Fee: $0.02 USDC via x402.",
-          "schema": [
-            {
-              "name": "payload",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "bundle_urls",
-          "server": "glama::at.uurl/bundler",
-          "source": "glama",
-          "description": "Bundle multiple URLs into a single short link on UURL.at. Returns the short URL and QR code URLs (.svg and .png). Use this when you want to share multiple reference links as one URL.",
-          "schema": [
-            {
-              "name": "urls",
-              "type": "array",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "get_bundle",
-          "server": "glama::at.uurl/bundler",
-          "source": "glama",
-          "description": "Retrieve the URLs and metadata from a UURL.at short link, including QR code URLs. Use this to inspect what URLs are behind a uurl.at link.",
-          "schema": [
-            {
-              "name": "rid",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "waveguard_scan",
-          "server": "official::com.emergentphysicslab/waveguard",
-          "source": "direct_mcp",
-          "description": "Find outliers and anomalies in structured data — ideal as a second step after pulling records from Google Sheets, Airtable, Supabase, Notion databases, HubSpot, Financial APIs, GitHub, NPM, or any source that returns rows of JSON. Fully stateless: send known-good rows as training and suspect rows as…",
-          "schema": [
-            {
-              "name": "encoder_type",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "field_level",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "sensitivity",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "test",
-              "type": "array",
-              "required": true
-            },
-            {
-              "name": "training",
-              "type": "array",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "waveguard_scan_timeseries",
-          "server": "official::com.emergentphysicslab/waveguard",
-          "source": "direct_mcp",
-          "description": "Detect anomalies in time-series data — use after pulling numeric metrics from monitoring APIs, financial data sources, IoT sensors, or spreadsheet columns. Send a single numeric array and specify a window size. Early windows define 'normal', recent windows are tested for anomalies.\n\nTypical workflow…",
-          "schema": [
-            {
-              "name": "data",
-              "type": "array",
-              "required": true
-            },
-            {
-              "name": "sensitivity",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "test_windows",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "window_size",
-              "type": "integer",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "waveguard_health",
-          "server": "official::com.emergentphysicslab/waveguard",
-          "source": "direct_mcp",
-          "description": "Check WaveGuard API health, GPU availability, version, and engine status. No authentication required. Returns status, version, and GPU info.",
-          "schema": [
-            {
-              "name": "verbose",
-              "type": "boolean",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "waveguard_fingerprint",
-          "server": "official::com.emergentphysicslab/waveguard",
-          "source": "direct_mcp",
-          "description": "Get a physics embedding of any data item (52-dim at Level 0, 62-dim at Level 1 with phase statistics). The fingerprint captures structural properties via wave-equation dynamics — useful for similarity search, clustering, baseline comparison, and drift detection. Works on JSON objects, token metrics,…",
-          "schema": [
-            {
-              "name": "data",
-              "type": "",
-              "required": true
-            },
-            {
-              "name": "encoder_type",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "field_level",
-              "type": "integer",
               "required": false
             }
           ]
@@ -1303,58 +1223,419 @@
       ],
       "removedSamples": [
         {
-          "tool": "agent_health_check",
-          "server": "glama::io.github.andysalvo/agentic-platform",
-          "source": "glama",
-          "description": "Score any agent's system prompt on governance best practices from 0 to 100. Returns a detailed diagnostic report with specific issues found, severity ratings, and actionable fixes. Checks for authority leaks, silent inference, missing audit trails, and 14 other governance anti-patterns. No API key n…",
+          "tool": "query_conceptual",
+          "server": "smithery::digby-oldridge/colour-memory-api",
+          "source": "smithery",
+          "description": "Ask a cultural, historical, or material colour question. Returns named archive colours with provenance and cultural context. Works for abstract queries like 'grief', 'Ottoman luxury', 'toxic Victorian pigments', or 'the sea at dusk'.",
           "schema": [
             {
-              "name": "system_prompt",
+              "name": "archive",
               "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "buy_credits",
-          "server": "glama::io.github.andysalvo/agentic-platform",
-          "source": "glama",
-          "description": "Get a Stripe checkout link to purchase more skill file credits. Returns a URL for your human operator to complete payment. Credits are added automatically after purchase.",
-          "schema": [
-            {
-              "name": "api_key",
-              "type": "string",
-              "required": true
+              "required": false
             },
             {
-              "name": "tier",
+              "name": "n_results",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "query",
               "type": "string",
               "required": false
             }
           ]
         },
         {
-          "tool": "check_usage",
-          "server": "glama::io.github.andysalvo/agentic-platform",
-          "source": "glama",
-          "description": "Check your current usage stats including total calls, remaining credits, and free calls left today.",
+          "tool": "query_hex",
+          "server": "smithery::digby-oldridge/colour-memory-api",
+          "source": "smithery",
+          "description": "Find the closest named archive colours to a hex value using CIEDE2000 perceptual distance.",
           "schema": [
             {
-              "name": "api_key",
+              "name": "archive",
               "type": "string",
-              "required": true
+              "required": false
+            },
+            {
+              "name": "hex",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "n_results",
+              "type": "integer",
+              "required": false
             }
           ]
         },
         {
-          "tool": "estimate_agent_cost",
-          "server": "glama::io.github.andysalvo/agentic-platform",
-          "source": "glama",
-          "description": "Compare the cost of running an agent task across all major AI models including Claude, GPT, Gemini, Llama, and Mistral. Returns a comparison table with per-call, per-run, and per-day costs plus optimization tips. No API key needed.",
+          "tool": "accessibility_check",
+          "server": "smithery::digby-oldridge/colour-memory-api",
+          "source": "smithery",
+          "description": "Return WCAG 2.1 contrast ratios and AA/AAA pass/fail grades for a foreground hex against a background.",
           "schema": [
             {
-              "name": "input_tokens",
+              "name": "background",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "hex_val",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "accessibility_matrix",
+          "server": "smithery::digby-oldridge/colour-memory-api",
+          "source": "smithery",
+          "description": "Accept a palette array and return every foreground/background combination with contrast ratio, AA normal, AA large, AAA normal, AAA large pass/fail grades, and a summary. Use this instead of calling accessibility_check multiple times for a palette.",
+          "schema": [
+            {
+              "name": "palette",
+              "type": "array",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "palette_light_dark",
+          "server": "smithery::digby-oldridge/colour-memory-api",
+          "source": "smithery",
+          "description": "Generate light-mode and dark-mode role maps from a palette. Analyses LRV, assigns background/surface/text/accent roles for each mode, checks body text contrast safety, and flags missing neutrals.",
+          "schema": [
+            {
+              "name": "palette",
+              "type": "array",
+              "required": false
+            },
+            {
+              "name": "use_case",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "archive_search",
+          "server": "smithery::digby-oldridge/colour-memory-api",
+          "source": "smithery",
+          "description": "Full-text keyword search across all 17,346 archive colour names and notes. Find colours by name fragment, material, cultural reference, pigment type, or historical period. Complements conceptual embedding search with exact keyword matching.",
+          "schema": [
+            {
+              "name": "archive",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "include_full",
+              "type": "boolean",
+              "required": false
+            },
+            {
+              "name": "limit",
               "type": "integer",
+              "required": false
+            },
+            {
+              "name": "n_results",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "query",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "palette_pdf",
+          "server": "smithery::digby-oldridge/colour-memory-api",
+          "source": "smithery",
+          "description": "Generate a premium branded PDF specification sheet from a palette of archive entries. Returns a downloadable PDF with full-bleed colour panels, archive names, provenance notes, RAL nearest match, LRV, chroma, WCAG contrast data, and Colour Memory branding. Pass the entries array from query_hex or pa…",
+          "schema": [
+            {
+              "name": "entries",
+              "type": "array",
+              "required": false
+            },
+            {
+              "name": "query",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "source",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "brand_system",
+          "server": "smithery::digby-oldridge/colour-memory-api",
+          "source": "smithery",
+          "description": "Complete brand colour system in one call. Returns colour roles with archive names, light and dark mode role maps, typography guidance, usage rules per colour, design tokens (CSS, Tailwind, Figma), and citation cards. Deterministic. No LLM cost.",
+          "schema": [
+            {
+              "name": "brand_category",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "market",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "medium",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "palette",
+              "type": "array",
+              "required": false
+            },
+            {
+              "name": "use_case",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "brand_asset_pack",
+          "server": "smithery::digby-oldridge/colour-memory-api",
+          "source": "smithery",
+          "description": "Complete brand asset pack. Returns CSS variables, Tailwind config, Figma tokens JSON, citation cards, and a Markdown brand guide. Everything a brand team needs to ship. Deterministic. No LLM cost.",
+          "schema": [
+            {
+              "name": "brand_category",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "market",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "medium",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "palette",
+              "type": "array",
+              "required": false
+            },
+            {
+              "name": "use_case",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "archive_status",
+          "server": "smithery::digby-oldridge/colour-memory-api",
+          "source": "smithery",
+          "description": "Return live archive status: total colour count, per-archive breakdown, embedding model, search engine state, and API version.",
+          "schema": []
+        },
+        {
+          "tool": "colour_story",
+          "server": "smithery::digby-oldridge/colour-memory-api",
+          "source": "smithery",
+          "description": "Given a hex value, returns a rich narrative about that colour's cultural journey — where it has appeared in history, what it has meant to different civilisations, and what archive names it carries. Essential for image generation prompts, brand storytelling, and creative briefs. Example: '#DC143C' re…",
+          "schema": [
+            {
+              "name": "hex",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "n_archives",
+              "type": "integer",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "colour_timeline",
+          "server": "smithery::digby-oldridge/colour-memory-api",
+          "source": "smithery",
+          "description": "Given a hex value, traces that colour's appearances across cultures and centuries in chronological order. Shows how a colour travelled through history — from its earliest documented use to its modern associations. Essential for understanding why a colour carries the weight it does. Example: deep blu…",
+          "schema": [
+            {
+              "name": "hex",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "tolerance",
+              "type": "integer",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "style_match",
+          "server": "smithery::digby-oldridge/colour-memory-api",
+          "source": "smithery",
+          "description": "The colour question every stylist gets asked: does this bag go with this outfit? Submit your outfit items as hex values with labels (dress, bag, shoes, coat, belt, scarf, etc.) and receive a verdict on what works, what clashes, what is missing, and what to add. Every recommendation is backed by arch…",
+          "schema": [
+            {
+              "name": "ask",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "items",
+              "type": "array",
+              "required": false
+            },
+            {
+              "name": "occasion",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "palette_generate",
+          "server": "smithery::digby-oldridge/colour-memory-api",
+          "source": "smithery",
+          "description": "Send a palette of up to 8 slots, locking some with hex values and leaving others empty. Empty slots are filled with the nearest CIEDE2000 archive match, interpolated from the locked anchors. Optional archive filter restricts fills to one archive. Returns full citation — name, archive, primary source…",
+          "schema": [
+            {
+              "name": "archive",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "size",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "slots",
+              "type": "array",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "palette_translate",
+          "server": "smithery::digby-oldridge/colour-memory-api",
+          "source": "smithery",
+          "description": "Map any list of hex values into a target archive using CIEDE2000 nearest-neighbour matching. Each input hex is matched to the closest named colour in the chosen archive, with a delta-e relevance band (exact / close / approximate / loose) and full provenance. Use to translate a client's paint colours…",
+          "schema": [
+            {
+              "name": "max_delta_e",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "palette",
+              "type": "array",
+              "required": false
+            },
+            {
+              "name": "target_archive",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "colour_verdict",
+          "server": "smithery::digby-oldridge/colour-memory-api",
+          "source": "smithery",
+          "description": "Evaluate a hex colour for a specific use case, market, and medium. Returns a decisive verdict: use_with_confidence, use_with_caution, or avoid. Includes strengths, risks, avoid-if scenarios, and better alternatives where needed. Backed by CIEDE2000 archive matching and Claude cultural intelligence. …",
+          "schema": [
+            {
+              "name": "audience",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "hex",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "markets",
+              "type": "array",
+              "required": false
+            },
+            {
+              "name": "medium",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "use_case",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "palette_verdict",
+          "server": "smithery::digby-oldridge/colour-memory-api",
+          "source": "smithery",
+          "description": "Evaluate a palette of 2-8 hex values for a use case, market, and medium. Returns a verdict (strong / strong_with_adjustment / weak / avoid), a score 0-100, the role of each colour, the single biggest weakness, and a concrete suggestion for what to add to fix it. Each colour is matched to the nearest…",
+          "schema": [
+            {
+              "name": "market",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "medium",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "palette",
+              "type": "array",
+              "required": false
+            },
+            {
+              "name": "use_case",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "agent_brief",
+          "server": "smithery::digby-oldridge/colour-memory-api",
+          "source": "smithery",
+          "description": "Generate a complete colour direction package for another AI agent or image generation model. Fetches a historically grounded archive palette from the concept, then produces: an agent brief (colour direction in prose), colour tokens with hex values and roles, a model-specific image generation prompt,…",
+          "schema": [
+            {
+              "name": "allowed_archives",
+              "type": "array",
+              "required": false
+            },
+            {
+              "name": "archive",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "concept",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "locked_palette",
+              "type": "array",
               "required": false
             },
             {
@@ -1363,328 +1644,279 @@
               "required": false
             },
             {
-              "name": "num_calls",
+              "name": "palette_size",
               "type": "integer",
               "required": false
             },
             {
-              "name": "output_tokens",
+              "name": "style_notes",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "task",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "colour_strategy",
+          "server": "smithery::digby-oldridge/colour-memory-api",
+          "source": "smithery",
+          "description": "The flagship commercial endpoint. Combines archive grounding, verdict, brand fit, market risk, category cliche check, material behaviour, copy hooks, and usage rules in a single call. Input: hex + brand_context (category, positioning, audience, channels) + constraints (avoid, must_work_on) + markets…",
+          "schema": [
+            {
+              "name": "brand_context",
+              "type": "object",
+              "required": false
+            },
+            {
+              "name": "constraints",
+              "type": "object",
+              "required": false
+            },
+            {
+              "name": "hex",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "markets",
+              "type": "array",
+              "required": false
+            },
+            {
+              "name": "medium",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "archive_report_brief",
+          "server": "smithery::digby-oldridge/colour-memory-api",
+          "source": "smithery",
+          "description": "One-call complete archive research package for a document, PDF, or editorial brief. Input: title, audience, themes, archives to draw from, things to avoid, number of colours. Output: ranked colour cards with full provenance, story order, source confidence flags, pull quote, CTA line, CSS tokens, ima…",
+          "schema": [
+            {
+              "name": "archives",
+              "type": "array",
+              "required": false
+            },
+            {
+              "name": "audience",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "avoid",
+              "type": "array",
+              "required": false
+            },
+            {
+              "name": "n_colours",
               "type": "integer",
               "required": false
             },
             {
-              "name": "task_description",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "evaluate_service",
-          "server": "glama::io.github.andysalvo/agentic-platform",
-          "source": "glama",
-          "description": "Evaluate any MCP service for trustworthiness before spending money on it. Connects to the target server, checks reachability, governance declarations, tool definition quality, and audit endpoints. Returns a trust score from 0 to 100 with a recommendation: PROCEED, PROCEED WITH CAUTION, HIGH RISK, or…",
-          "schema": [
-            {
-              "name": "server_url",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "task_context",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_skill",
-          "server": "glama::io.github.andysalvo/agentic-platform",
-          "source": "glama",
-          "description": "Retrieve an expert skill file that makes you measurably better at a specific task. Each skill has auditable provenance and is curated by domain experts. Requires a valid API key.",
-          "schema": [
-            {
-              "name": "api_key",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "skill_name",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "list_skills",
-          "server": "glama::io.github.andysalvo/agentic-platform",
-          "source": "glama",
-          "description": "List all available expert skill files with descriptions and pricing. Shows your usage stats if you provide an API key.",
-          "schema": [
-            {
-              "name": "api_key",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "mcp_manifest_lint",
-          "server": "glama::io.github.andysalvo/agentic-platform",
-          "source": "glama",
-          "description": "The only MCP tool definition linter that exists. Validates your MCP tool definitions for anti-patterns, missing descriptions, bad parameter schemas, naming issues, and quality problems. Returns a pass/fail report with specific fixes for each issue found. No API key needed.",
-          "schema": [
-            {
-              "name": "tools_json",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "register",
-          "server": "glama::io.github.andysalvo/agentic-platform",
-          "source": "glama",
-          "description": "Register for an API key to access expert skill files. Free tier includes 10 skill retrievals per day. No payment required.",
-          "schema": []
-        },
-        {
-          "tool": "dns_health",
-          "server": "glama::io.github.WingedGuardian/agent-tools",
-          "source": "glama",
-          "description": "Check DNS health for a domain.\n\n    Returns A/AAAA/MX/NS records, SPF/DMARC mail security status,\n    and whether the domain resolves.\n\n    Args:\n        domain: The domain name to check (e.g. \"example.com\").\n        include_txt: Whether to include all TXT records. Default false.",
-          "schema": [
-            {
-              "name": "domain",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "include_txt",
-              "type": "boolean",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "email_validate",
-          "server": "glama::io.github.WingedGuardian/agent-tools",
-          "source": "glama",
-          "description": "Validate an email address.\n\n    Checks format, MX records, disposable domain, role account,\n    and optionally probes SMTP to verify the mailbox exists.\n\n    Args:\n        email: The email address to validate.\n        check_smtp: Whether to probe the SMTP server (slower, 2-5s). Default false.",
-          "schema": [
-            {
-              "name": "check_smtp",
+              "name": "strict_sources",
               "type": "boolean",
               "required": false
             },
             {
-              "name": "email",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "extract_text",
-          "server": "glama::io.github.WingedGuardian/agent-tools",
-          "source": "glama",
-          "description": "Extract clean readable text from a webpage.\n\n    Strips HTML, navigation, ads, scripts, and boilerplate.\n    Returns clean text, title, description, word count, and language.\n\n    Args:\n        url: The URL to extract text from.\n        max_length: Max characters to return (100-50000). Default 5000.",
-          "schema": [
-            {
-              "name": "max_length",
-              "type": "integer",
+              "name": "themes",
+              "type": "array",
               "required": false
             },
             {
-              "name": "url",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "headers_analyze",
-          "server": "glama::io.github.WingedGuardian/agent-tools",
-          "source": "glama",
-          "description": "Analyze HTTP response headers for a URL.\n\n    Returns all response headers plus a security header audit\n    with a 0-100 score checking HSTS, CSP, X-Frame-Options, etc.\n\n    Args:\n        url: The URL to analyze (e.g. \"https://example.com\").",
-          "schema": [
-            {
-              "name": "url",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "ip_lookup",
-          "server": "glama::io.github.WingedGuardian/agent-tools",
-          "source": "glama",
-          "description": "Look up an IP address.\n\n    Returns geolocation, ISP, proxy/hosting detection, and reverse DNS.\n\n    Args:\n        ip: IPv4 or IPv6 address to look up.\n        geo: Include geolocation data (country, city, lat/lon). Default true.",
-          "schema": [
-            {
-              "name": "geo",
-              "type": "boolean",
-              "required": false
-            },
-            {
-              "name": "ip",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "qr_generate",
-          "server": "glama::io.github.WingedGuardian/agent-tools",
-          "source": "glama",
-          "description": "Generate a QR code image from text or URL.\n\n    Returns base64-encoded PNG image data.\n\n    Args:\n        data: The text or URL to encode in the QR code.\n        size: Image size in pixels (64-2048). Default 256.",
-          "schema": [
-            {
-              "name": "data",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "size",
-              "type": "integer",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "tech_detect",
-          "server": "glama::io.github.WingedGuardian/agent-tools",
-          "source": "glama",
-          "description": "Detect the technology stack of a website.\n\n    Analyzes HTTP headers, HTML, and script sources to identify\n    frameworks (React, Vue, Next.js), CMS (WordPress, Shopify),\n    CDN (Cloudflare, Fastly), analytics, and more.\n\n    Args:\n        url: The URL to analyze (e.g. \"https://example.com\").",
-          "schema": [
-            {
-              "name": "url",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "url_health",
-          "server": "glama::io.github.WingedGuardian/agent-tools",
-          "source": "glama",
-          "description": "Check if a URL is alive and healthy.\n\n    Returns status code, redirect chain, SSL certificate info,\n    response time, and server details.\n\n    Args:\n        url: The URL to check (e.g. \"https://example.com\").\n        follow_redirects: Whether to follow redirects. Default true.",
-          "schema": [
-            {
-              "name": "follow_redirects",
-              "type": "boolean",
-              "required": false
-            },
-            {
-              "name": "url",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "whois_lookup",
-          "server": "glama::io.github.WingedGuardian/agent-tools",
-          "source": "glama",
-          "description": "WHOIS lookup for a domain.\n\n    Returns registrar, creation/expiration dates, nameservers,\n    domain status codes, and registrant info when available.\n\n    Args:\n        domain: The domain name to look up (e.g. \"example.com\").",
-          "schema": [
-            {
-              "name": "domain",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "check_availability",
-          "server": "glama::io.github.Kaanthan24/agnigateway-mcp",
-          "source": "glama",
-          "description": "Check current availability and price for a specific offer.",
-          "schema": [
-            {
-              "name": "source_id",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "get_bundle",
-          "server": "glama::io.github.Kaanthan24/agnigateway-mcp",
-          "source": "glama",
-          "description": "Get a composed bundle for a hotel: the hotel product plus matching addon services (co-working pass, airport transfer, etc.). Returns a bundle_value_score and merged summary.",
-          "schema": [
-            {
-              "name": "addon_types",
+              "name": "title",
               "type": "string",
               "required": false
-            },
-            {
-              "name": "hotel_source_id",
-              "type": "string",
-              "required": true
             }
           ]
         }
       ],
       "unreachedSamples": [
         {
-          "tool": "bn_ping",
-          "server": "smithery::node2flow/binance",
+          "tool": "get-product-info",
+          "server": "smithery::theconstructionstandard/the-construction-standard",
           "source": "smithery",
-          "description": "Test connectivity to Binance API. Returns empty object if successful. Use to verify API is reachable.",
+          "description": "Get an overview of CSI Dynamic Standards — what it does, the company behind it, and what standards it includes (MasterFormat, UniFormat, OmniClass)",
+          "schema": []
+        },
+        {
+          "tool": "get-standards",
+          "server": "smithery::theconstructionstandard/the-construction-standard",
+          "source": "smithery",
+          "description": "Get detailed information about MasterFormat, UniFormat, and OmniClass construction classification standards — what they are, how they differ, and their benefits",
+          "schema": []
+        },
+        {
+          "tool": "get-features",
+          "server": "smithery::theconstructionstandard/the-construction-standard",
+          "source": "smithery",
+          "description": "Get the full list of CSI Dynamic Standards platform features — trusted source, quality checks, cross-phase coordination, enterprise integrations, and always-current updates",
+          "schema": []
+        },
+        {
+          "tool": "get-personas",
+          "server": "smithery::theconstructionstandard/the-construction-standard",
+          "source": "smithery",
+          "description": "Get information about who CSI Dynamic Standards serves — specifiers, architects, building engineers, contractors, and owners/facility managers — with role-specific benefits",
+          "schema": []
+        },
+        {
+          "tool": "get-pricing",
+          "server": "smithery::theconstructionstandard/the-construction-standard",
+          "source": "smithery",
+          "description": "Get CSI Dynamic Standards pricing model — firm-based subscription by company type and revenue, licensing details, and what counts as commercial use",
+          "schema": []
+        },
+        {
+          "tool": "get-problems-solved",
+          "server": "smithery::theconstructionstandard/the-construction-standard",
+          "source": "smithery",
+          "description": "Get the problems CSI Dynamic Standards solves — inconsistent standards, RFIs from outdated info, static PDFs, lost context between phases, and poor handover packages",
+          "schema": []
+        },
+        {
+          "tool": "get-use-cases",
+          "server": "smithery::theconstructionstandard/the-construction-standard",
+          "source": "smithery",
+          "description": "Get specific use cases for CSI Dynamic Standards — specifications, cost estimation, BIM classification, quality checks, handover, audits, and capital planning",
+          "schema": []
+        },
+        {
+          "tool": "get-faqs",
+          "server": "smithery::theconstructionstandard/the-construction-standard",
+          "source": "smithery",
+          "description": "Get frequently asked questions about CSI Dynamic Standards — licensing, pricing, MasterFormat vs UniFormat vs OmniClass, commercial use, and open source status",
+          "schema": []
+        },
+        {
+          "tool": "search-product-info",
+          "server": "smithery::theconstructionstandard/the-construction-standard",
+          "source": "smithery",
+          "description": "Search across all CSI Dynamic Standards product information by keyword — searches standards, features, FAQs, personas, problems solved, use cases, and pricing",
           "schema": [
             {
-              "name": "_fields",
+              "name": "query",
               "type": "string",
               "required": false
             }
           ]
         },
         {
-          "tool": "bn_server_time",
-          "server": "smithery::node2flow/binance",
+          "tool": "extract_pdf",
+          "server": "smithery::jesse-dxju/docpull",
           "source": "smithery",
-          "description": "Get Binance server time (millisecond timestamp). Use to check connectivity and sync timestamps for signed requests.",
+          "description": "Extract a PDF from a URL and return clean structured Markdown. Costs $0.001 USDC per page via x402.",
           "schema": [
             {
-              "name": "_fields",
+              "name": "url",
               "type": "string",
               "required": false
             }
           ]
         },
         {
-          "tool": "bn_exchange_info",
-          "server": "smithery::node2flow/binance",
+          "tool": "probe_pdf",
+          "server": "smithery::jesse-dxju/docpull",
           "source": "smithery",
-          "description": "Get exchange information including trading rules, symbol list, filters (PRICE_FILTER, LOT_SIZE, MIN_NOTIONAL), and rate limits. Optionally filter by symbol.",
+          "description": "Check page count and exact cost for a PDF before extracting. Free, no payment required.",
           "schema": [
             {
-              "name": "_fields",
+              "name": "url",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "health_check",
+          "server": "smithery::jesse-dxju/docpull",
+          "source": "smithery",
+          "description": "Check if the docpull service is running and available.",
+          "schema": []
+        },
+        {
+          "tool": "create_session",
+          "server": "smithery::scott-zj62/sncro",
+          "source": "smithery",
+          "description": "Create a new sncro session. Returns a session key and secret.\n\nArgs:\n    project_key: The project key from CLAUDE.md (registered at sncro.net)\n    git_user: The current git username (for guest access control). If\n        omitted or empty, the call is treated as a guest session — allowed\n        only…",
+          "schema": [
+            {
+              "name": "brief",
+              "type": "boolean",
+              "required": false
+            },
+            {
+              "name": "git_user",
               "type": "string",
               "required": false
             },
             {
-              "name": "symbol",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "symbols",
+              "name": "project_key",
               "type": "string",
               "required": false
             }
           ]
         },
         {
-          "tool": "bn_order_book",
-          "server": "smithery::node2flow/binance",
+          "tool": "get_console_logs",
+          "server": "smithery::scott-zj62/sncro",
           "source": "smithery",
-          "description": "Get order book (bids and asks) for a symbol. Weight varies by limit: 5 (1-100), 25 (101-500), 50 (501-1000), 250 (1001-5000).",
+          "description": "Get recent console logs and errors from the browser.\n\nReturns the latest console output and any JavaScript errors,\nincluding unhandled exceptions and promise rejections.\n\nThis reads from baseline data that the browser pushes every 5 seconds,\nso it works even if the browser tab is in the background. …",
           "schema": [
             {
-              "name": "_fields",
+              "name": "key",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "secret",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "query_element",
+          "server": "smithery::scott-zj62/sncro",
+          "source": "smithery",
+          "description": "Query a DOM element by CSS selector.\n\nReturns bounding rect, attributes, computed styles, inner text,\nand child count. Use this to debug layout, positioning, and\nvisibility issues.\n\nRequires a connected browser session. If you get BROWSER_NOT_CONNECTED,\ncall check_session first and wait for \"connect…",
+          "schema": [
+            {
+              "name": "key",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "secret",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "selector",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "styles",
+              "type": "",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "query_all",
+          "server": "smithery::scott-zj62/sncro",
+          "source": "smithery",
+          "description": "Query all matching DOM elements by CSS selector.\n\nReturns a summary of each matching element (tag, id, class,\nbounding rect, inner text). Useful for checking lists, grids,\nor multiple instances of a component.\n\nRequires a connected browser session. If you get BROWSER_NOT_CONNECTED,\ncall check_sessio…",
+          "schema": [
+            {
+              "name": "key",
               "type": "string",
               "required": false
             },
@@ -1694,20 +1926,25 @@
               "required": false
             },
             {
-              "name": "symbol",
+              "name": "secret",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "selector",
               "type": "string",
               "required": false
             }
           ]
         },
         {
-          "tool": "bn_recent_trades",
-          "server": "smithery::node2flow/binance",
+          "tool": "get_network_log",
+          "server": "smithery::scott-zj62/sncro",
           "source": "smithery",
-          "description": "Get recent trades for a symbol. Returns up to 1000 most recent trades with price, quantity, and time.",
+          "description": "Get network performance data from the browser.\n\nReturns resource timing entries (URLs, durations, sizes) sorted\nby duration (slowest first), plus page navigation timing.\n\nUse this to find slow API calls, large assets, or overall page\nload performance.\n\nRequires a connected browser session. If you ge…",
           "schema": [
             {
-              "name": "_fields",
+              "name": "key",
               "type": "string",
               "required": false
             },
@@ -1717,482 +1954,66 @@
               "required": false
             },
             {
-              "name": "symbol",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "bn_aggregate_trades",
-          "server": "smithery::node2flow/binance",
-          "source": "smithery",
-          "description": "Get compressed/aggregate trades for a symbol. Trades that fill at the same time, price, and side are aggregated into a single entry.",
-          "schema": [
-            {
-              "name": "_fields",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "endTime",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "fromId",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "limit",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "startTime",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "symbol",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "bn_klines",
-          "server": "smithery::node2flow/binance",
-          "source": "smithery",
-          "description": "Get candlestick/kline data (OHLCV) for a symbol. Returns arrays of [openTime, open, high, low, close, volume, closeTime, quoteVolume, trades, takerBuyBase, takerBuyQuote].",
-          "schema": [
-            {
-              "name": "_fields",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "endTime",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "interval",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "limit",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "startTime",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "symbol",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "bn_avg_price",
-          "server": "smithery::node2flow/binance",
-          "source": "smithery",
-          "description": "Get current average price for a symbol. Returns the weighted average price over the last 5 minutes.",
-          "schema": [
-            {
-              "name": "_fields",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "symbol",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "bn_ticker_24hr",
-          "server": "smithery::node2flow/binance",
-          "source": "smithery",
-          "description": "Get 24-hour price change statistics. Weight: 2 (single symbol), 80 (all symbols). Includes price change, volume, high/low, and trade count.",
-          "schema": [
-            {
-              "name": "_fields",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "symbol",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "bn_ticker_price",
-          "server": "smithery::node2flow/binance",
-          "source": "smithery",
-          "description": "Get latest price for a symbol or all symbols. Lightweight endpoint for quick price checks.",
-          "schema": [
-            {
-              "name": "_fields",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "symbol",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "bn_book_ticker",
-          "server": "smithery::node2flow/binance",
-          "source": "smithery",
-          "description": "Get best bid/ask price and quantity for a symbol or all symbols. Useful for spread analysis.",
-          "schema": [
-            {
-              "name": "_fields",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "symbol",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "bn_new_order",
-          "server": "smithery::node2flow/binance",
-          "source": "smithery",
-          "description": "Place a new order. WARNING: This uses REAL MONEY on Binance Global. Supports LIMIT, MARKET, STOP_LOSS, STOP_LOSS_LIMIT, TAKE_PROFIT, TAKE_PROFIT_LIMIT, LIMIT_MAKER order types. Use bn_test_order first to validate.",
-          "schema": [
-            {
-              "name": "newClientOrderId",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "price",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "quantity",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "quoteOrderQty",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "recvWindow",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "side",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "stopPrice",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "symbol",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "timeInForce",
+              "name": "secret",
               "type": "string",
               "required": false
             },
             {
               "name": "type",
+              "type": "",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "get_page_snapshot",
+          "server": "smithery::scott-zj62/sncro",
+          "source": "smithery",
+          "description": "Get a high-level snapshot of the current page.\n\nReturns URL, title, viewport dimensions, scroll position,\ntop-level DOM structure, recent console logs, and recent errors.\n\nRequires a connected browser session. If you get BROWSER_NOT_CONNECTED,\ncall check_session first and wait for \"connected\" status…",
+          "schema": [
+            {
+              "name": "key",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "secret",
               "type": "string",
               "required": false
             }
           ]
         },
         {
-          "tool": "bn_test_order",
-          "server": "smithery::node2flow/binance",
+          "tool": "check_session",
+          "server": "smithery::scott-zj62/sncro",
           "source": "smithery",
-          "description": "Test new order creation (dry run). Validates all parameters without actually placing the order. No funds are used. Always test before placing real orders.",
+          "description": "Check the connection status of a sncro session.\n\nCall this after create_session to confirm the browser has connected\nbefore using other tools. If status is \"waiting\", the user hasn't\nenabled sncro yet — remind them to click/paste the enable URL,\nwait a few seconds, and call check_session again.\n\nRet…",
           "schema": [
             {
-              "name": "newClientOrderId",
+              "name": "key",
               "type": "string",
               "required": false
             },
             {
-              "name": "price",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "quantity",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "quoteOrderQty",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "recvWindow",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "side",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "stopPrice",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "symbol",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "timeInForce",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "type",
+              "name": "secret",
               "type": "string",
               "required": false
             }
           ]
         },
         {
-          "tool": "bn_query_order",
-          "server": "smithery::node2flow/binance",
+          "tool": "end_session",
+          "server": "smithery::scott-zj62/sncro",
           "source": "smithery",
-          "description": "Query a specific order by orderId or origClientOrderId. Returns order status, filled quantity, and execution details.",
+          "description": "Explicitly close a sncro session — \"Finished With Engines\".\n\nCall this when you are done debugging and will not need the sncro tools\nagain in this conversation. After this returns, all sncro tool calls on\nthis key will refuse with a SESSION_CLOSED message — that is your signal\nto stop trying to use …",
           "schema": [
             {
-              "name": "_fields",
+              "name": "key",
               "type": "string",
               "required": false
             },
             {
-              "name": "orderId",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "origClientOrderId",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "recvWindow",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "symbol",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "bn_cancel_order",
-          "server": "smithery::node2flow/binance",
-          "source": "smithery",
-          "description": "Cancel an active order by orderId or origClientOrderId.",
-          "schema": [
-            {
-              "name": "orderId",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "origClientOrderId",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "recvWindow",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "symbol",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "bn_cancel_all_orders",
-          "server": "smithery::node2flow/binance",
-          "source": "smithery",
-          "description": "Cancel all open orders for a symbol. WARNING: This cancels ALL pending orders at once. Cannot be undone.",
-          "schema": [
-            {
-              "name": "recvWindow",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "symbol",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "bn_open_orders",
-          "server": "smithery::node2flow/binance",
-          "source": "smithery",
-          "description": "Get all open orders for a symbol or all symbols. Weight: 3 (with symbol), 40 (without symbol).",
-          "schema": [
-            {
-              "name": "_fields",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "recvWindow",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "symbol",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "bn_all_orders",
-          "server": "smithery::node2flow/binance",
-          "source": "smithery",
-          "description": "Get all orders (active, canceled, filled) for a symbol. Supports time range and pagination via orderId.",
-          "schema": [
-            {
-              "name": "_fields",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "endTime",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "limit",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "orderId",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "recvWindow",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "startTime",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "symbol",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "bn_account_info",
-          "server": "smithery::node2flow/binance",
-          "source": "smithery",
-          "description": "Get account information including balances, commission rates, and trading permissions. Returns all asset balances (free + locked).",
-          "schema": [
-            {
-              "name": "_fields",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "recvWindow",
-              "type": "integer",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "bn_my_trades",
-          "server": "smithery::node2flow/binance",
-          "source": "smithery",
-          "description": "Get trade execution history for a specific symbol. Returns price, quantity, commission, and whether you were buyer/maker.",
-          "schema": [
-            {
-              "name": "_fields",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "endTime",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "fromId",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "limit",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "orderId",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "recvWindow",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "startTime",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "symbol",
+              "name": "secret",
               "type": "string",
               "required": false
             }
@@ -2200,8 +2021,8 @@
         }
       ]
     },
-    "stealth": 145,
+    "stealth": 242,
     "crossRegistry": 2116,
-    "crossSource": 1249
+    "crossSource": 1883
   }
 }
