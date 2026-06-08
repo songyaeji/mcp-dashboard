@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T09:42:35+00:00",
+  "generatedAt": "2026-06-08T09:54:16+00:00",
   "lastCrawl": "2026-06-08",
   "crawl": {
     "servers": 10230,
@@ -131,52 +131,52 @@
   ],
   "topByUse": [
     {
-      "name": "Math-MCP",
+      "name": "EthanHenrickson/math-mcp",
       "value": 963300,
       "registry": "smithery"
     },
     {
-      "name": "Google Sheets",
+      "name": "googlesheets",
       "value": 46709,
       "registry": "smithery"
     },
     {
-      "name": "Gmail",
+      "name": "gmail",
       "value": 34564,
       "registry": "smithery"
     },
     {
-      "name": "Exa Search",
+      "name": "exa",
       "value": 21665,
       "registry": "smithery"
     },
     {
-      "name": "Mesh MCP",
+      "name": "clay-inc/clay-mcp",
       "value": 19240,
       "registry": "smithery"
     },
     {
-      "name": "AI Research Assistant",
+      "name": "hamid-vakilzadeh/mcpsemanticscholar",
       "value": 18747,
       "registry": "smithery"
     },
     {
-      "name": "SparkForge",
+      "name": "henry-ships/sparkforge",
       "value": 16466,
       "registry": "smithery"
     },
     {
-      "name": "AKShare One MCP Server",
+      "name": "zwldarren/akshare-one-mcp",
       "value": 13422,
       "registry": "smithery"
     },
     {
-      "name": "Google Tasks",
+      "name": "googletasks",
       "value": 12686,
       "registry": "smithery"
     },
     {
-      "name": "Brave Search",
+      "name": "brave",
       "value": 11608,
       "registry": "smithery"
     }
