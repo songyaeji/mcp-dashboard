@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T10:32:37+00:00",
+  "generatedAt": "2026-06-08T10:37:41+00:00",
   "lastCrawl": "2026-06-08",
   "crawl": {
     "servers": 10230,
@@ -813,21 +813,6 @@
           "removed": 693
         },
         "color": "#8b5cf6"
-      },
-      {
-        "name": "direct_mcp",
-        "status": "completed",
-        "servers": 4568,
-        "tools": 73336,
-        "changes": 1926,
-        "snapshots": 73336,
-        "changeBreakdown": {
-          "description_modified": 2908,
-          "schema_modified": 261,
-          "both_modified": 1702,
-          "removed": 451
-        },
-        "color": "#6366f1"
       },
       {
         "name": "direct_mcp",
