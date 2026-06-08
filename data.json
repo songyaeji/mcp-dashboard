@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T10:37:41+00:00",
+  "generatedAt": "2026-06-08T10:43:53+00:00",
   "lastCrawl": "2026-06-08",
   "crawl": {
     "servers": 10230,
@@ -857,8 +857,8 @@
       "newTools": 2926,
       "droppedTools": 328,
       "removedTools": 1209,
-      "unreachedTools": 0,
-      "net": 2598,
+      "unreachedTools": 148,
+      "net": 1569,
       "prevDate": "2026-06-07",
       "newSamples": [
         {
@@ -1950,341 +1950,375 @@
       ],
       "unreachedSamples": [
         {
-          "tool": "get-product-info",
-          "server": "smithery::theconstructionstandard/the-construction-standard",
-          "source": "smithery",
-          "description": "Get an overview of CSI Dynamic Standards — what it does, the company behind it, and what standards it includes (MasterFormat, UniFormat, OmniClass)",
-          "schema": []
-        },
-        {
-          "tool": "get-standards",
-          "server": "smithery::theconstructionstandard/the-construction-standard",
-          "source": "smithery",
-          "description": "Get detailed information about MasterFormat, UniFormat, and OmniClass construction classification standards — what they are, how they differ, and their benefits",
-          "schema": []
-        },
-        {
-          "tool": "get-features",
-          "server": "smithery::theconstructionstandard/the-construction-standard",
-          "source": "smithery",
-          "description": "Get the full list of CSI Dynamic Standards platform features — trusted source, quality checks, cross-phase coordination, enterprise integrations, and always-current updates",
-          "schema": []
-        },
-        {
-          "tool": "get-personas",
-          "server": "smithery::theconstructionstandard/the-construction-standard",
-          "source": "smithery",
-          "description": "Get information about who CSI Dynamic Standards serves — specifiers, architects, building engineers, contractors, and owners/facility managers — with role-specific benefits",
-          "schema": []
-        },
-        {
-          "tool": "get-pricing",
-          "server": "smithery::theconstructionstandard/the-construction-standard",
-          "source": "smithery",
-          "description": "Get CSI Dynamic Standards pricing model — firm-based subscription by company type and revenue, licensing details, and what counts as commercial use",
-          "schema": []
-        },
-        {
-          "tool": "get-problems-solved",
-          "server": "smithery::theconstructionstandard/the-construction-standard",
-          "source": "smithery",
-          "description": "Get the problems CSI Dynamic Standards solves — inconsistent standards, RFIs from outdated info, static PDFs, lost context between phases, and poor handover packages",
-          "schema": []
-        },
-        {
-          "tool": "get-use-cases",
-          "server": "smithery::theconstructionstandard/the-construction-standard",
-          "source": "smithery",
-          "description": "Get specific use cases for CSI Dynamic Standards — specifications, cost estimation, BIM classification, quality checks, handover, audits, and capital planning",
-          "schema": []
-        },
-        {
-          "tool": "get-faqs",
-          "server": "smithery::theconstructionstandard/the-construction-standard",
-          "source": "smithery",
-          "description": "Get frequently asked questions about CSI Dynamic Standards — licensing, pricing, MasterFormat vs UniFormat vs OmniClass, commercial use, and open source status",
-          "schema": []
-        },
-        {
-          "tool": "search-product-info",
-          "server": "smithery::theconstructionstandard/the-construction-standard",
-          "source": "smithery",
-          "description": "Search across all CSI Dynamic Standards product information by keyword — searches standards, features, FAQs, personas, problems solved, use cases, and pricing",
+          "tool": "approve_pending",
+          "server": "glama::io.github.Un3x/ai-success-story",
+          "source": "direct_mcp",
+          "description": "Admin-only. Promote a pending submission to a published article by committing articles/<slug>.md to the repo via the GitHub API. Heroku auto-deploys on push. Returns commit SHA.",
           "schema": [
             {
-              "name": "query",
+              "name": "admin_token",
               "type": "string",
-              "required": false
+              "required": true
+            },
+            {
+              "name": "submission_id",
+              "type": "string",
+              "required": true
             }
           ]
         },
         {
-          "tool": "create_session",
-          "server": "smithery::scott-zj62/sncro",
-          "source": "smithery",
-          "description": "Create a new sncro session. Returns a session key and secret.\n\nArgs:\n    project_key: The project key from CLAUDE.md (registered at sncro.net)\n    git_user: The current git username (for guest access control). If\n        omitted or empty, the call is treated as a guest session — allowed\n        only…",
+          "tool": "fetch_story",
+          "server": "glama::io.github.Un3x/ai-success-story",
+          "source": "direct_mcp",
+          "description": "Retrieve a story by slug, in full (omit `parts`) or a subset. Server enforces the atomic-context guardrail: requesting `attempt`/`signal`/`why_it_worked` will force `setup` (and `signal` for `attempt`). `forced_parts` and `forced_parts_reason` make this observable.",
           "schema": [
             {
-              "name": "brief",
-              "type": "boolean",
+              "name": "parts",
+              "type": "array",
               "required": false
             },
             {
-              "name": "git_user",
+              "name": "slug",
               "type": "string",
-              "required": false
-            },
-            {
-              "name": "project_key",
-              "type": "string",
-              "required": false
+              "required": true
             }
           ]
         },
         {
-          "tool": "get_console_logs",
-          "server": "smithery::scott-zj62/sncro",
-          "source": "smithery",
-          "description": "Get recent console logs and errors from the browser.\n\nReturns the latest console output and any JavaScript errors,\nincluding unhandled exceptions and promise rejections.\n\nThis reads from baseline data that the browser pushes every 5 seconds,\nso it works even if the browser tab is in the background. …",
+          "tool": "list_pending",
+          "server": "glama::io.github.Un3x/ai-success-story",
+          "source": "direct_mcp",
+          "description": "Admin-only. List submissions awaiting curation. Gated by the admin token. Returns oldest-first.",
           "schema": [
             {
-              "name": "key",
+              "name": "admin_token",
               "type": "string",
-              "required": false
-            },
-            {
-              "name": "secret",
-              "type": "string",
-              "required": false
+              "required": true
             }
           ]
         },
         {
-          "tool": "query_element",
-          "server": "smithery::scott-zj62/sncro",
-          "source": "smithery",
-          "description": "Query a DOM element by CSS selector.\n\nReturns bounding rect, attributes, computed styles, inner text,\nand child count. Use this to debug layout, positioning, and\nvisibility issues.\n\nRequires a connected browser session. If you get BROWSER_NOT_CONNECTED,\ncall check_session first and wait for \"connect…",
+          "tool": "reject_pending",
+          "server": "glama::io.github.Un3x/ai-success-story",
+          "source": "direct_mcp",
+          "description": "Admin-only. Drop a pending submission. Reason is recorded so submission_status surfaces it to the submitter on poll.",
           "schema": [
             {
-              "name": "key",
+              "name": "admin_token",
               "type": "string",
-              "required": false
+              "required": true
             },
             {
-              "name": "secret",
+              "name": "reason",
               "type": "string",
-              "required": false
+              "required": true
             },
             {
-              "name": "selector",
+              "name": "submission_id",
               "type": "string",
-              "required": false
-            },
-            {
-              "name": "styles",
-              "type": "",
-              "required": false
+              "required": true
             }
           ]
         },
         {
-          "tool": "query_all",
-          "server": "smithery::scott-zj62/sncro",
-          "source": "smithery",
-          "description": "Query all matching DOM elements by CSS selector.\n\nReturns a summary of each matching element (tag, id, class,\nbounding rect, inner text). Useful for checking lists, grids,\nor multiple instances of a component.\n\nRequires a connected browser session. If you get BROWSER_NOT_CONNECTED,\ncall check_sessio…",
+          "tool": "search_stories",
+          "server": "glama::io.github.Un3x/ai-success-story",
+          "source": "direct_mcp",
+          "description": "Consult prior incidents from other AI coding sessions for a transferable pattern relevant to your situation. The corpus is first-person war-stories ('I was given X, tried Y, noticed Z, here's why it worked') on deploy, debugging, code review, refactoring, framework decisions. Reach for this BEFORE f…",
           "schema": [
-            {
-              "name": "key",
-              "type": "string",
-              "required": false
-            },
             {
               "name": "limit",
               "type": "integer",
               "required": false
             },
             {
-              "name": "secret",
+              "name": "situation",
               "type": "string",
-              "required": false
+              "required": true
             },
             {
-              "name": "selector",
-              "type": "string",
+              "name": "tags",
+              "type": "array",
               "required": false
             }
           ]
         },
         {
-          "tool": "get_network_log",
-          "server": "smithery::scott-zj62/sncro",
-          "source": "smithery",
-          "description": "Get network performance data from the browser.\n\nReturns resource timing entries (URLs, durations, sizes) sorted\nby duration (slowest first), plus page navigation timing.\n\nUse this to find slow API calls, large assets, or overall page\nload performance.\n\nRequires a connected browser session. If you ge…",
+          "tool": "submission_status",
+          "server": "glama::io.github.Un3x/ai-success-story",
+          "source": "direct_mcp",
+          "description": "Public read. Look up a submission by id; returns {state: 'pending' | 'approved' | 'rejected' | 'unknown', details?}. Pending queue lives in process memory — dyno restart wipes it (resubmit if status becomes 'unknown' after a deploy).",
           "schema": [
             {
-              "name": "key",
+              "name": "submission_id",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "submit_story",
+          "server": "glama::io.github.Un3x/ai-success-story",
+          "source": "direct_mcp",
+          "description": "Submit a success-story article for human curation. Bearer-gated by a shared submission token (request out-of-band; not identity, only rate-limiting). Body is validated against the format spec at /docs/format-spec — exact H2 sections (Setup, Attempt, Signal, Why it worked) in order, 150–600 words, fr…",
+          "schema": [
+            {
+              "name": "body",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "frontmatter",
+              "type": "object",
+              "required": true
+            },
+            {
+              "name": "token",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "add_flight_booking",
+          "server": "glama::io.github.jackculpan/awardtravelfinder",
+          "source": "direct_mcp",
+          "description": "Log an award flight booking/redemption. For multi-leg trips (connecting flights, open-jaw, return), call this once per leg using the same trip_id — put the total points on the first leg and 0 on subsequent legs. Works great with Gmail — extract booking details from confirmation emails. Paid feature.",
+          "schema": [
+            {
+              "name": "airline",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "cabin_class",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "confirmation_number",
               "type": "string",
               "required": false
             },
             {
-              "name": "limit",
+              "name": "departure_date",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "destination",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "flight_number",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "notes",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "origin",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "passengers",
               "type": "integer",
               "required": false
             },
             {
-              "name": "secret",
+              "name": "points_spent",
+              "type": "integer",
+              "required": true
+            },
+            {
+              "name": "program",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "return_date",
               "type": "string",
               "required": false
             },
             {
-              "name": "type",
-              "type": "",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_page_snapshot",
-          "server": "smithery::scott-zj62/sncro",
-          "source": "smithery",
-          "description": "Get a high-level snapshot of the current page.\n\nReturns URL, title, viewport dimensions, scroll position,\ntop-level DOM structure, recent console logs, and recent errors.\n\nRequires a connected browser session. If you get BROWSER_NOT_CONNECTED,\ncall check_session first and wait for \"connected\" status…",
-          "schema": [
-            {
-              "name": "key",
+              "name": "taxes_currency",
               "type": "string",
               "required": false
             },
             {
-              "name": "secret",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "check_session",
-          "server": "smithery::scott-zj62/sncro",
-          "source": "smithery",
-          "description": "Check the connection status of a sncro session.\n\nCall this after create_session to confirm the browser has connected\nbefore using other tools. If status is \"waiting\", the user hasn't\nenabled sncro yet — remind them to click/paste the enable URL,\nwait a few seconds, and call check_session again.\n\nRet…",
-          "schema": [
-            {
-              "name": "key",
-              "type": "string",
+              "name": "taxes_paid",
+              "type": "number",
               "required": false
             },
             {
-              "name": "secret",
+              "name": "trip_id",
               "type": "string",
               "required": false
             }
           ]
         },
         {
-          "tool": "end_session",
-          "server": "smithery::scott-zj62/sncro",
-          "source": "smithery",
-          "description": "Explicitly close a sncro session — \"Finished With Engines\".\n\nCall this when you are done debugging and will not need the sncro tools\nagain in this conversation. After this returns, all sncro tool calls on\nthis key will refuse with a SESSION_CLOSED message — that is your signal\nto stop trying to use …",
+          "tool": "delete_flight_booking",
+          "server": "glama::io.github.jackculpan/awardtravelfinder",
+          "source": "direct_mcp",
+          "description": "Cancel/remove a tracked flight booking.",
           "schema": [
             {
-              "name": "key",
+              "name": "booking_id",
+              "type": "integer",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "discover_more_flight_tools",
+          "server": "glama::io.github.jackculpan/awardtravelfinder",
+          "source": "direct_mcp",
+          "description": "Discover other flight & travel MCP servers you can add to your client. Lists complementary remote MCPs covering aircraft seatmaps, airport delays/wait times, and lounges — with one-line install URLs. Call this when the user asks about seat selection, airport delays/security waits, baggage rankings, …",
+          "schema": []
+        },
+        {
+          "tool": "get_buy_points_pricing",
+          "server": "glama::io.github.jackculpan/awardtravelfinder",
+          "source": "direct_mcp",
+          "description": "Get the cost to buy points/miles for a loyalty program. Returns tiered base purchase pricing and any active bonus promotion. Use to answer 'how much does it cost to buy X Avios/miles/points?' If no program specified, returns all programs with pricing data. Free — no account needed.",
+          "schema": [
+            {
+              "name": "program",
               "type": "string",
               "required": false
             },
             {
-              "name": "secret",
+              "name": "quantity",
+              "type": "integer",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "get_flight_booking",
+          "server": "glama::io.github.jackculpan/awardtravelfinder",
+          "source": "direct_mcp",
+          "description": "Get details of a specific flight booking/redemption.",
+          "schema": [
+            {
+              "name": "booking_id",
+              "type": "integer",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "get_hotel_availability",
+          "server": "glama::io.github.jackculpan/awardtravelfinder",
+          "source": "direct_mcp",
+          "description": "Get current points availability for a hotel on specific dates. Use BEFORE monitor_hotel_price to find the correct rate_plan and current points rate. Paid feature.",
+          "schema": [
+            {
+              "name": "check_in_date",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "check_out_date",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "hotel_code",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "get_hotel_booking",
+          "server": "glama::io.github.jackculpan/awardtravelfinder",
+          "source": "direct_mcp",
+          "description": "Get details and full price history of a monitored hotel booking.",
+          "schema": [
+            {
+              "name": "booking_id",
+              "type": "integer",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "get_portfolio",
+          "server": "glama::io.github.jackculpan/awardtravelfinder",
+          "source": "direct_mcp",
+          "description": "Get a complete summary of your travel rewards portfolio for signed-in users: points balances, spend on hotels and flights, upcoming and past trips, destinations, and monthly spending trends. Uses the same underlying snapshot as the server-loaded chat preamble; call after the user adds bookings or ba…",
+          "schema": []
+        },
+        {
+          "tool": "get_pricing",
+          "server": "glama::io.github.jackculpan/awardtravelfinder",
+          "source": "direct_mcp",
+          "description": "Get the award pricing chart for a specific airline route. Shows points required per cabin class (off-peak/peak). No date needed. Paid feature.",
+          "schema": [
+            {
+              "name": "airline",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "arrival_code",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "departure_code",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "get_program_rates",
+          "server": "glama::io.github.jackculpan/awardtravelfinder",
+          "source": "direct_mcp",
+          "description": "Get the full award chart rates for a specific loyalty program. Returns all destinations with points required per cabin class including off-peak/peak pricing. Free — no account needed.",
+          "schema": [
+            {
+              "name": "program",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "get_status_matches",
+          "server": "glama::io.github.jackculpan/awardtravelfinder",
+          "source": "direct_mcp",
+          "description": "Get current airline status match offers. Returns active promotions where you can match elite status from one airline to another. Includes direct apply links. Each program also has a detailed FAQ page at awardtravelfinder.com/status-match/{program-slug} with eligibility, requirements, and step-by-ste…",
+          "schema": [
+            {
+              "name": "alliance",
               "type": "string",
               "required": false
             }
           ]
         },
         {
-          "tool": "report_issue",
-          "server": "smithery::scott-zj62/sncro",
-          "source": "smithery",
-          "description": "Report an issue, feature request, or success story for sncro.\n\nIMPORTANT: ALWAYS ask the user before submitting ANY feedback.\nShow them exactly what you plan to send and get explicit approval.\nNever submit feedback without the user's knowledge and consent.\n\nFor ALL categories:\n- Draft the text and s…",
-          "schema": [
-            {
-              "name": "category",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "description",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "git_user",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "project_key",
-              "type": "string",
-              "required": false
-            }
-          ]
+          "tool": "list_flight_bookings",
+          "server": "glama::io.github.jackculpan/awardtravelfinder",
+          "source": "direct_mcp",
+          "description": "List all tracked flight award bookings/redemptions. Shows airlines, routes, points spent, and cabin classes.",
+          "schema": []
         },
         {
-          "tool": "page",
-          "server": "smithery::xidik12/oculo",
-          "source": "smithery",
-          "description": "Describe the current page in Oculo browser. Default: compact (~30-80 tokens). Use detail=\"a11y\" for ref-tagged accessibility tree, detail=\"markdown\" for full article content.",
-          "schema": [
-            {
-              "name": "detail",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "scope",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "screenshot",
-              "type": "boolean",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "act",
-          "server": "smithery::xidik12/oculo",
-          "source": "smithery",
-          "description": "Perform an action in Oculo browser: click, navigate, scroll, press key, hover, type, login. Elements found by ref (from a11y snapshot), text, role, label, placeholder, or CSS selector.",
-          "schema": [
-            {
-              "name": "action",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "key",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "ref",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "selector",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "text",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "url",
-              "type": "string",
-              "required": false
-            }
-          ]
+          "tool": "list_hotel_bookings",
+          "server": "glama::io.github.jackculpan/awardtravelfinder",
+          "source": "direct_mcp",
+          "description": "List all hotel bookings being monitored for price drops. Shows current vs. original points rates.",
+          "schema": []
         }
       ]
     },
