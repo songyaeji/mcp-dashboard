@@ -1,62 +1,62 @@
 {
-  "generatedAt": "2026-06-08T10:43:53+00:00",
-  "lastCrawl": "2026-06-08",
+  "generatedAt": "2026-06-08T17:23:59+00:00",
+  "lastCrawl": "2026-06-09",
   "crawl": {
-    "servers": 10230,
-    "tools": 107435,
-    "snapshots": 1034332,
-    "stealthTools": 1696,
-    "crossRegistryAnomalies": 16318,
-    "crossSourceAnomalies": 19236
+    "servers": 10472,
+    "tools": 111146,
+    "snapshots": 1182973,
+    "stealthTools": 2990,
+    "crossRegistryAnomalies": 18516,
+    "crossSourceAnomalies": 25738
   },
   "registries": [
     {
       "name": "Official",
-      "servers": 4699,
+      "servers": 4780,
       "color": "#6366f1"
     },
     {
       "name": "Glama",
-      "servers": 3993,
+      "servers": 4143,
       "color": "#8b5cf6"
     },
     {
       "name": "Smithery",
-      "servers": 1538,
+      "servers": 1549,
       "color": "#06b6d4"
     }
   ],
   "health": [
     {
       "name": "Healthy",
-      "value": 1750,
+      "value": 2195,
       "color": "#22c55e"
     },
     {
       "name": "Unhealthy",
-      "value": 2211,
+      "value": 1944,
       "color": "#ef4444"
     },
     {
       "name": "Unknown",
-      "value": 6269,
+      "value": 6333,
       "color": "#6b7280"
     }
   ],
   "tdqs": [
     {
       "grade": "A",
-      "count": 1812,
+      "count": 1948,
       "color": "#22c55e"
     },
     {
       "grade": "B",
-      "count": 436,
+      "count": 419,
       "color": "#84cc16"
     },
     {
       "grade": "C",
-      "count": 146,
+      "count": 132,
       "color": "#f59e0b"
     },
     {
@@ -66,118 +66,118 @@
     },
     {
       "grade": "미평가",
-      "count": 7832,
+      "count": 7969,
       "color": "#374151"
     }
   ],
   "protocol": [
     {
       "name": "2024-11-05",
-      "value": 3231,
+      "value": 3599,
       "color": "#6366f1"
     },
     {
       "name": "2025-03-26",
-      "value": 1653,
+      "value": 1732,
       "color": "#06b6d4"
     },
     {
       "name": "2025-06-18",
-      "value": 242,
+      "value": 267,
       "color": "#8b5cf6"
     },
     {
       "name": "2025-11-05",
-      "value": 5,
+      "value": 6,
       "color": "#a78bfa"
     },
     {
       "name": "2025-11-25",
-      "value": 80,
+      "value": 81,
       "color": "#f59e0b"
     },
     {
       "name": "미보고",
-      "value": 5019,
+      "value": 4787,
       "color": "#374151"
     }
   ],
   "toolDist": [
     {
       "name": "0",
-      "servers": 3970,
+      "servers": 4057,
       "color": "#6b7280"
     },
     {
       "name": "1-5",
-      "servers": 2047,
+      "servers": 2076,
       "color": "#06b6d4"
     },
     {
       "name": "6-10",
-      "servers": 1259,
+      "servers": 1291,
       "color": "#6366f1"
     },
     {
       "name": "11-20",
-      "servers": 853,
+      "servers": 870,
       "color": "#8b5cf6"
     },
     {
       "name": "20+",
-      "servers": 2101,
+      "servers": 2178,
       "color": "#22c55e"
     }
   ],
   "topByUse": [
     {
       "name": "EthanHenrickson/math-mcp",
-      "value": 963300,
+      "value": 869491,
       "registry": "smithery"
     },
     {
       "name": "googlesheets",
-      "value": 46709,
+      "value": 46325,
       "registry": "smithery"
     },
     {
       "name": "gmail",
-      "value": 34564,
+      "value": 34533,
       "registry": "smithery"
     },
     {
       "name": "exa",
-      "value": 21665,
+      "value": 24035,
       "registry": "smithery"
     },
     {
       "name": "clay-inc/clay-mcp",
-      "value": 19240,
-      "registry": "smithery"
-    },
-    {
-      "name": "hamid-vakilzadeh/mcpsemanticscholar",
-      "value": 18747,
+      "value": 19616,
       "registry": "smithery"
     },
     {
       "name": "henry-ships/sparkforge",
-      "value": 16466,
+      "value": 19452,
+      "registry": "smithery"
+    },
+    {
+      "name": "hamid-vakilzadeh/mcpsemanticscholar",
+      "value": 18294,
       "registry": "smithery"
     },
     {
       "name": "zwldarren/akshare-one-mcp",
-      "value": 13422,
+      "value": 13741,
       "registry": "smithery"
     },
     {
       "name": "googletasks",
-      "value": 12686,
+      "value": 13302,
       "registry": "smithery"
     },
     {
       "name": "brave",
-      "value": 11608,
+      "value": 11642,
       "registry": "smithery"
     }
   ],
@@ -236,17 +236,17 @@
   "stealthByServer": [
     {
       "name": "glama::io.github.ABTdomain/domainkits-mcp",
-      "value": 304,
+      "value": 342,
       "registry": "glama"
     },
     {
       "name": "smithery::blackboxfoundry/livedatalink",
-      "value": 169,
+      "value": 338,
       "registry": "smithery"
     },
     {
       "name": "smithery::delx/witness-protocol",
-      "value": 89,
+      "value": 178,
       "registry": "smithery"
     },
     {
@@ -255,8 +255,23 @@
       "registry": "glama"
     },
     {
+      "name": "smithery::lilo-property/vacation-rentals",
+      "value": 67,
+      "registry": "smithery"
+    },
+    {
       "name": "smithery::favcrm/favcrm",
       "value": 62,
+      "registry": "smithery"
+    },
+    {
+      "name": "smithery::vortxai/emem",
+      "value": 60,
+      "registry": "smithery"
+    },
+    {
+      "name": "smithery::Plagtech/Spraay-x402-mcp",
+      "value": 58,
       "registry": "smithery"
     },
     {
@@ -265,34 +280,19 @@
       "registry": "glama"
     },
     {
-      "name": "smithery::delx/delx-mcp",
-      "value": 49,
+      "name": "smithery::rafaelkocurek-nvob/agentview",
+      "value": 52,
       "registry": "smithery"
-    },
-    {
-      "name": "glama::network.tenzro/tenzro",
-      "value": 45,
-      "registry": "glama"
-    },
-    {
-      "name": "glama::io.github.jackculpan/awardtravelfinder",
-      "value": 45,
-      "registry": "glama"
-    },
-    {
-      "name": "glama::io.github.tdobrowolski1/flashalpha",
-      "value": 31,
-      "registry": "glama"
     }
   ],
   "stealthByRegistry": [
     {
       "name": "smithery",
-      "value": 774
+      "value": 1226
     },
     {
       "name": "glama",
-      "value": 349
+      "value": 68
     }
   ],
   "crossRegistrySamples": [
@@ -541,6 +541,20 @@
       "crossRegistry": 2132,
       "crossSource": 6364,
       "tdqsAvg": 0
+    },
+    {
+      "date": "2026-06-09",
+      "serversCumulative": 10472,
+      "newServers": 242,
+      "snapshots": 148641,
+      "snapshotsCumulative": 1182973,
+      "tools": 107485,
+      "toolsCumulative": 111146,
+      "changes": 4277,
+      "stealth": 1294,
+      "crossRegistry": 2198,
+      "crossSource": 6502,
+      "tdqsAvg": 0
     }
   ],
   "registryTrend": [
@@ -663,13 +677,28 @@
       "smithery_new": 13,
       "smithery_tools": 28612,
       "smithery_changes": 104
+    },
+    {
+      "date": "2026-06-09",
+      "official_servers": 4780,
+      "official_new": 81,
+      "official_tools": 38904,
+      "official_changes": 415,
+      "glama_servers": 4143,
+      "glama_new": 150,
+      "glama_tools": 39561,
+      "glama_changes": 2657,
+      "smithery_servers": 1549,
+      "smithery_new": 11,
+      "smithery_tools": 29020,
+      "smithery_changes": 1205
     }
   ],
   "cumulativeCollectors": [
     {
       "name": "official",
-      "servers": 4699,
-      "tools": 39099,
+      "servers": 4780,
+      "tools": 40148,
       "changeBreakdown": {
         "description_modified": 0,
         "schema_modified": 0,
@@ -680,37 +709,37 @@
     },
     {
       "name": "glama",
-      "servers": 3993,
-      "tools": 38872,
+      "servers": 4143,
+      "tools": 40593,
       "changeBreakdown": {
-        "description_modified": 8073,
-        "schema_modified": 1024,
-        "both_modified": 770,
-        "removed": 3196
+        "description_modified": 8823,
+        "schema_modified": 1146,
+        "both_modified": 1529,
+        "removed": 4052
       },
       "color": "#8b5cf6"
     },
     {
       "name": "smithery",
-      "servers": 1538,
-      "tools": 29464,
+      "servers": 1549,
+      "tools": 30405,
       "changeBreakdown": {
-        "description_modified": 74,
-        "schema_modified": 24,
-        "both_modified": 53,
-        "removed": 220
+        "description_modified": 79,
+        "schema_modified": 71,
+        "both_modified": 57,
+        "removed": 221
       },
       "color": "#06b6d4"
     },
     {
       "name": "direct_mcp",
-      "servers": 4870,
-      "tools": 80902,
+      "servers": 5307,
+      "tools": 87554,
       "changeBreakdown": {
-        "description_modified": 20844,
-        "schema_modified": 2374,
-        "both_modified": 3475,
-        "removed": 1729
+        "description_modified": 20880,
+        "schema_modified": 2438,
+        "both_modified": 3536,
+        "removed": 3301
       },
       "color": "#10b981"
     }
@@ -764,15 +793,22 @@
       "schema_modified": 272,
       "both_modified": 1720,
       "removed": 1209
+    },
+    {
+      "date": "2026-06-09",
+      "description_modified": 791,
+      "schema_modified": 233,
+      "both_modified": 824,
+      "removed": 2429
     }
   ],
   "latestCrawl": {
-    "date": "2026-06-08",
+    "date": "2026-06-09",
     "collectors": [
       {
         "name": "official",
         "status": "completed",
-        "servers": 4688,
+        "servers": 4768,
         "tools": 0,
         "changes": 0,
         "snapshots": 0,
@@ -788,1003 +824,394 @@
         "name": "smithery",
         "status": "completed",
         "servers": 1426,
-        "tools": 27162,
-        "changes": 104,
-        "snapshots": 27162,
+        "tools": 27188,
+        "changes": 57,
+        "snapshots": 27188,
         "changeBreakdown": {
-          "description_modified": 10,
-          "schema_modified": 11,
-          "both_modified": 18,
-          "removed": 65
+          "description_modified": 5,
+          "schema_modified": 47,
+          "both_modified": 4,
+          "removed": 1
         },
         "color": "#06b6d4"
       },
       {
         "name": "glama",
         "status": "completed",
-        "servers": 4041,
-        "tools": 35693,
-        "changes": 727,
-        "snapshots": 35693,
+        "servers": 4210,
+        "tools": 39503,
+        "changes": 2537,
+        "snapshots": 39503,
         "changeBreakdown": {
-          "description_modified": 0,
-          "schema_modified": 0,
-          "both_modified": 0,
-          "removed": 693
+          "description_modified": 750,
+          "schema_modified": 122,
+          "both_modified": 759,
+          "removed": 856
         },
         "color": "#8b5cf6"
       },
       {
         "name": "direct_mcp",
         "status": "completed",
-        "servers": 5092,
-        "tools": 79310,
-        "changes": 3396,
-        "snapshots": 79310,
+        "servers": 5456,
+        "tools": 83606,
+        "changes": 1733,
+        "snapshots": 83606,
         "changeBreakdown": {
-          "description_modified": 2908,
-          "schema_modified": 261,
-          "both_modified": 1702,
-          "removed": 451
+          "description_modified": 36,
+          "schema_modified": 64,
+          "both_modified": 61,
+          "removed": 1572
         },
         "color": "#6366f1"
       }
     ],
-    "newServers": 67,
+    "newServers": 242,
     "changeBreakdown": [
       {
         "type": "description_modified",
-        "count": 2918,
+        "count": 791,
         "color": "#06b6d4"
       },
       {
         "type": "schema_modified",
-        "count": 272,
+        "count": 233,
         "color": "#f59e0b"
       },
       {
         "type": "both_modified",
-        "count": 1720,
+        "count": 824,
         "color": "#a78bfa"
       },
       {
         "type": "removed",
-        "count": 1209,
+        "count": 2429,
         "color": "#ef4444"
       }
     ],
     "toolDelta": {
-      "newTools": 2926,
-      "droppedTools": 328,
-      "removedTools": 1209,
-      "unreachedTools": 148,
-      "net": 1569,
-      "prevDate": "2026-06-07",
+      "newTools": 4016,
+      "droppedTools": 1408,
+      "removedTools": 2429,
+      "unreachedTools": 1116,
+      "net": 471,
+      "prevDate": "2026-06-08",
       "newSamples": [
         {
-          "tool": "bn_ping",
-          "server": "smithery::node2flow/binance",
+          "tool": "search_docs",
+          "server": "smithery::web3auth/integrate",
           "source": "direct_mcp",
-          "description": "Test connectivity to Binance API. Returns empty object if successful. Use to verify API is reachable.",
+          "description": "Search MetaMask Embedded Wallets documentation (Algolia) and example projects. Returns doc page links with snippets and matching examples.",
           "schema": [
             {
-              "name": "_fields",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "bn_server_time",
-          "server": "smithery::node2flow/binance",
-          "source": "direct_mcp",
-          "description": "Get Binance server time (millisecond timestamp). Use to check connectivity and sync timestamps for signed requests.",
-          "schema": [
-            {
-              "name": "_fields",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "bn_exchange_info",
-          "server": "smithery::node2flow/binance",
-          "source": "direct_mcp",
-          "description": "Get exchange information including trading rules, symbol list, filters (PRICE_FILTER, LOT_SIZE, MIN_NOTIONAL), and rate limits. Optionally filter by symbol.",
-          "schema": [
-            {
-              "name": "_fields",
+              "name": "category",
               "type": "string",
               "required": false
             },
             {
-              "name": "symbol",
+              "name": "chain",
               "type": "string",
               "required": false
             },
             {
-              "name": "symbols",
+              "name": "platform",
               "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "bn_order_book",
-          "server": "smithery::node2flow/binance",
-          "source": "direct_mcp",
-          "description": "Get order book (bids and asks) for a symbol. Weight varies by limit: 5 (1-100), 25 (101-500), 50 (501-1000), 250 (1001-5000).",
-          "schema": [
-            {
-              "name": "_fields",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "limit",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "symbol",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "bn_recent_trades",
-          "server": "smithery::node2flow/binance",
-          "source": "direct_mcp",
-          "description": "Get recent trades for a symbol. Returns up to 1000 most recent trades with price, quantity, and time.",
-          "schema": [
-            {
-              "name": "_fields",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "limit",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "symbol",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "bn_aggregate_trades",
-          "server": "smithery::node2flow/binance",
-          "source": "direct_mcp",
-          "description": "Get compressed/aggregate trades for a symbol. Trades that fill at the same time, price, and side are aggregated into a single entry.",
-          "schema": [
-            {
-              "name": "_fields",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "endTime",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "fromId",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "limit",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "startTime",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "symbol",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "bn_klines",
-          "server": "smithery::node2flow/binance",
-          "source": "direct_mcp",
-          "description": "Get candlestick/kline data (OHLCV) for a symbol. Returns arrays of [openTime, open, high, low, close, volume, closeTime, quoteVolume, trades, takerBuyBase, takerBuyQuote].",
-          "schema": [
-            {
-              "name": "_fields",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "endTime",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "interval",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "limit",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "startTime",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "symbol",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "bn_avg_price",
-          "server": "smithery::node2flow/binance",
-          "source": "direct_mcp",
-          "description": "Get current average price for a symbol. Returns the weighted average price over the last 5 minutes.",
-          "schema": [
-            {
-              "name": "_fields",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "symbol",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "bn_ticker_24hr",
-          "server": "smithery::node2flow/binance",
-          "source": "direct_mcp",
-          "description": "Get 24-hour price change statistics. Weight: 2 (single symbol), 80 (all symbols). Includes price change, volume, high/low, and trade count.",
-          "schema": [
-            {
-              "name": "_fields",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "symbol",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "bn_ticker_price",
-          "server": "smithery::node2flow/binance",
-          "source": "direct_mcp",
-          "description": "Get latest price for a symbol or all symbols. Lightweight endpoint for quick price checks.",
-          "schema": [
-            {
-              "name": "_fields",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "symbol",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "bn_book_ticker",
-          "server": "smithery::node2flow/binance",
-          "source": "direct_mcp",
-          "description": "Get best bid/ask price and quantity for a symbol or all symbols. Useful for spread analysis.",
-          "schema": [
-            {
-              "name": "_fields",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "symbol",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "bn_new_order",
-          "server": "smithery::node2flow/binance",
-          "source": "direct_mcp",
-          "description": "Place a new order. WARNING: This uses REAL MONEY on Binance Global. Supports LIMIT, MARKET, STOP_LOSS, STOP_LOSS_LIMIT, TAKE_PROFIT, TAKE_PROFIT_LIMIT, LIMIT_MAKER order types. Use bn_test_order first to validate.",
-          "schema": [
-            {
-              "name": "newClientOrderId",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "price",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "quantity",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "quoteOrderQty",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "recvWindow",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "side",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "stopPrice",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "symbol",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "timeInForce",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "type",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "bn_test_order",
-          "server": "smithery::node2flow/binance",
-          "source": "direct_mcp",
-          "description": "Test new order creation (dry run). Validates all parameters without actually placing the order. No funds are used. Always test before placing real orders.",
-          "schema": [
-            {
-              "name": "newClientOrderId",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "price",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "quantity",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "quoteOrderQty",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "recvWindow",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "side",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "stopPrice",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "symbol",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "timeInForce",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "type",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "bn_query_order",
-          "server": "smithery::node2flow/binance",
-          "source": "direct_mcp",
-          "description": "Query a specific order by orderId or origClientOrderId. Returns order status, filled quantity, and execution details.",
-          "schema": [
-            {
-              "name": "_fields",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "orderId",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "origClientOrderId",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "recvWindow",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "symbol",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "bn_cancel_order",
-          "server": "smithery::node2flow/binance",
-          "source": "direct_mcp",
-          "description": "Cancel an active order by orderId or origClientOrderId.",
-          "schema": [
-            {
-              "name": "orderId",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "origClientOrderId",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "recvWindow",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "symbol",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "bn_cancel_all_orders",
-          "server": "smithery::node2flow/binance",
-          "source": "direct_mcp",
-          "description": "Cancel all open orders for a symbol. WARNING: This cancels ALL pending orders at once. Cannot be undone.",
-          "schema": [
-            {
-              "name": "recvWindow",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "symbol",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "bn_open_orders",
-          "server": "smithery::node2flow/binance",
-          "source": "direct_mcp",
-          "description": "Get all open orders for a symbol or all symbols. Weight: 3 (with symbol), 40 (without symbol).",
-          "schema": [
-            {
-              "name": "_fields",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "recvWindow",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "symbol",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "bn_all_orders",
-          "server": "smithery::node2flow/binance",
-          "source": "direct_mcp",
-          "description": "Get all orders (active, canceled, filled) for a symbol. Supports time range and pagination via orderId.",
-          "schema": [
-            {
-              "name": "_fields",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "endTime",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "limit",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "orderId",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "recvWindow",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "startTime",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "symbol",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "bn_account_info",
-          "server": "smithery::node2flow/binance",
-          "source": "direct_mcp",
-          "description": "Get account information including balances, commission rates, and trading permissions. Returns all asset balances (free + locked).",
-          "schema": [
-            {
-              "name": "_fields",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "recvWindow",
-              "type": "integer",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "bn_my_trades",
-          "server": "smithery::node2flow/binance",
-          "source": "direct_mcp",
-          "description": "Get trade execution history for a specific symbol. Returns price, quantity, commission, and whether you were buyer/maker.",
-          "schema": [
-            {
-              "name": "_fields",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "endTime",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "fromId",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "limit",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "orderId",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "recvWindow",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "startTime",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "symbol",
-              "type": "string",
-              "required": true
-            }
-          ]
-        }
-      ],
-      "removedSamples": [
-        {
-          "tool": "query_conceptual",
-          "server": "smithery::digby-oldridge/colour-memory-api",
-          "source": "smithery",
-          "description": "Ask a cultural, historical, or material colour question. Returns named archive colours with provenance and cultural context. Works for abstract queries like 'grief', 'Ottoman luxury', 'toxic Victorian pigments', or 'the sea at dusk'.",
-          "schema": [
-            {
-              "name": "archive",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "n_results",
-              "type": "integer",
               "required": false
             },
             {
               "name": "query",
               "type": "string",
-              "required": false
+              "required": true
             }
           ]
         },
         {
-          "tool": "query_hex",
-          "server": "smithery::digby-oldridge/colour-memory-api",
-          "source": "smithery",
-          "description": "Find the closest named archive colours to a hex value using CIEDE2000 perceptual distance.",
+          "tool": "get_doc",
+          "server": "smithery::web3auth/integrate",
+          "source": "direct_mcp",
+          "description": "Fetch the full content of a MetaMask Embedded Wallets documentation page by URL. Sources: Algolia, llms.txt, GitHub MDX.",
           "schema": [
             {
-              "name": "archive",
+              "name": "url",
               "type": "string",
-              "required": false
-            },
-            {
-              "name": "hex",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "n_results",
-              "type": "integer",
-              "required": false
+              "required": true
             }
           ]
         },
         {
-          "tool": "accessibility_check",
-          "server": "smithery::digby-oldridge/colour-memory-api",
-          "source": "smithery",
-          "description": "Return WCAG 2.1 contrast ratios and AA/AAA pass/fail grades for a foreground hex against a background.",
+          "tool": "get_example",
+          "server": "smithery::web3auth/integrate",
+          "source": "direct_mcp",
+          "description": "Fetch complete source code of a Web3Auth integration example from GitHub.",
           "schema": [
             {
-              "name": "background",
+              "name": "auth_method",
               "type": "string",
               "required": false
             },
             {
-              "name": "hex_val",
+              "name": "category",
               "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "accessibility_matrix",
-          "server": "smithery::digby-oldridge/colour-memory-api",
-          "source": "smithery",
-          "description": "Accept a palette array and return every foreground/background combination with contrast ratio, AA normal, AA large, AAA normal, AAA large pass/fail grades, and a summary. Use this instead of calling accessibility_check multiple times for a palette.",
-          "schema": [
-            {
-              "name": "palette",
-              "type": "array",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "palette_light_dark",
-          "server": "smithery::digby-oldridge/colour-memory-api",
-          "source": "smithery",
-          "description": "Generate light-mode and dark-mode role maps from a palette. Analyses LRV, assigns background/surface/text/accent roles for each mode, checks body text contrast safety, and flags missing neutrals.",
-          "schema": [
-            {
-              "name": "palette",
-              "type": "array",
               "required": false
             },
             {
-              "name": "use_case",
+              "name": "chain",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "name",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "platform",
               "type": "string",
               "required": false
             }
           ]
         },
         {
-          "tool": "archive_search",
-          "server": "smithery::digby-oldridge/colour-memory-api",
-          "source": "smithery",
-          "description": "Full-text keyword search across all 17,346 archive colour names and notes. Find colours by name fragment, material, cultural reference, pigment type, or historical period. Complements conceptual embedding search with exact keyword matching.",
+          "tool": "get_sdk_reference",
+          "server": "smithery::web3auth/integrate",
+          "source": "direct_mcp",
+          "description": "Fetch SDK source code (types, interfaces, hooks) from open-source Web3Auth repos.",
           "schema": [
             {
-              "name": "archive",
+              "name": "focus",
               "type": "string",
               "required": false
             },
             {
-              "name": "include_full",
-              "type": "boolean",
-              "required": false
-            },
-            {
-              "name": "limit",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "n_results",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "query",
+              "name": "module",
               "type": "string",
               "required": false
+            },
+            {
+              "name": "platform",
+              "type": "string",
+              "required": true
             }
           ]
         },
         {
-          "tool": "palette_pdf",
-          "server": "smithery::digby-oldridge/colour-memory-api",
-          "source": "smithery",
-          "description": "Generate a premium branded PDF specification sheet from a palette of archive entries. Returns a downloadable PDF with full-bleed colour panels, archive names, provenance notes, RAL nearest match, LRV, chroma, WCAG contrast data, and Colour Memory branding. Pass the entries array from query_hex or pa…",
+          "tool": "search_community",
+          "server": "smithery::web3auth/integrate",
+          "source": "direct_mcp",
+          "description": "Search or fetch posts from the MetaMask Embedded Wallets community forum (builder.metamask.io).",
           "schema": [
-            {
-              "name": "entries",
-              "type": "array",
-              "required": false
-            },
             {
               "name": "query",
               "type": "string",
               "required": false
             },
             {
-              "name": "source",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "brand_system",
-          "server": "smithery::digby-oldridge/colour-memory-api",
-          "source": "smithery",
-          "description": "Complete brand colour system in one call. Returns colour roles with archive names, light and dark mode role maps, typography guidance, usage rules per colour, design tokens (CSS, Tailwind, Figma), and citation cards. Deterministic. No LLM cost.",
-          "schema": [
-            {
-              "name": "brand_category",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "market",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "medium",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "palette",
-              "type": "array",
-              "required": false
-            },
-            {
-              "name": "use_case",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "brand_asset_pack",
-          "server": "smithery::digby-oldridge/colour-memory-api",
-          "source": "smithery",
-          "description": "Complete brand asset pack. Returns CSS variables, Tailwind config, Figma tokens JSON, citation cards, and a Markdown brand guide. Everything a brand team needs to ship. Deterministic. No LLM cost.",
-          "schema": [
-            {
-              "name": "brand_category",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "market",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "medium",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "palette",
-              "type": "array",
-              "required": false
-            },
-            {
-              "name": "use_case",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "archive_status",
-          "server": "smithery::digby-oldridge/colour-memory-api",
-          "source": "smithery",
-          "description": "Return live archive status: total colour count, per-archive breakdown, embedding model, search engine state, and API version.",
-          "schema": []
-        },
-        {
-          "tool": "colour_story",
-          "server": "smithery::digby-oldridge/colour-memory-api",
-          "source": "smithery",
-          "description": "Given a hex value, returns a rich narrative about that colour's cultural journey — where it has appeared in history, what it has meant to different civilisations, and what archive names it carries. Essential for image generation prompts, brand storytelling, and creative briefs. Example: '#DC143C' re…",
-          "schema": [
-            {
-              "name": "hex",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "n_archives",
+              "name": "topic_id",
               "type": "integer",
               "required": false
             }
           ]
         },
         {
-          "tool": "colour_timeline",
-          "server": "smithery::digby-oldridge/colour-memory-api",
+          "tool": "search_agents",
+          "server": "smithery::heather-macavelia/ai-agent-index",
           "source": "smithery",
-          "description": "Given a hex value, traces that colour's appearances across cultures and centuries in chronological order. Shows how a colour travelled through history — from its earliest documented use to its modern associations. Essential for understanding why a colour carries the weight it does. Example: deep blu…",
+          "description": "Search the AI Agent Index for agents matching specific criteria. Returns structured agent data. Use this to find agents by category, sub-type, pricing model, integration, or capability tag.",
           "schema": [
             {
-              "name": "hex",
+              "name": "agent_type",
               "type": "string",
               "required": false
             },
             {
-              "name": "tolerance",
-              "type": "integer",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "style_match",
-          "server": "smithery::digby-oldridge/colour-memory-api",
-          "source": "smithery",
-          "description": "The colour question every stylist gets asked: does this bag go with this outfit? Submit your outfit items as hex values with labels (dress, bag, shoes, coat, belt, scarf, etc.) and receive a verdict on what works, what clashes, what is missing, and what to add. Every recommendation is backed by arch…",
-          "schema": [
-            {
-              "name": "ask",
+              "name": "capability",
               "type": "string",
               "required": false
             },
             {
-              "name": "items",
-              "type": "array",
-              "required": false
-            },
-            {
-              "name": "occasion",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "palette_generate",
-          "server": "smithery::digby-oldridge/colour-memory-api",
-          "source": "smithery",
-          "description": "Send a palette of up to 8 slots, locking some with hex values and leaving others empty. Empty slots are filled with the nearest CIEDE2000 archive match, interpolated from the locked anchors. Optional archive filter restricts fills to one archive. Returns full citation — name, archive, primary source…",
-          "schema": [
-            {
-              "name": "archive",
+              "name": "category",
               "type": "string",
               "required": false
             },
             {
-              "name": "size",
-              "type": "integer",
+              "name": "integration",
+              "type": "string",
               "required": false
             },
             {
-              "name": "slots",
-              "type": "array",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "palette_translate",
-          "server": "smithery::digby-oldridge/colour-memory-api",
-          "source": "smithery",
-          "description": "Map any list of hex values into a target archive using CIEDE2000 nearest-neighbour matching. Each input hex is matched to the closest named colour in the chosen archive, with a delta-e relevance band (exact / close / approximate / loose) and full provenance. Use to translate a client's paint colours…",
-          "schema": [
-            {
-              "name": "max_delta_e",
+              "name": "limit",
               "type": "number",
               "required": false
             },
             {
-              "name": "palette",
-              "type": "array",
+              "name": "pricing",
+              "type": "string",
               "required": false
             },
             {
-              "name": "target_archive",
+              "name": "query",
               "type": "string",
               "required": false
             }
           ]
         },
         {
-          "tool": "colour_verdict",
-          "server": "smithery::digby-oldridge/colour-memory-api",
+          "tool": "get_agent",
+          "server": "smithery::heather-macavelia/ai-agent-index",
           "source": "smithery",
-          "description": "Evaluate a hex colour for a specific use case, market, and medium. Returns a decisive verdict: use_with_confidence, use_with_caution, or avoid. Includes strengths, risks, avoid-if scenarios, and better alternatives where needed. Backed by CIEDE2000 archive matching and Claude cultural intelligence. …",
+          "description": "Get full structured details for a specific AI agent by its slug identifier. Returns pricing, capabilities, integrations, agent_type, pros, limitations, and ratings.",
           "schema": [
             {
-              "name": "audience",
+              "name": "slug",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "list_categories",
+          "server": "smithery::heather-macavelia/ai-agent-index",
+          "source": "smithery",
+          "description": "List all available AI agent categories in the AI Agent Index. Returns category slugs, display names, and agent counts.",
+          "schema": []
+        },
+        {
+          "tool": "tat_search",
+          "server": "smithery::theagenttimes/news",
+          "source": "smithery",
+          "description": "Search The Agent Times agent-news layer across structured events, articles, and agent-action/product metadata. Uses backend typo correction, alias expansion, required-term coverage, global ranking, and low-confidence rejection. Returns search_confidence, warnings, relevance_score, match_quality, mat…",
+          "schema": [
+            {
+              "name": "actionability",
               "type": "string",
               "required": false
             },
             {
-              "name": "hex",
+              "name": "include_articles",
+              "type": "boolean",
+              "required": false
+            },
+            {
+              "name": "include_events",
+              "type": "boolean",
+              "required": false
+            },
+            {
+              "name": "include_products",
+              "type": "boolean",
+              "required": false
+            },
+            {
+              "name": "intent",
               "type": "string",
               "required": false
             },
             {
-              "name": "markets",
-              "type": "array",
+              "name": "limit",
+              "type": "integer",
               "required": false
             },
             {
-              "name": "medium",
+              "name": "query",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "section",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "sort",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "tag",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "topic",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "urgency",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "tat_ask",
+          "server": "smithery::theagenttimes/news",
+          "source": "smithery",
+          "description": "Ask The Agent Times a question through the trusted answer pipeline: TAT corpus/events/action metadata plus backend-controlled external research, with citations, confidence, Ethics Engine score, agent voice score, and answer-standard receipt. Returns insufficient_evidence instead of unsourced claims.",
+          "schema": [
+            {
+              "name": "max_sources",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "question",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "source_agent",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "tat_get_event",
+          "server": "smithery::theagenttimes/news",
+          "source": "smithery",
+          "description": "Fetch one structured agent-news event by event_id, including sources, confidence, ethics score, agent voice score, recommended actions, and standard receipt.",
+          "schema": [
+            {
+              "name": "event_id",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "tat_stats",
+          "server": "smithery::theagenttimes/news",
+          "source": "smithery",
+          "description": "Return firehose/demo counters for recent agent-news events: counts, verification rate, average confidence, source count, urgency, and actionability breakdowns.",
+          "schema": [
+            {
+              "name": "hours",
+              "type": "integer",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "tat_get_answer_standard",
+          "server": "smithery::theagenttimes/news",
+          "source": "smithery",
+          "description": "Return the current The Agent Times MCP Answer Standard so agents can explain why a TAT answer/event is trusted, or why insufficient_evidence was returned.",
+          "schema": []
+        },
+        {
+          "tool": "tat_recommend",
+          "server": "smithery::theagenttimes/news",
+          "source": "smithery",
+          "description": "Return sourced recommendations for an agent/operator use case using TAT trusted corpus, events, and answer standard. Not an external-resource safety checker.",
+          "schema": [
+            {
+              "name": "constraints",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "source_agent",
               "type": "string",
               "required": false
             },
@@ -1796,57 +1223,42 @@
           ]
         },
         {
-          "tool": "palette_verdict",
-          "server": "smithery::digby-oldridge/colour-memory-api",
+          "tool": "tat_get_comments",
+          "server": "smithery::theagenttimes/news",
           "source": "smithery",
-          "description": "Evaluate a palette of 2-8 hex values for a use case, market, and medium. Returns a verdict (strong / strong_with_adjustment / weak / avoid), a score 0-100, the role of each colour, the single biggest weakness, and a concrete suggestion for what to add to fix it. Each colour is matched to the nearest…",
+          "description": "Read threaded comments on a TAT article, with agent attribution and endorsement counts.",
           "schema": [
             {
-              "name": "market",
+              "name": "article_slug",
               "type": "string",
               "required": false
             },
             {
-              "name": "medium",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "palette",
-              "type": "array",
-              "required": false
-            },
-            {
-              "name": "use_case",
+              "name": "sort",
               "type": "string",
               "required": false
             }
           ]
         },
         {
-          "tool": "agent_brief",
-          "server": "smithery::digby-oldridge/colour-memory-api",
+          "tool": "tat_post_comment",
+          "server": "smithery::theagenttimes/news",
           "source": "smithery",
-          "description": "Generate a complete colour direction package for another AI agent or image generation model. Fetches a historically grounded archive palette from the concept, then produces: an agent brief (colour direction in prose), colour tokens with hex values and roles, a model-specific image generation prompt,…",
+          "description": "Post a signed/logged agent comment on a TAT article. Use only when the user explicitly asks to post.",
           "schema": [
             {
-              "name": "allowed_archives",
-              "type": "array",
-              "required": false
-            },
-            {
-              "name": "archive",
+              "name": "agent_name",
               "type": "string",
               "required": false
             },
             {
-              "name": "concept",
+              "name": "article_slug",
               "type": "string",
               "required": false
             },
             {
-              "name": "locked_palette",
-              "type": "array",
+              "name": "body",
+              "type": "string",
               "required": false
             },
             {
@@ -1855,177 +1267,35 @@
               "required": false
             },
             {
-              "name": "palette_size",
+              "name": "operator",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "parent_id",
               "type": "integer",
               "required": false
-            },
-            {
-              "name": "style_notes",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "task",
-              "type": "string",
-              "required": false
             }
           ]
         },
         {
-          "tool": "colour_strategy",
-          "server": "smithery::digby-oldridge/colour-memory-api",
+          "tool": "get_latest_articles",
+          "server": "smithery::theagenttimes/news",
           "source": "smithery",
-          "description": "The flagship commercial endpoint. Combines archive grounding, verdict, brand fit, market risk, category cliche check, material behaviour, copy hooks, and usage rules in a single call. Input: hex + brand_context (category, positioning, audience, channels) + constraints (avoid, must_work_on) + markets…",
+          "description": "Get the latest articles from The Agent Times. Returns headlines, summaries, sources, confidence levels, and Ed25519 provenance status.",
           "schema": [
             {
-              "name": "brand_context",
-              "type": "object",
-              "required": false
-            },
-            {
-              "name": "constraints",
-              "type": "object",
-              "required": false
-            },
-            {
-              "name": "hex",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "markets",
-              "type": "array",
-              "required": false
-            },
-            {
-              "name": "medium",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "archive_report_brief",
-          "server": "smithery::digby-oldridge/colour-memory-api",
-          "source": "smithery",
-          "description": "One-call complete archive research package for a document, PDF, or editorial brief. Input: title, audience, themes, archives to draw from, things to avoid, number of colours. Output: ranked colour cards with full provenance, story order, source confidence flags, pull quote, CTA line, CSS tokens, ima…",
-          "schema": [
-            {
-              "name": "archives",
-              "type": "array",
-              "required": false
-            },
-            {
-              "name": "audience",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "avoid",
-              "type": "array",
-              "required": false
-            },
-            {
-              "name": "n_colours",
+              "name": "limit",
               "type": "integer",
               "required": false
-            },
-            {
-              "name": "strict_sources",
-              "type": "boolean",
-              "required": false
-            },
-            {
-              "name": "themes",
-              "type": "array",
-              "required": false
-            },
-            {
-              "name": "title",
-              "type": "string",
-              "required": false
-            }
-          ]
-        }
-      ],
-      "unreachedSamples": [
-        {
-          "tool": "approve_pending",
-          "server": "glama::io.github.Un3x/ai-success-story",
-          "source": "direct_mcp",
-          "description": "Admin-only. Promote a pending submission to a published article by committing articles/<slug>.md to the repo via the GitHub API. Heroku auto-deploys on push. Returns commit SHA.",
-          "schema": [
-            {
-              "name": "admin_token",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "submission_id",
-              "type": "string",
-              "required": true
             }
           ]
         },
         {
-          "tool": "fetch_story",
-          "server": "glama::io.github.Un3x/ai-success-story",
-          "source": "direct_mcp",
-          "description": "Retrieve a story by slug, in full (omit `parts`) or a subset. Server enforces the atomic-context guardrail: requesting `attempt`/`signal`/`why_it_worked` will force `setup` (and `signal` for `attempt`). `forced_parts` and `forced_parts_reason` make this observable.",
-          "schema": [
-            {
-              "name": "parts",
-              "type": "array",
-              "required": false
-            },
-            {
-              "name": "slug",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "list_pending",
-          "server": "glama::io.github.Un3x/ai-success-story",
-          "source": "direct_mcp",
-          "description": "Admin-only. List submissions awaiting curation. Gated by the admin token. Returns oldest-first.",
-          "schema": [
-            {
-              "name": "admin_token",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "reject_pending",
-          "server": "glama::io.github.Un3x/ai-success-story",
-          "source": "direct_mcp",
-          "description": "Admin-only. Drop a pending submission. Reason is recorded so submission_status surfaces it to the submitter on poll.",
-          "schema": [
-            {
-              "name": "admin_token",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "reason",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "submission_id",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "search_stories",
-          "server": "glama::io.github.Un3x/ai-success-story",
-          "source": "direct_mcp",
-          "description": "Consult prior incidents from other AI coding sessions for a transferable pattern relevant to your situation. The corpus is first-person war-stories ('I was given X, tried Y, noticed Z, here's why it worked') on deploy, debugging, code review, refactoring, framework decisions. Reach for this BEFORE f…",
+          "tool": "get_section_articles",
+          "server": "smithery::theagenttimes/news",
+          "source": "smithery",
+          "description": "Get articles from a specific section. Each article includes Ed25519 provenance status. Sections: platforms, open-source, research, commerce, sales, marketing, engineering, adtech, infrastructure, regulations, funding, labor, opinion.",
           "schema": [
             {
               "name": "limit",
@@ -2033,297 +1303,1136 @@
               "required": false
             },
             {
-              "name": "situation",
+              "name": "section",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "get_article",
+          "server": "smithery::theagenttimes/news",
+          "source": "smithery",
+          "description": "Get a full article by slug, including the complete body text and Ed25519 provenance verification status. Optionally include detailed provenance and governance blocks.",
+          "schema": [
+            {
+              "name": "include_governance",
+              "type": "boolean",
+              "required": false
+            },
+            {
+              "name": "include_provenance",
+              "type": "boolean",
+              "required": false
+            },
+            {
+              "name": "slug",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "product_research_request",
+          "server": "smithery::theagenttimes/news",
+          "source": "smithery",
+          "description": "Request product research for a shopping or product-selection need. Returns a cached product research result if available; otherwise creates or reuses a queued research job and returns a research_id plus polling instructions.",
+          "schema": [
+            {
+              "name": "budget",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "category",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "preferences",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "source_agent",
+              "type": "string",
+              "required": false
+            }
+          ]
+        }
+      ],
+      "removedSamples": [
+        {
+          "tool": "lookup_sic_code",
+          "server": "smithery::jackmmaher/sic-codes",
+          "source": "direct_mcp",
+          "description": "Look up a classification code in the UK SIC 2007, UK SIC 2026 (the new replacement system), GICS (MSCI), or ICB (FTSE Russell) system. Returns the code name, hierarchy level, breadcrumb trail from root to code, child codes, and cross-classification mappings. For SIC 2026, also returns SIC 2007 prede…",
+          "schema": [
+            {
+              "name": "code",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "system",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "search_sic_codes",
+          "server": "smithery::jackmmaher/sic-codes",
+          "source": "direct_mcp",
+          "description": "Search for UK SIC 2007 codes by business activity description. Describe what a business does in plain English and get ranked SIC code recommendations with relevance scores, hierarchy breadcrumbs, and GICS/ICB cross-classification mappings. Useful for finding the right SIC code for Companies House re…",
+          "schema": [
+            {
+              "name": "limit",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "query",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "convert_between_classifications",
+          "server": "smithery::jackmmaher/sic-codes",
+          "source": "direct_mcp",
+          "description": "Convert a classification code between UK SIC 2007, UK SIC 2026, GICS (MSCI), and ICB (FTSE Russell) systems. Returns equivalent codes in the target system with confidence levels and relationship types. Supports converting SIC 2007 codes to SIC 2026 equivalents (and vice versa) with relationship info…",
+          "schema": [
+            {
+              "name": "code",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "from",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "to",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "browse_classification_hierarchy",
+          "server": "smithery::jackmmaher/sic-codes",
+          "source": "direct_mcp",
+          "description": "Browse the hierarchy tree of a classification system (UK SIC 2007, UK SIC 2026, GICS, or ICB). Returns child entries at the next level. Omit parent_code to get top-level entries. Use this to explore what codes exist in each system. SIC 2026 has 22 sections, 87 divisions, 287 groups, 668 classes, and…",
+          "schema": [
+            {
+              "name": "parent_code",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "system",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "lookup_uk_company",
+          "server": "smithery::jackmmaher/sic-codes",
+          "source": "direct_mcp",
+          "description": "Look up a UK company registered at Companies House by name or registration number. Returns company details including name, status, type, incorporation date, registered address, and SIC codes with their full names and GICS/ICB mappings. Covers 5.6 million UK companies.",
+          "schema": [
+            {
+              "name": "company_number",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "query",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "search_uk_companies_by_industry",
+          "server": "smithery::jackmmaher/sic-codes",
+          "source": "direct_mcp",
+          "description": "Find UK companies registered under a specific SIC, GICS, or ICB classification code. Returns enriched company data including all SIC codes, GICS/ICB mappings, address, company type, and incorporation date. Supports filtering by postcode, date range, accounts category, and company type. Cursor pagina…",
+          "schema": [
+            {
+              "name": "accounts_category",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "code",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "company_type",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "cursor",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "incorporated_after",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "incorporated_before",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "limit",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "postcode",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "status",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "system",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "get_contract_info",
+          "server": "smithery::defi-io/smartcontract",
+          "source": "direct_mcp",
+          "description": "Get metadata about a verified smart contract: name, compiler, classification, supported adapters, and counts of functions and events. Accepts either a curated slug (uni-eth, usdc-base, …) or chain+address.",
+          "schema": [
+            {
+              "name": "address",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "chain",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "slug",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "get_erc20_info",
+          "server": "smithery::defi-io/smartcontract",
+          "source": "direct_mcp",
+          "description": "Get live state of an ERC-20 token: supply (raw + human-formatted), price, market cap, and issuer. For admin / privilege controls (paused, owner, mintable, upgradeable, etc.) and recent governance activity, the contract page itself exposes an Admin & Risk section — those are not returned here. Accept…",
+          "schema": [
+            {
+              "name": "address",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "chain",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "slug",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "get_uniswap_v3_pool",
+          "server": "smithery::defi-io/smartcontract",
+          "source": "direct_mcp",
+          "description": "Get live state of a Uniswap V3 pool: token pair, fee tier, current price (both directions), active liquidity, current tick, and TVL in USD (via DefiLlama token prices). Accepts slug or chain+address.",
+          "schema": [
+            {
+              "name": "address",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "chain",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "slug",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "inspect_address",
+          "server": "smithery::defi-io/smartcontract",
+          "source": "direct_mcp",
+          "description": "Inspect any EVM address: classifies it as an EOA / unverified contract / EIP-7702 delegated wallet, returns native-token balance, outgoing tx count (nonce), and reverse-ENS name (Ethereum only). Works for unindexed addresses — useful before deciding whether to call get_contract_info or get_erc20_inf…",
+          "schema": [
+            {
+              "name": "address",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "chain",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "read_contract_state",
+          "server": "smithery::defi-io/smartcontract",
+          "source": "direct_mcp",
+          "description": "Read the current on-chain value of a view/pure function. Fetches from the chain (cached 60s) and returns the decoded output. Accepts slug or chain+address.",
+          "schema": [
+            {
+              "name": "address",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "args",
+              "type": "array",
+              "required": false
+            },
+            {
+              "name": "chain",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "function_name",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "slug",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "audit_task",
+          "server": "smithery::xrpl/agent-trust",
+          "source": "direct_mcp",
+          "description": "Verify whether completed work meets a task specification using AI.\n\nBefore calling, send 0.1 XRP to rmcSrkpZ2i2kuvtCPeTVetee9SixP4djR on XRPL Mainnet.\nEach fee_hash is single-use (anti-replay protection).\n\nReturns:\n    status (approved/rejected), verdict (PASS/FAIL), score (0-100),\n    summary, deta…",
+          "schema": [
+            {
+              "name": "fee_hash",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "require_consensus",
+              "type": "boolean",
+              "required": false
+            },
+            {
+              "name": "task",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "task_category",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "work",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "create_escrow_vault",
+          "server": "smithery::xrpl/agent-trust",
+          "source": "direct_mcp",
+          "description": "Create an AI-gated XRPL escrow vault. Funds release automatically to the\nworker when their submission is approved by the AI referee.\n\nTypical flow after job board negotiation:\n  1. award_job() returns the worker's address and agreed price\n  2. Pay 0.1 XRP protocol fee to rmcSrkpZ2i2kuvtCPeTVetee9Six…",
+          "schema": [
+            {
+              "name": "amount_rlusd",
+              "type": "",
+              "required": false
+            },
+            {
+              "name": "amount_xrp",
+              "type": "",
+              "required": false
+            },
+            {
+              "name": "buyer_address",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "buyer_name",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "cancel_after_hrs",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "category",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "currency",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "escrow_id",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "fee_hash",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "max_submissions",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "project_label",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "task_description",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "worker_address",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "confirm_escrow_transaction",
+          "server": "smithery::xrpl/agent-trust",
+          "source": "direct_mcp",
+          "description": "Register the on-chain EscrowCreate transaction hash with the referee.\n\nCall this after submitting the EscrowCreate transaction on XRPL.\nThe referee caches the escrow sequence number automatically so the\nworker does not need to provide it when claiming payment.\n\nReturns:\n    status: \"confirmed\", sequ…",
+          "schema": [
+            {
+              "name": "escrow_id",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "tx_hash",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "evaluate_escrow_work",
+          "server": "smithery::xrpl/agent-trust",
+          "source": "direct_mcp",
+          "description": "Submit proof of completed work against an existing escrow vault.\n\nOn approval, payment releases automatically — no EscrowFinish needed.\nXRPL transaction hashes (64-char hex) in the work field are automatically\nverified on the ledger. Useful as proof of NFT transfers, token payments,\nor any on-chain …",
+          "schema": [
+            {
+              "name": "escrow_id",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "evidence_links",
+              "type": "",
+              "required": false
+            },
+            {
+              "name": "require_consensus",
+              "type": "boolean",
+              "required": false
+            },
+            {
+              "name": "task_category",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "work",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "get_escrow_info",
+          "server": "smithery::xrpl/agent-trust",
+          "source": "direct_mcp",
+          "description": "Retrieve metadata about an existing escrow vault.\n\nNever returns the fulfillment key — that is only returned on approval.\n\nReturns:\n    task_description, buyer_name, worker_address, amount, deadline,\n    escrow_sequence, status, submission_count, attempts_remaining.",
+          "schema": [
+            {
+              "name": "escrow_id",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "list_marketplace_jobs",
+          "server": "smithery::xrpl/agent-trust",
+          "source": "direct_mcp",
+          "description": "Browse open bounties on the AgentTrust marketplace.\n\nThe primary way autonomous agents discover work available on the protocol.\nAll bounties are backed by XRPL escrow and pay automatically on AI approval.\n\nJob statuses:\n  OPEN   — unclaimed open bounty; call claim_job() to lock it to your wallet.\n  …",
+          "schema": [
+            {
+              "name": "category",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "limit",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "min_bounty_xrp",
+              "type": "number",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "get_rlusd_quote",
+          "server": "smithery::xrpl/agent-trust",
+          "source": "direct_mcp",
+          "description": "Get a live XRP to RLUSD conversion quote via the XRPL DEX.\n\nUse before creating an RLUSD-denominated escrow or before claiming an\nescrow if you want to understand the current USD value.\n\nReturns:\n    estimated_rlusd, trust_line_ok, slippage_warning, trust_line_instructions.",
+          "schema": [
+            {
+              "name": "worker_address",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "xrp_amount",
+              "type": "number",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "list_marketplace_skills",
+          "server": "smithery::xrpl/agent-trust",
+          "source": "direct_mcp",
+          "description": "Browse agents and humans offering skills on the AgentTrust marketplace.\n\nSkill listings are published by workers (agents or humans) who want to be\nfound and hired directly — no bidding required. Each listing shows the\nposter's XRPL wallet address so a buyer can skip the job board entirely\nand go str…",
+          "schema": [
+            {
+              "name": "category",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "limit",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "max_rate",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "min_rate",
+              "type": "number",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "create_skill_listing",
+          "server": "smithery::xrpl/agent-trust",
+          "source": "direct_mcp",
+          "description": "List a skill on the AgentTrust marketplace for 30 days.\n\nBefore calling, pay the 0.1 XRP/month listing fee to rmcSrkpZ2i2kuvtCPeTVetee9SixP4djR\non XRPL Mainnet and provide the transaction hash as fee_hash.\n\nOnce listed, your skill is visible to:\n  - Humans browsing the AgentTrust marketplace UI\n  - …",
+          "schema": [
+            {
+              "name": "category",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "description",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "fee_hash",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "poster",
+              "type": "",
+              "required": false
+            },
+            {
+              "name": "poster_name",
+              "type": "",
+              "required": false
+            },
+            {
+              "name": "rate",
+              "type": "",
+              "required": false
+            },
+            {
+              "name": "rate_xrp",
+              "type": "",
+              "required": false
+            },
+            {
+              "name": "skill_id",
               "type": "string",
               "required": true
             },
             {
               "name": "tags",
+              "type": "",
+              "required": false
+            },
+            {
+              "name": "title",
+              "type": "string",
+              "required": true
+            }
+          ]
+        }
+      ],
+      "unreachedSamples": [
+        {
+          "tool": "eth_call",
+          "server": "smithery::boar-network/blockchain-advanced",
+          "source": "direct_mcp",
+          "description": "Execute a read-only smart contract call on Ethereum mainnet. Returns the hex-encoded return data. Use this to read contract state without sending a transaction.",
+          "schema": [
+            {
+              "name": "block",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "data",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "from",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "to",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "mezo_call",
+          "server": "smithery::boar-network/blockchain-advanced",
+          "source": "direct_mcp",
+          "description": "Execute a read-only smart contract call on Mezo. Returns the hex-encoded return data. Use this to read contract state without sending a transaction.",
+          "schema": [
+            {
+              "name": "block",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "data",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "from",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "to",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "eth_decode_revert",
+          "server": "smithery::boar-network/blockchain-advanced",
+          "source": "direct_mcp",
+          "description": "Decode raw EVM revert data from a failed transaction or eth_call on Ethereum mainnet. Handles Error(string) reverts, Panic(uint256) assertions, custom Solidity errors (requires ABI), and silent reverts. Pure computation — no RPC call needed. Pass the hex revert data from a transaction receipt or eth…",
+          "schema": [
+            {
+              "name": "abi",
+              "type": "",
+              "required": false
+            },
+            {
+              "name": "revert_data",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "mezo_decode_revert",
+          "server": "smithery::boar-network/blockchain-advanced",
+          "source": "direct_mcp",
+          "description": "Decode raw EVM revert data from a failed transaction or mezo_call on Mezo. Handles Error(string) reverts, Panic(uint256) assertions, custom Solidity errors (requires ABI), and silent reverts. Pure computation — no RPC call needed. Pass the hex revert data from a transaction receipt or eth_call error…",
+          "schema": [
+            {
+              "name": "abi",
+              "type": "",
+              "required": false
+            },
+            {
+              "name": "revert_data",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "eth_decode_calldata",
+          "server": "smithery::boar-network/blockchain-advanced",
+          "source": "direct_mcp",
+          "description": "Decode raw calldata into function name and typed arguments using a provided ABI on Ethereum mainnet. Pure computation — no RPC call needed. Pass the hex calldata from a transaction input or eth_call.",
+          "schema": [
+            {
+              "name": "abi",
+              "type": "",
+              "required": true
+            },
+            {
+              "name": "calldata",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "eth_decode_return",
+          "server": "smithery::boar-network/blockchain-advanced",
+          "source": "direct_mcp",
+          "description": "Decode raw return data from an eth_call into typed values using a provided ABI and function name on Ethereum mainnet. Pure computation — no RPC call needed.",
+          "schema": [
+            {
+              "name": "abi",
+              "type": "",
+              "required": true
+            },
+            {
+              "name": "data",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "function_name",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "eth_decode_log",
+          "server": "smithery::boar-network/blockchain-advanced",
+          "source": "direct_mcp",
+          "description": "Decode a raw event log (topics + data) into named fields using a provided ABI on Ethereum mainnet. Pure computation — no RPC call needed. Pass topics and data from a transaction receipt log entry.",
+          "schema": [
+            {
+              "name": "abi",
+              "type": "",
+              "required": true
+            },
+            {
+              "name": "data",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "topics",
+              "type": "array",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "mezo_decode_calldata",
+          "server": "smithery::boar-network/blockchain-advanced",
+          "source": "direct_mcp",
+          "description": "Decode raw calldata into function name and typed arguments using a provided ABI on Mezo. Pure computation — no RPC call needed. Pass the hex calldata from a transaction input or eth_call.",
+          "schema": [
+            {
+              "name": "abi",
+              "type": "",
+              "required": true
+            },
+            {
+              "name": "calldata",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "mezo_decode_return",
+          "server": "smithery::boar-network/blockchain-advanced",
+          "source": "direct_mcp",
+          "description": "Decode raw return data from an eth_call into typed values using a provided ABI and function name on Mezo. Pure computation — no RPC call needed.",
+          "schema": [
+            {
+              "name": "abi",
+              "type": "",
+              "required": true
+            },
+            {
+              "name": "data",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "function_name",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "mezo_decode_log",
+          "server": "smithery::boar-network/blockchain-advanced",
+          "source": "direct_mcp",
+          "description": "Decode a raw event log (topics + data) into named fields using a provided ABI on Mezo. Pure computation — no RPC call needed. Pass topics and data from a transaction receipt log entry.",
+          "schema": [
+            {
+              "name": "abi",
+              "type": "",
+              "required": true
+            },
+            {
+              "name": "data",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "topics",
+              "type": "array",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "eth_encode_calldata",
+          "server": "smithery::boar-network/blockchain-advanced",
+          "source": "direct_mcp",
+          "description": "Encode a function call into ABI-encoded calldata hex. Accepts either a human-readable function signature (e.g. 'transfer(address to, uint256 amount)') or a full ABI JSON array plus function name. Pass uint/int values as decimal strings to avoid JS number precision loss. Pure computation — no RPC cal…",
+          "schema": [
+            {
+              "name": "abi",
+              "type": "",
+              "required": false
+            },
+            {
+              "name": "args",
               "type": "array",
               "required": false
+            },
+            {
+              "name": "function_name",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "signature",
+              "type": "string",
+              "required": false
             }
           ]
         },
         {
-          "tool": "submission_status",
-          "server": "glama::io.github.Un3x/ai-success-story",
+          "tool": "eth_multicall",
+          "server": "smithery::boar-network/blockchain-advanced",
           "source": "direct_mcp",
-          "description": "Public read. Look up a submission by id; returns {state: 'pending' | 'approved' | 'rejected' | 'unknown', details?}. Pending queue lives in process memory — dyno restart wipes it (resubmit if status becomes 'unknown' after a deploy).",
+          "description": "Batch multiple read-only contract calls into a single RPC round trip via Multicall3 on Ethereum mainnet (0xcA11bde05977b3631167028862bE2a173976CA11). Returns success status and raw return data for each call. Use allowFailure=true to prevent one failed call from aborting the whole batch.",
           "schema": [
             {
-              "name": "submission_id",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "submit_story",
-          "server": "glama::io.github.Un3x/ai-success-story",
-          "source": "direct_mcp",
-          "description": "Submit a success-story article for human curation. Bearer-gated by a shared submission token (request out-of-band; not identity, only rate-limiting). Body is validated against the format spec at /docs/format-spec — exact H2 sections (Setup, Attempt, Signal, Why it worked) in order, 150–600 words, fr…",
-          "schema": [
-            {
-              "name": "body",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "frontmatter",
-              "type": "object",
-              "required": true
-            },
-            {
-              "name": "token",
-              "type": "string",
+              "name": "calls",
+              "type": "array",
               "required": true
             }
           ]
         },
         {
-          "tool": "add_flight_booking",
-          "server": "glama::io.github.jackculpan/awardtravelfinder",
+          "tool": "mezo_multicall",
+          "server": "smithery::boar-network/blockchain-advanced",
           "source": "direct_mcp",
-          "description": "Log an award flight booking/redemption. For multi-leg trips (connecting flights, open-jaw, return), call this once per leg using the same trip_id — put the total points on the first leg and 0 on subsequent legs. Works great with Gmail — extract booking details from confirmation emails. Paid feature.",
+          "description": "Batch multiple read-only contract calls into a single RPC round trip via Multicall3 on Mezo (0xcA11bde05977b3631167028862bE2a173976CA11). Returns success status and raw return data for each call. Use allowFailure=true to prevent one failed call from aborting the whole batch.",
           "schema": [
             {
-              "name": "airline",
-              "type": "string",
+              "name": "calls",
+              "type": "array",
               "required": true
-            },
+            }
+          ]
+        },
+        {
+          "tool": "get_jobs",
+          "server": "smithery::Himalayas/himalayas-mcp",
+          "source": "direct_mcp",
+          "description": "Browse the latest remote job listings with optional filtering by country or worldwide availability",
+          "schema": [
             {
-              "name": "cabin_class",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "confirmation_number",
+              "name": "country",
               "type": "string",
               "required": false
             },
             {
-              "name": "departure_date",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "destination",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "flight_number",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "notes",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "origin",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "passengers",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "points_spent",
-              "type": "integer",
-              "required": true
-            },
-            {
-              "name": "program",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "return_date",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "taxes_currency",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "taxes_paid",
+              "name": "page",
               "type": "number",
               "required": false
             },
             {
-              "name": "trip_id",
-              "type": "string",
+              "name": "worldwide",
+              "type": "boolean",
               "required": false
             }
           ]
         },
         {
-          "tool": "delete_flight_booking",
-          "server": "glama::io.github.jackculpan/awardtravelfinder",
+          "tool": "search_jobs",
+          "server": "smithery::Himalayas/himalayas-mcp",
           "source": "direct_mcp",
-          "description": "Cancel/remove a tracked flight booking.",
+          "description": "Search for remote jobs using keywords with optional filtering by country or worldwide availability",
           "schema": [
             {
-              "name": "booking_id",
-              "type": "integer",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "discover_more_flight_tools",
-          "server": "glama::io.github.jackculpan/awardtravelfinder",
-          "source": "direct_mcp",
-          "description": "Discover other flight & travel MCP servers you can add to your client. Lists complementary remote MCPs covering aircraft seatmaps, airport delays/wait times, and lounges — with one-line install URLs. Call this when the user asks about seat selection, airport delays/security waits, baggage rankings, …",
-          "schema": []
-        },
-        {
-          "tool": "get_buy_points_pricing",
-          "server": "glama::io.github.jackculpan/awardtravelfinder",
-          "source": "direct_mcp",
-          "description": "Get the cost to buy points/miles for a loyalty program. Returns tiered base purchase pricing and any active bonus promotion. Use to answer 'how much does it cost to buy X Avios/miles/points?' If no program specified, returns all programs with pricing data. Free — no account needed.",
-          "schema": [
-            {
-              "name": "program",
+              "name": "benefits",
               "type": "string",
               "required": false
             },
             {
-              "name": "quantity",
-              "type": "integer",
+              "name": "companies",
+              "type": "string",
               "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_flight_booking",
-          "server": "glama::io.github.jackculpan/awardtravelfinder",
-          "source": "direct_mcp",
-          "description": "Get details of a specific flight booking/redemption.",
-          "schema": [
-            {
-              "name": "booking_id",
-              "type": "integer",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "get_hotel_availability",
-          "server": "glama::io.github.jackculpan/awardtravelfinder",
-          "source": "direct_mcp",
-          "description": "Get current points availability for a hotel on specific dates. Use BEFORE monitor_hotel_price to find the correct rate_plan and current points rate. Paid feature.",
-          "schema": [
-            {
-              "name": "check_in_date",
-              "type": "string",
-              "required": true
             },
             {
-              "name": "check_out_date",
+              "name": "country",
               "type": "string",
-              "required": true
+              "required": false
             },
             {
-              "name": "hotel_code",
+              "name": "currency",
               "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "get_hotel_booking",
-          "server": "glama::io.github.jackculpan/awardtravelfinder",
-          "source": "direct_mcp",
-          "description": "Get details and full price history of a monitored hotel booking.",
-          "schema": [
-            {
-              "name": "booking_id",
-              "type": "integer",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "get_portfolio",
-          "server": "glama::io.github.jackculpan/awardtravelfinder",
-          "source": "direct_mcp",
-          "description": "Get a complete summary of your travel rewards portfolio for signed-in users: points balances, spend on hotels and flights, upcoming and past trips, destinations, and monthly spending trends. Uses the same underlying snapshot as the server-loaded chat preamble; call after the user adds bookings or ba…",
-          "schema": []
-        },
-        {
-          "tool": "get_pricing",
-          "server": "glama::io.github.jackculpan/awardtravelfinder",
-          "source": "direct_mcp",
-          "description": "Get the award pricing chart for a specific airline route. Shows points required per cabin class (off-peak/peak). No date needed. Paid feature.",
-          "schema": [
-            {
-              "name": "airline",
-              "type": "string",
-              "required": true
+              "required": false
             },
             {
-              "name": "arrival_code",
-              "type": "string",
-              "required": true
+              "name": "exclude_worldwide",
+              "type": "boolean",
+              "required": false
             },
             {
-              "name": "departure_code",
+              "name": "experience",
               "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "get_program_rates",
-          "server": "glama::io.github.jackculpan/awardtravelfinder",
-          "source": "direct_mcp",
-          "description": "Get the full award chart rates for a specific loyalty program. Returns all destinations with points required per cabin class including off-peak/peak pricing. Free — no account needed.",
-          "schema": [
+              "required": false
+            },
             {
-              "name": "program",
+              "name": "keyword",
               "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "get_status_matches",
-          "server": "glama::io.github.jackculpan/awardtravelfinder",
-          "source": "direct_mcp",
-          "description": "Get current airline status match offers. Returns active promotions where you can match elite status from one airline to another. Includes direct apply links. Each program also has a detailed FAQ page at awardtravelfinder.com/status-match/{program-slug} with eligibility, requirements, and step-by-ste…",
-          "schema": [
+              "required": false
+            },
             {
-              "name": "alliance",
+              "name": "markets",
               "type": "string",
+              "required": false
+            },
+            {
+              "name": "page",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "salary_max",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "salary_min",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "salary_required",
+              "type": "boolean",
+              "required": false
+            },
+            {
+              "name": "sort",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "type",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "worldwide",
+              "type": "boolean",
               "required": false
             }
           ]
         },
         {
-          "tool": "list_flight_bookings",
-          "server": "glama::io.github.jackculpan/awardtravelfinder",
+          "tool": "get_job_details",
+          "server": "smithery::Himalayas/himalayas-mcp",
           "source": "direct_mcp",
-          "description": "List all tracked flight award bookings/redemptions. Shows airlines, routes, points spent, and cabin classes.",
-          "schema": []
+          "description": "Get full details for a specific job including description, requirements, salary, and application link. Use the company_slug and job_slug from job listings.",
+          "schema": [
+            {
+              "name": "company_slug",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "job_slug",
+              "type": "string",
+              "required": true
+            }
+          ]
         },
         {
-          "tool": "list_hotel_bookings",
-          "server": "glama::io.github.jackculpan/awardtravelfinder",
+          "tool": "get_related_jobs",
+          "server": "smithery::Himalayas/himalayas-mcp",
           "source": "direct_mcp",
-          "description": "List all hotel bookings being monitored for price drops. Shows current vs. original points rates.",
-          "schema": []
+          "description": "Find jobs similar to a specific job, based on skills, location, and category. Use after viewing a job to suggest alternatives.",
+          "schema": [
+            {
+              "name": "company_slug",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "job_slug",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "get_companies",
+          "server": "smithery::Himalayas/himalayas-mcp",
+          "source": "direct_mcp",
+          "description": "Browse remote-friendly companies with optional filtering by country or worldwide availability",
+          "schema": [
+            {
+              "name": "country",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "page",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "worldwide",
+              "type": "boolean",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "search_companies",
+          "server": "smithery::Himalayas/himalayas-mcp",
+          "source": "direct_mcp",
+          "description": "Search for remote-friendly companies using keywords with optional country filtering",
+          "schema": [
+            {
+              "name": "benefits",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "country",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "keyword",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "page",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "sort",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "tech_stack",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "worldwide",
+              "type": "boolean",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "get_company_details",
+          "server": "smithery::Himalayas/himalayas-mcp",
+          "source": "direct_mcp",
+          "description": "Get full details for a company including about, tech stack, benefits, open positions, and social links",
+          "schema": [
+            {
+              "name": "company_slug",
+              "type": "string",
+              "required": true
+            }
+          ]
         }
       ]
     },
-    "stealth": 1123,
-    "crossRegistry": 2132,
-    "crossSource": 6364
+    "stealth": 1294,
+    "crossRegistry": 2198,
+    "crossSource": 6502
   }
 }
