@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-06-08T10:03:00+00:00",
+  "generatedAt": "2026-06-08T10:32:37+00:00",
   "lastCrawl": "2026-06-08",
   "crawl": {
     "servers": 10230,
-    "tools": 106376,
-    "snapshots": 1028129,
-    "stealthTools": 815,
-    "crossRegistryAnomalies": 16302,
-    "crossSourceAnomalies": 14755
+    "tools": 107435,
+    "snapshots": 1034332,
+    "stealthTools": 1696,
+    "crossRegistryAnomalies": 16318,
+    "crossSourceAnomalies": 19236
   },
   "registries": [
     {
@@ -73,17 +73,17 @@
   "protocol": [
     {
       "name": "2024-11-05",
-      "value": 2773,
+      "value": 3231,
       "color": "#6366f1"
     },
     {
       "name": "2025-03-26",
-      "value": 1620,
+      "value": 1653,
       "color": "#06b6d4"
     },
     {
       "name": "2025-06-18",
-      "value": 222,
+      "value": 242,
       "color": "#8b5cf6"
     },
     {
@@ -93,39 +93,39 @@
     },
     {
       "name": "2025-11-25",
-      "value": 73,
+      "value": 80,
       "color": "#f59e0b"
     },
     {
       "name": "미보고",
-      "value": 5537,
+      "value": 5019,
       "color": "#374151"
     }
   ],
   "toolDist": [
     {
       "name": "0",
-      "servers": 3976,
+      "servers": 3970,
       "color": "#6b7280"
     },
     {
       "name": "1-5",
-      "servers": 2059,
+      "servers": 2047,
       "color": "#06b6d4"
     },
     {
       "name": "6-10",
-      "servers": 1262,
+      "servers": 1259,
       "color": "#6366f1"
     },
     {
       "name": "11-20",
-      "servers": 840,
+      "servers": 853,
       "color": "#8b5cf6"
     },
     {
       "name": "20+",
-      "servers": 2093,
+      "servers": 2101,
       "color": "#22c55e"
     }
   ],
@@ -240,9 +240,34 @@
       "registry": "glama"
     },
     {
+      "name": "smithery::blackboxfoundry/livedatalink",
+      "value": 169,
+      "registry": "smithery"
+    },
+    {
+      "name": "smithery::delx/witness-protocol",
+      "value": 89,
+      "registry": "smithery"
+    },
+    {
       "name": "glama::io.github.DigbyO/colour-memory",
       "value": 74,
       "registry": "glama"
+    },
+    {
+      "name": "smithery::favcrm/favcrm",
+      "value": 62,
+      "registry": "smithery"
+    },
+    {
+      "name": "glama::io.github.blackboxfoundry/livedatalink",
+      "value": 54,
+      "registry": "glama"
+    },
+    {
+      "name": "smithery::delx/delx-mcp",
+      "value": 49,
+      "registry": "smithery"
     },
     {
       "name": "glama::network.tenzro/tenzro",
@@ -258,37 +283,16 @@
       "name": "glama::io.github.tdobrowolski1/flashalpha",
       "value": 31,
       "registry": "glama"
-    },
-    {
-      "name": "glama::io.github.trycourier/courier",
-      "value": 30,
-      "registry": "glama"
-    },
-    {
-      "name": "glama::io.github.saloprj/dialogbrain",
-      "value": 25,
-      "registry": "glama"
-    },
-    {
-      "name": "glama::io.github.xyzzylabs/tc39-mcp",
-      "value": 22,
-      "registry": "glama"
-    },
-    {
-      "name": "glama::dev.cz-agents/ares",
-      "value": 20,
-      "registry": "glama"
-    },
-    {
-      "name": "glama::co.heista/api",
-      "value": 20,
-      "registry": "glama"
     }
   ],
   "stealthByRegistry": [
     {
+      "name": "smithery",
+      "value": 774
+    },
+    {
       "name": "glama",
-      "value": 815
+      "value": 349
     }
   ],
   "crossRegistrySamples": [
@@ -528,14 +532,14 @@
       "date": "2026-06-08",
       "serversCumulative": 10230,
       "newServers": 67,
-      "snapshots": 135878,
-      "snapshotsCumulative": 1028129,
-      "tools": 103018,
-      "toolsCumulative": 106376,
-      "changes": 2723,
-      "stealth": 242,
-      "crossRegistry": 2116,
-      "crossSource": 1883,
+      "snapshots": 142081,
+      "snapshotsCumulative": 1034332,
+      "tools": 104877,
+      "toolsCumulative": 107435,
+      "changes": 6119,
+      "stealth": 1123,
+      "crossRegistry": 2132,
+      "crossSource": 6364,
       "tdqsAvg": 0
     }
   ],
@@ -649,15 +653,15 @@
       "date": "2026-06-08",
       "official_servers": 4699,
       "official_new": 54,
-      "official_tools": 38030,
-      "official_changes": 966,
+      "official_tools": 38271,
+      "official_changes": 2663,
       "glama_servers": 3993,
       "glama_new": 0,
-      "glama_tools": 37829,
-      "glama_changes": 1653,
+      "glama_tools": 37994,
+      "glama_changes": 3352,
       "smithery_servers": 1538,
       "smithery_new": 13,
-      "smithery_tools": 27159,
+      "smithery_tools": 28612,
       "smithery_changes": 104
     }
   ],
@@ -665,7 +669,7 @@
     {
       "name": "official",
       "servers": 4699,
-      "tools": 38974,
+      "tools": 39099,
       "changeBreakdown": {
         "description_modified": 0,
         "schema_modified": 0,
@@ -677,7 +681,7 @@
     {
       "name": "glama",
       "servers": 3993,
-      "tools": 38736,
+      "tools": 38872,
       "changeBreakdown": {
         "description_modified": 8073,
         "schema_modified": 1024,
@@ -689,7 +693,7 @@
     {
       "name": "smithery",
       "servers": 1538,
-      "tools": 28666,
+      "tools": 29464,
       "changeBreakdown": {
         "description_modified": 74,
         "schema_modified": 24,
@@ -700,13 +704,13 @@
     },
     {
       "name": "direct_mcp",
-      "servers": 4568,
-      "tools": 75072,
+      "servers": 4870,
+      "tools": 80902,
       "changeBreakdown": {
-        "description_modified": 19336,
-        "schema_modified": 2228,
-        "both_modified": 1956,
-        "removed": 1506
+        "description_modified": 20844,
+        "schema_modified": 2374,
+        "both_modified": 3475,
+        "removed": 1729
       },
       "color": "#10b981"
     }
@@ -756,10 +760,10 @@
     },
     {
       "date": "2026-06-08",
-      "description_modified": 1410,
-      "schema_modified": 126,
-      "both_modified": 201,
-      "removed": 986
+      "description_modified": 2918,
+      "schema_modified": 272,
+      "both_modified": 1720,
+      "removed": 1209
     }
   ],
   "latestCrawl": {
@@ -818,10 +822,25 @@
         "changes": 1926,
         "snapshots": 73336,
         "changeBreakdown": {
-          "description_modified": 1400,
-          "schema_modified": 115,
-          "both_modified": 183,
-          "removed": 228
+          "description_modified": 2908,
+          "schema_modified": 261,
+          "both_modified": 1702,
+          "removed": 451
+        },
+        "color": "#6366f1"
+      },
+      {
+        "name": "direct_mcp",
+        "status": "completed",
+        "servers": 5092,
+        "tools": 79310,
+        "changes": 3396,
+        "snapshots": 79310,
+        "changeBreakdown": {
+          "description_modified": 2908,
+          "schema_modified": 261,
+          "both_modified": 1702,
+          "removed": 451
         },
         "color": "#6366f1"
       }
@@ -830,399 +849,600 @@
     "changeBreakdown": [
       {
         "type": "description_modified",
-        "count": 1410,
+        "count": 2918,
         "color": "#06b6d4"
       },
       {
         "type": "schema_modified",
-        "count": 126,
+        "count": 272,
         "color": "#f59e0b"
       },
       {
         "type": "both_modified",
-        "count": 201,
+        "count": 1720,
         "color": "#a78bfa"
       },
       {
         "type": "removed",
-        "count": 986,
+        "count": 1209,
         "color": "#ef4444"
       }
     ],
     "toolDelta": {
-      "newTools": 1284,
-      "droppedTools": 545,
-      "removedTools": 986,
+      "newTools": 2926,
+      "droppedTools": 328,
+      "removedTools": 1209,
       "unreachedTools": 0,
-      "net": 739,
+      "net": 2598,
       "prevDate": "2026-06-07",
       "newSamples": [
         {
-          "tool": "search_vaults",
-          "server": "smithery::philidor/defi",
-          "source": "smithery",
-          "description": "Search and filter DeFi vaults by chain, protocol, asset, risk tier, TVL, and more. Returns a paginated list with risk scores and APR.",
+          "tool": "bn_ping",
+          "server": "smithery::node2flow/binance",
+          "source": "direct_mcp",
+          "description": "Test connectivity to Binance API. Returns empty object if successful. Use to verify API is reachable.",
           "schema": [
             {
-              "name": "asset",
+              "name": "_fields",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "bn_server_time",
+          "server": "smithery::node2flow/binance",
+          "source": "direct_mcp",
+          "description": "Get Binance server time (millisecond timestamp). Use to check connectivity and sync timestamps for signed requests.",
+          "schema": [
+            {
+              "name": "_fields",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "bn_exchange_info",
+          "server": "smithery::node2flow/binance",
+          "source": "direct_mcp",
+          "description": "Get exchange information including trading rules, symbol list, filters (PRICE_FILTER, LOT_SIZE, MIN_NOTIONAL), and rate limits. Optionally filter by symbol.",
+          "schema": [
+            {
+              "name": "_fields",
               "type": "string",
               "required": false
             },
             {
-              "name": "chain",
+              "name": "symbol",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "symbols",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "bn_order_book",
+          "server": "smithery::node2flow/binance",
+          "source": "direct_mcp",
+          "description": "Get order book (bids and asks) for a symbol. Weight varies by limit: 5 (1-100), 25 (101-500), 50 (501-1000), 250 (1001-5000).",
+          "schema": [
+            {
+              "name": "_fields",
               "type": "string",
               "required": false
             },
             {
               "name": "limit",
-              "type": "number",
+              "type": "integer",
               "required": false
             },
             {
-              "name": "minTvl",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "protocol",
+              "name": "symbol",
               "type": "string",
-              "required": false
-            },
-            {
-              "name": "query",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "riskTier",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "sortBy",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "sortOrder",
-              "type": "string",
-              "required": false
+              "required": true
             }
           ]
         },
         {
-          "tool": "get_vault",
-          "server": "smithery::philidor/defi",
-          "source": "smithery",
-          "description": "Get detailed information about a specific DeFi vault including risk breakdown, recent events, and historical snapshots. Lookup by ID or by network + address.",
+          "tool": "bn_recent_trades",
+          "server": "smithery::node2flow/binance",
+          "source": "direct_mcp",
+          "description": "Get recent trades for a symbol. Returns up to 1000 most recent trades with price, quantity, and time.",
           "schema": [
             {
-              "name": "address",
+              "name": "_fields",
               "type": "string",
-              "required": false
-            },
-            {
-              "name": "id",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "network",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_vault_risk_breakdown",
-          "server": "smithery::philidor/defi",
-          "source": "smithery",
-          "description": "Get a detailed breakdown of a vault's risk vectors: Asset Composition, Platform Code, and Governance scores with sub-metrics.",
-          "schema": [
-            {
-              "name": "address",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "network",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "compare_vaults",
-          "server": "smithery::philidor/defi",
-          "source": "smithery",
-          "description": "Compare 2-3 DeFi vaults side-by-side on TVL, APR, risk score, risk tier, audited status, and more.",
-          "schema": [
-            {
-              "name": "vaults",
-              "type": "array",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "find_safest_vaults",
-          "server": "smithery::philidor/defi",
-          "source": "smithery",
-          "description": "Find the safest (highest risk-scored) DeFi vaults, optionally filtered by asset, chain, or minimum TVL. Returns top 10 audited, high-confidence vaults sorted by risk score.",
-          "schema": [
-            {
-              "name": "asset",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "chain",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "minTvl",
-              "type": "number",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_protocol_info",
-          "server": "smithery::philidor/defi",
-          "source": "smithery",
-          "description": "Get detailed information about a DeFi protocol including TVL, vault count, versions, auditors, and security incidents.",
-          "schema": [
-            {
-              "name": "protocolId",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_curator_info",
-          "server": "smithery::philidor/defi",
-          "source": "smithery",
-          "description": "Get detailed information about a vault curator including their managed vaults, TVL, chain distribution, and performance.",
-          "schema": [
-            {
-              "name": "curatorId",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_market_overview",
-          "server": "smithery::philidor/defi",
-          "source": "smithery",
-          "description": "Get a high-level overview of the DeFi vault market: total TVL, vault count, risk distribution, and TVL by protocol.",
-          "schema": []
-        },
-        {
-          "tool": "explain_risk_score",
-          "server": "smithery::philidor/defi",
-          "source": "smithery",
-          "description": "Explain what a Philidor risk score means, including the tier (Prime/Core/Edge), how it is calculated, and what the thresholds are.",
-          "schema": [
-            {
-              "name": "score",
-              "type": "number",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "list_vaults_with_incidents",
-          "server": "smithery::philidor/defi",
-          "source": "smithery",
-          "description": "List all vaults that had a recent critical incident (last 365 days). Critical = severity Critical or incident_severity major. Results are sorted by TVL descending, then by time since event ascending (most recent first).",
-          "schema": []
-        },
-        {
-          "tool": "search",
-          "server": "smithery::glassnode/glassnode-mcp",
-          "source": "smithery",
-          "description": "Returns the list of available MCP tools for cryptocurrency data access.",
-          "schema": [
-            {
-              "name": "query",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "fetch",
-          "server": "smithery::glassnode/glassnode-mcp",
-          "source": "smithery",
-          "description": "Fetches a specific tool's documentation by ID.",
-          "schema": [
-            {
-              "name": "id",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "fetch_metric",
-          "server": "smithery::glassnode/glassnode-mcp",
-          "source": "smithery",
-          "description": "Fetch data for a single asset from Glassnode API.\n\nUse this tool when you need to:\n- Fetch data for ONE specific asset\n- Get detailed data for a single cryptocurrency\n\nIMPORTANT: If you need data for MULTIPLE assets, use fetch_bulk_metrics instead!\nThis tool should only be used for single-asset requ…",
-          "schema": [
-            {
-              "name": "endpoint",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "params",
-              "type": "",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "fetch_bulk_metrics",
-          "server": "smithery::glassnode/glassnode-mcp",
-          "source": "smithery",
-          "description": "Fetch data for multiple assets efficiently using Glassnode's bulk endpoint.\n\nPREFERRED: Use this tool when you need to:\n- Fetch the same metric for MULTIPLE assets (2 or more)\n- Compare data across different cryptocurrencies\n- Get comprehensive market data for several assets\n- Avoid making multiple …",
-          "schema": [
-            {
-              "name": "assets",
-              "type": "array",
-              "required": false
-            },
-            {
-              "name": "endpoint",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "params",
-              "type": "",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_assets_list",
-          "server": "smithery::glassnode/glassnode-mcp",
-          "source": "smithery",
-          "description": "Get a list of all cryptocurrency assets supported by Glassnode API. Use to verify asset support, get correct asset symbols, or display available assets.",
-          "schema": [
-            {
-              "name": "filter",
-              "type": [
-                "string",
-                "null"
-              ],
-              "required": false
-            },
-            {
-              "name": "full_list",
-              "type": [
-                "boolean",
-                "null"
-              ],
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_metrics_list",
-          "server": "smithery::glassnode/glassnode-mcp",
-          "source": "smithery",
-          "description": "Get a list of all available metrics and their paths from Glassnode API. Use to find correct metric paths, discover available metrics, or validate metric existence.",
-          "schema": [
-            {
-              "name": "limit",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "offset",
-              "type": "number",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_asset_metrics",
-          "server": "smithery::glassnode/glassnode-mcp",
-          "source": "smithery",
-          "description": "Get a list of available metrics for one or more assets. Use to find supported metrics for assets, filter metrics by asset, or check asset-specific metric availability.",
-          "schema": [
-            {
-              "name": "assets",
-              "type": "",
               "required": false
             },
             {
               "name": "limit",
-              "type": "number",
+              "type": "integer",
               "required": false
             },
             {
-              "name": "offset",
-              "type": "number",
-              "required": false
+              "name": "symbol",
+              "type": "string",
+              "required": true
             }
           ]
         },
         {
-          "tool": "get_metric_metadata",
-          "server": "smithery::glassnode/glassnode-mcp",
-          "source": "smithery",
-          "description": "Get metadata for a specific metric including parameters, tier, and examples. Use after get_metrics_list() to verify metric path.",
+          "tool": "bn_aggregate_trades",
+          "server": "smithery::node2flow/binance",
+          "source": "direct_mcp",
+          "description": "Get compressed/aggregate trades for a symbol. Trades that fill at the same time, price, and side are aggregated into a single entry.",
           "schema": [
             {
-              "name": "metric",
+              "name": "_fields",
               "type": "string",
               "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_articles",
-          "server": "smithery::glassnode/glassnode-mcp",
-          "source": "smithery",
-          "description": "Get premium research articles from Glassnode Insights - institutional-grade on-chain market intelligence featuring Market Pulse, Week On-chain analysis, Market Vectors, Partner Reports, and exclusive research. Access professional-grade insights into Bitcoin, Ethereum, DeFi, and altcoin markets with …",
-          "schema": [
+            },
+            {
+              "name": "endTime",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "fromId",
+              "type": "integer",
+              "required": false
+            },
             {
               "name": "limit",
-              "type": "number",
+              "type": "integer",
               "required": false
             },
             {
-              "name": "page",
-              "type": "number",
+              "name": "startTime",
+              "type": "integer",
               "required": false
             },
             {
-              "name": "tags",
+              "name": "symbol",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "bn_klines",
+          "server": "smithery::node2flow/binance",
+          "source": "direct_mcp",
+          "description": "Get candlestick/kline data (OHLCV) for a symbol. Returns arrays of [openTime, open, high, low, close, volume, closeTime, quoteVolume, trades, takerBuyBase, takerBuyQuote].",
+          "schema": [
+            {
+              "name": "_fields",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "endTime",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "interval",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "limit",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "startTime",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "symbol",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "bn_avg_price",
+          "server": "smithery::node2flow/binance",
+          "source": "direct_mcp",
+          "description": "Get current average price for a symbol. Returns the weighted average price over the last 5 minutes.",
+          "schema": [
+            {
+              "name": "_fields",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "symbol",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "bn_ticker_24hr",
+          "server": "smithery::node2flow/binance",
+          "source": "direct_mcp",
+          "description": "Get 24-hour price change statistics. Weight: 2 (single symbol), 80 (all symbols). Includes price change, volume, high/low, and trade count.",
+          "schema": [
+            {
+              "name": "_fields",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "symbol",
               "type": "string",
               "required": false
             }
           ]
         },
         {
-          "tool": "get_article",
-          "server": "smithery::glassnode/glassnode-mcp",
-          "source": "smithery",
-          "description": "Get a specific premium research article from Glassnode Insights by slug or ID. Access detailed institutional-grade market intelligence including full article content, HTML markup, and metadata. Retrieve comprehensive on-chain analysis, market vectors, systematic research, and exclusive insights for …",
+          "tool": "bn_ticker_price",
+          "server": "smithery::node2flow/binance",
+          "source": "direct_mcp",
+          "description": "Get latest price for a symbol or all symbols. Lightweight endpoint for quick price checks.",
           "schema": [
             {
-              "name": "id",
+              "name": "_fields",
               "type": "string",
               "required": false
             },
             {
-              "name": "slug",
+              "name": "symbol",
               "type": "string",
               "required": false
+            }
+          ]
+        },
+        {
+          "tool": "bn_book_ticker",
+          "server": "smithery::node2flow/binance",
+          "source": "direct_mcp",
+          "description": "Get best bid/ask price and quantity for a symbol or all symbols. Useful for spread analysis.",
+          "schema": [
+            {
+              "name": "_fields",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "symbol",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "bn_new_order",
+          "server": "smithery::node2flow/binance",
+          "source": "direct_mcp",
+          "description": "Place a new order. WARNING: This uses REAL MONEY on Binance Global. Supports LIMIT, MARKET, STOP_LOSS, STOP_LOSS_LIMIT, TAKE_PROFIT, TAKE_PROFIT_LIMIT, LIMIT_MAKER order types. Use bn_test_order first to validate.",
+          "schema": [
+            {
+              "name": "newClientOrderId",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "price",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "quantity",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "quoteOrderQty",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "recvWindow",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "side",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "stopPrice",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "symbol",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "timeInForce",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "type",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "bn_test_order",
+          "server": "smithery::node2flow/binance",
+          "source": "direct_mcp",
+          "description": "Test new order creation (dry run). Validates all parameters without actually placing the order. No funds are used. Always test before placing real orders.",
+          "schema": [
+            {
+              "name": "newClientOrderId",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "price",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "quantity",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "quoteOrderQty",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "recvWindow",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "side",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "stopPrice",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "symbol",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "timeInForce",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "type",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "bn_query_order",
+          "server": "smithery::node2flow/binance",
+          "source": "direct_mcp",
+          "description": "Query a specific order by orderId or origClientOrderId. Returns order status, filled quantity, and execution details.",
+          "schema": [
+            {
+              "name": "_fields",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "orderId",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "origClientOrderId",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "recvWindow",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "symbol",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "bn_cancel_order",
+          "server": "smithery::node2flow/binance",
+          "source": "direct_mcp",
+          "description": "Cancel an active order by orderId or origClientOrderId.",
+          "schema": [
+            {
+              "name": "orderId",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "origClientOrderId",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "recvWindow",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "symbol",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "bn_cancel_all_orders",
+          "server": "smithery::node2flow/binance",
+          "source": "direct_mcp",
+          "description": "Cancel all open orders for a symbol. WARNING: This cancels ALL pending orders at once. Cannot be undone.",
+          "schema": [
+            {
+              "name": "recvWindow",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "symbol",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "bn_open_orders",
+          "server": "smithery::node2flow/binance",
+          "source": "direct_mcp",
+          "description": "Get all open orders for a symbol or all symbols. Weight: 3 (with symbol), 40 (without symbol).",
+          "schema": [
+            {
+              "name": "_fields",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "recvWindow",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "symbol",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "bn_all_orders",
+          "server": "smithery::node2flow/binance",
+          "source": "direct_mcp",
+          "description": "Get all orders (active, canceled, filled) for a symbol. Supports time range and pagination via orderId.",
+          "schema": [
+            {
+              "name": "_fields",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "endTime",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "limit",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "orderId",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "recvWindow",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "startTime",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "symbol",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "bn_account_info",
+          "server": "smithery::node2flow/binance",
+          "source": "direct_mcp",
+          "description": "Get account information including balances, commission rates, and trading permissions. Returns all asset balances (free + locked).",
+          "schema": [
+            {
+              "name": "_fields",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "recvWindow",
+              "type": "integer",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "bn_my_trades",
+          "server": "smithery::node2flow/binance",
+          "source": "direct_mcp",
+          "description": "Get trade execution history for a specific symbol. Returns price, quantity, commission, and whether you were buyer/maker.",
+          "schema": [
+            {
+              "name": "_fields",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "endTime",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "fromId",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "limit",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "orderId",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "recvWindow",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "startTime",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "symbol",
+              "type": "string",
+              "required": true
             }
           ]
         }
@@ -1814,39 +2034,6 @@
           ]
         },
         {
-          "tool": "extract_pdf",
-          "server": "smithery::jesse-dxju/docpull",
-          "source": "smithery",
-          "description": "Extract a PDF from a URL and return clean structured Markdown. Costs $0.001 USDC per page via x402.",
-          "schema": [
-            {
-              "name": "url",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "probe_pdf",
-          "server": "smithery::jesse-dxju/docpull",
-          "source": "smithery",
-          "description": "Check page count and exact cost for a PDF before extracting. Free, no payment required.",
-          "schema": [
-            {
-              "name": "url",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "health_check",
-          "server": "smithery::jesse-dxju/docpull",
-          "source": "smithery",
-          "description": "Check if the docpull service is running and available.",
-          "schema": []
-        },
-        {
           "tool": "create_session",
           "server": "smithery::scott-zj62/sncro",
           "source": "smithery",
@@ -2024,11 +2211,100 @@
               "required": false
             }
           ]
+        },
+        {
+          "tool": "report_issue",
+          "server": "smithery::scott-zj62/sncro",
+          "source": "smithery",
+          "description": "Report an issue, feature request, or success story for sncro.\n\nIMPORTANT: ALWAYS ask the user before submitting ANY feedback.\nShow them exactly what you plan to send and get explicit approval.\nNever submit feedback without the user's knowledge and consent.\n\nFor ALL categories:\n- Draft the text and s…",
+          "schema": [
+            {
+              "name": "category",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "description",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "git_user",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "project_key",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "page",
+          "server": "smithery::xidik12/oculo",
+          "source": "smithery",
+          "description": "Describe the current page in Oculo browser. Default: compact (~30-80 tokens). Use detail=\"a11y\" for ref-tagged accessibility tree, detail=\"markdown\" for full article content.",
+          "schema": [
+            {
+              "name": "detail",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "scope",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "screenshot",
+              "type": "boolean",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "act",
+          "server": "smithery::xidik12/oculo",
+          "source": "smithery",
+          "description": "Perform an action in Oculo browser: click, navigate, scroll, press key, hover, type, login. Elements found by ref (from a11y snapshot), text, role, label, placeholder, or CSS selector.",
+          "schema": [
+            {
+              "name": "action",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "key",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "ref",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "selector",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "text",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "url",
+              "type": "string",
+              "required": false
+            }
+          ]
         }
       ]
     },
-    "stealth": 242,
-    "crossRegistry": 2116,
-    "crossSource": 1883
+    "stealth": 1123,
+    "crossRegistry": 2132,
+    "crossSource": 6364
   }
 }
