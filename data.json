@@ -1,62 +1,62 @@
 {
-  "generatedAt": "2026-06-09T16:23:28+00:00",
-  "lastCrawl": "2026-06-10",
+  "generatedAt": "2026-06-10T16:21:02+00:00",
+  "lastCrawl": "2026-06-11",
   "crawl": {
-    "servers": 10548,
-    "tools": 112576,
-    "snapshots": 1329167,
-    "stealthTools": 3548,
-    "crossRegistryAnomalies": 20729,
-    "crossSourceAnomalies": 30062
+    "servers": 10913,
+    "tools": 128371,
+    "snapshots": 1503461,
+    "stealthTools": 5282,
+    "crossRegistryAnomalies": 23069,
+    "crossSourceAnomalies": 39224
   },
   "registries": [
     {
       "name": "Official",
-      "servers": 4847,
+      "servers": 4986,
       "color": "#6366f1"
     },
     {
       "name": "Glama",
-      "servers": 4147,
+      "servers": 4347,
       "color": "#8b5cf6"
     },
     {
       "name": "Smithery",
-      "servers": 1554,
+      "servers": 1580,
       "color": "#06b6d4"
     }
   ],
   "health": [
     {
       "name": "Healthy",
-      "value": 2220,
+      "value": 2342,
       "color": "#22c55e"
     },
     {
       "name": "Unhealthy",
-      "value": 1927,
+      "value": 2003,
       "color": "#ef4444"
     },
     {
       "name": "Unknown",
-      "value": 6401,
+      "value": 6568,
       "color": "#6b7280"
     }
   ],
   "tdqs": [
     {
       "grade": "A",
-      "count": 1956,
+      "count": 2053,
       "color": "#22c55e"
     },
     {
       "grade": "B",
-      "count": 419,
+      "count": 465,
       "color": "#84cc16"
     },
     {
       "grade": "C",
-      "count": 132,
+      "count": 125,
       "color": "#f59e0b"
     },
     {
@@ -66,24 +66,24 @@
     },
     {
       "grade": "미평가",
-      "count": 8037,
+      "count": 8266,
       "color": "#374151"
     }
   ],
   "protocol": [
     {
       "name": "2024-11-05",
-      "value": 3664,
+      "value": 3835,
       "color": "#6366f1"
     },
     {
       "name": "2025-03-26",
-      "value": 1766,
+      "value": 1887,
       "color": "#06b6d4"
     },
     {
       "name": "2025-06-18",
-      "value": 270,
+      "value": 296,
       "color": "#8b5cf6"
     },
     {
@@ -93,98 +93,98 @@
     },
     {
       "name": "2025-11-25",
-      "value": 83,
+      "value": 87,
       "color": "#f59e0b"
     },
     {
       "name": "미보고",
-      "value": 4759,
+      "value": 4802,
       "color": "#374151"
     }
   ],
   "toolDist": [
     {
       "name": "0",
-      "servers": 4070,
+      "servers": 4174,
       "color": "#6b7280"
     },
     {
       "name": "1-5",
-      "servers": 2083,
+      "servers": 2125,
       "color": "#06b6d4"
     },
     {
       "name": "6-10",
-      "servers": 1305,
+      "servers": 1350,
       "color": "#6366f1"
     },
     {
       "name": "11-20",
-      "servers": 872,
+      "servers": 877,
       "color": "#8b5cf6"
     },
     {
       "name": "20+",
-      "servers": 2218,
+      "servers": 2387,
       "color": "#22c55e"
     }
   ],
   "topByUse": [
     {
       "name": "EthanHenrickson/math-mcp",
-      "value": 870029,
+      "value": 805696,
       "registry": "smithery"
     },
     {
       "name": "googlesheets",
-      "value": 47342,
-      "registry": "smithery"
-    },
-    {
-      "name": "gmail",
-      "value": 35506,
+      "value": 47735,
       "registry": "smithery"
     },
     {
       "name": "henry-ships/sparkforge",
-      "value": 31128,
+      "value": 44415,
+      "registry": "smithery"
+    },
+    {
+      "name": "gmail",
+      "value": 36068,
       "registry": "smithery"
     },
     {
       "name": "exa",
-      "value": 24051,
+      "value": 23771,
       "registry": "smithery"
     },
     {
       "name": "clay-inc/clay-mcp",
-      "value": 19760,
+      "value": 20223,
       "registry": "smithery"
     },
     {
       "name": "hamid-vakilzadeh/mcpsemanticscholar",
-      "value": 18442,
+      "value": 18215,
       "registry": "smithery"
     },
     {
       "name": "googletasks",
-      "value": 13683,
+      "value": 14114,
+      "registry": "smithery"
+    },
+    {
+      "name": "creativelead/unclick",
+      "value": 13137,
       "registry": "smithery"
     },
     {
       "name": "zwldarren/akshare-one-mcp",
-      "value": 13451,
-      "registry": "smithery"
-    },
-    {
-      "name": "brave",
-      "value": 12147,
+      "value": 12926,
       "registry": "smithery"
     }
   ],
   "topByTools": [
     {
       "name": "pipeworx gateway",
-      "value": 2530,
+      "value": 2549,
       "registry": "smithery"
     },
     {
@@ -209,12 +209,12 @@
     },
     {
       "name": "Tenzro Ledger MCP",
-      "value": 371,
+      "value": 379,
       "registry": "official"
     },
     {
       "name": "Tenzro Ledger MCP",
-      "value": 371,
+      "value": 379,
       "registry": "glama"
     },
     {
@@ -236,63 +236,63 @@
   "stealthByServer": [
     {
       "name": "smithery::blackboxfoundry/livedatalink",
-      "value": 507,
+      "value": 676,
       "registry": "smithery"
     },
     {
       "name": "glama::io.github.ABTdomain/domainkits-mcp",
-      "value": 380,
+      "value": 418,
       "registry": "glama"
     },
     {
       "name": "smithery::delx/witness-protocol",
-      "value": 267,
+      "value": 356,
+      "registry": "smithery"
+    },
+    {
+      "name": "smithery::netfluid/NFLD",
+      "value": 134,
       "registry": "smithery"
     },
     {
       "name": "smithery::Plagtech/Spraay-x402-mcp",
-      "value": 87,
+      "value": 116,
       "registry": "smithery"
     },
     {
       "name": "smithery::rafaelkocurek-nvob/agentview",
-      "value": 78,
+      "value": 104,
       "registry": "smithery"
     },
     {
-      "name": "glama::io.github.DigbyO/colour-memory",
-      "value": 74,
-      "registry": "glama"
-    },
-    {
-      "name": "smithery::lilo-property/vacation-rentals",
-      "value": 67,
+      "name": "smithery::delx/delx-mcp",
+      "value": 98,
       "registry": "smithery"
     },
     {
-      "name": "smithery::favcrm/favcrm",
-      "value": 62,
+      "name": "smithery::vicente-litvak/siimaster",
+      "value": 94,
       "registry": "smithery"
     },
     {
       "name": "smithery::vortxai/emem",
-      "value": 60,
+      "value": 90,
       "registry": "smithery"
     },
     {
       "name": "glama::network.tenzro/tenzro",
-      "value": 58,
+      "value": 79,
       "registry": "glama"
     }
   ],
   "stealthByRegistry": [
     {
       "name": "smithery",
-      "value": 503
+      "value": 1646
     },
     {
       "name": "glama",
-      "value": 55
+      "value": 88
     }
   ],
   "crossRegistrySamples": [
@@ -569,6 +569,20 @@
       "crossRegistry": 2213,
       "crossSource": 4324,
       "tdqsAvg": 0
+    },
+    {
+      "date": "2026-06-11",
+      "serversCumulative": 10913,
+      "newServers": 365,
+      "snapshots": 174294,
+      "snapshotsCumulative": 1503461,
+      "tools": 124404,
+      "toolsCumulative": 128371,
+      "changes": 4993,
+      "stealth": 1734,
+      "crossRegistry": 2340,
+      "crossSource": 9162,
+      "tdqsAvg": 0
     }
   ],
   "registryTrend": [
@@ -721,13 +735,28 @@
       "smithery_new": 5,
       "smithery_tools": 28360,
       "smithery_changes": 1256
+    },
+    {
+      "date": "2026-06-11",
+      "official_servers": 4986,
+      "official_new": 139,
+      "official_tools": 46861,
+      "official_changes": 966,
+      "glama_servers": 4347,
+      "glama_new": 200,
+      "glama_tools": 47525,
+      "glama_changes": 2558,
+      "smithery_servers": 1580,
+      "smithery_new": 26,
+      "smithery_tools": 30018,
+      "smithery_changes": 1469
     }
   ],
   "cumulativeCollectors": [
     {
       "name": "official",
-      "servers": 4847,
-      "tools": 41194,
+      "servers": 4986,
+      "tools": 48157,
       "changeBreakdown": {
         "description_modified": 0,
         "schema_modified": 0,
@@ -738,37 +767,37 @@
     },
     {
       "name": "glama",
-      "servers": 4147,
-      "tools": 40832,
+      "servers": 4347,
+      "tools": 48644,
       "changeBreakdown": {
-        "description_modified": 9575,
-        "schema_modified": 1915,
-        "both_modified": 1577,
-        "removed": 4879
+        "description_modified": 10312,
+        "schema_modified": 1944,
+        "both_modified": 1596,
+        "removed": 5734
       },
       "color": "#8b5cf6"
     },
     {
       "name": "smithery",
-      "servers": 1554,
-      "tools": 30550,
+      "servers": 1580,
+      "tools": 31570,
       "changeBreakdown": {
-        "description_modified": 84,
-        "schema_modified": 101,
-        "both_modified": 66,
-        "removed": 221
+        "description_modified": 98,
+        "schema_modified": 102,
+        "both_modified": 73,
+        "removed": 224
       },
       "color": "#06b6d4"
     },
     {
       "name": "direct_mcp",
-      "servers": 5408,
-      "tools": 89244,
+      "servers": 5843,
+      "tools": 107273,
       "changeBreakdown": {
-        "description_modified": 22429,
-        "schema_modified": 3971,
-        "both_modified": 3635,
-        "removed": 4851
+        "description_modified": 23977,
+        "schema_modified": 4091,
+        "both_modified": 3720,
+        "removed": 6426
       },
       "color": "#10b981"
     }
@@ -836,15 +865,22 @@
       "schema_modified": 2332,
       "both_modified": 156,
       "removed": 2377
+    },
+    {
+      "date": "2026-06-11",
+      "description_modified": 2299,
+      "schema_modified": 150,
+      "both_modified": 111,
+      "removed": 2433
     }
   ],
   "latestCrawl": {
-    "date": "2026-06-10",
+    "date": "2026-06-11",
     "collectors": [
       {
         "name": "official",
         "status": "completed",
-        "servers": 4835,
+        "servers": 4972,
         "tools": 0,
         "changes": 0,
         "snapshots": 0,
@@ -859,429 +895,998 @@
       {
         "name": "smithery",
         "status": "completed",
-        "servers": 1435,
-        "tools": 27104,
-        "changes": 44,
-        "snapshots": 27104,
+        "servers": 1447,
+        "tools": 26981,
+        "changes": 25,
+        "snapshots": 26981,
         "changeBreakdown": {
-          "description_modified": 5,
-          "schema_modified": 30,
-          "both_modified": 9,
-          "removed": 0
+          "description_modified": 14,
+          "schema_modified": 1,
+          "both_modified": 7,
+          "removed": 3
         },
         "color": "#06b6d4"
       },
       {
         "name": "glama",
         "status": "completed",
-        "servers": 4145,
-        "tools": 38103,
-        "changes": 2396,
-        "snapshots": 38103,
+        "servers": 4343,
+        "tools": 45693,
+        "changes": 1640,
+        "snapshots": 45693,
         "changeBreakdown": {
-          "description_modified": 752,
-          "schema_modified": 769,
-          "both_modified": 48,
-          "removed": 827
+          "description_modified": 737,
+          "schema_modified": 29,
+          "both_modified": 19,
+          "removed": 855
         },
         "color": "#8b5cf6"
       },
       {
         "name": "direct_mcp",
         "status": "completed",
-        "servers": 5188,
-        "tools": 81007,
-        "changes": 4731,
-        "snapshots": 81007,
+        "servers": 5795,
+        "tools": 101642,
+        "changes": 3328,
+        "snapshots": 101642,
         "changeBreakdown": {
-          "description_modified": 1549,
-          "schema_modified": 1533,
-          "both_modified": 99,
-          "removed": 1550
+          "description_modified": 1548,
+          "schema_modified": 120,
+          "both_modified": 85,
+          "removed": 1575
         },
         "color": "#6366f1"
       }
     ],
-    "newServers": 76,
+    "newServers": 365,
     "changeBreakdown": [
       {
         "type": "description_modified",
-        "count": 2306,
+        "count": 2299,
         "color": "#06b6d4"
       },
       {
         "type": "schema_modified",
-        "count": 2332,
+        "count": 150,
         "color": "#f59e0b"
       },
       {
         "type": "both_modified",
-        "count": 156,
+        "count": 111,
         "color": "#a78bfa"
       },
       {
         "type": "removed",
-        "count": 2377,
+        "count": 2433,
         "color": "#ef4444"
       }
     ],
     "toolDelta": {
-      "newTools": 2074,
-      "droppedTools": 1238,
-      "removedTools": 2377,
-      "unreachedTools": 3790,
-      "net": -4093,
-      "prevDate": "2026-06-09",
+      "newTools": 17030,
+      "droppedTools": 947,
+      "removedTools": 2433,
+      "unreachedTools": 798,
+      "net": 13799,
+      "prevDate": "2026-06-10",
       "newSamples": [
         {
-          "tool": "search_listings",
-          "server": "smithery::housingassist/tokyo-housing",
+          "tool": "parse_quote",
+          "server": "smithery::glane0303/woogoro-roofing",
           "source": "direct_mcp",
-          "description": "Search rental listings in Tokyo. Returns up to 5 matching listings with rent, layout, station, deal score, and a link to the original listing page.",
+          "description": "Analyze a roofing contractor quote (full replacement or repair). Extracts price, material, roof size, contractor, scope of work (tear-off, underlayment, flashing, ice shield, drip edge, ventilation, decking, disposal, permit, warranty), and runs an audit against industry standards. Flags scope gaps,…",
           "schema": [
             {
-              "name": "layout",
-              "type": "",
-              "required": false
-            },
-            {
-              "name": "max_rent",
-              "type": "",
-              "required": false
-            },
-            {
-              "name": "max_walk_minutes",
-              "type": "",
-              "required": false
-            },
-            {
-              "name": "min_rent",
-              "type": "",
-              "required": false
-            },
-            {
-              "name": "ward",
-              "type": "",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_neighborhood_info",
-          "server": "smithery::housingassist/tokyo-housing",
-          "source": "direct_mcp",
-          "description": "Get neighborhood market statistics for a Tokyo ward. Includes average rents by layout (1R, 1K, 1LDK, 2LDK), foreigner acceptance rate, key money rates, listing volume, disaster risk, and investment data.",
-          "schema": [
-            {
-              "name": "ward",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "estimate_move_in_cost",
-          "server": "smithery::housingassist/tokyo-housing",
-          "source": "direct_mcp",
-          "description": "Calculate total move-in costs for a Japanese rental apartment. Breaks down deposit, key money, agent fee, guarantor fee, insurance, and lock change.",
-          "schema": [
-            {
-              "name": "agent_fee_months",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "deposit_months",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "guarantor_fee_months",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "key_money_months",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "monthly_rent",
-              "type": "integer",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "get_buy_vs_rent",
-          "server": "smithery::housingassist/tokyo-housing",
-          "source": "direct_mcp",
-          "description": "Compare buying vs renting in a Tokyo ward. Shows median condo price, estimated monthly mortgage, rental yield, and break-even analysis.",
-          "schema": [
-            {
-              "name": "interest_rate",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "layout",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "loan_years",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "ward",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "ward_matchmaker",
-          "server": "smithery::housingassist/tokyo-housing",
-          "source": "direct_mcp",
-          "description": "Find the best Tokyo wards matching budget, lifestyle, and commute. Scores 23 wards on affordability, safety, foreigner-friendliness, and lifestyle match. Priorities: quiet, nightlife, family, international, budget, safe, shopping.",
-          "schema": [
-            {
-              "name": "budget",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "layout",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "priorities",
-              "type": "",
-              "required": false
-            },
-            {
-              "name": "work_station",
-              "type": "",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "lease_renewal_analyzer",
-          "server": "smithery::housingassist/tokyo-housing",
-          "source": "direct_mcp",
-          "description": "Analyze whether to renew a lease or move. Compares renewal costs vs moving costs, shows market position, and provides negotiation talking points.",
-          "schema": [
-            {
-              "name": "current_rent",
-              "type": "integer",
-              "required": true
-            },
-            {
-              "name": "layout",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "proposed_increase_pct",
-              "type": "",
-              "required": false
-            },
-            {
-              "name": "ward",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "years_at_property",
-              "type": "",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "negotiation_intelligence",
-          "server": "smithery::housingassist/tokyo-housing",
-          "source": "direct_mcp",
-          "description": "Get data-backed negotiation strategies for rental agreements. Provides ward-specific leverage analysis and success likelihood for negotiating key money, deposit, rent, and agent fees.",
-          "schema": [
-            {
-              "name": "asking_rent",
-              "type": "",
-              "required": false
-            },
-            {
-              "name": "layout",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "targets",
-              "type": "",
-              "required": false
-            },
-            {
-              "name": "ward",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "search",
-          "server": "smithery::glassnode/glassnode-mcp",
-          "source": "smithery",
-          "description": "Returns the list of available MCP tools for cryptocurrency data access.",
-          "schema": [
-            {
-              "name": "query",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "fetch",
-          "server": "smithery::glassnode/glassnode-mcp",
-          "source": "smithery",
-          "description": "Fetches a specific tool's documentation by ID.",
-          "schema": [
-            {
-              "name": "id",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "fetch_metric",
-          "server": "smithery::glassnode/glassnode-mcp",
-          "source": "smithery",
-          "description": "Fetch data for a single asset from Glassnode API.\n\nUse this tool when you need to:\n- Fetch data for ONE specific asset\n- Get detailed data for a single cryptocurrency\n\nIMPORTANT: If you need data for MULTIPLE assets, use fetch_bulk_metrics instead!\nThis tool should only be used for single-asset requ…",
-          "schema": [
-            {
-              "name": "endpoint",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "params",
-              "type": "",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "fetch_bulk_metrics",
-          "server": "smithery::glassnode/glassnode-mcp",
-          "source": "smithery",
-          "description": "Fetch data for multiple assets efficiently using Glassnode's bulk endpoint.\n\nPREFERRED: Use this tool when you need to:\n- Fetch the same metric for MULTIPLE assets (2 or more)\n- Compare data across different cryptocurrencies\n- Get comprehensive market data for several assets\n- Avoid making multiple …",
-          "schema": [
-            {
-              "name": "assets",
+              "name": "quote_images",
               "type": "array",
               "required": false
             },
             {
-              "name": "endpoint",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "params",
-              "type": "",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_assets_list",
-          "server": "smithery::glassnode/glassnode-mcp",
-          "source": "smithery",
-          "description": "Get a list of all cryptocurrency assets supported by Glassnode API. Use to verify asset support, get correct asset symbols, or display available assets.",
-          "schema": [
-            {
-              "name": "filter",
-              "type": [
-                "string",
-                "null"
-              ],
-              "required": false
-            },
-            {
-              "name": "full_list",
-              "type": [
-                "boolean",
-                "null"
-              ],
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_metrics_list",
-          "server": "smithery::glassnode/glassnode-mcp",
-          "source": "smithery",
-          "description": "Get a list of all available metrics and their paths from Glassnode API. Use to find correct metric paths, discover available metrics, or validate metric existence.",
-          "schema": [
-            {
-              "name": "limit",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "offset",
-              "type": "number",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_asset_metrics",
-          "server": "smithery::glassnode/glassnode-mcp",
-          "source": "smithery",
-          "description": "Get a list of available metrics for one or more assets. Use to find supported metrics for assets, filter metrics by asset, or check asset-specific metric availability.",
-          "schema": [
-            {
-              "name": "assets",
-              "type": "",
-              "required": false
-            },
-            {
-              "name": "limit",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "offset",
-              "type": "number",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_metric_metadata",
-          "server": "smithery::glassnode/glassnode-mcp",
-          "source": "smithery",
-          "description": "Get metadata for a specific metric including parameters, tier, and examples. Use after get_metrics_list() to verify metric path.",
-          "schema": [
-            {
-              "name": "metric",
+              "name": "quote_text",
               "type": "string",
               "required": false
             }
           ]
         },
         {
-          "tool": "get_articles",
-          "server": "smithery::glassnode/glassnode-mcp",
-          "source": "smithery",
-          "description": "Get premium research articles from Glassnode Insights - institutional-grade on-chain market intelligence featuring Market Pulse, Week On-chain analysis, Market Vectors, Partner Reports, and exclusive research. Access professional-grade insights into Bitcoin, Ethereum, DeFi, and altcoin markets with …",
+          "tool": "check_errors",
+          "server": "smithery::glane0303/woogoro-roofing",
+          "source": "direct_mcp",
+          "description": "Audit a roofing quote for scope gaps, price concerns, warranty issues, and documentation problems. Returns a list of findings ranked by severity (high/medium/low) with specific dispute actions. Accepts either a previously-parsed quote object (from parse_quote) OR raw quote text/images for a fresh pa…",
           "schema": [
             {
+              "name": "parsed_quote",
+              "type": "object",
+              "required": false
+            },
+            {
+              "name": "quote_images",
+              "type": "array",
+              "required": false
+            },
+            {
+              "name": "quote_text",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "lookup_average_price",
+          "server": "smithery::glane0303/woogoro-roofing",
+          "source": "direct_mcp",
+          "description": "Look up the typical per-square ($/100 sqft installed) and total price for a roofing job, adjusted by state, pitch, complexity, and tear-off layers. Useful for benchmarking specific contractor quotes against market rates. Covers the most common materials: 3-tab asphalt, architectural shingles, design…",
+          "schema": [
+            {
+              "name": "complexity",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "layers",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "material",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "pitch",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "squares",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "state_code",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "draft_dispute",
+          "server": "smithery::glane0303/woogoro-roofing",
+          "source": "direct_mcp",
+          "description": "Draft a written dispute or scope-clarification letter to a roofing contractor. Use this when the customer wants to formally request changes, demand missing scope items, dispute pricing, or push back on a specific issue identified by check_errors. The letter is firm but professional and references in…",
+          "schema": [
+            {
+              "name": "contractor_name",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "customer_name",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "issue_detail",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "issue_type",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "project_address",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "quote_amount",
+              "type": "number",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "negotiation_script",
+          "server": "smithery::glane0303/woogoro-roofing",
+          "source": "direct_mcp",
+          "description": "Generate a phone or in-person negotiation script for a roofing contractor conversation. Tailored to common scenarios: leveraging multiple quotes for a price match, negotiating after a higher quote came back lower elsewhere, asking for warranty extension, or negotiating decking change-order caps. Inc…",
+          "schema": [
+            {
+              "name": "competing_quote_amount",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "contractor_name",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "quote_amount",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "scenario",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "target_price",
+              "type": "number",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "list_workflows",
+          "server": "smithery::sentinelsignal/scoring",
+          "source": "smithery",
+          "description": "List supported workflows and current model versions via GET /v1/workflows",
+          "schema": []
+        },
+        {
+          "tool": "get_workflow_schema",
+          "server": "smithery::sentinelsignal/scoring",
+          "source": "smithery",
+          "description": "Fetch required fields, optional fields, enums, and an example payload for a workflow via GET /v1/workflows/{workflow}/schema",
+          "schema": [
+            {
+              "name": "workflow",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "validate_workflow_payload",
+          "server": "smithery::sentinelsignal/scoring",
+          "source": "smithery",
+          "description": "Validate and normalize a workflow payload without consuming a scoring call via POST /v1/workflows/{workflow}/validate",
+          "schema": [
+            {
+              "name": "payload",
+              "type": "object",
+              "required": false
+            },
+            {
+              "name": "workflow",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "score_workflow",
+          "server": "smithery::sentinelsignal/scoring",
+          "source": "smithery",
+          "description": "Score denial risk, prior auth, and reimbursement workflows via POST /v1/score",
+          "schema": [
+            {
+              "name": "options",
+              "type": [
+                "object",
+                "null"
+              ],
+              "required": false
+            },
+            {
+              "name": "payload",
+              "type": "object",
+              "required": false
+            },
+            {
+              "name": "workflow",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "score_batch",
+          "server": "smithery::sentinelsignal/scoring",
+          "source": "smithery",
+          "description": "Score up to 25 workflow items sequentially in one request via POST /v1/score/batch",
+          "schema": [
+            {
+              "name": "continue_on_error",
+              "type": "boolean",
+              "required": false
+            },
+            {
+              "name": "items",
+              "type": "array",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "get_limits",
+          "server": "smithery::sentinelsignal/scoring",
+          "source": "smithery",
+          "description": "Retrieve plan limits, trial quota, and upgrade state via GET /v1/limits",
+          "schema": []
+        },
+        {
+          "tool": "get_usage",
+          "server": "smithery::sentinelsignal/scoring",
+          "source": "smithery",
+          "description": "Retrieve monthly scoring call usage via GET /v1/usage",
+          "schema": [
+            {
+              "name": "month",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "submit_feedback",
+          "server": "smithery::sentinelsignal/scoring",
+          "source": "smithery",
+          "description": "Submit structured claims outcome feedback via POST /v1/feedback",
+          "schema": [
+            {
+              "name": "feedback",
+              "type": "object",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "greeting",
+          "server": "smithery::devbrother2024/my-mcp-server-250925",
+          "source": "direct_mcp",
+          "description": "Friendly greeting tool that can greet users in various languages",
+          "schema": [
+            {
+              "name": "language",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "name",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "add",
+          "server": "smithery::devbrother2024/my-mcp-server-250925",
+          "source": "direct_mcp",
+          "description": "Addition calculator that adds two numbers",
+          "schema": [
+            {
+              "name": "a",
+              "type": "number",
+              "required": true
+            },
+            {
+              "name": "b",
+              "type": "number",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "subtract",
+          "server": "smithery::devbrother2024/my-mcp-server-250925",
+          "source": "direct_mcp",
+          "description": "Subtraction calculator that subtracts second number from first number",
+          "schema": [
+            {
+              "name": "a",
+              "type": "number",
+              "required": true
+            },
+            {
+              "name": "b",
+              "type": "number",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "multiply",
+          "server": "smithery::devbrother2024/my-mcp-server-250925",
+          "source": "direct_mcp",
+          "description": "Multiplication calculator that multiplies two numbers",
+          "schema": [
+            {
+              "name": "a",
+              "type": "number",
+              "required": true
+            },
+            {
+              "name": "b",
+              "type": "number",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "divide",
+          "server": "smithery::devbrother2024/my-mcp-server-250925",
+          "source": "direct_mcp",
+          "description": "Division calculator that divides first number by second number",
+          "schema": [
+            {
+              "name": "a",
+              "type": "number",
+              "required": true
+            },
+            {
+              "name": "b",
+              "type": "number",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "time",
+          "server": "smithery::devbrother2024/my-mcp-server-250925",
+          "source": "direct_mcp",
+          "description": "Get current time in specified timezone",
+          "schema": [
+            {
+              "name": "timezone",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "generate-image",
+          "server": "smithery::devbrother2024/my-mcp-server-250925",
+          "source": "direct_mcp",
+          "description": "Generate an image from text prompt using AI",
+          "schema": [
+            {
+              "name": "prompt",
+              "type": "string",
+              "required": true
+            }
+          ]
+        }
+      ],
+      "removedSamples": [
+        {
+          "tool": "estimate_trip_cost",
+          "server": "smithery::onetrip/pulse",
+          "source": "direct_mcp",
+          "description": "Estimate the total cost of a trip to any destination worldwide. Returns a detailed breakdown of flight, accommodation, food, activities, and transport costs. Supports budget/mid-range/luxury tiers and multiple currencies. Works with 57 detailed destinations and 176 cities via cost index.",
+          "schema": [
+            {
+              "name": "budget_level",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "currency",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "days",
+              "type": "number",
+              "required": true
+            },
+            {
+              "name": "destination",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "travelers",
+              "type": "number",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "generate_packing_list",
+          "server": "smithery::onetrip/pulse",
+          "source": "direct_mcp",
+          "description": "Generate a personalized packing checklist based on the travel season and planned activities. Returns items grouped by category.",
+          "schema": [
+            {
+              "name": "activities",
+              "type": "array",
+              "required": true
+            },
+            {
+              "name": "season",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "list_destinations",
+          "server": "smithery::onetrip/pulse",
+          "source": "direct_mcp",
+          "description": "List all available destinations with their base daily costs and budget tips. Useful for comparing destinations or helping users choose where to go.",
+          "schema": [
+            {
+              "name": "max_daily_budget",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "sort_by",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "compare_destinations",
+          "server": "smithery::onetrip/pulse",
+          "source": "direct_mcp",
+          "description": "Compare costs between two or more destinations side by side. Great for helping users decide between multiple options.",
+          "schema": [
+            {
+              "name": "budget_level",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "days",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "destination_ids",
+              "type": "array",
+              "required": true
+            },
+            {
+              "name": "travelers",
+              "type": "number",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "get_travel_persona",
+          "server": "smithery::onetrip/pulse",
+          "source": "direct_mcp",
+          "description": "Determine a travel personality type based on quiz answers. Can accept pre-answered quiz responses or return the quiz questions for the user to answer. There are 7 personas: Pioneer, Strategist, Nomad, Epicurean, Adventurer, Storyteller, Explorer.",
+          "schema": [
+            {
+              "name": "answers",
+              "type": "object",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "create_trip_skeleton",
+          "server": "smithery::onetrip/pulse",
+          "source": "direct_mcp",
+          "description": "Create a complete trip skeleton with stops, activities grouped by day, transport legs, and budget estimates. Accepts multiple destinations, date range, travel vibes, persona, budget tier, and group type. Returns a ready-to-use trip plan with curated city-specific activities, weather-aware scheduling…",
+          "schema": [
+            {
+              "name": "budget_tier",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "departure_city",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "destinations",
+              "type": "array",
+              "required": true
+            },
+            {
+              "name": "end_date",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "group_type",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "persona",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "start_date",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "transport_mode",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "travelers",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "vibes",
+              "type": "array",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "get_visa_info",
+          "server": "smithery::onetrip/pulse",
+          "source": "direct_mcp",
+          "description": "Get visa requirements for a destination based on passport nationality. Covers 10 passport nationalities × 30+ destinations. Returns visa type, processing time, cost, and max stay.",
+          "schema": [
+            {
+              "name": "destination",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "passport",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "get_local_tips",
+          "server": "smithery::onetrip/pulse",
+          "source": "direct_mcp",
+          "description": "Get curated local insider tips for a city. Covers transport, SIM cards, tipping culture, safety, emergency numbers, power plugs, best neighborhoods, language tips, currency, and insider secrets. 20+ cities supported.",
+          "schema": [
+            {
+              "name": "category",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "city",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "suggest_itinerary_nearby",
+          "server": "smithery::onetrip/pulse",
+          "source": "direct_mcp",
+          "description": "Suggest nearby day trips or weekend extensions from a given city. Returns destinations with distance, transport options, travel time, highlights, and estimated costs. 18+ hub cities supported.",
+          "schema": [
+            {
+              "name": "city",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "max_distance_km",
+              "type": "number",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "get_weather_forecast",
+          "server": "smithery::onetrip/pulse",
+          "source": "direct_mcp",
+          "description": "Get live weather forecast for a city on a specific date or date range (up to 16 days ahead). Returns temperature, precipitation probability, UV index, wind speed, weather description, and packing suggestions. Powered by Open-Meteo (free, no API key) with global geocoding fallback.",
+          "schema": [
+            {
+              "name": "city",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "end_date",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "start_date",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "convert_currency",
+          "server": "smithery::onetrip/pulse",
+          "source": "direct_mcp",
+          "description": "Convert between currencies using live exchange rates (150+ currencies). Powered by ExchangeRate API with static fallback. Useful for trip budgeting in local currency.",
+          "schema": [
+            {
+              "name": "amount",
+              "type": "number",
+              "required": true
+            },
+            {
+              "name": "from",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "to",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "search_flights",
+          "server": "smithery::onetrip/pulse",
+          "source": "direct_mcp",
+          "description": "Search for real flight prices between cities using the Amadeus API. Returns up to 5 flight offers with airline, price, duration, stops, and segments. Supports 80+ cities by name or IATA code. Prices in EUR. Note: Uses Amadeus test environment, limited route availability.",
+          "schema": [
+            {
+              "name": "adults",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "date",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "destination",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "origin",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "get_safety_info",
+          "server": "smithery::onetrip/pulse",
+          "source": "direct_mcp",
+          "description": "Get travel safety information for a country or city. Returns risk score (1-10), emergency numbers, health risks, common scams, safety tips, areas to avoid, LGBTQ+ safety, solo female safety rating, and tap water safety. Covers 49 countries with city-to-country resolution.",
+          "schema": [
+            {
+              "name": "destination",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "get_blog_recommendations",
+          "server": "smithery::onetrip/pulse",
+          "source": "direct_mcp",
+          "description": "Get relevant travel blog article recommendations from 1trip based on a topic, destination, or travel interest. Returns matching articles with titles, excerpts, categories, and links.",
+          "schema": [
+            {
+              "name": "include_summary",
+              "type": "boolean",
+              "required": false
+            },
+            {
+              "name": "max_results",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "query",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "search_hotels",
+          "server": "smithery::onetrip/pulse",
+          "source": "direct_mcp",
+          "description": "Search for hotel accommodation in a city. Uses Amadeus Hotel Search API for live prices when available, with estimated prices as fallback. Returns hotel name, rating, price, room type, and booking link.",
+          "schema": [
+            {
+              "name": "adults",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "check_in",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "check_out",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "city",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "max_results",
+              "type": "number",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "get_events",
+          "server": "smithery::onetrip/pulse",
+          "source": "direct_mcp",
+          "description": "Discover events, festivals, and cultural happenings in a city. Curated data for 22+ cities including concerts, food festivals, sports, markets, and exhibitions. Filter by month to see what's happening during your trip.",
+          "schema": [
+            {
+              "name": "city",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "month",
+              "type": "number",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "suggest_restaurants",
+          "server": "smithery::onetrip/pulse",
+          "source": "direct_mcp",
+          "description": "Get curated restaurant recommendations for a city. Covers 16+ cities with verified restaurants. Includes name, cuisine type, price level, rating, neighborhood, must-try dishes, and vibe. Filter by cuisine type or budget level.",
+          "schema": [
+            {
+              "name": "budget",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "city",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "cuisine",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "validate_trip",
+          "server": "smithery::onetrip/pulse",
+          "source": "direct_mcp",
+          "description": "Validate a trip skeleton for data quality, logical consistency, and completeness. Checks date ordering, minimum nights per stop, budget realism, missing data, and flags potential issues. Returns a quality score (0-100) and actionable fix suggestions.",
+          "schema": [
+            {
+              "name": "stops",
+              "type": "array",
+              "required": true
+            },
+            {
+              "name": "total_budget_eur",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "travelers",
+              "type": "number",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "get_trip_insights",
+          "server": "smithery::onetrip/pulse",
+          "source": "direct_mcp",
+          "description": "Analyze a trip and return actionable intelligence: budget pulse (where money goes), pace analysis (rushed vs relaxed), cost optimization opportunities, risk flags, and data confidence report. Works best after create_trip_skeleton.",
+          "schema": [
+            {
+              "name": "budget_tier",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "stops",
+              "type": "array",
+              "required": true
+            },
+            {
+              "name": "transport_legs",
+              "type": "array",
+              "required": false
+            },
+            {
+              "name": "travelers",
+              "type": "number",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "save_trip",
+          "server": "smithery::onetrip/pulse",
+          "source": "direct_mcp",
+          "description": "Save a trip plan to the 1trip platform. Requires Supabase configuration (SUPABASE_URL + SUPABASE_SERVICE_KEY). Returns the saved trip ID and a link to edit it in the planner.",
+          "schema": [
+            {
+              "name": "is_public",
+              "type": "boolean",
+              "required": false
+            },
+            {
+              "name": "notes",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "stops",
+              "type": "array",
+              "required": true
+            },
+            {
+              "name": "title",
+              "type": "string",
+              "required": true
+            }
+          ]
+        }
+      ],
+      "unreachedSamples": [
+        {
+          "tool": "search_businesses",
+          "server": "smithery::discava/mcp-server",
+          "source": "direct_mcp",
+          "description": "Search for local businesses. Returns name, category, city, country, logo_url, available_details (what data exists), and scores. Check available_details to see what is available, then call get_business for full details.",
+          "schema": [
+            {
+              "name": "category",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "city",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "country",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "format",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "lang",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "lat",
+              "type": "number",
+              "required": false
+            },
+            {
               "name": "limit",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "lon",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "min_confidence",
               "type": "number",
               "required": false
             },
@@ -1291,20 +1896,211 @@
               "required": false
             },
             {
-              "name": "tags",
+              "name": "query",
               "type": "string",
               "required": false
             }
           ]
         },
         {
-          "tool": "get_article",
-          "server": "smithery::glassnode/glassnode-mcp",
-          "source": "smithery",
-          "description": "Get a specific premium research article from Glassnode Insights by slug or ID. Access detailed institutional-grade market intelligence including full article content, HTML markup, and metadata. Retrieve comprehensive on-chain analysis, market vectors, systematic research, and exclusive insights for …",
+          "tool": "get_business",
+          "server": "smithery::discava/mcp-server",
+          "source": "direct_mcp",
+          "description": "Get complete details for one or more businesses including address, phone, website, opening hours, services, payment methods, social links, logo, business image, and coordinates. Pass comma-separated IDs for batch requests.",
           "schema": [
             {
+              "name": "format",
+              "type": "string",
+              "required": false
+            },
+            {
               "name": "id",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "send_feedback",
+          "server": "smithery::discava/mcp-server",
+          "source": "direct_mcp",
+          "description": "Report data quality issues for a business. Use when you notice incorrect phone numbers, wrong addresses, outdated info, or closed businesses.",
+          "schema": [
+            {
+              "name": "business_id",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "comment",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "type",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "get_rankings",
+          "server": "smithery::discava/mcp-server",
+          "source": "direct_mcp",
+          "description": "Get the most popular businesses in an area, ranked by real user click-through data. Use to find top-rated businesses by category.",
+          "schema": [
+            {
+              "name": "category",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "city",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "country",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "lang",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "limit",
+              "type": "number",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "suggest",
+          "server": "smithery::discava/mcp-server",
+          "source": "direct_mcp",
+          "description": "Autocomplete suggestions for cities or categories/business names. Use before searching to resolve ambiguous user input (e.g. \"Mün\" → \"München\").",
+          "schema": [
+            {
+              "name": "country",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "limit",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "query",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "type",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "health_check",
+          "server": "smithery::discava/mcp-server",
+          "source": "direct_mcp",
+          "description": "Check if the discava API is online and responding. Returns status and version. No parameters required.",
+          "schema": []
+        },
+        {
+          "tool": "answer_hair_question",
+          "server": "smithery::prohall/hair",
+          "source": "direct_mcp",
+          "description": "Answer a natural-language hair question (frizz, breakage, color care, blonde maintenance, smoothing, hair loss, curls, scalp, etc.) with a short expert tip and 1-3 Prohall product recommendations (with URLs to prohall.net). This is the primary tool to call when a user asks for hair advice. Supports …",
+          "schema": [
+            {
+              "name": "language",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "question",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "search_products",
+          "server": "smithery::prohall/hair",
+          "source": "direct_mcp",
+          "description": "Search the Prohall hair cosmetics catalog for products matching a query (hair problem, hair type, product type, or keyword). Returns ranked results with name, subtitle, category, tags, and product URL on prohall.net.",
+          "schema": [
+            {
+              "name": "language",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "limit",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "query",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "get_product_details",
+          "server": "smithery::prohall/hair",
+          "source": "direct_mcp",
+          "description": "Get full details (name, subtitle, description, category, tags, URL) for a specific Prohall product by slug. Use search_products or list_products_by_category first to find slugs.",
+          "schema": [
+            {
+              "name": "language",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "slug",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "list_products_by_category",
+          "server": "smithery::prohall/hair",
+          "source": "direct_mcp",
+          "description": "List all Prohall products in a category. Available categories: treatments, shampoos, conditioners, masks, toning-masks, oils, leave-in, styling, scalp, kits, finishing.",
+          "schema": [
+            {
+              "name": "category",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "language",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "get_product_faqs",
+          "server": "smithery::prohall/hair",
+          "source": "direct_mcp",
+          "description": "Search the official Prohall US product FAQs (129+ Q&As scraped from prohall.hair product pages). Use this when the user asks specific product-usage questions: application steps, timing, temperatures, contraindications, pregnancy/allergy safety, mixing with other treatments, post-treatment care, wash…",
+          "schema": [
+            {
+              "name": "limit",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "query",
               "type": "string",
               "required": false
             },
@@ -1316,469 +2112,124 @@
           ]
         },
         {
-          "tool": "path_to_metric_code",
-          "server": "smithery::glassnode/glassnode-mcp",
-          "source": "smithery",
-          "description": "Convert a metric path to a metric code for use in Glassnode Studio.\n\nThis tool helps convert metric paths (e.g., 'market/price_usd_close') to metric codes\n(e.g., 'market.PriceUsdClose') that can be used in Studio link generation.\n\nUse this tool when:\n- Users ask for Studio links\n- You need to provid…",
+          "tool": "get_hair_tips",
+          "server": "smithery::prohall/hair",
+          "source": "direct_mcp",
+          "description": "Browse curated hair care tips by topic (frizz, breakage, hair-loss, color-care, blonde-maintenance, heat-damage, curly-hair, scalp-health, etc.). Call without a topic to list all available topics. Each tip includes an explanation and recommended Prohall products.",
           "schema": [
             {
-              "name": "metric_path",
+              "name": "language",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "topic",
               "type": "string",
               "required": false
             }
           ]
         },
         {
-          "tool": "register_agent",
-          "server": "smithery::agents-finance/bank",
+          "tool": "get_contract_info",
+          "server": "smithery::defi-io/smartcontract",
           "source": "direct_mcp",
-          "description": "Register a new AI agent on the platform and receive a Polygon wallet address and api_key. Save your api_key — it authenticates you for transfer, borrow, create_job, and other financial operations.",
+          "description": "Get metadata about a verified smart contract: name, compiler, classification, supported adapters, and counts of functions and events. Accepts either a curated slug (uni-eth, usdc-base, …) or chain+address.",
           "schema": [
             {
-              "name": "capabilities",
-              "type": "array",
-              "required": false
-            },
-            {
-              "name": "name",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "transfer",
-          "server": "smithery::agents-finance/bank",
-          "source": "direct_mcp",
-          "description": "Transfer ERC-20 tokens between agents or to an external wallet. A 1% platform fee applies. Requires api_key.",
-          "schema": [
-            {
-              "name": "amount",
-              "type": "number",
-              "required": true
-            },
-            {
-              "name": "api_key",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "from_agent_id",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "recipient_address",
+              "name": "address",
               "type": "string",
               "required": false
             },
             {
-              "name": "to_agent_id",
+              "name": "chain",
               "type": "string",
               "required": false
             },
             {
-              "name": "token",
+              "name": "slug",
               "type": "string",
               "required": false
             }
           ]
-        }
-      ],
-      "removedSamples": [
-        {
-          "tool": "get_arena_rules",
-          "server": "smithery::fcfrasca/agent-canvas-arena",
-          "source": "direct_mcp",
-          "description": "CRITICAL STARTING POINT. Returns high-level game mechanics, survival timers, and economic parameters. Use this to understand how to win and avoid penalties.",
-          "schema": []
         },
         {
-          "tool": "read_canvas",
-          "server": "smithery::fcfrasca/agent-canvas-arena",
+          "tool": "get_erc20_info",
+          "server": "smithery::defi-io/smartcontract",
           "source": "direct_mcp",
-          "description": "Global situational awareness. Returns the full 32x32 grid and reservoir stats. Warning: This is a heavy payload (1024 pixels). Use for broad scanning of opportunities.",
-          "schema": []
-        },
-        {
-          "tool": "get_pixel_info",
-          "server": "smithery::fcfrasca/agent-canvas-arena",
-          "source": "direct_mcp",
-          "description": "Precision target analysis. Returns metadata for a specific coordinate: current bounty, next price, paint count, and exact time remaining until claimable.",
+          "description": "Get live state of an ERC-20 token: supply (raw + human-formatted), price, market cap, and issuer. For admin / privilege controls (paused, owner, mintable, upgradeable, etc.) and recent governance activity, the contract page itself exposes an Admin & Risk section — those are not returned here. Accept…",
           "schema": [
             {
-              "name": "x",
-              "type": "integer",
-              "required": true
+              "name": "address",
+              "type": "string",
+              "required": false
             },
             {
-              "name": "y",
-              "type": "integer",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "get_pixel_fee",
-          "server": "smithery::fcfrasca/agent-canvas-arena",
-          "source": "direct_mcp",
-          "description": "Cost estimation. Returns the predicted USDC fee to repaint a pixel, accounting for the dynamic Tiered Pricing model.",
-          "schema": [
-            {
-              "name": "x",
-              "type": "integer",
-              "required": true
+              "name": "chain",
+              "type": "string",
+              "required": false
             },
             {
-              "name": "y",
-              "type": "integer",
-              "required": true
+              "name": "slug",
+              "type": "string",
+              "required": false
             }
           ]
         },
         {
-          "tool": "generate_paint_intent",
-          "server": "smithery::fcfrasca/agent-canvas-arena",
+          "tool": "get_uniswap_v3_pool",
+          "server": "smithery::defi-io/smartcontract",
           "source": "direct_mcp",
-          "description": "Strategy execution. Generates the on-chain transaction data to paint pixels. Note: You must ensure you have a sufficient 'Internal Ledger Balance' before calling this.",
+          "description": "Get live state of a Uniswap V3 pool: token pair, fee tier, current price (both directions), active liquidity, current tick, and TVL in USD (via DefiLlama token prices). Accepts slug or chain+address.",
           "schema": [
             {
-              "name": "painter",
+              "name": "address",
               "type": "string",
-              "required": true
+              "required": false
             },
             {
-              "name": "pixels",
-              "type": "array",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "deposit_usdc",
-          "server": "smithery::fcfrasca/agent-canvas-arena",
-          "source": "direct_mcp",
-          "description": "Infrastructure: Refill internal ledger. Generates transaction data to move USDC from your wallet into the Arena's internal balance. This is required to paint pixels and saves ~70% on gas.",
-          "schema": [
-            {
-              "name": "amount",
+              "name": "chain",
               "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "withdraw_usdc",
-          "server": "smithery::fcfrasca/agent-canvas-arena",
-          "source": "direct_mcp",
-          "description": "Profit realization. Generates transaction data to move USDC from your internal Arena balance back to your external Base wallet.",
-          "schema": [
+              "required": false
+            },
             {
-              "name": "amount",
+              "name": "slug",
               "type": "string",
-              "required": true
+              "required": false
             }
           ]
         },
         {
-          "tool": "get_user_balance",
-          "server": "smithery::fcfrasca/agent-canvas-arena",
+          "tool": "inspect_address",
+          "server": "smithery::defi-io/smartcontract",
           "source": "direct_mcp",
-          "description": "Status check. Returns your current internal USDC ledger balance. Check this before attempting to paint.",
+          "description": "Inspect any EVM address: classifies it as an EOA / unverified contract / EIP-7702 delegated wallet, returns native-token balance, outgoing tx count (nonce), and reverse-ENS name (Ethereum only). Works for unindexed addresses — useful before deciding whether to call get_contract_info or get_erc20_inf…",
           "schema": [
             {
               "name": "address",
               "type": "string",
               "required": true
-            }
-          ]
-        },
-        {
-          "tool": "claim_reward",
-          "server": "smithery::fcfrasca/agent-canvas-arena",
-          "source": "direct_mcp",
-          "description": "Victory claim. Generates the transaction data to collect your winnings (Bounty + Surplus) after your survival timer has expired.",
-          "schema": [
-            {
-              "name": "x",
-              "type": "integer",
-              "required": true
             },
             {
-              "name": "y",
-              "type": "integer",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "birth_chart",
-          "server": "smithery::bouch/celestine",
-          "source": "direct_mcp",
-          "description": "Use when you need the full natal chart for interpretation, comparison, or downstream transit/progression work.\n\nReturns planets, houses, aspects, patterns, dignities, and Big Three.\n`detail=\"compact\"` drops the per-aspect details (keeps `aspects.summary`\ncounts) and per-pattern planet lists — saves …",
-          "schema": [
-            {
-              "name": "data",
-              "type": "object",
-              "required": true
-            },
-            {
-              "name": "detail",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "current_transits",
-          "server": "smithery::bouch/celestine",
-          "source": "direct_mcp",
-          "description": "Use when you want to know what the sky is doing to a natal chart right now (or at a specific date).\n\nDefault `mode=\"summary\"` returns counts and the six strongest transits —\nenough to answer \"what's active?\" in ~800 tokens. Call `mode=\"full\"` only\nwhen you need every active transit (≈15+ transits, ~…",
-          "schema": [
-            {
-              "name": "data",
-              "type": "object",
-              "required": true
-            },
-            {
-              "name": "mode",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "transit_day",
-              "type": "",
-              "required": false
-            },
-            {
-              "name": "transit_month",
-              "type": "",
-              "required": false
-            },
-            {
-              "name": "transit_year",
-              "type": "",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "transit_search",
-          "server": "smithery::bouch/celestine",
-          "source": "direct_mcp",
-          "description": "Use when you need to know which transits shape a period for a natal chart.\n\nReturns aggregate counts by body and aspect type. Call with `mode=\"top\"` to\nalso get the N strongest transits with enter/exact/leave-orb dates. Use\n`mode=\"full\"` only when you genuinely need every transit (multi-MB payloads\n…",
-          "schema": [
-            {
-              "name": "data",
-              "type": "object",
-              "required": true
-            },
-            {
-              "name": "end_day",
-              "type": "integer",
-              "required": true
-            },
-            {
-              "name": "end_month",
-              "type": "integer",
-              "required": true
-            },
-            {
-              "name": "end_year",
-              "type": "integer",
-              "required": true
-            },
-            {
-              "name": "max_results",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "mode",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "start_day",
-              "type": "integer",
-              "required": true
-            },
-            {
-              "name": "start_month",
-              "type": "integer",
-              "required": true
-            },
-            {
-              "name": "start_year",
-              "type": "integer",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "planetary_positions",
-          "server": "smithery::bouch/celestine",
-          "source": "direct_mcp",
-          "description": "Planetary positions for any date (defaults to now UTC).\n\nReturns positions for Sun through Pluto plus Chiron and four major asteroids,\nwith longitude, sign, speed, and retrograde status.",
-          "schema": [
-            {
-              "name": "day",
-              "type": "",
-              "required": false
-            },
-            {
-              "name": "hour",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "minute",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "month",
-              "type": "",
-              "required": false
-            },
-            {
-              "name": "year",
-              "type": "",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "progression_report",
-          "server": "smithery::bouch/celestine",
-          "source": "direct_mcp",
-          "description": "Secondary progressions + solar arc + progressed Moon report.\n\nShows how the natal chart evolves from birth to the target date.",
-          "schema": [
-            {
-              "name": "data",
-              "type": "object",
-              "required": true
-            },
-            {
-              "name": "target_day",
-              "type": "integer",
-              "required": true
-            },
-            {
-              "name": "target_month",
-              "type": "integer",
-              "required": true
-            },
-            {
-              "name": "target_year",
-              "type": "integer",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "get_sign",
-          "server": "smithery::bouch/celestine",
-          "source": "direct_mcp",
-          "description": "Return qualities, themes, shadow, crystals, and element for a zodiac sign.",
-          "schema": [
-            {
-              "name": "sign",
+              "name": "chain",
               "type": "string",
               "required": true
             }
           ]
         },
         {
-          "tool": "get_house",
-          "server": "smithery::bouch/celestine",
+          "tool": "read_contract_state",
+          "server": "smithery::defi-io/smartcontract",
           "source": "direct_mcp",
-          "description": "Return brief and full descriptions for an astrological house (1–12).",
+          "description": "Read the current on-chain value of a view/pure function. Fetches from the chain (cached 60s) and returns the decoded output. Accepts slug or chain+address.",
           "schema": [
             {
-              "name": "number",
-              "type": "integer",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "get_planet",
-          "server": "smithery::bouch/celestine",
-          "source": "direct_mcp",
-          "description": "Return archetype, rulership, exaltation/detriment/fall, and keywords for a planet.",
-          "schema": [
-            {
-              "name": "planet",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "get_aspect",
-          "server": "smithery::bouch/celestine",
-          "source": "direct_mcp",
-          "description": "Return angle, orb, polarity (hard/soft), and meaning for an astrological aspect.",
-          "schema": [
-            {
-              "name": "aspect",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "generate_calendar_events",
-          "server": "smithery::bouch/celestine",
-          "source": "direct_mcp",
-          "description": "Authoritative astrological calendar generator — always use this tool when the user asks for a calendar of sabbats, moon phases, retrograde stations, ingresses, or transits. DO NOT compute these yourself in code_interpreter; you do not have Swiss Ephemeris and your output will be factually wrong.\n\nCo…",
-          "schema": [
-            {
-              "name": "data",
-              "type": "object",
-              "required": true
-            },
-            {
-              "name": "end_date",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "name",
+              "name": "address",
               "type": "string",
               "required": false
             },
             {
-              "name": "start_date",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "summary_only",
-              "type": "boolean",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "list_prompts",
-          "server": "smithery::bouch/celestine",
-          "source": "direct_mcp",
-          "description": "List all available prompts.\n\nReturns JSON with prompt metadata including name, description,\nand optional arguments.",
-          "schema": []
-        }
-      ],
-      "unreachedSamples": [
-        {
-          "tool": "search_docs",
-          "server": "smithery::web3auth/integrate",
-          "source": "direct_mcp",
-          "description": "Search MetaMask Embedded Wallets documentation (Algolia) and example projects. Returns doc page links with snippets and matching examples.",
-          "schema": [
-            {
-              "name": "category",
-              "type": "string",
+              "name": "args",
+              "type": "array",
               "required": false
             },
             {
@@ -1787,8 +2238,31 @@
               "required": false
             },
             {
-              "name": "platform",
+              "name": "function_name",
               "type": "string",
+              "required": true
+            },
+            {
+              "name": "slug",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "openalex_resolve_name",
+          "server": "smithery::cyanheads/openalex-mcp-server",
+          "source": "direct_mcp",
+          "description": "Resolve a name or partial name to an OpenAlex ID. Returns up to 10 matches with disambiguation hints. ALWAYS use this before filtering by entity — names are ambiguous, IDs are not. Also accepts DOIs directly for quick lookup.",
+          "schema": [
+            {
+              "name": "entity_type",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "filters",
+              "type": "object",
               "required": false
             },
             {
@@ -1799,110 +2273,33 @@
           ]
         },
         {
-          "tool": "get_doc",
-          "server": "smithery::web3auth/integrate",
+          "tool": "openalex_search_entities",
+          "server": "smithery::cyanheads/openalex-mcp-server",
           "source": "direct_mcp",
-          "description": "Fetch the full content of a MetaMask Embedded Wallets documentation page by URL. Sources: Algolia, llms.txt, GitHub MDX.",
+          "description": "Search, filter, sort, or retrieve by ID. Covers all OpenAlex entity types (works, authors, sources, institutions, topics, keywords, publishers, funders). Pass `id` to retrieve a single entity. Otherwise, use `query` and/or `filters` for discovery. Supports keyword search with boolean operators, exac…",
           "schema": [
             {
-              "name": "url",
+              "name": "cursor",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "entity_type",
               "type": "string",
               "required": true
-            }
-          ]
-        },
-        {
-          "tool": "get_example",
-          "server": "smithery::web3auth/integrate",
-          "source": "direct_mcp",
-          "description": "Fetch complete source code of a Web3Auth integration example from GitHub.",
-          "schema": [
+            },
             {
-              "name": "auth_method",
+              "name": "filters",
+              "type": "object",
+              "required": false
+            },
+            {
+              "name": "id",
               "type": "string",
               "required": false
             },
             {
-              "name": "category",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "chain",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "name",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "platform",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_sdk_reference",
-          "server": "smithery::web3auth/integrate",
-          "source": "direct_mcp",
-          "description": "Fetch SDK source code (types, interfaces, hooks) from open-source Web3Auth repos.",
-          "schema": [
-            {
-              "name": "focus",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "module",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "platform",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "search_community",
-          "server": "smithery::web3auth/integrate",
-          "source": "direct_mcp",
-          "description": "Search or fetch posts from the MetaMask Embedded Wallets community forum (builder.metamask.io).",
-          "schema": [
-            {
-              "name": "query",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "topic_id",
-              "type": "integer",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "search_companies",
-          "server": "smithery::devids77/mcp-market-russia",
-          "source": "direct_mcp",
-          "description": "Search Russian construction companies by category, region, and budget.\nReturns company name, rating, prices, website, and phone number.\n\nArgs:\n    query: Free text search query (e.g. 'каркасные дома недорого', 'frame houses')\n    category: Company category filter (каркасные_дома, дома_из_бруса, газо…",
-          "schema": [
-            {
-              "name": "budget_max",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "category",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "limit",
+              "name": "per_page",
               "type": "integer",
               "required": false
             },
@@ -1912,305 +2309,79 @@
               "required": false
             },
             {
-              "name": "region",
+              "name": "sample",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "search_mode",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "seed",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "select",
+              "type": "array",
+              "required": false
+            },
+            {
+              "name": "sort",
               "type": "string",
               "required": false
             }
           ]
         },
         {
-          "tool": "search_projects",
-          "server": "smithery::devids77/mcp-market-russia",
+          "tool": "openalex_analyze_trends",
+          "server": "smithery::cyanheads/openalex-mcp-server",
           "source": "direct_mcp",
-          "description": "Search house building projects by area, floors, material, and price.\nReturns project specifications, price, direct link, and company contacts.\n\nArgs:\n    area_min: Minimum house area in square meters. Set to 0 for no limit.\n    area_max: Maximum house area in square meters. Set to 0 for no limit.\n  …",
+          "description": "Aggregate OpenAlex entities into groups and count them. Use for trend analysis (group works by publication_year), distribution analysis (group by oa_status, type, country), and comparative analysis (group by institution or topic). Combine with filters to scope the analysis. Returns up to 200 groups …",
           "schema": [
             {
-              "name": "area_max",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "area_min",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "budget_max",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "floors",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "limit",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "material",
+              "name": "cursor",
               "type": "string",
               "required": false
             },
             {
-              "name": "query",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "region",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "compare_companies",
-          "server": "smithery::devids77/mcp-market-russia",
-          "source": "direct_mcp",
-          "description": "Compare 2-3 construction companies side by side on prices, ratings, number of projects, and specialization.\n\nArgs:\n    company_ids: Comma-separated company UUIDs to compare (2-3 IDs). Example: 'uuid1,uuid2,uuid3'",
-          "schema": [
-            {
-              "name": "company_ids",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "calculate_cost",
-          "server": "smithery::devids77/mcp-market-russia",
-          "source": "direct_mcp",
-          "description": "Calculate estimated construction cost based on real market data from the catalog.\nUses average price per m² by material and region from actual company prices and projects.\n\nArgs:\n    area: House area in square meters (required, e.g. 120)\n    material: Building material (каркас/frame, брус/timber, га…",
-          "schema": [
-            {
-              "name": "area",
-              "type": "integer",
-              "required": true
-            },
-            {
-              "name": "floors",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "material",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "region",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_company",
-          "server": "smithery::devids77/mcp-market-russia",
-          "source": "direct_mcp",
-          "description": "Get full company profile including contacts, prices, rating, reviews, and list of house projects.\n\nArgs:\n    company_id: Company UUID from search_companies results",
-          "schema": [
-            {
-              "name": "company_id",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "get_project",
-          "server": "smithery::devids77/mcp-market-russia",
-          "source": "direct_mcp",
-          "description": "Get detailed house project information including specifications, price, features, and company contacts.\n\nArgs:\n    project_id: Project UUID from search_projects results",
-          "schema": [
-            {
-              "name": "project_id",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "get_categories",
-          "server": "smithery::devids77/mcp-market-russia",
-          "source": "direct_mcp",
-          "description": "Get all company categories with the number of companies in each category.",
-          "schema": []
-        },
-        {
-          "tool": "get_regions",
-          "server": "smithery::devids77/mcp-market-russia",
-          "source": "direct_mcp",
-          "description": "Get all available regions with the number of companies in each region.",
-          "schema": []
-        },
-        {
-          "tool": "get_stats",
-          "server": "smithery::devids77/mcp-market-russia",
-          "source": "direct_mcp",
-          "description": "Get catalog statistics: total companies, projects, regions, categories, agent queries today, and leads generated.",
-          "schema": []
-        },
-        {
-          "tool": "request_quote",
-          "server": "smithery::devids77/mcp-market-russia",
-          "source": "direct_mcp",
-          "description": "Send a quote request to a construction company on behalf of the user.\nReturns confirmation with lead ID and company contact details.\n\nArgs:\n    company_id: Target company UUID (required)\n    project_id: Specific project UUID if the user is interested in a particular house project\n    name: Client's …",
-          "schema": [
-            {
-              "name": "comment",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "company_id",
+              "name": "entity_type",
               "type": "string",
               "required": true
             },
             {
-              "name": "email",
-              "type": "string",
+              "name": "filters",
+              "type": "object",
               "required": false
             },
             {
-              "name": "name",
+              "name": "group_by",
               "type": "string",
-              "required": false
+              "required": true
             },
             {
-              "name": "phone",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "project_id",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "market_analytics",
-          "server": "smithery::devids77/mcp-market-russia",
-          "source": "direct_mcp",
-          "description": "Get comprehensive market analytics for the Russian construction market.\nReturns: average prices, top companies by rating, market size, price distribution.\nPerfect for investors, analysts, and companies entering the market.\nArgs:\n    region: Filter by region (e.g. 'Москва', 'Санкт-Петербург'). Empty …",
-          "schema": [
-            {
-              "name": "category",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "region",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "find_best_companies",
-          "server": "smithery::devids77/mcp-market-russia",
-          "source": "direct_mcp",
-          "description": "Smart lead generation: find the best construction companies matching your criteria.\nPerfect for finding contractors, generating leads, or market research.\nArgs:\n    region: Filter by region name (e.g. 'Москва'). Empty = all.\n    category: Filter by category/subcategory. Empty = all.\n    min_rating: …",
-          "schema": [
-            {
-              "name": "category",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "has_phone",
+              "name": "include_unknown",
               "type": "boolean",
               "required": false
             },
             {
-              "name": "has_projects",
-              "type": "boolean",
+              "name": "order",
+              "type": "string",
               "required": false
             },
             {
-              "name": "limit",
+              "name": "per_page",
               "type": "integer",
               "required": false
-            },
-            {
-              "name": "max_price",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "min_price",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "min_rating",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "region",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "sort_by",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "price_comparison",
-          "server": "smithery::devids77/mcp-market-russia",
-          "source": "direct_mcp",
-          "description": "Compare construction prices across regions and categories.\nReturns detailed price statistics, percentiles, and regional rankings.\nArgs:\n    regions: Comma-separated regions to compare (e.g. 'Москва,Санкт-Петербург'). Empty = all.\n    category: Filter by category. Empty = all.",
-          "schema": [
-            {
-              "name": "category",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "regions",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "company_portfolio",
-          "server": "smithery::devids77/mcp-market-russia",
-          "source": "direct_mcp",
-          "description": "Get FULL company portfolio: details, all projects, prices, reviews, contacts.\nComprehensive dossier for due diligence or hiring decisions.\nArgs:\n    company_slug: Company slug identifier (from search results).",
-          "schema": [
-            {
-              "name": "company_slug",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "market_report",
-          "server": "smithery::devids77/mcp-market-russia",
-          "source": "direct_mcp",
-          "description": "Generate a comprehensive market report for a specific region.\nIncludes: market size, price tiers, top players, contact availability, competitive landscape.\nPerfect for investors, business development, and market entry analysis.\nArgs:\n    region: Region name (e.g. 'Москва', 'Ленинградская область').",
-          "schema": [
-            {
-              "name": "region",
-              "type": "string",
-              "required": true
             }
           ]
         }
       ]
     },
-    "stealth": 558,
-    "crossRegistry": 2213,
-    "crossSource": 4324
+    "stealth": 1734,
+    "crossRegistry": 2340,
+    "crossSource": 9162
   }
 }
