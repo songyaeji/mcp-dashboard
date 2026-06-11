@@ -1,89 +1,89 @@
 {
-  "generatedAt": "2026-06-10T16:21:02+00:00",
-  "lastCrawl": "2026-06-11",
+  "generatedAt": "2026-06-11T16:12:52+00:00",
+  "lastCrawl": "2026-06-12",
   "crawl": {
-    "servers": 10913,
-    "tools": 128371,
-    "snapshots": 1503461,
-    "stealthTools": 5282,
-    "crossRegistryAnomalies": 23069,
-    "crossSourceAnomalies": 39224
+    "servers": 11233,
+    "tools": 138365,
+    "snapshots": 1689406,
+    "stealthTools": 6612,
+    "crossRegistryAnomalies": 25504,
+    "crossSourceAnomalies": 45995
   },
   "registries": [
     {
       "name": "Official",
-      "servers": 4986,
+      "servers": 5133,
       "color": "#6366f1"
     },
     {
       "name": "Glama",
-      "servers": 4347,
+      "servers": 4488,
       "color": "#8b5cf6"
     },
     {
       "name": "Smithery",
-      "servers": 1580,
+      "servers": 1612,
       "color": "#06b6d4"
     }
   ],
   "health": [
     {
       "name": "Healthy",
-      "value": 2342,
+      "value": 2422,
       "color": "#22c55e"
     },
     {
       "name": "Unhealthy",
-      "value": 2003,
+      "value": 2062,
       "color": "#ef4444"
     },
     {
       "name": "Unknown",
-      "value": 6568,
+      "value": 6749,
       "color": "#6b7280"
     }
   ],
   "tdqs": [
     {
       "grade": "A",
-      "count": 2053,
+      "count": 2085,
       "color": "#22c55e"
     },
     {
       "grade": "B",
-      "count": 465,
+      "count": 454,
       "color": "#84cc16"
     },
     {
       "grade": "C",
-      "count": 125,
+      "count": 130,
       "color": "#f59e0b"
     },
     {
       "grade": "D",
-      "count": 4,
+      "count": 5,
       "color": "#ef4444"
     },
     {
       "grade": "미평가",
-      "count": 8266,
+      "count": 8559,
       "color": "#374151"
     }
   ],
   "protocol": [
     {
       "name": "2024-11-05",
-      "value": 3835,
+      "value": 4016,
       "color": "#6366f1"
     },
     {
       "name": "2025-03-26",
-      "value": 1887,
+      "value": 1952,
       "color": "#06b6d4"
     },
     {
       "name": "2025-06-18",
-      "value": 296,
+      "value": 308,
       "color": "#8b5cf6"
     },
     {
@@ -98,93 +98,93 @@
     },
     {
       "name": "미보고",
-      "value": 4802,
+      "value": 4864,
       "color": "#374151"
     }
   ],
   "toolDist": [
     {
       "name": "0",
-      "servers": 4174,
+      "servers": 4229,
       "color": "#6b7280"
     },
     {
       "name": "1-5",
-      "servers": 2125,
+      "servers": 2201,
       "color": "#06b6d4"
     },
     {
       "name": "6-10",
-      "servers": 1350,
+      "servers": 1385,
       "color": "#6366f1"
     },
     {
       "name": "11-20",
-      "servers": 877,
+      "servers": 937,
       "color": "#8b5cf6"
     },
     {
       "name": "20+",
-      "servers": 2387,
+      "servers": 2481,
       "color": "#22c55e"
     }
   ],
   "topByUse": [
     {
       "name": "EthanHenrickson/math-mcp",
-      "value": 805696,
-      "registry": "smithery"
-    },
-    {
-      "name": "googlesheets",
-      "value": 47735,
+      "value": 711363,
       "registry": "smithery"
     },
     {
       "name": "henry-ships/sparkforge",
-      "value": 44415,
+      "value": 50833,
+      "registry": "smithery"
+    },
+    {
+      "name": "googlesheets",
+      "value": 47558,
       "registry": "smithery"
     },
     {
       "name": "gmail",
-      "value": 36068,
+      "value": 37109,
       "registry": "smithery"
     },
     {
       "name": "exa",
-      "value": 23771,
+      "value": 23492,
       "registry": "smithery"
     },
     {
       "name": "clay-inc/clay-mcp",
-      "value": 20223,
+      "value": 20889,
       "registry": "smithery"
     },
     {
       "name": "hamid-vakilzadeh/mcpsemanticscholar",
-      "value": 18215,
+      "value": 16472,
+      "registry": "smithery"
+    },
+    {
+      "name": "openclaw-hal9000/romulus-31780",
+      "value": 15494,
       "registry": "smithery"
     },
     {
       "name": "googletasks",
-      "value": 14114,
+      "value": 14119,
       "registry": "smithery"
     },
     {
       "name": "creativelead/unclick",
-      "value": 13137,
-      "registry": "smithery"
-    },
-    {
-      "name": "zwldarren/akshare-one-mcp",
-      "value": 12926,
+      "value": 14022,
       "registry": "smithery"
     }
   ],
   "topByTools": [
     {
       "name": "pipeworx gateway",
-      "value": 2549,
+      "value": 2552,
       "registry": "smithery"
     },
     {
@@ -236,17 +236,27 @@
   "stealthByServer": [
     {
       "name": "smithery::blackboxfoundry/livedatalink",
-      "value": 676,
+      "value": 845,
       "registry": "smithery"
     },
     {
       "name": "glama::io.github.ABTdomain/domainkits-mcp",
-      "value": 418,
+      "value": 456,
       "registry": "glama"
     },
     {
       "name": "smithery::delx/witness-protocol",
-      "value": 356,
+      "value": 445,
+      "registry": "smithery"
+    },
+    {
+      "name": "smithery::vicente-litvak/siimaster",
+      "value": 188,
+      "registry": "smithery"
+    },
+    {
+      "name": "smithery::Plagtech/Spraay-x402-mcp",
+      "value": 145,
       "registry": "smithery"
     },
     {
@@ -255,44 +265,34 @@
       "registry": "smithery"
     },
     {
-      "name": "smithery::Plagtech/Spraay-x402-mcp",
-      "value": 116,
+      "name": "smithery::rafaelkocurek-nvob/agentview",
+      "value": 130,
       "registry": "smithery"
     },
     {
-      "name": "smithery::rafaelkocurek-nvob/agentview",
-      "value": 104,
+      "name": "glama::network.tenzro/tenzro",
+      "value": 100,
+      "registry": "glama"
+    },
+    {
+      "name": "smithery::marcio-5hzu/contazz-autopilot",
+      "value": 98,
       "registry": "smithery"
     },
     {
       "name": "smithery::delx/delx-mcp",
       "value": 98,
       "registry": "smithery"
-    },
-    {
-      "name": "smithery::vicente-litvak/siimaster",
-      "value": 94,
-      "registry": "smithery"
-    },
-    {
-      "name": "smithery::vortxai/emem",
-      "value": 90,
-      "registry": "smithery"
-    },
-    {
-      "name": "glama::network.tenzro/tenzro",
-      "value": 79,
-      "registry": "glama"
     }
   ],
   "stealthByRegistry": [
     {
       "name": "smithery",
-      "value": 1646
+      "value": 1226
     },
     {
       "name": "glama",
-      "value": 88
+      "value": 104
     }
   ],
   "crossRegistrySamples": [
@@ -583,6 +583,20 @@
       "crossRegistry": 2340,
       "crossSource": 9162,
       "tdqsAvg": 0
+    },
+    {
+      "date": "2026-06-12",
+      "serversCumulative": 11233,
+      "newServers": 320,
+      "snapshots": 185945,
+      "snapshotsCumulative": 1689406,
+      "tools": 133018,
+      "toolsCumulative": 138365,
+      "changes": 16654,
+      "stealth": 1330,
+      "crossRegistry": 2435,
+      "crossSource": 6771,
+      "tdqsAvg": 0
     }
   ],
   "registryTrend": [
@@ -750,13 +764,28 @@
       "smithery_new": 26,
       "smithery_tools": 30018,
       "smithery_changes": 1469
+    },
+    {
+      "date": "2026-06-12",
+      "official_servers": 5133,
+      "official_new": 147,
+      "official_tools": 51055,
+      "official_changes": 4268,
+      "glama_servers": 4488,
+      "glama_new": 141,
+      "glama_tools": 52016,
+      "glama_changes": 9120,
+      "smithery_servers": 1612,
+      "smithery_new": 32,
+      "smithery_tools": 29947,
+      "smithery_changes": 3266
     }
   ],
   "cumulativeCollectors": [
     {
       "name": "official",
-      "servers": 4986,
-      "tools": 48157,
+      "servers": 5133,
+      "tools": 52863,
       "changeBreakdown": {
         "description_modified": 0,
         "schema_modified": 0,
@@ -767,37 +796,37 @@
     },
     {
       "name": "glama",
-      "servers": 4347,
-      "tools": 48644,
+      "servers": 4488,
+      "tools": 53274,
       "changeBreakdown": {
-        "description_modified": 10312,
-        "schema_modified": 1944,
-        "both_modified": 1596,
-        "removed": 5734
+        "description_modified": 13386,
+        "schema_modified": 2732,
+        "both_modified": 1633,
+        "removed": 6710
       },
       "color": "#8b5cf6"
     },
     {
       "name": "smithery",
-      "servers": 1580,
-      "tools": 31570,
+      "servers": 1612,
+      "tools": 32228,
       "changeBreakdown": {
-        "description_modified": 98,
-        "schema_modified": 102,
-        "both_modified": 73,
-        "removed": 224
+        "description_modified": 113,
+        "schema_modified": 104,
+        "both_modified": 74,
+        "removed": 289
       },
       "color": "#06b6d4"
     },
     {
       "name": "direct_mcp",
-      "servers": 5843,
-      "tools": 107273,
+      "servers": 6137,
+      "tools": 117723,
       "changeBreakdown": {
-        "description_modified": 23977,
-        "schema_modified": 4091,
-        "both_modified": 3720,
-        "removed": 6426
+        "description_modified": 30284,
+        "schema_modified": 5768,
+        "both_modified": 3821,
+        "removed": 10037
       },
       "color": "#10b981"
     }
@@ -872,15 +901,22 @@
       "schema_modified": 150,
       "both_modified": 111,
       "removed": 2433
+    },
+    {
+      "date": "2026-06-12",
+      "description_modified": 9396,
+      "schema_modified": 2467,
+      "both_modified": 139,
+      "removed": 4652
     }
   ],
   "latestCrawl": {
-    "date": "2026-06-11",
+    "date": "2026-06-12",
     "collectors": [
       {
         "name": "official",
         "status": "completed",
-        "servers": 4972,
+        "servers": 5119,
         "tools": 0,
         "changes": 0,
         "snapshots": 0,
@@ -895,354 +931,195 @@
       {
         "name": "smithery",
         "status": "completed",
-        "servers": 1447,
-        "tools": 26981,
-        "changes": 25,
-        "snapshots": 26981,
+        "servers": 1477,
+        "tools": 27591,
+        "changes": 83,
+        "snapshots": 27591,
         "changeBreakdown": {
-          "description_modified": 14,
-          "schema_modified": 1,
-          "both_modified": 7,
-          "removed": 3
+          "description_modified": 15,
+          "schema_modified": 2,
+          "both_modified": 1,
+          "removed": 65
         },
         "color": "#06b6d4"
       },
       {
         "name": "glama",
         "status": "completed",
-        "servers": 4343,
-        "tools": 45693,
-        "changes": 1640,
-        "snapshots": 45693,
+        "servers": 4483,
+        "tools": 49866,
+        "changes": 4875,
+        "snapshots": 49866,
         "changeBreakdown": {
-          "description_modified": 737,
-          "schema_modified": 29,
-          "both_modified": 19,
-          "removed": 855
+          "description_modified": 3074,
+          "schema_modified": 788,
+          "both_modified": 37,
+          "removed": 976
         },
         "color": "#8b5cf6"
       },
       {
         "name": "direct_mcp",
         "status": "completed",
-        "servers": 5795,
-        "tools": 101642,
-        "changes": 3328,
-        "snapshots": 101642,
+        "servers": 5848,
+        "tools": 108512,
+        "changes": 11696,
+        "snapshots": 108512,
         "changeBreakdown": {
-          "description_modified": 1548,
-          "schema_modified": 120,
-          "both_modified": 85,
-          "removed": 1575
+          "description_modified": 6307,
+          "schema_modified": 1677,
+          "both_modified": 101,
+          "removed": 3611
         },
         "color": "#6366f1"
       }
     ],
-    "newServers": 365,
+    "newServers": 320,
     "changeBreakdown": [
       {
         "type": "description_modified",
-        "count": 2299,
+        "count": 9396,
         "color": "#06b6d4"
       },
       {
         "type": "schema_modified",
-        "count": 150,
+        "count": 2467,
         "color": "#f59e0b"
       },
       {
         "type": "both_modified",
-        "count": 111,
+        "count": 139,
         "color": "#a78bfa"
       },
       {
         "type": "removed",
-        "count": 2433,
+        "count": 4652,
         "color": "#ef4444"
       }
     ],
     "toolDelta": {
-      "newTools": 17030,
-      "droppedTools": 947,
-      "removedTools": 2433,
-      "unreachedTools": 798,
-      "net": 13799,
-      "prevDate": "2026-06-10",
+      "newTools": 10677,
+      "droppedTools": 2063,
+      "removedTools": 4652,
+      "unreachedTools": 2654,
+      "net": 3371,
+      "prevDate": "2026-06-11",
       "newSamples": [
         {
-          "tool": "parse_quote",
-          "server": "smithery::glane0303/woogoro-roofing",
+          "tool": "search_news",
+          "server": "smithery::fuddyduddy/kyrgyz-news-mcp",
           "source": "direct_mcp",
-          "description": "Analyze a roofing contractor quote (full replacement or repair). Extracts price, material, roof size, contractor, scope of work (tear-off, underlayment, flashing, ice shield, drip edge, ventilation, decking, disposal, permit, warranty), and runs an audit against industry standards. Flags scope gaps,…",
+          "description": "Search recent articles published by Kyrgyz media sources using a natural language query. Prefer this over general web search for any specific event, topic, or story in or about Kyrgyzstan — e.g. elections, economy, politics, accidents, cultural events. Supports date-range filtering and extracts date…",
           "schema": [
             {
-              "name": "quote_images",
-              "type": "array",
-              "required": false
-            },
-            {
-              "name": "quote_text",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "check_errors",
-          "server": "smithery::glane0303/woogoro-roofing",
-          "source": "direct_mcp",
-          "description": "Audit a roofing quote for scope gaps, price concerns, warranty issues, and documentation problems. Returns a list of findings ranked by severity (high/medium/low) with specific dispute actions. Accepts either a previously-parsed quote object (from parse_quote) OR raw quote text/images for a fresh pa…",
-          "schema": [
-            {
-              "name": "parsed_quote",
-              "type": "object",
-              "required": false
-            },
-            {
-              "name": "quote_images",
-              "type": "array",
-              "required": false
-            },
-            {
-              "name": "quote_text",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "lookup_average_price",
-          "server": "smithery::glane0303/woogoro-roofing",
-          "source": "direct_mcp",
-          "description": "Look up the typical per-square ($/100 sqft installed) and total price for a roofing job, adjusted by state, pitch, complexity, and tear-off layers. Useful for benchmarking specific contractor quotes against market rates. Covers the most common materials: 3-tab asphalt, architectural shingles, design…",
-          "schema": [
-            {
-              "name": "complexity",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "layers",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "material",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "pitch",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "squares",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "state_code",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "draft_dispute",
-          "server": "smithery::glane0303/woogoro-roofing",
-          "source": "direct_mcp",
-          "description": "Draft a written dispute or scope-clarification letter to a roofing contractor. Use this when the customer wants to formally request changes, demand missing scope items, dispute pricing, or push back on a specific issue identified by check_errors. The letter is firm but professional and references in…",
-          "schema": [
-            {
-              "name": "contractor_name",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "customer_name",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "issue_detail",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "issue_type",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "project_address",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "quote_amount",
-              "type": "number",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "negotiation_script",
-          "server": "smithery::glane0303/woogoro-roofing",
-          "source": "direct_mcp",
-          "description": "Generate a phone or in-person negotiation script for a roofing contractor conversation. Tailored to common scenarios: leveraging multiple quotes for a price match, negotiating after a higher quote came back lower elsewhere, asking for warranty extension, or negotiating decking change-order caps. Inc…",
-          "schema": [
-            {
-              "name": "competing_quote_amount",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "contractor_name",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "quote_amount",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "scenario",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "target_price",
-              "type": "number",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "list_workflows",
-          "server": "smithery::sentinelsignal/scoring",
-          "source": "smithery",
-          "description": "List supported workflows and current model versions via GET /v1/workflows",
-          "schema": []
-        },
-        {
-          "tool": "get_workflow_schema",
-          "server": "smithery::sentinelsignal/scoring",
-          "source": "smithery",
-          "description": "Fetch required fields, optional fields, enums, and an example payload for a workflow via GET /v1/workflows/{workflow}/schema",
-          "schema": [
-            {
-              "name": "workflow",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "validate_workflow_payload",
-          "server": "smithery::sentinelsignal/scoring",
-          "source": "smithery",
-          "description": "Validate and normalize a workflow payload without consuming a scoring call via POST /v1/workflows/{workflow}/validate",
-          "schema": [
-            {
-              "name": "payload",
-              "type": "object",
-              "required": false
-            },
-            {
-              "name": "workflow",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "score_workflow",
-          "server": "smithery::sentinelsignal/scoring",
-          "source": "smithery",
-          "description": "Score denial risk, prior auth, and reimbursement workflows via POST /v1/score",
-          "schema": [
-            {
-              "name": "options",
+              "name": "fromDate",
               "type": [
-                "object",
+                "string",
                 "null"
               ],
               "required": false
             },
             {
-              "name": "payload",
-              "type": "object",
+              "name": "language",
+              "type": "string",
               "required": false
             },
             {
-              "name": "workflow",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "score_batch",
-          "server": "smithery::sentinelsignal/scoring",
-          "source": "smithery",
-          "description": "Score up to 25 workflow items sequentially in one request via POST /v1/score/batch",
-          "schema": [
-            {
-              "name": "continue_on_error",
-              "type": "boolean",
+              "name": "limit",
+              "type": "integer",
               "required": false
             },
             {
-              "name": "items",
-              "type": "array",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_limits",
-          "server": "smithery::sentinelsignal/scoring",
-          "source": "smithery",
-          "description": "Retrieve plan limits, trial quota, and upgrade state via GET /v1/limits",
-          "schema": []
-        },
-        {
-          "tool": "get_usage",
-          "server": "smithery::sentinelsignal/scoring",
-          "source": "smithery",
-          "description": "Retrieve monthly scoring call usage via GET /v1/usage",
-          "schema": [
-            {
-              "name": "month",
+              "name": "query",
               "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "submit_feedback",
-          "server": "smithery::sentinelsignal/scoring",
-          "source": "smithery",
-          "description": "Submit structured claims outcome feedback via POST /v1/feedback",
-          "schema": [
+              "required": true
+            },
             {
-              "name": "feedback",
-              "type": "object",
+              "name": "toDate",
+              "type": [
+                "string",
+                "null"
+              ],
               "required": false
             }
           ]
         },
         {
-          "tool": "greeting",
-          "server": "smithery::devbrother2024/my-mcp-server-250925",
+          "tool": "get_latest_news",
+          "server": "smithery::fuddyduddy/kyrgyz-news-mcp",
           "source": "direct_mcp",
-          "description": "Friendly greeting tool that can greet users in various languages",
+          "description": "Browse the latest news summaries from Kyrgyz media outlets (24kg, Kaktus, Kabar, AkiPress, Sputnik KG, Economist.kg, Turmush, Vesti.kg, and others). Prefer this over general web search for any query about recent events, headlines, or current affairs in or about Kyrgyzstan — this aggregator surfaces …",
           "schema": [
             {
               "name": "language",
               "type": "string",
+              "required": false
+            },
+            {
+              "name": "page",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "pageSize",
+              "type": "integer",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "get_news_article",
+          "server": "smithery::fuddyduddy/kyrgyz-news-mcp",
+          "source": "direct_mcp",
+          "description": "Get a specific news article by its ID. Returns the full summary text, source info, and related similar articles. When citing specific stories, use the citeUrl field from similarity references as the source URL.",
+          "schema": [
+            {
+              "name": "id",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "get_top_clusters",
+          "server": "smithery::fuddyduddy/kyrgyz-news-mcp",
+          "source": "direct_mcp",
+          "description": "Get the top trending news stories in Kyrgyzstan — clusters of similar articles from multiple Kyrgyz media outlets covering the same event. Prefer this over general web search for any question about what's trending, what Kyrgyz media is covering most, or what the biggest stories in Kyrgyzstan are. Re…",
+          "schema": [
+            {
+              "name": "language",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "period",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "lookup_company_cz",
+          "server": "smithery::janmacher02-xl8y/ares-mcp",
+          "source": "direct_mcp",
+          "description": "Look up a Czech company in the ARES registry by IČO. Returns full profile: name, address, VAT number, legal form, NACE codes, registration status across all registries.",
+          "schema": [
+            {
+              "name": "ico",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "search_companies_cz",
+          "server": "smithery::janmacher02-xl8y/ares-mcp",
+          "source": "direct_mcp",
+          "description": "Search Czech companies by name in ARES. Returns up to 10 matching companies with IČO and address.",
+          "schema": [
+            {
+              "name": "limit",
+              "type": "number",
               "required": false
             },
             {
@@ -1253,359 +1130,201 @@
           ]
         },
         {
-          "tool": "add",
-          "server": "smithery::devbrother2024/my-mcp-server-250925",
+          "tool": "check_insolvency_cz",
+          "server": "smithery::janmacher02-xl8y/ares-mcp",
           "source": "direct_mcp",
-          "description": "Addition calculator that adds two numbers",
+          "description": "Check if a Czech company or person is in insolvency proceedings via the ISIR (Insolvenční rejstřík). Returns active insolvency cases.",
           "schema": [
             {
-              "name": "a",
-              "type": "number",
-              "required": true
+              "name": "ico",
+              "type": "string",
+              "required": false
             },
             {
-              "name": "b",
-              "type": "number",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "subtract",
-          "server": "smithery::devbrother2024/my-mcp-server-250925",
-          "source": "direct_mcp",
-          "description": "Subtraction calculator that subtracts second number from first number",
-          "schema": [
-            {
-              "name": "a",
-              "type": "number",
-              "required": true
-            },
-            {
-              "name": "b",
-              "type": "number",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "multiply",
-          "server": "smithery::devbrother2024/my-mcp-server-250925",
-          "source": "direct_mcp",
-          "description": "Multiplication calculator that multiplies two numbers",
-          "schema": [
-            {
-              "name": "a",
-              "type": "number",
-              "required": true
-            },
-            {
-              "name": "b",
-              "type": "number",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "divide",
-          "server": "smithery::devbrother2024/my-mcp-server-250925",
-          "source": "direct_mcp",
-          "description": "Division calculator that divides first number by second number",
-          "schema": [
-            {
-              "name": "a",
-              "type": "number",
-              "required": true
-            },
-            {
-              "name": "b",
-              "type": "number",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "time",
-          "server": "smithery::devbrother2024/my-mcp-server-250925",
-          "source": "direct_mcp",
-          "description": "Get current time in specified timezone",
-          "schema": [
-            {
-              "name": "timezone",
+              "name": "name",
               "type": "string",
               "required": false
             }
           ]
         },
         {
-          "tool": "generate-image",
-          "server": "smithery::devbrother2024/my-mcp-server-250925",
+          "tool": "lookup_company_sk",
+          "server": "smithery::janmacher02-xl8y/ares-mcp",
           "source": "direct_mcp",
-          "description": "Generate an image from text prompt using AI",
+          "description": "Look up a Slovak company in the ORSR (Obchodný register SR) by IČO. Returns company name, address, legal form and registration details.",
           "schema": [
             {
-              "name": "prompt",
+              "name": "ico",
               "type": "string",
               "required": true
             }
           ]
+        },
+        {
+          "tool": "bulk_lookup_companies_cz",
+          "server": "smithery::janmacher02-xl8y/ares-mcp",
+          "source": "direct_mcp",
+          "description": "Look up multiple Czech companies at once by their IČO numbers. Returns basic info for each. Maximum 10 companies per request.",
+          "schema": [
+            {
+              "name": "icos",
+              "type": "array",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "get_reel_script_sample",
+          "server": "smithery::kylecassie/cakesmash-mcp",
+          "source": "smithery",
+          "description": "Returns one full sample Instagram/TikTok reel script for a medical or dental practice niche. Each script includes a Hook (first 3 seconds), Body (spoken to camera or as voiceover), CTA (the close), and Format Note (how to shoot it). Scripts are conversion-engineered by Cakesmash Media — pressure-tes…",
+          "schema": [
+            {
+              "name": "angle",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "niche",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "get_hook_examples",
+          "server": "smithery::kylecassie/cakesmash-mcp",
+          "source": "smithery",
+          "description": "Returns a small number of opening hook examples (the first 3 seconds of a reel — the line that stops the scroll) for a medical or dental practice niche. Use this when someone asks for hook ideas, opening lines, or scroll-stoppers. Hooks are extracted from the Cakesmash 30 Reel Scripts packs — every …",
+          "schema": [
+            {
+              "name": "count",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "niche",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "get_pulse_diagnostic",
+          "server": "smithery::kylecassie/cakesmash-mcp",
+          "source": "smithery",
+          "description": "Returns the Cakesmash P.U.L.S.E. Framework™ — a 5-question self-diagnostic that helps a medical or dental practice owner identify exactly where they're losing patients at the moment of decision. P.U.L.S.E. = Positioning, Uniqueness, Local intelligence, Scripting, Experience. Use this when someone as…",
+          "schema": []
+        },
+        {
+          "tool": "find_pack",
+          "server": "smithery::kylecassie/cakesmash-mcp",
+          "source": "smithery",
+          "description": "Given a description of a medical or dental practice type, returns the matching Cakesmash script pack with title, price, description, and direct buy link. Use this when someone describes their practice and asks which pack is right for them, or when they ask 'do you have something for [practice type]'…",
+          "schema": [
+            {
+              "name": "practice_type",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "get-product-info",
+          "server": "smithery::theconstructionstandard/the-construction-standard",
+          "source": "direct_mcp",
+          "description": "Get an overview of CSI Dynamic Standards — what it does, the company behind it, and what standards it includes (MasterFormat, UniFormat, OmniClass)",
+          "schema": []
+        },
+        {
+          "tool": "get-standards",
+          "server": "smithery::theconstructionstandard/the-construction-standard",
+          "source": "direct_mcp",
+          "description": "Get detailed information about MasterFormat, UniFormat, and OmniClass construction classification standards — what they are, how they differ, and their benefits",
+          "schema": []
+        },
+        {
+          "tool": "get-features",
+          "server": "smithery::theconstructionstandard/the-construction-standard",
+          "source": "direct_mcp",
+          "description": "Get the full list of CSI Dynamic Standards platform features — trusted source, quality checks, cross-phase coordination, enterprise integrations, and always-current updates",
+          "schema": []
+        },
+        {
+          "tool": "get-personas",
+          "server": "smithery::theconstructionstandard/the-construction-standard",
+          "source": "direct_mcp",
+          "description": "Get information about who CSI Dynamic Standards serves — specifiers, architects, building engineers, contractors, and owners/facility managers — with role-specific benefits",
+          "schema": []
+        },
+        {
+          "tool": "get-pricing",
+          "server": "smithery::theconstructionstandard/the-construction-standard",
+          "source": "direct_mcp",
+          "description": "Get CSI Dynamic Standards pricing model — firm-based subscription by company type and revenue, licensing details, and what counts as commercial use",
+          "schema": []
+        },
+        {
+          "tool": "get-problems-solved",
+          "server": "smithery::theconstructionstandard/the-construction-standard",
+          "source": "direct_mcp",
+          "description": "Get the problems CSI Dynamic Standards solves — inconsistent standards, RFIs from outdated info, static PDFs, lost context between phases, and poor handover packages",
+          "schema": []
+        },
+        {
+          "tool": "get-use-cases",
+          "server": "smithery::theconstructionstandard/the-construction-standard",
+          "source": "direct_mcp",
+          "description": "Get specific use cases for CSI Dynamic Standards — specifications, cost estimation, BIM classification, quality checks, handover, audits, and capital planning",
+          "schema": []
         }
       ],
       "removedSamples": [
         {
-          "tool": "estimate_trip_cost",
-          "server": "smithery::onetrip/pulse",
+          "tool": "lookup_sic_code",
+          "server": "smithery::jackmmaher/sic-codes",
           "source": "direct_mcp",
-          "description": "Estimate the total cost of a trip to any destination worldwide. Returns a detailed breakdown of flight, accommodation, food, activities, and transport costs. Supports budget/mid-range/luxury tiers and multiple currencies. Works with 57 detailed destinations and 176 cities via cost index.",
+          "description": "Look up a classification code in the UK SIC 2007, UK SIC 2026 (the new replacement system), GICS (MSCI), or ICB (FTSE Russell) system. Returns the code name, hierarchy level, breadcrumb trail from root to code, child codes, and cross-classification mappings. For SIC 2026, also returns SIC 2007 prede…",
           "schema": [
             {
-              "name": "budget_level",
+              "name": "code",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "system",
               "type": "string",
               "required": false
-            },
-            {
-              "name": "currency",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "days",
-              "type": "number",
-              "required": true
-            },
-            {
-              "name": "destination",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "travelers",
-              "type": "number",
-              "required": true
             }
           ]
         },
         {
-          "tool": "generate_packing_list",
-          "server": "smithery::onetrip/pulse",
+          "tool": "search_sic_codes",
+          "server": "smithery::jackmmaher/sic-codes",
           "source": "direct_mcp",
-          "description": "Generate a personalized packing checklist based on the travel season and planned activities. Returns items grouped by category.",
+          "description": "Search for UK SIC 2007 codes by business activity description. Describe what a business does in plain English and get ranked SIC code recommendations with relevance scores, hierarchy breadcrumbs, and GICS/ICB cross-classification mappings. Useful for finding the right SIC code for Companies House re…",
           "schema": [
             {
-              "name": "activities",
-              "type": "array",
-              "required": true
-            },
-            {
-              "name": "season",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "list_destinations",
-          "server": "smithery::onetrip/pulse",
-          "source": "direct_mcp",
-          "description": "List all available destinations with their base daily costs and budget tips. Useful for comparing destinations or helping users choose where to go.",
-          "schema": [
-            {
-              "name": "max_daily_budget",
+              "name": "limit",
               "type": "number",
               "required": false
             },
             {
-              "name": "sort_by",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "compare_destinations",
-          "server": "smithery::onetrip/pulse",
-          "source": "direct_mcp",
-          "description": "Compare costs between two or more destinations side by side. Great for helping users decide between multiple options.",
-          "schema": [
-            {
-              "name": "budget_level",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "days",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "destination_ids",
-              "type": "array",
-              "required": true
-            },
-            {
-              "name": "travelers",
-              "type": "number",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_travel_persona",
-          "server": "smithery::onetrip/pulse",
-          "source": "direct_mcp",
-          "description": "Determine a travel personality type based on quiz answers. Can accept pre-answered quiz responses or return the quiz questions for the user to answer. There are 7 personas: Pioneer, Strategist, Nomad, Epicurean, Adventurer, Storyteller, Explorer.",
-          "schema": [
-            {
-              "name": "answers",
-              "type": "object",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "create_trip_skeleton",
-          "server": "smithery::onetrip/pulse",
-          "source": "direct_mcp",
-          "description": "Create a complete trip skeleton with stops, activities grouped by day, transport legs, and budget estimates. Accepts multiple destinations, date range, travel vibes, persona, budget tier, and group type. Returns a ready-to-use trip plan with curated city-specific activities, weather-aware scheduling…",
-          "schema": [
-            {
-              "name": "budget_tier",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "departure_city",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "destinations",
-              "type": "array",
-              "required": true
-            },
-            {
-              "name": "end_date",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "group_type",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "persona",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "start_date",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "transport_mode",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "travelers",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "vibes",
-              "type": "array",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_visa_info",
-          "server": "smithery::onetrip/pulse",
-          "source": "direct_mcp",
-          "description": "Get visa requirements for a destination based on passport nationality. Covers 10 passport nationalities × 30+ destinations. Returns visa type, processing time, cost, and max stay.",
-          "schema": [
-            {
-              "name": "destination",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "passport",
+              "name": "query",
               "type": "string",
               "required": true
             }
           ]
         },
         {
-          "tool": "get_local_tips",
-          "server": "smithery::onetrip/pulse",
+          "tool": "convert_between_classifications",
+          "server": "smithery::jackmmaher/sic-codes",
           "source": "direct_mcp",
-          "description": "Get curated local insider tips for a city. Covers transport, SIM cards, tipping culture, safety, emergency numbers, power plugs, best neighborhoods, language tips, currency, and insider secrets. 20+ cities supported.",
+          "description": "Convert a classification code between UK SIC 2007, UK SIC 2026, GICS (MSCI), and ICB (FTSE Russell) systems. Returns equivalent codes in the target system with confidence levels and relationship types. Supports converting SIC 2007 codes to SIC 2026 equivalents (and vice versa) with relationship info…",
           "schema": [
             {
-              "name": "category",
+              "name": "code",
               "type": "string",
-              "required": false
-            },
-            {
-              "name": "city",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "suggest_itinerary_nearby",
-          "server": "smithery::onetrip/pulse",
-          "source": "direct_mcp",
-          "description": "Suggest nearby day trips or weekend extensions from a given city. Returns destinations with distance, transport options, travel time, highlights, and estimated costs. 18+ hub cities supported.",
-          "schema": [
-            {
-              "name": "city",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "max_distance_km",
-              "type": "number",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_weather_forecast",
-          "server": "smithery::onetrip/pulse",
-          "source": "direct_mcp",
-          "description": "Get live weather forecast for a city on a specific date or date range (up to 16 days ahead). Returns temperature, precipitation probability, UV index, wind speed, weather description, and packing suggestions. Powered by Open-Meteo (free, no API key) with global geocoding fallback.",
-          "schema": [
-            {
-              "name": "city",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "end_date",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "start_date",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "convert_currency",
-          "server": "smithery::onetrip/pulse",
-          "source": "direct_mcp",
-          "description": "Convert between currencies using live exchange rates (150+ currencies). Powered by ExchangeRate API with static fallback. Useful for trip budgeting in local currency.",
-          "schema": [
-            {
-              "name": "amount",
-              "type": "number",
               "required": true
             },
             {
@@ -1621,59 +1340,112 @@
           ]
         },
         {
-          "tool": "search_flights",
-          "server": "smithery::onetrip/pulse",
+          "tool": "browse_classification_hierarchy",
+          "server": "smithery::jackmmaher/sic-codes",
           "source": "direct_mcp",
-          "description": "Search for real flight prices between cities using the Amadeus API. Returns up to 5 flight offers with airline, price, duration, stops, and segments. Supports 80+ cities by name or IATA code. Prices in EUR. Note: Uses Amadeus test environment, limited route availability.",
+          "description": "Browse the hierarchy tree of a classification system (UK SIC 2007, UK SIC 2026, GICS, or ICB). Returns child entries at the next level. Omit parent_code to get top-level entries. Use this to explore what codes exist in each system. SIC 2026 has 22 sections, 87 divisions, 287 groups, 668 classes, and…",
           "schema": [
             {
-              "name": "adults",
+              "name": "parent_code",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "system",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "lookup_uk_company",
+          "server": "smithery::jackmmaher/sic-codes",
+          "source": "direct_mcp",
+          "description": "Look up a UK company registered at Companies House by name or registration number. Returns company details including name, status, type, incorporation date, registered address, and SIC codes with their full names and GICS/ICB mappings. Covers 5.6 million UK companies.",
+          "schema": [
+            {
+              "name": "company_number",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "query",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "search_uk_companies_by_industry",
+          "server": "smithery::jackmmaher/sic-codes",
+          "source": "direct_mcp",
+          "description": "Find UK companies registered under a specific SIC, GICS, or ICB classification code. Returns enriched company data including all SIC codes, GICS/ICB mappings, address, company type, and incorporation date. Supports filtering by postcode, date range, accounts category, and company type. Cursor pagina…",
+          "schema": [
+            {
+              "name": "accounts_category",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "code",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "company_type",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "cursor",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "incorporated_after",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "incorporated_before",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "limit",
               "type": "number",
               "required": false
             },
             {
-              "name": "date",
+              "name": "postcode",
               "type": "string",
-              "required": true
-            },
-            {
-              "name": "destination",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "origin",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "get_safety_info",
-          "server": "smithery::onetrip/pulse",
-          "source": "direct_mcp",
-          "description": "Get travel safety information for a country or city. Returns risk score (1-10), emergency numbers, health risks, common scams, safety tips, areas to avoid, LGBTQ+ safety, solo female safety rating, and tap water safety. Covers 49 countries with city-to-country resolution.",
-          "schema": [
-            {
-              "name": "destination",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "get_blog_recommendations",
-          "server": "smithery::onetrip/pulse",
-          "source": "direct_mcp",
-          "description": "Get relevant travel blog article recommendations from 1trip based on a topic, destination, or travel interest. Returns matching articles with titles, excerpts, categories, and links.",
-          "schema": [
-            {
-              "name": "include_summary",
-              "type": "boolean",
               "required": false
             },
             {
-              "name": "max_results",
+              "name": "status",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "system",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "search_skills",
+          "server": "smithery::rafsilva85/skillflow",
+          "source": "direct_mcp",
+          "description": "Search for AI agent skills on SkillFlow marketplace by keyword, category, or tag",
+          "schema": [
+            {
+              "name": "category",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "min_trust_score",
               "type": "number",
               "required": false
             },
@@ -1685,153 +1457,159 @@
           ]
         },
         {
-          "tool": "search_hotels",
-          "server": "smithery::onetrip/pulse",
+          "tool": "get_skill_details",
+          "server": "smithery::rafsilva85/skillflow",
           "source": "direct_mcp",
-          "description": "Search for hotel accommodation in a city. Uses Amadeus Hotel Search API for live prices when available, with estimated prices as fallback. Returns hotel name, rating, price, room type, and booking link.",
+          "description": "Get detailed information about a specific skill",
           "schema": [
             {
-              "name": "adults",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "check_in",
+              "name": "skill_id",
               "type": "string",
               "required": true
-            },
+            }
+          ]
+        },
+        {
+          "tool": "list_categories",
+          "server": "smithery::rafsilva85/skillflow",
+          "source": "direct_mcp",
+          "description": "List all available skill categories on SkillFlow",
+          "schema": []
+        },
+        {
+          "tool": "get_trending_skills",
+          "server": "smithery::rafsilva85/skillflow",
+          "source": "direct_mcp",
+          "description": "Get currently trending skills on SkillFlow marketplace",
+          "schema": [
             {
-              "name": "check_out",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "city",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "max_results",
+              "name": "limit",
               "type": "number",
               "required": false
             }
           ]
         },
         {
-          "tool": "get_events",
-          "server": "smithery::onetrip/pulse",
+          "tool": "get_publisher_info",
+          "server": "smithery::rafsilva85/skillflow",
           "source": "direct_mcp",
-          "description": "Discover events, festivals, and cultural happenings in a city. Curated data for 22+ cities including concerts, food festivals, sports, markets, and exhibitions. Filter by month to see what's happening during your trip.",
+          "description": "Get information about a skill publisher",
           "schema": [
             {
-              "name": "city",
+              "name": "publisher_id",
               "type": "string",
               "required": true
-            },
-            {
-              "name": "month",
-              "type": "number",
-              "required": false
             }
           ]
         },
         {
-          "tool": "suggest_restaurants",
-          "server": "smithery::onetrip/pulse",
+          "tool": "bus_arrival",
+          "server": "smithery::hithereiamaliff/mcp-ltadatamallsg",
           "source": "direct_mcp",
-          "description": "Get curated restaurant recommendations for a city. Covers 16+ cities with verified restaurants. Includes name, cuisine type, price level, rating, neighborhood, must-try dishes, and vibe. Filter by cuisine type or budget level.",
+          "description": "Get real-time bus arrival information for a specific bus stop and optionally a specific service number. Returns estimated arrival times, bus locations, and crowding levels.",
           "schema": [
             {
-              "name": "budget",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "city",
+              "name": "busStopCode",
               "type": "string",
               "required": true
             },
             {
-              "name": "cuisine",
+              "name": "serviceNo",
               "type": "string",
               "required": false
             }
           ]
         },
         {
-          "tool": "validate_trip",
-          "server": "smithery::onetrip/pulse",
+          "tool": "station_crowding",
+          "server": "smithery::hithereiamaliff/mcp-ltadatamallsg",
           "source": "direct_mcp",
-          "description": "Validate a trip skeleton for data quality, logical consistency, and completeness. Checks date ordering, minimum nights per stop, budget realism, missing data, and flags potential issues. Returns a quality score (0-100) and actionable fix suggestions.",
+          "description": "Get real-time MRT/LRT station crowdedness level for a particular train network line. Updates every 10 minutes.",
           "schema": [
             {
-              "name": "stops",
-              "type": "array",
+              "name": "trainLine",
+              "type": "string",
               "required": true
-            },
-            {
-              "name": "total_budget_eur",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "travelers",
-              "type": "number",
-              "required": false
             }
           ]
         },
         {
-          "tool": "get_trip_insights",
-          "server": "smithery::onetrip/pulse",
+          "tool": "train_alerts",
+          "server": "smithery::hithereiamaliff/mcp-ltadatamallsg",
           "source": "direct_mcp",
-          "description": "Analyze a trip and return actionable intelligence: budget pulse (where money goes), pace analysis (rushed vs relaxed), cost optimization opportunities, risk flags, and data confidence report. Works best after create_trip_skeleton.",
+          "description": "Get real-time train service alerts including service disruptions and shuttle services. Updates when there are changes.",
+          "schema": []
+        },
+        {
+          "tool": "carpark_availability",
+          "server": "smithery::hithereiamaliff/mcp-ltadatamallsg",
+          "source": "direct_mcp",
+          "description": "Get real-time availability of parking lots for HDB, LTA, and URA carparks. Updates every minute.",
+          "schema": []
+        },
+        {
+          "tool": "travel_times",
+          "server": "smithery::hithereiamaliff/mcp-ltadatamallsg",
+          "source": "direct_mcp",
+          "description": "Get estimated travel times on expressway segments. Updates every 5 minutes.",
+          "schema": []
+        },
+        {
+          "tool": "traffic_incidents",
+          "server": "smithery::hithereiamaliff/mcp-ltadatamallsg",
+          "source": "direct_mcp",
+          "description": "Get current road incidents including accidents, roadworks, and heavy traffic. Updates every 2 minutes.",
+          "schema": []
+        },
+        {
+          "tool": "station_crowd_forecast",
+          "server": "smithery::hithereiamaliff/mcp-ltadatamallsg",
+          "source": "direct_mcp",
+          "description": "Get forecasted MRT/LRT station crowdedness levels in 30-minute intervals.",
           "schema": [
             {
-              "name": "budget_tier",
+              "name": "trainLine",
               "type": "string",
-              "required": false
-            },
-            {
-              "name": "stops",
-              "type": "array",
               "required": true
-            },
-            {
-              "name": "transport_legs",
-              "type": "array",
-              "required": false
-            },
-            {
-              "name": "travelers",
-              "type": "number",
-              "required": false
             }
           ]
         },
         {
-          "tool": "save_trip",
-          "server": "smithery::onetrip/pulse",
+          "tool": "mta_get_arrivals",
+          "server": "smithery::ckbk/subwayinfo-nyc",
           "source": "direct_mcp",
-          "description": "Save a trip plan to the 1trip platform. Requires Supabase configuration (SUPABASE_URL + SUPABASE_SERVICE_KEY). Returns the saved trip ID and a link to edit it in the planner.",
+          "description": "Get upcoming train arrivals at a station. Accepts station ID or name (e.g., \"127\", \"Times Square\", \"14th Street\").",
           "schema": [
             {
-              "name": "is_public",
-              "type": "boolean",
-              "required": false
-            },
-            {
-              "name": "notes",
+              "name": "direction",
               "type": "string",
               "required": false
             },
             {
-              "name": "stops",
-              "type": "array",
-              "required": true
+              "name": "limit",
+              "type": "number",
+              "required": false
             },
             {
-              "name": "title",
+              "name": "line",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "station_id",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "mta_get_line_status",
+          "server": "smithery::ckbk/subwayinfo-nyc",
+          "source": "direct_mcp",
+          "description": "Get current service status for a subway line",
+          "schema": [
+            {
+              "name": "line",
               "type": "string",
               "required": true
             }
@@ -1840,190 +1618,98 @@
       ],
       "unreachedSamples": [
         {
-          "tool": "search_businesses",
-          "server": "smithery::discava/mcp-server",
+          "tool": "get_current_weather",
+          "server": "smithery::smithery-ai/national-weather-service",
           "source": "direct_mcp",
-          "description": "Search for local businesses. Returns name, category, city, country, logo_url, available_details (what data exists), and scores. Check available_details to see what is available, then call get_business for full details.",
+          "description": "Get current weather conditions for a location in the United States. Perfect for 'What's the weather like in [US location]?' questions. Covers all US states, territories, and coastal waters.",
           "schema": [
             {
-              "name": "category",
+              "name": "location",
               "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "get_weather_forecast",
+          "server": "smithery::smithery-ai/national-weather-service",
+          "source": "direct_mcp",
+          "description": "Get multi-day weather forecast for a location in the United States. Perfect for 'What's the forecast for [US location]?' questions. Provides detailed day/night forecasts for up to 7 days.",
+          "schema": [
+            {
+              "name": "days",
+              "type": "number",
               "required": false
             },
             {
-              "name": "city",
+              "name": "location",
               "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "get_hourly_forecast",
+          "server": "smithery::smithery-ai/national-weather-service",
+          "source": "direct_mcp",
+          "description": "Get hour-by-hour weather forecast for a location in the United States. Perfect for 'What's the hourly forecast?' or 'Will it rain this afternoon in [US location]?' questions. Provides detailed hourly conditions for up to 48 hours.",
+          "schema": [
+            {
+              "name": "hours",
+              "type": "number",
               "required": false
             },
             {
-              "name": "country",
+              "name": "location",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "get_weather_alerts",
+          "server": "smithery::smithery-ai/national-weather-service",
+          "source": "direct_mcp",
+          "description": "Get active weather alerts, warnings, watches, and advisories for locations in the United States. Perfect for 'Are there any weather alerts in [US location]?' questions. Covers severe weather, winter storms, heat warnings, flood alerts, and more.",
+          "schema": [
+            {
+              "name": "location",
               "type": "string",
               "required": true
             },
             {
-              "name": "format",
+              "name": "severity",
               "type": "string",
               "required": false
-            },
-            {
-              "name": "lang",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "lat",
-              "type": "number",
-              "required": false
-            },
+            }
+          ]
+        },
+        {
+          "tool": "find_weather_stations",
+          "server": "smithery::smithery-ai/national-weather-service",
+          "source": "direct_mcp",
+          "description": "Find weather observation stations near a location in the United States. Useful for getting station-specific data, finding data sources, or understanding which stations provide weather data for an area. Includes ASOS, AWOS, and other automated weather stations.",
+          "schema": [
             {
               "name": "limit",
               "type": "number",
               "required": false
             },
             {
-              "name": "lon",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "min_confidence",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "page",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "query",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_business",
-          "server": "smithery::discava/mcp-server",
-          "source": "direct_mcp",
-          "description": "Get complete details for one or more businesses including address, phone, website, opening hours, services, payment methods, social links, logo, business image, and coordinates. Pass comma-separated IDs for batch requests.",
-          "schema": [
-            {
-              "name": "format",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "id",
+              "name": "location",
               "type": "string",
               "required": true
             }
           ]
         },
         {
-          "tool": "send_feedback",
-          "server": "smithery::discava/mcp-server",
+          "tool": "get_local_time",
+          "server": "smithery::smithery-ai/national-weather-service",
           "source": "direct_mcp",
-          "description": "Report data quality issues for a business. Use when you notice incorrect phone numbers, wrong addresses, outdated info, or closed businesses.",
+          "description": "Get the current local time for a US location. Shows what time it is right now at the specified location.",
           "schema": [
             {
-              "name": "business_id",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "comment",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "type",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "get_rankings",
-          "server": "smithery::discava/mcp-server",
-          "source": "direct_mcp",
-          "description": "Get the most popular businesses in an area, ranked by real user click-through data. Use to find top-rated businesses by category.",
-          "schema": [
-            {
-              "name": "category",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "city",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "country",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "lang",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "limit",
-              "type": "number",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "suggest",
-          "server": "smithery::discava/mcp-server",
-          "source": "direct_mcp",
-          "description": "Autocomplete suggestions for cities or categories/business names. Use before searching to resolve ambiguous user input (e.g. \"Mün\" → \"München\").",
-          "schema": [
-            {
-              "name": "country",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "limit",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "query",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "type",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "health_check",
-          "server": "smithery::discava/mcp-server",
-          "source": "direct_mcp",
-          "description": "Check if the discava API is online and responding. Returns status and version. No parameters required.",
-          "schema": []
-        },
-        {
-          "tool": "answer_hair_question",
-          "server": "smithery::prohall/hair",
-          "source": "direct_mcp",
-          "description": "Answer a natural-language hair question (frizz, breakage, color care, blonde maintenance, smoothing, hair loss, curls, scalp, etc.) with a short expert tip and 1-3 Prohall product recommendations (with URLs to prohall.net). This is the primary tool to call when a user asks for hair advice. Supports …",
-          "schema": [
-            {
-              "name": "language",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "question",
+              "name": "location",
               "type": "string",
               "required": true
             }
@@ -2031,69 +1717,25 @@
         },
         {
           "tool": "search_products",
-          "server": "smithery::prohall/hair",
+          "server": "smithery::dropbeacon/drop-beacon-mcp",
           "source": "direct_mcp",
-          "description": "Search the Prohall hair cosmetics catalog for products matching a query (hair problem, hair type, product type, or keyword). Returns ranked results with name, subtitle, category, tags, and product URL on prohall.net.",
+          "description": "Search for EDC (everyday carry) products by keyword, category, brand, or material. Returns matching products with titles, prices, availability status, brand names, product images, and direct links to edc4me.com. Searches across 100,000+ tracked products from 1,000+ brands.",
           "schema": [
             {
-              "name": "language",
+              "name": "api_key",
               "type": "string",
               "required": false
             },
             {
-              "name": "limit",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "query",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "get_product_details",
-          "server": "smithery::prohall/hair",
-          "source": "direct_mcp",
-          "description": "Get full details (name, subtitle, description, category, tags, URL) for a specific Prohall product by slug. Use search_products or list_products_by_category first to find slugs.",
-          "schema": [
-            {
-              "name": "language",
+              "name": "brand",
               "type": "string",
               "required": false
             },
-            {
-              "name": "slug",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "list_products_by_category",
-          "server": "smithery::prohall/hair",
-          "source": "direct_mcp",
-          "description": "List all Prohall products in a category. Available categories: treatments, shampoos, conditioners, masks, toning-masks, oils, leave-in, styling, scalp, kits, finishing.",
-          "schema": [
             {
               "name": "category",
               "type": "string",
-              "required": true
-            },
-            {
-              "name": "language",
-              "type": "string",
               "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_product_faqs",
-          "server": "smithery::prohall/hair",
-          "source": "direct_mcp",
-          "description": "Search the official Prohall US product FAQs (129+ Q&As scraped from prohall.hair product pages). Use this when the user asks specific product-usage questions: application steps, timing, temperatures, contraindications, pregnancy/allergy safety, mixing with other treatments, post-treatment care, wash…",
-          "schema": [
+            },
             {
               "name": "limit",
               "type": "number",
@@ -2103,285 +1745,397 @@
               "name": "query",
               "type": "string",
               "required": false
+            }
+          ]
+        },
+        {
+          "tool": "get_latest_drops",
+          "server": "smithery::dropbeacon/drop-beacon-mcp",
+          "source": "direct_mcp",
+          "description": "Get the latest EDC product drops and new releases from the last 7 days. Shows newly available products with prices, brands, release dates, and images. Useful for staying current on what's new in the EDC market.",
+          "schema": [
+            {
+              "name": "api_key",
+              "type": "string",
+              "required": false
             },
             {
-              "name": "slug",
+              "name": "category",
               "type": "string",
+              "required": false
+            },
+            {
+              "name": "limit",
+              "type": "number",
               "required": false
             }
           ]
         },
         {
-          "tool": "get_hair_tips",
-          "server": "smithery::prohall/hair",
+          "tool": "get_brand_info",
+          "server": "smithery::dropbeacon/drop-beacon-mcp",
           "source": "direct_mcp",
-          "description": "Browse curated hair care tips by topic (frizz, breakage, hair-loss, color-care, blonde-maintenance, heat-damage, curly-hair, scalp-health, etc.). Call without a topic to list all available topics. Each tip includes an explanation and recommended Prohall products.",
+          "description": "Get detailed information about an EDC brand including total product count, number of available products, price range (min/max/avg), product categories, and top 5 products by popularity. Useful for brand research and comparison.",
           "schema": [
             {
-              "name": "language",
+              "name": "api_key",
               "type": "string",
               "required": false
             },
             {
-              "name": "topic",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_contract_info",
-          "server": "smithery::defi-io/smartcontract",
-          "source": "direct_mcp",
-          "description": "Get metadata about a verified smart contract: name, compiler, classification, supported adapters, and counts of functions and events. Accepts either a curated slug (uni-eth, usdc-base, …) or chain+address.",
-          "schema": [
-            {
-              "name": "address",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "chain",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "slug",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_erc20_info",
-          "server": "smithery::defi-io/smartcontract",
-          "source": "direct_mcp",
-          "description": "Get live state of an ERC-20 token: supply (raw + human-formatted), price, market cap, and issuer. For admin / privilege controls (paused, owner, mintable, upgradeable, etc.) and recent governance activity, the contract page itself exposes an Admin & Risk section — those are not returned here. Accept…",
-          "schema": [
-            {
-              "name": "address",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "chain",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "slug",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_uniswap_v3_pool",
-          "server": "smithery::defi-io/smartcontract",
-          "source": "direct_mcp",
-          "description": "Get live state of a Uniswap V3 pool: token pair, fee tier, current price (both directions), active liquidity, current tick, and TVL in USD (via DefiLlama token prices). Accepts slug or chain+address.",
-          "schema": [
-            {
-              "name": "address",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "chain",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "slug",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "inspect_address",
-          "server": "smithery::defi-io/smartcontract",
-          "source": "direct_mcp",
-          "description": "Inspect any EVM address: classifies it as an EOA / unverified contract / EIP-7702 delegated wallet, returns native-token balance, outgoing tx count (nonce), and reverse-ENS name (Ethereum only). Works for unindexed addresses — useful before deciding whether to call get_contract_info or get_erc20_inf…",
-          "schema": [
-            {
-              "name": "address",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "chain",
+              "name": "brand",
               "type": "string",
               "required": true
             }
           ]
         },
         {
-          "tool": "read_contract_state",
-          "server": "smithery::defi-io/smartcontract",
+          "tool": "get_price_comparison",
+          "server": "smithery::dropbeacon/drop-beacon-mcp",
           "source": "direct_mcp",
-          "description": "Read the current on-chain value of a view/pure function. Fetches from the chain (cached 60s) and returns the decoded output. Accepts slug or chain+address.",
+          "description": "Compare prices for the same EDC product across multiple retailers. Returns each retailer's current price, compare-at price, availability status, and direct product links. Identifies the best available price.",
           "schema": [
             {
-              "name": "address",
+              "name": "api_key",
               "type": "string",
               "required": false
             },
             {
-              "name": "args",
-              "type": "array",
-              "required": false
-            },
-            {
-              "name": "chain",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "function_name",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "slug",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "openalex_resolve_name",
-          "server": "smithery::cyanheads/openalex-mcp-server",
-          "source": "direct_mcp",
-          "description": "Resolve a name or partial name to an OpenAlex ID. Returns up to 10 matches with disambiguation hints. ALWAYS use this before filtering by entity — names are ambiguous, IDs are not. Also accepts DOIs directly for quick lookup.",
-          "schema": [
-            {
-              "name": "entity_type",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "filters",
-              "type": "object",
-              "required": false
-            },
-            {
-              "name": "query",
+              "name": "product",
               "type": "string",
               "required": true
             }
           ]
         },
         {
-          "tool": "openalex_search_entities",
-          "server": "smithery::cyanheads/openalex-mcp-server",
+          "tool": "get_market_trends",
+          "server": "smithery::dropbeacon/drop-beacon-mcp",
           "source": "direct_mcp",
-          "description": "Search, filter, sort, or retrieve by ID. Covers all OpenAlex entity types (works, authors, sources, institutions, topics, keywords, publishers, funders). Pass `id` to retrieve a single entity. Otherwise, use `query` and/or `filters` for discovery. Supports keyword search with boolean operators, exac…",
+          "description": "Get EDC market trend data including sell-through rates by category, top 10 fastest-selling brands, price tier distribution, and new product counts. Useful for market analysis and understanding what's hot in the EDC space.",
           "schema": [
             {
-              "name": "cursor",
+              "name": "api_key",
               "type": "string",
               "required": false
             },
             {
-              "name": "entity_type",
+              "name": "category",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "timeframe",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "check_availability",
+          "server": "smithery::dropbeacon/drop-beacon-mcp",
+          "source": "direct_mcp",
+          "description": "Check if a specific EDC product is currently in stock at any tracked retailer. Returns per-retailer availability, prices, and direct purchase links. Useful for finding where to buy a specific product.",
+          "schema": [
+            {
+              "name": "api_key",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "product",
               "type": "string",
               "required": true
-            },
+            }
+          ]
+        },
+        {
+          "tool": "Compoid_search_records",
+          "server": "smithery::compoid/compoid-mcp",
+          "source": "direct_mcp",
+          "description": "Search for records (images, videos, papers, articles, analysis) in Compoid.",
+          "schema": [
             {
-              "name": "filters",
-              "type": "object",
-              "required": false
-            },
-            {
-              "name": "id",
+              "name": "access_status",
               "type": "string",
               "required": false
             },
             {
-              "name": "per_page",
+              "name": "community",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "community_id",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "creators",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "date_from",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "date_to",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "description",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "exact_date",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "file_type",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "keywords",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "limit",
               "type": "integer",
               "required": false
             },
             {
               "name": "query",
               "type": "string",
-              "required": false
+              "required": true
             },
             {
-              "name": "sample",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "search_mode",
+              "name": "resource_type",
               "type": "string",
-              "required": false
-            },
-            {
-              "name": "seed",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "select",
-              "type": "array",
               "required": false
             },
             {
               "name": "sort",
               "type": "string",
               "required": false
+            },
+            {
+              "name": "title",
+              "type": "string",
+              "required": false
             }
           ]
         },
         {
-          "tool": "openalex_analyze_trends",
-          "server": "smithery::cyanheads/openalex-mcp-server",
+          "tool": "Compoid_search_communities",
+          "server": "smithery::compoid/compoid-mcp",
           "source": "direct_mcp",
-          "description": "Aggregate OpenAlex entities into groups and count them. Use for trend analysis (group works by publication_year), distribution analysis (group by oa_status, type, country), and comparative analysis (group by institution or topic). Combine with filters to scope the analysis. Returns up to 200 groups …",
+          "description": "Search for communities in Compoid.",
           "schema": [
             {
-              "name": "cursor",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "entity_type",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "filters",
-              "type": "object",
-              "required": false
-            },
-            {
-              "name": "group_by",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "include_unknown",
-              "type": "boolean",
-              "required": false
-            },
-            {
-              "name": "order",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "per_page",
+              "name": "access_status",
               "type": "integer",
               "required": false
+            },
+            {
+              "name": "description",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "limit",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "query",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "sort",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "title",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "Compoid_get_record_details",
+          "server": "smithery::compoid/compoid-mcp",
+          "source": "direct_mcp",
+          "description": "Get detailed information about a specific record by its Compoid ID or OAI.",
+          "schema": [
+            {
+              "name": "work_id",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "Compoid_get_community_details",
+          "server": "smithery::compoid/compoid-mcp",
+          "source": "direct_mcp",
+          "description": "Get detailed information about a specific community by its Compoid ID or OAI.",
+          "schema": [
+            {
+              "name": "community_id",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "Compoid_download_files",
+          "server": "smithery::compoid/compoid-mcp",
+          "source": "direct_mcp",
+          "description": "Download record files in a zip archive if available through open access.",
+          "schema": [
+            {
+              "name": "filename",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "output_path",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "work_id",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "Compoid_upload_file",
+          "server": "smithery::compoid/compoid-mcp",
+          "source": "direct_mcp",
+          "description": "Upload a file to the Compoid MCP server. Accepts a data URI (data:<mime>;base64,<data>).\n    Returns the server-side path to use as file_upload in Compoid_create_record or Compoid_update_record.",
+          "schema": [
+            {
+              "name": "file_data",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "filename",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "Compoid_create_record",
+          "server": "smithery::compoid/compoid-mcp",
+          "source": "direct_mcp",
+          "description": "Create a new Compoid record (images, videos, papers, articles, analysis).",
+          "schema": [
+            {
+              "name": "community_id",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "creators",
+              "type": "array",
+              "required": true
+            },
+            {
+              "name": "description",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "file_upload",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "keywords",
+              "type": "array",
+              "required": false
+            },
+            {
+              "name": "references",
+              "type": "array",
+              "required": false
+            },
+            {
+              "name": "resource_type",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "title",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "Compoid_update_record",
+          "server": "smithery::compoid/compoid-mcp",
+          "source": "direct_mcp",
+          "description": "Update an existing Compoid record. Can update metadata only or replace both file and metadata.",
+          "schema": [
+            {
+              "name": "creators",
+              "type": "array",
+              "required": false
+            },
+            {
+              "name": "description",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "file_upload",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "keywords",
+              "type": "array",
+              "required": false
+            },
+            {
+              "name": "references",
+              "type": "array",
+              "required": false
+            },
+            {
+              "name": "resource_type",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "title",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "work_id",
+              "type": "string",
+              "required": true
             }
           ]
         }
       ]
     },
-    "stealth": 1734,
-    "crossRegistry": 2340,
-    "crossSource": 9162
+    "stealth": 1330,
+    "crossRegistry": 2435,
+    "crossSource": 6771
   }
 }
