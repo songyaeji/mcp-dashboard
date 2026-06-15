@@ -1,62 +1,62 @@
 {
-  "generatedAt": "2026-06-14T17:30:49+00:00",
-  "lastCrawl": "2026-06-15",
+  "generatedAt": "2026-06-15T16:53:32+00:00",
+  "lastCrawl": "2026-06-16",
   "crawl": {
-    "servers": 11864,
-    "tools": 147136,
-    "snapshots": 2271285,
-    "stealthTools": 11310,
-    "crossRegistryAnomalies": 33299,
-    "crossSourceAnomalies": 66460
+    "servers": 12022,
+    "tools": 148072,
+    "snapshots": 2465025,
+    "stealthTools": 12571,
+    "crossRegistryAnomalies": 35938,
+    "crossSourceAnomalies": 72184
   },
   "registries": [
     {
       "name": "Official",
-      "servers": 5424,
+      "servers": 5505,
       "color": "#6366f1"
     },
     {
       "name": "Glama",
-      "servers": 4769,
+      "servers": 4838,
       "color": "#8b5cf6"
     },
     {
       "name": "Smithery",
-      "servers": 1671,
+      "servers": 1679,
       "color": "#06b6d4"
     }
   ],
   "health": [
     {
       "name": "Healthy",
-      "value": 2602,
+      "value": 2650,
       "color": "#22c55e"
     },
     {
       "name": "Unhealthy",
-      "value": 2166,
+      "value": 2176,
       "color": "#ef4444"
     },
     {
       "name": "Unknown",
-      "value": 7096,
+      "value": 7196,
       "color": "#6b7280"
     }
   ],
   "tdqs": [
     {
       "grade": "A",
-      "count": 2412,
+      "count": 2423,
       "color": "#22c55e"
     },
     {
       "grade": "B",
-      "count": 408,
+      "count": 409,
       "color": "#84cc16"
     },
     {
       "grade": "C",
-      "count": 132,
+      "count": 133,
       "color": "#f59e0b"
     },
     {
@@ -66,24 +66,24 @@
     },
     {
       "grade": "미평가",
-      "count": 8907,
+      "count": 9052,
       "color": "#374151"
     }
   ],
   "protocol": [
     {
       "name": "2024-11-05",
-      "value": 4417,
+      "value": 4462,
       "color": "#6366f1"
     },
     {
       "name": "2025-03-26",
-      "value": 1982,
+      "value": 1983,
       "color": "#06b6d4"
     },
     {
       "name": "2025-06-18",
-      "value": 322,
+      "value": 329,
       "color": "#8b5cf6"
     },
     {
@@ -93,91 +93,91 @@
     },
     {
       "name": "2025-11-25",
-      "value": 86,
+      "value": 88,
       "color": "#f59e0b"
     },
     {
       "name": "미보고",
-      "value": 5051,
+      "value": 5154,
       "color": "#374151"
     }
   ],
   "toolDist": [
     {
       "name": "0",
-      "servers": 4403,
+      "servers": 4473,
       "color": "#6b7280"
     },
     {
       "name": "1-5",
-      "servers": 2337,
+      "servers": 2381,
       "color": "#06b6d4"
     },
     {
       "name": "6-10",
-      "servers": 1444,
+      "servers": 1461,
       "color": "#6366f1"
     },
     {
       "name": "11-20",
-      "servers": 994,
+      "servers": 1006,
       "color": "#8b5cf6"
     },
     {
       "name": "20+",
-      "servers": 2686,
+      "servers": 2701,
       "color": "#22c55e"
     }
   ],
   "topByUse": [
     {
       "name": "EthanHenrickson/math-mcp",
-      "value": 402228,
+      "value": 296413,
       "registry": "smithery"
     },
     {
       "name": "henry-ships/sparkforge",
-      "value": 66424,
+      "value": 66353,
       "registry": "smithery"
     },
     {
       "name": "googlesheets",
-      "value": 46869,
+      "value": 45592,
       "registry": "smithery"
     },
     {
       "name": "gmail",
-      "value": 36107,
+      "value": 36089,
       "registry": "smithery"
     },
     {
       "name": "exa",
-      "value": 32733,
+      "value": 35138,
       "registry": "smithery"
     },
     {
       "name": "hamid-vakilzadeh/mcpsemanticscholar",
-      "value": 23582,
+      "value": 26910,
       "registry": "smithery"
     },
     {
       "name": "clay-inc/clay-mcp",
-      "value": 21889,
+      "value": 23995,
+      "registry": "smithery"
+    },
+    {
+      "name": "smithery-ai/national-weather-service",
+      "value": 19998,
       "registry": "smithery"
     },
     {
       "name": "openclaw-hal9000/romulus-31780",
-      "value": 19888,
+      "value": 19863,
       "registry": "smithery"
     },
     {
       "name": "creativelead/unclick",
-      "value": 18633,
-      "registry": "smithery"
-    },
-    {
-      "name": "king-of-the-grackles/discourse-forum-mcp",
-      "value": 17282,
+      "value": 18587,
       "registry": "smithery"
     }
   ],
@@ -236,63 +236,63 @@
   "stealthByServer": [
     {
       "name": "smithery::blackboxfoundry/livedatalink",
-      "value": 1352,
+      "value": 1521,
       "registry": "smithery"
     },
     {
       "name": "smithery::delx/witness-protocol",
-      "value": 712,
+      "value": 801,
       "registry": "smithery"
     },
     {
       "name": "glama::io.github.ABTdomain/domainkits-mcp",
-      "value": 570,
+      "value": 608,
       "registry": "glama"
     },
     {
       "name": "smithery::netfluid/NFLD",
-      "value": 402,
+      "value": 536,
       "registry": "smithery"
     },
     {
       "name": "smithery::vicente-litvak/siimaster",
-      "value": 386,
+      "value": 487,
       "registry": "smithery"
     },
     {
       "name": "smithery::Plagtech/Spraay-x402-mcp",
-      "value": 246,
+      "value": 289,
       "registry": "smithery"
     },
     {
       "name": "smithery::rafaelkocurek-nvob/agentview",
-      "value": 208,
+      "value": 234,
       "registry": "smithery"
     },
     {
       "name": "glama::network.tenzro/tenzro",
-      "value": 172,
+      "value": 202,
       "registry": "glama"
     },
     {
-      "name": "smithery::dialogbrain/dialogbrain",
-      "value": 165,
+      "name": "smithery::arcadia-finance/mcp-server",
+      "value": 200,
       "registry": "smithery"
     },
     {
-      "name": "smithery::arcadia-finance/mcp-server",
-      "value": 160,
-      "registry": "smithery"
+      "name": "glama::de.carbon-cashmere.api/crypto-intelligence",
+      "value": 196,
+      "registry": "glama"
     }
   ],
   "stealthByRegistry": [
     {
       "name": "smithery",
-      "value": 1155
+      "value": 1099
     },
     {
       "name": "glama",
-      "value": 161
+      "value": 162
     }
   ],
   "crossRegistrySamples": [
@@ -639,6 +639,20 @@
       "crossRegistry": 2618,
       "crossSource": 6327,
       "tdqsAvg": 0
+    },
+    {
+      "date": "2026-06-16",
+      "serversCumulative": 12022,
+      "newServers": 158,
+      "snapshots": 193740,
+      "snapshotsCumulative": 2465025,
+      "tools": 140216,
+      "toolsCumulative": 148072,
+      "changes": 5769,
+      "stealth": 1261,
+      "crossRegistry": 2639,
+      "crossSource": 5724,
+      "tdqsAvg": 0
     }
   ],
   "registryTrend": [
@@ -866,13 +880,28 @@
       "smithery_new": 15,
       "smithery_tools": 30206,
       "smithery_changes": 3675
+    },
+    {
+      "date": "2026-06-16",
+      "official_servers": 5505,
+      "official_new": 81,
+      "official_tools": 54746,
+      "official_changes": 396,
+      "glama_servers": 4838,
+      "glama_new": 69,
+      "glama_tools": 55310,
+      "glama_changes": 2014,
+      "smithery_servers": 1679,
+      "smithery_new": 8,
+      "smithery_tools": 30160,
+      "smithery_changes": 3359
     }
   ],
   "cumulativeCollectors": [
     {
       "name": "official",
-      "servers": 5424,
-      "tools": 56471,
+      "servers": 5505,
+      "tools": 56844,
       "changeBreakdown": {
         "description_modified": 0,
         "schema_modified": 0,
@@ -883,23 +912,23 @@
     },
     {
       "name": "glama",
-      "servers": 4769,
-      "tools": 56834,
+      "servers": 4838,
+      "tools": 57203,
       "changeBreakdown": {
-        "description_modified": 18265,
-        "schema_modified": 2915,
-        "both_modified": 1768,
-        "removed": 9893
+        "description_modified": 18316,
+        "schema_modified": 3021,
+        "both_modified": 1803,
+        "removed": 11323
       },
       "color": "#8b5cf6"
     },
     {
       "name": "smithery",
-      "servers": 1671,
-      "tools": 33831,
+      "servers": 1679,
+      "tools": 34025,
       "changeBreakdown": {
-        "description_modified": 245,
-        "schema_modified": 112,
+        "description_modified": 255,
+        "schema_modified": 113,
         "both_modified": 115,
         "removed": 299
       },
@@ -907,13 +936,13 @@
     },
     {
       "name": "direct_mcp",
-      "servers": 6633,
-      "tools": 126938,
+      "servers": 6689,
+      "tools": 127761,
       "changeBreakdown": {
-        "description_modified": 40689,
-        "schema_modified": 6235,
-        "both_modified": 4264,
-        "removed": 20035
+        "description_modified": 40856,
+        "schema_modified": 6456,
+        "both_modified": 4366,
+        "removed": 23681
       },
       "color": "#10b981"
     }
@@ -1016,15 +1045,22 @@
       "schema_modified": 221,
       "both_modified": 159,
       "removed": 5008
+    },
+    {
+      "date": "2026-06-16",
+      "description_modified": 228,
+      "schema_modified": 328,
+      "both_modified": 137,
+      "removed": 5076
     }
   ],
   "latestCrawl": {
-    "date": "2026-06-15",
+    "date": "2026-06-16",
     "collectors": [
       {
         "name": "official",
         "status": "completed",
-        "servers": 5406,
+        "servers": 5487,
         "tools": 0,
         "changes": 0,
         "snapshots": 0,
@@ -1039,589 +1075,582 @@
       {
         "name": "smithery",
         "status": "completed",
-        "servers": 1499,
-        "tools": 27760,
-        "changes": 134,
-        "snapshots": 27760,
+        "servers": 1507,
+        "tools": 27858,
+        "changes": 11,
+        "snapshots": 27858,
         "changeBreakdown": {
-          "description_modified": 115,
-          "schema_modified": 2,
-          "both_modified": 8,
-          "removed": 9
+          "description_modified": 10,
+          "schema_modified": 1,
+          "both_modified": 0,
+          "removed": 0
         },
         "color": "#06b6d4"
       },
       {
         "name": "glama",
         "status": "completed",
-        "servers": 4614,
-        "tools": 52102,
-        "changes": 1276,
-        "snapshots": 52102,
+        "servers": 4629,
+        "tools": 51735,
+        "changes": 1622,
+        "snapshots": 51735,
         "changeBreakdown": {
-          "description_modified": 128,
-          "schema_modified": 65,
-          "both_modified": 31,
-          "removed": 1052
+          "description_modified": 51,
+          "schema_modified": 106,
+          "both_modified": 35,
+          "removed": 1430
         },
         "color": "#8b5cf6"
       },
       {
         "name": "direct_mcp",
         "status": "completed",
-        "servers": 6192,
-        "tools": 114302,
-        "changes": 4590,
-        "snapshots": 114302,
+        "servers": 6150,
+        "tools": 114168,
+        "changes": 4136,
+        "snapshots": 114168,
         "changeBreakdown": {
-          "description_modified": 369,
-          "schema_modified": 154,
-          "both_modified": 120,
-          "removed": 3947
+          "description_modified": 167,
+          "schema_modified": 221,
+          "both_modified": 102,
+          "removed": 3646
         },
         "color": "#6366f1"
       }
     ],
-    "newServers": 83,
+    "newServers": 158,
     "changeBreakdown": [
       {
         "type": "description_modified",
-        "count": 612,
+        "count": 228,
         "color": "#06b6d4"
       },
       {
         "type": "schema_modified",
-        "count": 221,
+        "count": 328,
         "color": "#f59e0b"
       },
       {
         "type": "both_modified",
-        "count": 159,
+        "count": 137,
         "color": "#a78bfa"
       },
       {
         "type": "removed",
-        "count": 5008,
+        "count": 5076,
         "color": "#ef4444"
       }
     ],
     "toolDelta": {
-      "newTools": 2236,
-      "droppedTools": 2783,
-      "removedTools": 5008,
-      "unreachedTools": 3823,
-      "net": -6595,
-      "prevDate": "2026-06-14",
+      "newTools": 1911,
+      "droppedTools": 1319,
+      "removedTools": 5076,
+      "unreachedTools": 2192,
+      "net": -5357,
+      "prevDate": "2026-06-15",
       "newSamples": [
         {
-          "tool": "get_recommendations",
-          "server": "smithery::picoads/picoads",
+          "tool": "get-allowance",
+          "server": "smithery::li-fi/lifi-mcp",
           "source": "direct_mcp",
-          "description": "Earn per recommendation served. Returns sponsored recommendations relevant to your user's query — products, tools, services with live pricing. Present alongside your organic answers, labeled 'Sponsored.' Free to call, no registration needed. Register to track and withdraw USDC earnings.",
+          "description": "Check how many ERC20 tokens a spender is approved to use on behalf of an owner (EVM chains only). IMPORTANT: Before executing a swap with ERC20 tokens, verify the allowance is >= the swap amount. If insufficient, the user must approve tokens first. The spender address for LI.FI swaps is returned in …",
           "schema": [
             {
-              "name": "context",
+              "name": "chain",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "ownerAddress",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "rpcUrl",
               "type": "string",
               "required": false
             },
             {
-              "name": "max_results",
-              "type": "number",
-              "required": false
+              "name": "spenderAddress",
+              "type": "string",
+              "required": true
             },
             {
-              "name": "topic",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "discover_hubs",
-          "server": "smithery::picoads/picoads",
-          "source": "direct_mcp",
-          "description": "Browse the marketplace. See what categories have active sponsors — travel, SaaS, finance, education, and more. Returns hubs with activity stats, open bids, and earning potential. Use this to decide which topics are worth recommending.",
-          "schema": [
-            {
-              "name": "category",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "query",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "sort",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_hub_stats",
-          "server": "smithery::picoads/picoads",
-          "source": "direct_mcp",
-          "description": "See exactly what advertisers are paying and what publishers are earning in a hub — price distributions, fill rates, open demand, and treasury balance. Use this before posting to find the best opportunity.",
-          "schema": [
-            {
-              "name": "hub_id",
+              "name": "tokenAddress",
               "type": "string",
               "required": true
             }
           ]
         },
         {
-          "tool": "post_bid",
-          "server": "smithery::picoads/picoads",
+          "tool": "get-chain-by-id",
+          "server": "smithery::li-fi/lifi-mcp",
           "source": "direct_mcp",
-          "description": "Buy ad distribution in a hub. Post your budget, unit price, and targeting — you'll be matched automatically with publishers. You pay only the publisher's floor price (not your max), plus the hub fee. One bid can fill across multiple publishers.",
+          "description": "Look up chain details by numeric chain ID. Returns chain name, native token info, RPC URLs, and block explorer. Use this to convert a chain ID to human-readable information or to get RPC URLs.",
           "schema": [
             {
-              "name": "budget",
-              "type": "number",
-              "required": true
-            },
-            {
-              "name": "callback_url",
+              "name": "id",
               "type": "string",
-              "required": false
-            },
-            {
-              "name": "creative",
-              "type": "object",
-              "required": false
-            },
-            {
-              "name": "hub_id",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "objective",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "pricing_model",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "revenue_share_rate",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "serve_price",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "settlement_chain",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "settlement_wallet",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "targeting",
-              "type": "object",
-              "required": false
-            },
-            {
-              "name": "terms_accepted",
-              "type": "boolean",
-              "required": false
-            },
-            {
-              "name": "ttl",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "unit_price",
-              "type": "number",
               "required": true
             }
           ]
         },
         {
-          "tool": "check_matches",
-          "server": "smithery::picoads/picoads",
+          "tool": "get-chain-by-name",
+          "server": "smithery::li-fi/lifi-mcp",
           "source": "direct_mcp",
-          "description": "See your current matches and their statuses. Returns all matches for your agent, including pending deliveries, completed settlements, and active disputes.",
+          "description": "Look up chain details by name or key. Performs case-insensitive matching against chain name, key, or ID. Use this when you know the chain name but need its ID or RPC URL.",
           "schema": [
-            {
-              "name": "status",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "register_agent",
-          "server": "smithery::picoads/picoads",
-          "source": "direct_mcp",
-          "description": "Start earning. Free registration, 30 seconds. Gets you a permanent identity, API key, earnings tracking, and USDC payouts. Step 1 of 2 — call this, then complete_registration with your signature.",
-          "schema": [
-            {
-              "name": "bootstrap_token",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "description",
-              "type": "string",
-              "required": true
-            },
             {
               "name": "name",
               "type": "string",
               "required": true
-            },
-            {
-              "name": "wallet_address",
-              "type": "string",
-              "required": true
             }
           ]
         },
         {
-          "tool": "complete_registration",
-          "server": "smithery::picoads/picoads",
+          "tool": "get-chains",
+          "server": "smithery::li-fi/lifi-mcp",
           "source": "direct_mcp",
-          "description": "Complete agent registration with your signed wallet message. Call register_agent first to get the message to sign.",
+          "description": "Get a list of all blockchain networks supported by LI.FI. Returns chain IDs, names, native tokens, RPC URLs, and block explorer URLs. Use this to discover available chains or get RPC URLs for blockchain interactions.",
           "schema": [
             {
-              "name": "bootstrap_token",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "description",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "eip191_signature",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "name",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "nonce",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "payment_signature",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "timestamp",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "wallet_address",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "browse_bids",
-          "server": "smithery::picoads/picoads",
-          "source": "direct_mcp",
-          "description": "See what advertisers will pay you. Browse open bids in a hub — see unit prices, budgets, and targeting. Use this to set your floor price: price at or below the lowest bid to maximize matches, or price higher for premium inventory.",
-          "schema": [
-            {
-              "name": "hub_id",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "limit",
-              "type": "number",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "browse_asks",
-          "server": "smithery::picoads/picoads",
-          "source": "direct_mcp",
-          "description": "See what publishers are offering. Browse open asks in a hub — see inventory types, floor prices, audience details, and publisher trust tiers. Use this to find the right publisher for your campaign and set a competitive bid price.",
-          "schema": [
-            {
-              "name": "hub_id",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "limit",
-              "type": "number",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "check_opportunity",
-          "server": "smithery::picoads/picoads",
-          "source": "direct_mcp",
-          "description": "Check earning potential in a hub. Shows supply/demand balance, suggested pricing, and estimated revenue per serve. Call this before deciding which hubs to serve recommendations from.",
-          "schema": [
-            {
-              "name": "hub_id",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "check_roas",
-          "server": "smithery::picoads/picoads",
-          "source": "direct_mcp",
-          "description": "Check your return on ad spend. Returns clicks, conversions, revenue, ROAS, CPA, and CTR for your campaigns. Use this to decide whether to increase or decrease your bids.",
-          "schema": [
-            {
-              "name": "agent_id",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "bid_id",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "days",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "hub_id",
+              "name": "chainTypes",
               "type": "string",
               "required": false
             }
           ]
         },
         {
-          "tool": "check_publisher_stats",
-          "server": "smithery::picoads/picoads",
+          "tool": "get-connections",
+          "server": "smithery::li-fi/lifi-mcp",
           "source": "direct_mcp",
-          "description": "Check your publisher analytics. Returns serves, clicks, conversions, earnings, CTR, conversion rate, and eCPM. Use this to see how your audience engages with recommendations.",
+          "description": "Discover which token pairs can be swapped between chains. Use this to check if a specific swap route exists before calling get-quote. Returns available bridges and their supported tokens for the specified route.",
           "schema": [
             {
-              "name": "agent_id",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "days",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "hub_id",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "parse_quote",
-          "server": "smithery::glane0303/woogoro-roofing",
-          "source": "direct_mcp",
-          "description": "Analyze a roofing contractor quote (full replacement or repair). Extracts price, material, roof size, contractor, scope of work (tear-off, underlayment, flashing, ice shield, drip edge, ventilation, decking, disposal, permit, warranty), and runs an audit against industry standards. Flags scope gaps,…",
-          "schema": [
-            {
-              "name": "quote_images",
+              "name": "allowBridges",
               "type": "array",
               "required": false
             },
             {
-              "name": "quote_text",
+              "name": "chainTypes",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "fromChain",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "fromToken",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "toChain",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "toToken",
               "type": "string",
               "required": false
             }
           ]
         },
         {
-          "tool": "check_errors",
-          "server": "smithery::glane0303/woogoro-roofing",
+          "tool": "get-earn-chains",
+          "server": "smithery::li-fi/lifi-mcp",
           "source": "direct_mcp",
-          "description": "Audit a roofing quote for scope gaps, price concerns, warranty issues, and documentation problems. Returns a list of findings ranked by severity (high/medium/low) with specific dispute actions. Accepts either a previously-parsed quote object (from parse_quote) OR raw quote text/images for a fresh pa…",
-          "schema": [
-            {
-              "name": "parsed_quote",
-              "type": "object",
-              "required": false
-            },
-            {
-              "name": "quote_images",
-              "type": "array",
-              "required": false
-            },
-            {
-              "name": "quote_text",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "lookup_average_price",
-          "server": "smithery::glane0303/woogoro-roofing",
-          "source": "direct_mcp",
-          "description": "Look up the typical per-square ($/100 sqft installed) and total price for a roofing job, adjusted by state, pitch, complexity, and tear-off layers. Useful for benchmarking specific contractor quotes against market rates. Covers the most common materials: 3-tab asphalt, architectural shingles, design…",
-          "schema": [
-            {
-              "name": "complexity",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "layers",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "material",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "pitch",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "squares",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "state_code",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "draft_dispute",
-          "server": "smithery::glane0303/woogoro-roofing",
-          "source": "direct_mcp",
-          "description": "Draft a written dispute or scope-clarification letter to a roofing contractor. Use this when the customer wants to formally request changes, demand missing scope items, dispute pricing, or push back on a specific issue identified by check_errors. The letter is firm but professional and references in…",
-          "schema": [
-            {
-              "name": "contractor_name",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "customer_name",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "issue_detail",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "issue_type",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "project_address",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "quote_amount",
-              "type": "number",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "negotiation_script",
-          "server": "smithery::glane0303/woogoro-roofing",
-          "source": "direct_mcp",
-          "description": "Generate a phone or in-person negotiation script for a roofing contractor conversation. Tailored to common scenarios: leveraging multiple quotes for a price match, negotiating after a higher quote came back lower elsewhere, asking for warranty extension, or negotiating decking change-order caps. Inc…",
-          "schema": [
-            {
-              "name": "competing_quote_amount",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "contractor_name",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "quote_amount",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "scenario",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "target_price",
-              "type": "number",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "list_workflows",
-          "server": "smithery::sentinelsignal/scoring",
-          "source": "direct_mcp",
-          "description": "List supported workflows and current model versions via GET /v1/workflows",
+          "description": "List blockchain networks that have indexed yield vaults in the Earn API. Returns chain IDs, names, and CAIP-2 identifiers. This is a SUBSET of all LI.FI-supported chains (use get-chains for the full list) — only chains with active yield vaults are included. Use chain IDs from this response as the 'c…",
           "schema": []
         },
         {
-          "tool": "get_workflow_schema",
-          "server": "smithery::sentinelsignal/scoring",
+          "tool": "get-earn-portfolio",
+          "server": "smithery::li-fi/lifi-mcp",
           "source": "direct_mcp",
-          "description": "Fetch required fields, optional fields, enums, and an example payload for a workflow via GET /v1/workflows/{workflow}/schema",
+          "description": "Check a wallet's active yield positions (vault deposits, staking, lending) across all supported protocols and chains in a single call. Returns each position with protocol name, asset details, balance in native units and USD value, and chain. Use this when a user asks about their yield earnings, DeFi…",
           "schema": [
             {
-              "name": "workflow",
+              "name": "walletAddress",
               "type": "string",
               "required": true
             }
           ]
         },
         {
-          "tool": "validate_workflow_payload",
-          "server": "smithery::sentinelsignal/scoring",
+          "tool": "get-earn-protocols",
+          "server": "smithery::li-fi/lifi-mcp",
           "source": "direct_mcp",
-          "description": "Validate and normalize a workflow payload without consuming a scoring call via POST /v1/workflows/{workflow}/validate",
+          "description": "List all yield protocols integrated with the Earn API. Returns protocol names in kebab-case format (e.g., 'morpho-v1', 'aave-v3', 'euler-v2', 'pendle', 'ethena-usde', 'maple') and their app URLs. Use these exact protocol name strings as the 'protocol' filter in get-earn-vaults to find vaults for a s…",
+          "schema": []
+        },
+        {
+          "tool": "get-earn-vault",
+          "server": "smithery::li-fi/lifi-mcp",
+          "source": "direct_mcp",
+          "description": "Get full details for a specific yield vault by chain and contract address. Returns vault name, APY breakdown (base/reward/total), historical APY (apy1d/apy7d/apy30d), TVL in USD, underlying tokens with addresses and decimals, protocol info, and deposit/redeem pack details. Use this after finding a v…",
           "schema": [
             {
-              "name": "payload",
-              "type": "object",
+              "name": "address",
+              "type": "string",
               "required": true
             },
             {
-              "name": "workflow",
+              "name": "chainId",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "get-earn-vaults",
+          "server": "smithery::li-fi/lifi-mcp",
+          "source": "direct_mcp",
+          "description": "Search and discover yield-earning vaults (DeFi yield, APY, interest, staking, lending) across 20+ protocols and 17+ chains. This is the PRIMARY tool for finding yield opportunities — use it when a user asks about earning yield, best APY, or DeFi deposits. Returns for each vault: name, APY breakdown …",
+          "schema": [
+            {
+              "name": "asset",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "chainId",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "cursor",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "limit",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "protocol",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "sortBy",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "sortDirection",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "tags",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "get-gas-prices",
+          "server": "smithery::li-fi/lifi-mcp",
+          "source": "direct_mcp",
+          "description": "Get current gas prices for all supported EVM chains. Returns fast/standard/slow gas prices in gwei. Useful for estimating transaction costs before executing swaps or for monitoring network congestion.",
+          "schema": []
+        },
+        {
+          "tool": "get-gas-suggestion",
+          "server": "smithery::li-fi/lifi-mcp",
+          "source": "direct_mcp",
+          "description": "Get recommended gas parameters for a specific chain including base fee, priority fee, and estimated costs. More detailed than get-gas-prices for a single chain. Useful when constructing transactions manually.",
+          "schema": [
+            {
+              "name": "chainId",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "get-native-token-balance",
+          "server": "smithery::li-fi/lifi-mcp",
+          "source": "direct_mcp",
+          "description": "Check the native token balance of any wallet address. Supports EVM chains (ETH, MATIC, etc.) and Solana (SOL). Returns the balance in the smallest unit (wei for EVM, lamports for Solana) along with the token symbol and decimals.",
+          "schema": [
+            {
+              "name": "address",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "chain",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "rpcUrl",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "get-quote",
+          "server": "smithery::li-fi/lifi-mcp",
+          "source": "direct_mcp",
+          "description": "Get a quote for swapping, bridging, or depositing into yield vaults. This is the PRIMARY tool for any token operation. Returns the best route including expected output amount, fees, estimated time, and a transactionRequest object. For yield vault deposits: set toToken to the vault contract address f…",
+          "schema": [
+            {
+              "name": "allowBridges",
+              "type": "array",
+              "required": false
+            },
+            {
+              "name": "allowExchanges",
+              "type": "array",
+              "required": false
+            },
+            {
+              "name": "fromAddress",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "fromAmount",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "fromChain",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "fromToken",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "integrator",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "order",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "slippage",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "toAddress",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "toChain",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "toToken",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "get-quote-with-calls",
+          "server": "smithery::li-fi/lifi-mcp",
+          "source": "direct_mcp",
+          "description": "Get a quote that includes custom smart contract calls on the destination chain, also known as 'Zaps' (EVM chains only). This enables complex DeFi operations in a single transaction: bridge tokens AND deposit into a vault, stake in a protocol, or interact with any contract. The contract calls execute…",
+          "schema": [
+            {
+              "name": "contractCalls",
+              "type": "array",
+              "required": true
+            },
+            {
+              "name": "fromAddress",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "fromAmount",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "fromChain",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "fromToken",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "slippage",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "toChain",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "toToken",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "get-routes",
+          "server": "smithery::li-fi/lifi-mcp",
+          "source": "direct_mcp",
+          "description": "Get multiple route options for a swap to compare alternatives. Unlike get-quote which returns the single best route, this returns several options ranked by the specified order preference. Useful when you want to show users multiple choices or when the best route fails. Use get-step-transaction to ge…",
+          "schema": [
+            {
+              "name": "fromAddress",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "fromAmount",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "fromChainId",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "fromTokenAddress",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "integrator",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "order",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "slippage",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "toAddress",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "toChainId",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "toTokenAddress",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "get-status",
+          "server": "smithery::li-fi/lifi-mcp",
+          "source": "direct_mcp",
+          "description": "Check the status of an in-progress or completed cross-chain transfer. Use this to track bridge transactions which can take minutes to hours. Returns status (PENDING, DONE, FAILED), source/destination transaction hashes, and any error messages.",
+          "schema": [
+            {
+              "name": "bridge",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "fromChain",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "toChain",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "txHash",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "get-step-transaction",
+          "server": "smithery::li-fi/lifi-mcp",
+          "source": "direct_mcp",
+          "description": "Convert a route step from get-routes into executable transaction data. Use this when you've chosen a specific route from get-routes and need the transaction to sign and send. Returns the same transactionRequest format as get-quote.",
+          "schema": [
+            {
+              "name": "step",
+              "type": "object",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "get-token",
+          "server": "smithery::li-fi/lifi-mcp",
+          "source": "direct_mcp",
+          "description": "Get detailed information about a specific token including its address, symbol, decimals, and current price. Use this to verify token details before a swap or to look up a token by its symbol.",
+          "schema": [
+            {
+              "name": "chain",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "token",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "get-token-balance",
+          "server": "smithery::li-fi/lifi-mcp",
+          "source": "direct_mcp",
+          "description": "Check the token balance of any wallet address. Supports EVM chains (ERC20 tokens) and Solana (SPL tokens). Returns the balance in the token's smallest unit along with symbol and decimals. Use this before swaps to verify sufficient balance.",
+          "schema": [
+            {
+              "name": "chain",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "rpcUrl",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "tokenAddress",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "walletAddress",
               "type": "string",
               "required": true
             }
@@ -1630,216 +1659,54 @@
       ],
       "removedSamples": [
         {
-          "tool": "search_icons",
-          "server": "smithery::icons8community/icons8mpc",
+          "tool": "lookup_sic_code",
+          "server": "smithery::jackmmaher/sic-codes",
           "source": "direct_mcp",
-          "description": "Search for icons using the Icons8 API - the ONLY source for genuine Icons8 icons.\nUse English terms and consider Icon8's metaphors for better results.\n\nSEARCH TIPS - Use these general approaches for better matches:\n• Use simple, descriptive terms (e.g., \"home\", \"user\", \"settings\")\n• Try action words…",
+          "description": "Look up a classification code in the UK SIC 2007, UK SIC 2026 (the new replacement system), GICS (MSCI), or ICB (FTSE Russell) system. Returns the code name, hierarchy level, breadcrumb trail from root to code, child codes, and cross-classification mappings. For SIC 2026, also returns SIC 2007 prede…",
           "schema": [
             {
-              "name": "amount",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "category",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "offset",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "platform",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "query",
+              "name": "code",
               "type": "string",
               "required": true
+            },
+            {
+              "name": "system",
+              "type": "string",
+              "required": false
             }
           ]
         },
         {
-          "tool": "list_categories",
-          "server": "smithery::icons8community/icons8mpc",
+          "tool": "search_sic_codes",
+          "server": "smithery::jackmmaher/sic-codes",
           "source": "direct_mcp",
-          "description": "List all available icon categories.\n\nArgs:\n    ctx: MCP context for API access\n    limit: Maximum number of results to return (default: 10)\n    page: Page number for pagination (default: 1)\n\nReturns:\n    List of icon categories with subcategories",
+          "description": "Search for UK SIC 2007 codes by business activity description. Describe what a business does in plain English and get ranked SIC code recommendations with relevance scores, hierarchy breadcrumbs, and GICS/ICB cross-classification mappings. Useful for finding the right SIC code for Companies House re…",
           "schema": [
             {
               "name": "limit",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "page",
-              "type": "integer",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "list_platforms",
-          "server": "smithery::icons8community/icons8mpc",
-          "source": "direct_mcp",
-          "description": "List all available icon platforms/styles.\n\nArgs:\n    ctx: MCP context for API access\n    limit: Maximum number of results to return (default: 100)\n    page: Page number for pagination (default: 1)\n\nReturns:\n    List of icon platforms/styles",
-          "schema": [
-            {
-              "name": "limit",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "page",
-              "type": "integer",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_icon_png_url",
-          "server": "smithery::icons8community/icons8mpc",
-          "source": "direct_mcp",
-          "description": "Get a PNG URL for an icon by its ID - use when SVG is not available.\nNOTE: SVG format is preferred for Icons8 icons when possible (use get_icon_svg).\n\nArgs:\n    icon_id: The unique identifier of the icon\n    ctx: MCP context for API access\n    size: The preview image size in pixels (default: 24)\n\nRe…",
-          "schema": [
-            {
-              "name": "icon_id",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "size",
-              "type": "integer",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "unclick_search",
-          "server": "smithery::creativelead/unclick",
-          "source": "direct_mcp",
-          "description": "Search the UnClick tool marketplace by keyword or description. Use this to discover which tools are available for a task. Example: 'I need to resize an image' → returns the image tool with its endpoints.",
-          "schema": [
-            {
-              "name": "category",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "query",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "unclick_browse",
-          "server": "smithery::creativelead/unclick",
-          "source": "direct_mcp",
-          "description": "Browse all available UnClick tools, optionally filtered by category. Returns a list of tools with their slugs and descriptions.",
-          "schema": [
-            {
-              "name": "category",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "unclick_tool_info",
-          "server": "smithery::creativelead/unclick",
-          "source": "direct_mcp",
-          "description": "Get detailed information about a specific UnClick tool including all its endpoints, required parameters, and response shapes. Use this after unclick_search to understand exactly how to call a tool.",
-          "schema": [
-            {
-              "name": "slug",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "unclick_call",
-          "server": "smithery::creativelead/unclick",
-          "source": "direct_mcp",
-          "description": "Call any UnClick tool endpoint. Specify the endpoint ID and parameters. Use unclick_search or unclick_tool_info to discover endpoint IDs and required params. Example: endpoint_id='image.resize', params={image: '<base64>', width: 800, height: 600}",
-          "schema": [
-            {
-              "name": "endpoint_id",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "params",
-              "type": "object",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "unclick_shorten_url",
-          "server": "smithery::creativelead/unclick",
-          "source": "direct_mcp",
-          "description": "Shorten a URL using UnClick. Returns a short URL and its code.",
-          "schema": [
-            {
-              "name": "url",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "unclick_generate_qr",
-          "server": "smithery::creativelead/unclick",
-          "source": "direct_mcp",
-          "description": "Generate a QR code from text or a URL. Returns base64-encoded PNG or SVG.",
-          "schema": [
-            {
-              "name": "format",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "size",
               "type": "number",
               "required": false
             },
             {
-              "name": "text",
+              "name": "query",
               "type": "string",
               "required": true
             }
           ]
         },
         {
-          "tool": "unclick_hash",
-          "server": "smithery::creativelead/unclick",
+          "tool": "convert_between_classifications",
+          "server": "smithery::jackmmaher/sic-codes",
           "source": "direct_mcp",
-          "description": "Compute a cryptographic hash (MD5, SHA1, SHA256, SHA512) of text.",
+          "description": "Convert a classification code between UK SIC 2007, UK SIC 2026, GICS (MSCI), and ICB (FTSE Russell) systems. Returns equivalent codes in the target system with confidence levels and relationship types. Supports converting SIC 2007 codes to SIC 2026 equivalents (and vice versa) with relationship info…",
           "schema": [
             {
-              "name": "algorithm",
+              "name": "code",
               "type": "string",
               "required": true
             },
             {
-              "name": "text",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "unclick_transform_text",
-          "server": "smithery::creativelead/unclick",
-          "source": "direct_mcp",
-          "description": "Transform text case: upper, lower, title, sentence, camelCase, snake_case, kebab-case, PascalCase.",
-          "schema": [
-            {
-              "name": "text",
+              "name": "from",
               "type": "string",
               "required": true
             },
@@ -1851,184 +1718,74 @@
           ]
         },
         {
-          "tool": "unclick_validate_email",
-          "server": "smithery::creativelead/unclick",
+          "tool": "browse_classification_hierarchy",
+          "server": "smithery::jackmmaher/sic-codes",
           "source": "direct_mcp",
-          "description": "Validate an email address format.",
+          "description": "Browse the hierarchy tree of a classification system (UK SIC 2007, UK SIC 2026, GICS, or ICB). Returns child entries at the next level. Omit parent_code to get top-level entries. Use this to explore what codes exist in each system. SIC 2026 has 22 sections, 87 divisions, 287 groups, 668 classes, and…",
           "schema": [
             {
-              "name": "email",
+              "name": "parent_code",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "system",
               "type": "string",
               "required": true
             }
           ]
         },
         {
-          "tool": "unclick_validate_url",
-          "server": "smithery::creativelead/unclick",
+          "tool": "lookup_uk_company",
+          "server": "smithery::jackmmaher/sic-codes",
           "source": "direct_mcp",
-          "description": "Validate a URL format, optionally check if it's reachable.",
+          "description": "Look up a UK company registered at Companies House by name or registration number. Returns company details including name, status, type, incorporation date, registered address, and SIC codes with their full names and GICS/ICB mappings. Covers 5.6 million UK companies.",
           "schema": [
             {
-              "name": "check_reachable",
-              "type": "boolean",
-              "required": false
-            },
-            {
-              "name": "url",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "unclick_resize_image",
-          "server": "smithery::creativelead/unclick",
-          "source": "direct_mcp",
-          "description": "Resize an image (provided as base64) to specified dimensions.",
-          "schema": [
-            {
-              "name": "fit",
+              "name": "company_number",
               "type": "string",
               "required": false
             },
             {
-              "name": "height",
-              "type": "number",
-              "required": true
-            },
-            {
-              "name": "image",
+              "name": "query",
               "type": "string",
-              "required": true
-            },
-            {
-              "name": "width",
-              "type": "number",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "unclick_parse_csv",
-          "server": "smithery::creativelead/unclick",
-          "source": "direct_mcp",
-          "description": "Parse a CSV string into a JSON array of rows.",
-          "schema": [
-            {
-              "name": "csv",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "delimiter",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "header",
-              "type": "boolean",
               "required": false
             }
           ]
         },
         {
-          "tool": "unclick_json_format",
-          "server": "smithery::creativelead/unclick",
+          "tool": "search_uk_companies_by_industry",
+          "server": "smithery::jackmmaher/sic-codes",
           "source": "direct_mcp",
-          "description": "Format / pretty-print a JSON string.",
+          "description": "Find UK companies registered under a specific SIC, GICS, or ICB classification code. Returns enriched company data including all SIC codes, GICS/ICB mappings, address, company type, and incorporation date. Supports filtering by postcode, date range, accounts category, and company type. Cursor pagina…",
           "schema": [
             {
-              "name": "indent",
-              "type": "",
+              "name": "accounts_category",
+              "type": "string",
               "required": false
             },
             {
-              "name": "json",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "unclick_encode",
-          "server": "smithery::creativelead/unclick",
-          "source": "direct_mcp",
-          "description": "Encode or decode text. Supports base64, URL, HTML, and hex.",
-          "schema": [
-            {
-              "name": "operation",
+              "name": "code",
               "type": "string",
               "required": true
             },
             {
-              "name": "text",
+              "name": "company_type",
               "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "unclick_generate_uuid",
-          "server": "smithery::creativelead/unclick",
-          "source": "direct_mcp",
-          "description": "Generate one or more random UUIDs (v4).",
-          "schema": [
-            {
-              "name": "count",
-              "type": "number",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "unclick_random_password",
-          "server": "smithery::creativelead/unclick",
-          "source": "direct_mcp",
-          "description": "Generate a secure random password.",
-          "schema": [
-            {
-              "name": "length",
-              "type": "number",
               "required": false
             },
             {
-              "name": "lowercase",
-              "type": "boolean",
+              "name": "cursor",
+              "type": "string",
               "required": false
             },
             {
-              "name": "numbers",
-              "type": "boolean",
+              "name": "incorporated_after",
+              "type": "string",
               "required": false
             },
             {
-              "name": "symbols",
-              "type": "boolean",
-              "required": false
-            },
-            {
-              "name": "uppercase",
-              "type": "boolean",
-              "required": false
-            }
-          ]
-        }
-      ],
-      "unreachedSamples": [
-        {
-          "tool": "search_listings",
-          "server": "smithery::jan-krat-kj4q/tulugar-real-estate",
-          "source": "direct_mcp",
-          "description": "Search real estate listings. Filter by city, price, bedrooms, property type.",
-          "schema": [
-            {
-              "name": "bedrooms",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "city",
+              "name": "incorporated_before",
               "type": "string",
               "required": false
             },
@@ -2038,78 +1795,7 @@
               "required": false
             },
             {
-              "name": "listing_type",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "max_price",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "min_price",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "neighborhood",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "property_type",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "sort",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_listing",
-          "server": "smithery::jan-krat-kj4q/tulugar-real-estate",
-          "source": "direct_mcp",
-          "description": "Get full listing detail by ID or slug.",
-          "schema": [
-            {
-              "name": "id",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "search_projects",
-          "server": "smithery::jan-krat-kj4q/tulugar-real-estate",
-          "source": "direct_mcp",
-          "description": "Search development projects. Verified first, available units only by default.",
-          "schema": [
-            {
-              "name": "city",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "limit",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "max_price",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "min_price",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "sort",
+              "name": "postcode",
               "type": "string",
               "required": false
             },
@@ -2119,251 +1805,17 @@
               "required": false
             },
             {
-              "name": "verified",
-              "type": "boolean",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_project",
-          "server": "smithery::jan-krat-kj4q/tulugar-real-estate",
-          "source": "direct_mcp",
-          "description": "Get project detail with units and prices.",
-          "schema": [
-            {
-              "name": "id",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "search_companies",
-          "server": "smithery::jan-krat-kj4q/tulugar-real-estate",
-          "source": "direct_mcp",
-          "description": "Search agencies and developers.",
-          "schema": [
-            {
-              "name": "city",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "limit",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "type",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "verified",
-              "type": "boolean",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "list_locations",
-          "server": "smithery::jan-krat-kj4q/tulugar-real-estate",
-          "source": "direct_mcp",
-          "description": "List countries, cities, or neighborhoods with listing counts.",
-          "schema": [
-            {
-              "name": "city",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "parent_id",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "type",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "get_market_summary",
-          "server": "smithery::jan-krat-kj4q/tulugar-real-estate",
-          "source": "direct_mcp",
-          "description": "Market stats: avg price, median, price/m².",
-          "schema": [
-            {
-              "name": "city",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "listing_type",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "property_type",
+              "name": "system",
               "type": "string",
               "required": false
             }
           ]
         },
         {
-          "tool": "get_str_data",
-          "server": "smithery::jan-krat-kj4q/tulugar-real-estate",
+          "tool": "search_skills",
+          "server": "smithery::rafsilva85/skillflow",
           "source": "direct_mcp",
-          "description": "Airbnb/STR city-level data: nightly rates, occupancy.",
-          "schema": [
-            {
-              "name": "city",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "neighborhood",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "openalex_resolve_name",
-          "server": "smithery::cyanheads/openalex-mcp-server",
-          "source": "direct_mcp",
-          "description": "Resolve a name or partial name to an OpenAlex ID. Returns up to 10 matches with disambiguation hints. ALWAYS use this before filtering by entity — names are ambiguous, IDs are not. Also accepts DOIs directly for quick lookup.",
-          "schema": [
-            {
-              "name": "entity_type",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "filters",
-              "type": "object",
-              "required": false
-            },
-            {
-              "name": "query",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "openalex_search_entities",
-          "server": "smithery::cyanheads/openalex-mcp-server",
-          "source": "direct_mcp",
-          "description": "Search, filter, sort, or retrieve by ID. Covers all OpenAlex entity types (works, authors, sources, institutions, topics, keywords, publishers, funders). Pass `id` to retrieve a single entity. Otherwise, use `query` and/or `filters` for discovery. Supports keyword search with boolean operators, exac…",
-          "schema": [
-            {
-              "name": "cursor",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "entity_type",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "filters",
-              "type": "object",
-              "required": false
-            },
-            {
-              "name": "id",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "per_page",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "query",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "sample",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "search_mode",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "seed",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "select",
-              "type": "array",
-              "required": false
-            },
-            {
-              "name": "sort",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "openalex_analyze_trends",
-          "server": "smithery::cyanheads/openalex-mcp-server",
-          "source": "direct_mcp",
-          "description": "Aggregate OpenAlex entities into groups and count them. Use for trend analysis (group works by publication_year), distribution analysis (group by oa_status, type, country), and comparative analysis (group by institution or topic). Combine with filters to scope the analysis. Returns up to 200 groups …",
-          "schema": [
-            {
-              "name": "cursor",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "entity_type",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "filters",
-              "type": "object",
-              "required": false
-            },
-            {
-              "name": "group_by",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "include_unknown",
-              "type": "boolean",
-              "required": false
-            },
-            {
-              "name": "order",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "per_page",
-              "type": "integer",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "search_docs",
-          "server": "smithery::web3auth/integrate",
-          "source": "direct_mcp",
-          "description": "Search MetaMask Embedded Wallets documentation (Algolia) and example projects. Returns doc page links with snippets and matching examples.",
+          "description": "Search for AI agent skills on SkillFlow marketplace by keyword, category, or tag",
           "schema": [
             {
               "name": "category",
@@ -2371,17 +1823,226 @@
               "required": false
             },
             {
-              "name": "chain",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "platform",
-              "type": "string",
+              "name": "min_trust_score",
+              "type": "number",
               "required": false
             },
             {
               "name": "query",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "get_skill_details",
+          "server": "smithery::rafsilva85/skillflow",
+          "source": "direct_mcp",
+          "description": "Get detailed information about a specific skill",
+          "schema": [
+            {
+              "name": "skill_id",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "list_categories",
+          "server": "smithery::rafsilva85/skillflow",
+          "source": "direct_mcp",
+          "description": "List all available skill categories on SkillFlow",
+          "schema": []
+        },
+        {
+          "tool": "get_trending_skills",
+          "server": "smithery::rafsilva85/skillflow",
+          "source": "direct_mcp",
+          "description": "Get currently trending skills on SkillFlow marketplace",
+          "schema": [
+            {
+              "name": "limit",
+              "type": "number",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "get_publisher_info",
+          "server": "smithery::rafsilva85/skillflow",
+          "source": "direct_mcp",
+          "description": "Get information about a skill publisher",
+          "schema": [
+            {
+              "name": "publisher_id",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "list_cubes",
+          "server": "smithery::pranaviate/statscan-mcp",
+          "source": "direct_mcp",
+          "description": "Search Statistics Canada datasets by keyword.\n\n    Returns a list of cubes (datasets) from StatsCan. If a keyword is provided,\n    filters results by searching in the English dataset titles. Results are limited\n    to prevent overwhelming responses.\n\n    :param keyword: Optional search term to filte…",
+          "schema": [
+            {
+              "name": "default_limit",
+              "type": "",
+              "required": false
+            },
+            {
+              "name": "keyword",
+              "type": "",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "list_cubes_full",
+          "server": "smithery::pranaviate/statscan-mcp",
+          "source": "direct_mcp",
+          "description": "Search Statistics Canada datasets by keyword (full metadata).\n\n    Returns a list of cubes with complete metadata including dimensions,\n    frequencies, and survey information. Use list_cubes for a lightweight\n    version with minimal fields.\n\n    :param keyword: Optional search term to filter datas…",
+          "schema": [
+            {
+              "name": "default_limit",
+              "type": "",
+              "required": false
+            },
+            {
+              "name": "keyword",
+              "type": "",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "get_cube_metadata",
+          "server": "smithery::pranaviate/statscan-mcp",
+          "source": "direct_mcp",
+          "description": "Get detailed metadata for a Statistics Canada dataset.\n\n    Returns structure information including dimensions, members, and date ranges.\n\n    :param product_id: The StatsCan product/cube ID (e.g., 18100004)\n    :type product_id: int\n    :return: Dictionary with cube metadata or error details\n    :r…",
+          "schema": [
+            {
+              "name": "product_id",
+              "type": "integer",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "get_vector_data_by_range",
+          "server": "smithery::pranaviate/statscan-mcp",
+          "source": "direct_mcp",
+          "description": "Fetch time series data for a specific Statistics Canada vector.\n\n    Returns actual data values over time for the specified vector.\n\n    :param vector_id: The vector ID number (e.g., 41690973)\n    :type vector_id: int\n    :param start_date: Start date in YYYY-MM-DD format (e.g., 2020-01-01)\n    :typ…",
+          "schema": [
+            {
+              "name": "end_date",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "start_date",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "vector_id",
+              "type": "integer",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "get_table",
+          "server": "smithery::pranaviate/statscan-mcp",
+          "source": "direct_mcp",
+          "description": "Get rectangular data slice from a Statistics Canada dataset.\n\n    Fetches the latest N periods of data for specific dimension coordinates.\n\n    :param product_id: The StatsCan product/cube ID (e.g., 35100003)\n    :param coordinate: Dimension coordinate string (e.g., \"1.12.0.0.0.0.0.0.0.0\")\n    :para…",
+          "schema": [
+            {
+              "name": "coordinate",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "latest_n",
+              "type": "integer",
+              "required": true
+            },
+            {
+              "name": "product_id",
+              "type": "integer",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "get_vector_info",
+          "server": "smithery::pranaviate/statscan-mcp",
+          "source": "direct_mcp",
+          "description": "Get metadata for a specific Statistics Canada vector.\n\n    Returns information about the vector including its parent cube,\n    coordinates, frequency, title, and other metadata (not the actual data).\n\n    :param vector_id: The vector ID number (e.g., 41690973)\n    :type vector_id: int\n    :return: D…",
+          "schema": [
+            {
+              "name": "vector_id",
+              "type": "integer",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "get_series_info",
+          "server": "smithery::pranaviate/statscan-mcp",
+          "source": "direct_mcp",
+          "description": "Get metadata for a specific series within a Statistics Canada dataset.\n\n    Returns series information based on cube product ID and dimension coordinates.\n\n    :param product_id: The StatsCan product/cube ID (e.g., 35100003)\n    :param coordinate: Dimension coordinate string (e.g., \"1.12.0.0.0.0.0.0…",
+          "schema": [
+            {
+              "name": "coordinate",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "product_id",
+              "type": "integer",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "get_changed_cubes",
+          "server": "smithery::pranaviate/statscan-mcp",
+          "source": "direct_mcp",
+          "description": "Get list of Statistics Canada cubes/datasets changed on a specific date.\n\n    Returns cubes that were updated or released on the specified date.\n\n    :param date: Date to check for changes in YYYY-MM-DD format (e.g., \"2024-01-15\")\n    :return: Dictionary with list of changed cubes or error details",
+          "schema": [
+            {
+              "name": "date",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "get_changed_series",
+          "server": "smithery::pranaviate/statscan-mcp",
+          "source": "direct_mcp",
+          "description": "Get list of Statistics Canada series updated today.\n\n    Returns all series that have been updated on the current day.\n    This endpoint has no parameters - it always returns today's changes.\n\n    :return: Dictionary with list of changed series or error details",
+          "schema": []
+        }
+      ],
+      "unreachedSamples": [
+        {
+          "tool": "list_docs",
+          "server": "smithery::bouch/pinescript",
+          "source": "direct_mcp",
+          "description": "List all available Pine Script v6 documentation files with descriptions.\n\nReturns files organised by category with descriptions.\nFor small files use get_doc(path). For large files\n(ta.md, strategy.md, collections.md, drawing.md, general.md)\nuse list_sections(path) then get_section(path, header).",
+          "schema": []
+        },
+        {
+          "tool": "list_sections",
+          "server": "smithery::bouch/pinescript",
+          "source": "direct_mcp",
+          "description": "List all section headers in a doc file. Use before get_section() to find the right header.\n\nEspecially useful for large files like ta.md, strategy.md, collections.md, drawing.md, general.md\nwhich have 50-115 sections each.",
+          "schema": [
+            {
+              "name": "path",
               "type": "string",
               "required": true
             }
@@ -2389,187 +2050,379 @@
         },
         {
           "tool": "get_doc",
-          "server": "smithery::web3auth/integrate",
+          "server": "smithery::bouch/pinescript",
           "source": "direct_mcp",
-          "description": "Fetch the full content of a MetaMask Embedded Wallets documentation page by URL. Sources: Algolia, llms.txt, GitHub MDX.",
+          "description": "Read a specific Pine Script v6 documentation file.\n\nFor large files (ta.md, strategy.md, collections.md, drawing.md,\ngeneral.md) prefer list_sections() + get_section() to avoid\nloading 1000-2800 line files into context.",
           "schema": [
             {
-              "name": "url",
+              "name": "limit",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "offset",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "path",
               "type": "string",
               "required": true
             }
           ]
         },
         {
-          "tool": "get_example",
-          "server": "smithery::web3auth/integrate",
+          "tool": "get_section",
+          "server": "smithery::bouch/pinescript",
           "source": "direct_mcp",
-          "description": "Fetch complete source code of a Web3Auth integration example from GitHub.",
+          "description": "Get a specific section from a documentation file by its header.\n\nUse after list_sections() shows available headers, or after\nresolve_topic() / search_docs() identifies the relevant file.",
           "schema": [
             {
-              "name": "auth_method",
+              "name": "header",
               "type": "string",
+              "required": true
+            },
+            {
+              "name": "include_children",
+              "type": "boolean",
               "required": false
             },
             {
-              "name": "category",
+              "name": "path",
               "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "search_docs",
+          "server": "smithery::bouch/pinescript",
+          "source": "direct_mcp",
+          "description": "Search Pine Script v6 documentation and return matching sections.\n\nFinds sections containing the query and returns previews with\nget_section() call hints so you can read the full content.\n\nMulti-word queries use AND logic: all terms must appear in the\nsection (not necessarily on the same line).",
+          "schema": [
+            {
+              "name": "max_results",
+              "type": "integer",
               "required": false
             },
             {
-              "name": "chain",
+              "name": "query",
               "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "get_functions",
+          "server": "smithery::bouch/pinescript",
+          "source": "direct_mcp",
+          "description": "Get valid Pine Script v6 functions, optionally filtered by namespace.\n\nUse before writing Pine Script to see which functions exist.\nFor checking a single function name, use validate_function() instead.",
+          "schema": [
+            {
+              "name": "namespace",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "validate_function",
+          "server": "smithery::bouch/pinescript",
+          "source": "direct_mcp",
+          "description": "Check if a Pine Script v6 function name is valid.",
+          "schema": [
+            {
+              "name": "fn_name",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "resolve_topic",
+          "server": "smithery::bouch/pinescript",
+          "source": "direct_mcp",
+          "description": "Fast lookup for exact Pine Script API terms and known concepts.\n\nUse for exact function names and Pine Script vocabulary\n(e.g., \"ta.rsi\", \"strategy.entry\", \"repainting\", \"request.security\").\n\nFor natural language questions, read the docs://manifest resource\nfor routing guidance, then use get_doc() o…",
+          "schema": [
+            {
+              "name": "query",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "list_prompts",
+          "server": "smithery::bouch/pinescript",
+          "source": "direct_mcp",
+          "description": "List all available prompts.\n\nReturns JSON with prompt metadata including name, description,\nand optional arguments.",
+          "schema": []
+        },
+        {
+          "tool": "get_prompt",
+          "server": "smithery::bouch/pinescript",
+          "source": "direct_mcp",
+          "description": "Get a prompt by name with optional arguments.\n\nReturns the rendered prompt as JSON with a messages array.\nArguments should be provided as a dict mapping argument names\nto values.",
+          "schema": [
+            {
+              "name": "arguments",
+              "type": "",
               "required": false
             },
             {
               "name": "name",
               "type": "string",
-              "required": false
-            },
-            {
-              "name": "platform",
-              "type": "string",
-              "required": false
+              "required": true
             }
           ]
         },
         {
-          "tool": "get_sdk_reference",
-          "server": "smithery::web3auth/integrate",
+          "tool": "challenge",
+          "server": "smithery::zekebuilds/captcha-mcp",
           "source": "direct_mcp",
-          "description": "Fetch SDK source code (types, interfaces, hooks) from open-source Web3Auth repos.",
+          "description": "Request a fresh PoW challenge from the PowForge captcha service. Returns {id, salt, difficulty, signature, instructions}. The agent must find a nonce such that SHA-256(salt + nonce) has at least `difficulty` leading zero bits, then call the verify tool. Free tier — no payment required.",
+          "schema": []
+        },
+        {
+          "tool": "verify",
+          "server": "smithery::zekebuilds/captcha-mcp",
+          "source": "direct_mcp",
+          "description": "Verify a PoW solution. Input: {salt, nonce, id, signature, algo?, difficulty?} from a prior challenge call plus the nonce the agent computed. Returns a 5-minute HMAC-signed token on success, or {valid: false, reason} on failure. Tokens can be re-verified server-side via POST /api/token/verify.",
           "schema": [
             {
-              "name": "focus",
+              "name": "algo",
               "type": "string",
               "required": false
             },
             {
-              "name": "module",
-              "type": "string",
+              "name": "difficulty",
+              "type": "number",
               "required": false
             },
             {
-              "name": "platform",
+              "name": "id",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "nonce",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "salt",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "signature",
               "type": "string",
               "required": true
             }
           ]
         },
         {
-          "tool": "search_community",
-          "server": "smithery::web3auth/integrate",
+          "tool": "status",
+          "server": "smithery::zekebuilds/captcha-mcp",
           "source": "direct_mcp",
-          "description": "Search or fetch posts from the MetaMask Embedded Wallets community forum (builder.metamask.io).",
+          "description": "Return PowForge captcha server health, lifetime stats (pow_solves, ln_skips, challenges_issued), and L402 endpoint metadata (scope, price_sats, paid endpoint URL). Use this to discover the Lightning skip price before paying, or as a liveness check.",
+          "schema": []
+        },
+        {
+          "tool": "birth_chart",
+          "server": "smithery::bouch/celestine",
+          "source": "direct_mcp",
+          "description": "Use when you need the full natal chart for interpretation, comparison, or downstream transit/progression work.\n\nReturns planets, houses, aspects, patterns, dignities, and Big Three.\n`detail=\"compact\"` drops the per-aspect details (keeps `aspects.summary`\ncounts) and per-pattern planet lists — saves …",
           "schema": [
             {
-              "name": "query",
+              "name": "data",
+              "type": "object",
+              "required": true
+            },
+            {
+              "name": "detail",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "current_transits",
+          "server": "smithery::bouch/celestine",
+          "source": "direct_mcp",
+          "description": "Use when you want to know what the sky is doing to a natal chart right now (or at a specific date).\n\nDefault `mode=\"summary\"` returns counts and the six strongest transits —\nenough to answer \"what's active?\" in ~800 tokens. Call `mode=\"full\"` only\nwhen you need every active transit (≈15+ transits, ~…",
+          "schema": [
+            {
+              "name": "data",
+              "type": "object",
+              "required": true
+            },
+            {
+              "name": "mode",
               "type": "string",
               "required": false
             },
             {
-              "name": "topic_id",
+              "name": "transit_day",
+              "type": "",
+              "required": false
+            },
+            {
+              "name": "transit_month",
+              "type": "",
+              "required": false
+            },
+            {
+              "name": "transit_year",
+              "type": "",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "transit_search",
+          "server": "smithery::bouch/celestine",
+          "source": "direct_mcp",
+          "description": "Use when you need to know which transits shape a period for a natal chart.\n\nReturns aggregate counts by body and aspect type. Call with `mode=\"top\"` to\nalso get the N strongest transits with enter/exact/leave-orb dates. Use\n`mode=\"full\"` only when you genuinely need every transit (multi-MB payloads\n…",
+          "schema": [
+            {
+              "name": "data",
+              "type": "object",
+              "required": true
+            },
+            {
+              "name": "end_day",
+              "type": "integer",
+              "required": true
+            },
+            {
+              "name": "end_month",
+              "type": "integer",
+              "required": true
+            },
+            {
+              "name": "end_year",
+              "type": "integer",
+              "required": true
+            },
+            {
+              "name": "max_results",
               "type": "integer",
               "required": false
-            }
-          ]
-        },
-        {
-          "tool": "markets-search",
-          "server": "smithery::usdv-capital/real-estate-cfo",
-          "source": "direct_mcp",
-          "description": "Search USDV Capital's real estate market intelligence database covering all 50 US states plus DC and Puerto Rico. Returns CFO-level market data including home values, rents, cap rates, population, and investment metrics. USDV Capital — Your Real Estate CFO.",
-          "schema": [
+            },
             {
-              "name": "limit",
-              "type": "number",
+              "name": "mode",
+              "type": "string",
               "required": false
             },
             {
-              "name": "query",
-              "type": "string",
+              "name": "start_day",
+              "type": "integer",
               "required": true
             },
             {
-              "name": "state",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "type",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "markets-stats",
-          "server": "smithery::usdv-capital/real-estate-cfo",
-          "source": "direct_mcp",
-          "description": "Get detailed real estate market statistics for a specific location including demographics, housing data, Zillow market trends, investment metrics, and lending availability. Data from Census ACS 2023 and Zillow Feb 2026. USDV Capital — Your Real Estate CFO.",
-          "schema": [
-            {
-              "name": "location",
-              "type": "string",
+              "name": "start_month",
+              "type": "integer",
               "required": true
             },
             {
-              "name": "state",
-              "type": "string",
+              "name": "start_year",
+              "type": "integer",
               "required": true
             }
           ]
         },
         {
-          "tool": "markets-compare",
-          "server": "smithery::usdv-capital/real-estate-cfo",
+          "tool": "planetary_positions",
+          "server": "smithery::bouch/celestine",
           "source": "direct_mcp",
-          "description": "Compare real estate investment metrics across 2-5 US markets side-by-side with CFO-level analysis. Ideal for investors deciding where to deploy capital. USDV Capital — Your Real Estate CFO.",
+          "description": "Planetary positions for any date (defaults to now UTC).\n\nReturns positions for Sun through Pluto plus Chiron and four major asteroids,\nwith longitude, sign, speed, and retrograde status.",
           "schema": [
             {
-              "name": "locations",
-              "type": "array",
+              "name": "day",
+              "type": "",
+              "required": false
+            },
+            {
+              "name": "hour",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "minute",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "month",
+              "type": "",
+              "required": false
+            },
+            {
+              "name": "year",
+              "type": "",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "progression_report",
+          "server": "smithery::bouch/celestine",
+          "source": "direct_mcp",
+          "description": "Secondary progressions + solar arc + progressed Moon report.\n\nShows how the natal chart evolves from birth to the target date.",
+          "schema": [
+            {
+              "name": "data",
+              "type": "object",
+              "required": true
+            },
+            {
+              "name": "target_day",
+              "type": "integer",
+              "required": true
+            },
+            {
+              "name": "target_month",
+              "type": "integer",
+              "required": true
+            },
+            {
+              "name": "target_year",
+              "type": "integer",
               "required": true
             }
           ]
         },
         {
-          "tool": "markets-nearby",
-          "server": "smithery::usdv-capital/real-estate-cfo",
+          "tool": "get_sign",
+          "server": "smithery::bouch/celestine",
           "source": "direct_mcp",
-          "description": "Find nearby real estate markets within a radius using PostGIS proximity search. Returns markets sorted by distance with investment metrics. USDV Capital — Your Real Estate CFO.",
+          "description": "Return qualities, themes, shadow, crystals, and element for a zodiac sign.",
           "schema": [
             {
-              "name": "latitude",
-              "type": "number",
-              "required": true
-            },
-            {
-              "name": "limit",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "longitude",
-              "type": "number",
-              "required": true
-            },
-            {
-              "name": "radius_miles",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "type",
+              "name": "sign",
               "type": "string",
-              "required": false
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "get_house",
+          "server": "smithery::bouch/celestine",
+          "source": "direct_mcp",
+          "description": "Return brief and full descriptions for an astrological house (1–12).",
+          "schema": [
+            {
+              "name": "number",
+              "type": "integer",
+              "required": true
             }
           ]
         }
       ]
     },
-    "stealth": 1316,
-    "crossRegistry": 2618,
-    "crossSource": 6327
+    "stealth": 1261,
+    "crossRegistry": 2639,
+    "crossSource": 5724
   }
 }
