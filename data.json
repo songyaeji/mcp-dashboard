@@ -1,62 +1,62 @@
 {
-  "generatedAt": "2026-06-16T16:11:09+00:00",
-  "lastCrawl": "2026-06-17",
+  "generatedAt": "2026-06-17T15:59:20+00:00",
+  "lastCrawl": "2026-06-18",
   "crawl": {
-    "servers": 12122,
-    "tools": 149099,
-    "snapshots": 2656666,
-    "stealthTools": 14363,
-    "crossRegistryAnomalies": 38490,
-    "crossSourceAnomalies": 79267
+    "servers": 12216,
+    "tools": 150242,
+    "snapshots": 2853773,
+    "stealthTools": 15941,
+    "crossRegistryAnomalies": 41169,
+    "crossSourceAnomalies": 86237
   },
   "registries": [
     {
       "name": "Official",
-      "servers": 5559,
+      "servers": 5611,
       "color": "#6366f1"
     },
     {
       "name": "Glama",
-      "servers": 4867,
+      "servers": 4899,
       "color": "#8b5cf6"
     },
     {
       "name": "Smithery",
-      "servers": 1696,
+      "servers": 1706,
       "color": "#06b6d4"
     }
   ],
   "health": [
     {
       "name": "Healthy",
-      "value": 2677,
+      "value": 2679,
       "color": "#22c55e"
     },
     {
       "name": "Unhealthy",
-      "value": 2189,
+      "value": 2216,
       "color": "#ef4444"
     },
     {
       "name": "Unknown",
-      "value": 7256,
+      "value": 7321,
       "color": "#6b7280"
     }
   ],
   "tdqs": [
     {
       "grade": "A",
-      "count": 2456,
+      "count": 2474,
       "color": "#22c55e"
     },
     {
       "grade": "B",
-      "count": 432,
+      "count": 433,
       "color": "#84cc16"
     },
     {
       "grade": "C",
-      "count": 137,
+      "count": 138,
       "color": "#f59e0b"
     },
     {
@@ -66,24 +66,24 @@
     },
     {
       "grade": "미평가",
-      "count": 9092,
+      "count": 9166,
       "color": "#374151"
     }
   ],
   "protocol": [
     {
       "name": "2024-11-05",
-      "value": 4537,
+      "value": 4582,
       "color": "#6366f1"
     },
     {
       "name": "2025-03-26",
-      "value": 1983,
+      "value": 1988,
       "color": "#06b6d4"
     },
     {
       "name": "2025-06-18",
-      "value": 336,
+      "value": 344,
       "color": "#8b5cf6"
     },
     {
@@ -93,81 +93,81 @@
     },
     {
       "name": "2025-11-25",
-      "value": 88,
+      "value": 86,
       "color": "#f59e0b"
     },
     {
       "name": "미보고",
-      "value": 5172,
+      "value": 5210,
       "color": "#374151"
     }
   ],
   "toolDist": [
     {
       "name": "0",
-      "servers": 4485,
+      "servers": 4521,
       "color": "#6b7280"
     },
     {
       "name": "1-5",
-      "servers": 2413,
+      "servers": 2431,
       "color": "#06b6d4"
     },
     {
       "name": "6-10",
-      "servers": 1491,
+      "servers": 1507,
       "color": "#6366f1"
     },
     {
       "name": "11-20",
-      "servers": 1021,
+      "servers": 1027,
       "color": "#8b5cf6"
     },
     {
       "name": "20+",
-      "servers": 2712,
+      "servers": 2730,
       "color": "#22c55e"
     }
   ],
   "topByUse": [
     {
       "name": "EthanHenrickson/math-mcp",
-      "value": 223113,
+      "value": 116399,
       "registry": "smithery"
     },
     {
       "name": "smithery-ai/national-weather-service",
-      "value": 70993,
+      "value": 70924,
       "registry": "smithery"
     },
     {
       "name": "henry-ships/sparkforge",
-      "value": 66353,
+      "value": 67783,
       "registry": "smithery"
     },
     {
       "name": "hamid-vakilzadeh/mcpsemanticscholar",
-      "value": 52542,
+      "value": 53311,
       "registry": "smithery"
     },
     {
       "name": "googlesheets",
-      "value": 46847,
+      "value": 47340,
       "registry": "smithery"
     },
     {
       "name": "exa",
-      "value": 42654,
+      "value": 42513,
       "registry": "smithery"
     },
     {
       "name": "gmail",
-      "value": 39427,
+      "value": 39614,
       "registry": "smithery"
     },
     {
       "name": "clay-inc/clay-mcp",
-      "value": 24196,
+      "value": 24343,
       "registry": "smithery"
     },
     {
@@ -177,7 +177,7 @@
     },
     {
       "name": "creativelead/unclick",
-      "value": 18589,
+      "value": 19012,
       "registry": "smithery"
     }
   ],
@@ -236,7 +236,7 @@
   "stealthByServer": [
     {
       "name": "smithery::blackboxfoundry/livedatalink",
-      "value": 1690,
+      "value": 1860,
       "registry": "smithery"
     },
     {
@@ -245,23 +245,23 @@
       "registry": "smithery"
     },
     {
-      "name": "glama::io.github.ABTdomain/domainkits-mcp",
-      "value": 646,
-      "registry": "glama"
-    },
-    {
       "name": "smithery::vicente-litvak/siimaster",
-      "value": 588,
+      "value": 689,
       "registry": "smithery"
     },
     {
+      "name": "glama::io.github.ABTdomain/domainkits-mcp",
+      "value": 684,
+      "registry": "glama"
+    },
+    {
       "name": "smithery::netfluid/NFLD",
-      "value": 536,
+      "value": 670,
       "registry": "smithery"
     },
     {
       "name": "smithery::Plagtech/Spraay-x402-mcp",
-      "value": 332,
+      "value": 375,
       "registry": "smithery"
     },
     {
@@ -270,29 +270,29 @@
       "registry": "smithery"
     },
     {
-      "name": "smithery::rafaelkocurek-nvob/agentview",
-      "value": 260,
-      "registry": "smithery"
-    },
-    {
       "name": "glama::de.carbon-cashmere.api/crypto-intelligence",
-      "value": 245,
+      "value": 294,
       "registry": "glama"
     },
     {
+      "name": "smithery::rafaelkocurek-nvob/agentview",
+      "value": 286,
+      "registry": "smithery"
+    },
+    {
       "name": "glama::network.tenzro/tenzro",
-      "value": 232,
+      "value": 262,
       "registry": "glama"
     }
   ],
   "stealthByRegistry": [
     {
       "name": "smithery",
-      "value": 1580
+      "value": 1390
     },
     {
       "name": "glama",
-      "value": 212
+      "value": 188
     }
   ],
   "crossRegistrySamples": [
@@ -667,6 +667,20 @@
       "crossRegistry": 2552,
       "crossSource": 7083,
       "tdqsAvg": 0
+    },
+    {
+      "date": "2026-06-18",
+      "serversCumulative": 12216,
+      "newServers": 94,
+      "snapshots": 197107,
+      "snapshotsCumulative": 2853773,
+      "tools": 141919,
+      "toolsCumulative": 150242,
+      "changes": 13087,
+      "stealth": 1578,
+      "crossRegistry": 2679,
+      "crossSource": 6970,
+      "tdqsAvg": 0
     }
   ],
   "registryTrend": [
@@ -924,13 +938,28 @@
       "smithery_new": 17,
       "smithery_tools": 31187,
       "smithery_changes": 2613
+    },
+    {
+      "date": "2026-06-18",
+      "official_servers": 5611,
+      "official_new": 52,
+      "official_tools": 55564,
+      "official_changes": 2862,
+      "glama_servers": 4899,
+      "glama_new": 32,
+      "glama_tools": 55460,
+      "glama_changes": 6978,
+      "smithery_servers": 1706,
+      "smithery_new": 10,
+      "smithery_tools": 30895,
+      "smithery_changes": 3247
     }
   ],
   "cumulativeCollectors": [
     {
       "name": "official",
-      "servers": 5559,
-      "tools": 57358,
+      "servers": 5611,
+      "tools": 57933,
       "changeBreakdown": {
         "description_modified": 0,
         "schema_modified": 0,
@@ -941,37 +970,37 @@
     },
     {
       "name": "glama",
-      "servers": 4867,
-      "tools": 57464,
+      "servers": 4899,
+      "tools": 57808,
       "changeBreakdown": {
-        "description_modified": 20678,
-        "schema_modified": 3048,
-        "both_modified": 1819,
-        "removed": 12653
+        "description_modified": 23060,
+        "schema_modified": 3118,
+        "both_modified": 1871,
+        "removed": 14381
       },
       "color": "#8b5cf6"
     },
     {
       "name": "smithery",
-      "servers": 1696,
-      "tools": 34277,
+      "servers": 1706,
+      "tools": 34501,
       "changeBreakdown": {
-        "description_modified": 266,
-        "schema_modified": 116,
-        "both_modified": 118,
-        "removed": 299
+        "description_modified": 270,
+        "schema_modified": 122,
+        "both_modified": 120,
+        "removed": 301
       },
       "color": "#06b6d4"
     },
     {
       "name": "direct_mcp",
-      "servers": 6787,
-      "tools": 128896,
+      "servers": 6843,
+      "tools": 129908,
       "changeBreakdown": {
-        "description_modified": 45730,
-        "schema_modified": 6656,
-        "both_modified": 4483,
-        "removed": 26609
+        "description_modified": 50688,
+        "schema_modified": 6753,
+        "both_modified": 4657,
+        "removed": 30221
       },
       "color": "#10b981"
     }
@@ -1088,15 +1117,22 @@
       "schema_modified": 230,
       "both_modified": 136,
       "removed": 4258
+    },
+    {
+      "date": "2026-06-18",
+      "description_modified": 7344,
+      "schema_modified": 173,
+      "both_modified": 228,
+      "removed": 5342
     }
   ],
   "latestCrawl": {
-    "date": "2026-06-17",
+    "date": "2026-06-18",
     "collectors": [
       {
         "name": "official",
         "status": "completed",
-        "servers": 5541,
+        "servers": 5592,
         "tools": 0,
         "changes": 0,
         "snapshots": 0,
@@ -1111,109 +1147,461 @@
       {
         "name": "smithery",
         "status": "completed",
-        "servers": 1517,
-        "tools": 27984,
-        "changes": 17,
-        "snapshots": 27984,
+        "servers": 1518,
+        "tools": 27826,
+        "changes": 14,
+        "snapshots": 27826,
         "changeBreakdown": {
-          "description_modified": 11,
-          "schema_modified": 3,
-          "both_modified": 3,
-          "removed": 0
+          "description_modified": 4,
+          "schema_modified": 6,
+          "both_modified": 2,
+          "removed": 2
         },
         "color": "#06b6d4"
       },
       {
         "name": "glama",
         "status": "completed",
-        "servers": 4629,
-        "tools": 51742,
-        "changes": 3735,
-        "snapshots": 51742,
+        "servers": 4627,
+        "tools": 51533,
+        "changes": 4232,
+        "snapshots": 51533,
         "changeBreakdown": {
-          "description_modified": 2362,
-          "schema_modified": 27,
-          "both_modified": 16,
-          "removed": 1330
+          "description_modified": 2382,
+          "schema_modified": 70,
+          "both_modified": 52,
+          "removed": 1728
         },
         "color": "#8b5cf6"
       },
       {
         "name": "direct_mcp",
         "status": "completed",
-        "servers": 6086,
-        "tools": 111935,
-        "changes": 8119,
-        "snapshots": 111935,
+        "servers": 6390,
+        "tools": 117768,
+        "changes": 8841,
+        "snapshots": 117768,
         "changeBreakdown": {
-          "description_modified": 4874,
-          "schema_modified": 200,
-          "both_modified": 117,
-          "removed": 2928
+          "description_modified": 4958,
+          "schema_modified": 97,
+          "both_modified": 174,
+          "removed": 3612
         },
         "color": "#6366f1"
       }
     ],
-    "newServers": 100,
+    "newServers": 94,
     "changeBreakdown": [
       {
         "type": "description_modified",
-        "count": 7247,
+        "count": 7344,
         "color": "#06b6d4"
       },
       {
         "type": "schema_modified",
-        "count": 230,
+        "count": 173,
         "color": "#f59e0b"
       },
       {
         "type": "both_modified",
-        "count": 136,
+        "count": 228,
         "color": "#a78bfa"
       },
       {
         "type": "removed",
-        "count": 4258,
+        "count": 5342,
         "color": "#ef4444"
       }
     ],
     "toolDelta": {
-      "newTools": 2361,
-      "droppedTools": 3182,
-      "removedTools": 4258,
-      "unreachedTools": 6256,
-      "net": -8153,
-      "prevDate": "2026-06-16",
+      "newTools": 4642,
+      "droppedTools": 2118,
+      "removedTools": 5342,
+      "unreachedTools": 1958,
+      "net": -2658,
+      "prevDate": "2026-06-17",
       "newSamples": [
         {
-          "tool": "list_docs",
-          "server": "smithery::bouch/pinescript",
-          "source": "direct_mcp",
-          "description": "USE WHEN discovering what Pine Script v6 documentation is available.\nReturns a categorised list of doc file paths with one-line descriptions.\nAFTER calling this tool, call get_doc(path) for small files or list_sections(path) then get_section(path, header) for large files (ta.md, strategy.md, collect…",
+          "tool": "find_similar",
+          "server": "smithery::seb-8pd6/vistoya",
+          "source": "smithery",
+          "description": "Given a product ID, find similar products across the entire catalog. Useful for \"more like this\" recommendations or finding alternatives. Returns up to 10 results per page, paginated (max 3 pages).",
+          "schema": [
+            {
+              "name": "limit",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "page",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "product_id",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "list_stores",
+          "server": "smithery::seb-8pd6/vistoya",
+          "source": "smithery",
+          "description": "List all connected ecommerce stores in the catalog with their product counts and providers.",
           "schema": []
         },
         {
-          "tool": "list_sections",
-          "server": "smithery::bouch/pinescript",
+          "tool": "get_business_info",
+          "server": "smithery::qasper/business-agents",
           "source": "direct_mcp",
-          "description": "USE WHEN navigating a large documentation file before reading a specific section.\nReturns a newline-separated list of # and ## headers (### excluded) in the file.\nAFTER calling this tool, call get_section(path, header) with a header from this list.\nData sourced from bundled Pine Script v6 documentat…",
+          "description": "Get business information including name, type, service area, contact details, working hours, supported languages, enabled features, and a profile image (logo or personal photo) when the owner has uploaded one. Use 'attributeDetails' (natural-language sentences about the business's offerings, approac…",
           "schema": [
             {
-              "name": "path",
+              "name": "slug",
               "type": "string",
               "required": true
             }
           ]
         },
         {
-          "tool": "get_doc",
-          "server": "smithery::bouch/pinescript",
+          "tool": "send_inquiry",
+          "server": "smithery::qasper/business-agents",
           "source": "direct_mcp",
-          "description": "USE WHEN reading the full content of a Pine Script v6 documentation file.\nReturns the file content; when limit is set, a header shows the char range and offset to continue reading.\nAFTER calling this tool, use offset=<end> to continue if the header indicates more content is available. For large file…",
+          "description": "Send a general inquiry to a local service business. Use this when the customer has a question, needs a custom quote, or wants to describe an issue that doesn't fit a specific bookable service. The business owner will be notified immediately via every enabled inquiry channel and will contact the cust…",
           "schema": [
+            {
+              "name": "clientRequestId",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "customerEmail",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "customerName",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "customerPhone",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "message",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "slug",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "get_services",
+          "server": "smithery::qasper/business-agents",
+          "source": "direct_mcp",
+          "description": "Get the service catalog for a local service business, including service names, descriptions, estimated durations, price ranges, max participants, booking start policy, and whether the customer's address is required to book. Always available for any business.",
+          "schema": [
+            {
+              "name": "slug",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "get_pricing",
+          "server": "smithery::qasper/business-agents",
+          "source": "direct_mcp",
+          "description": "Get a price quote for a specific service from a local business. Takes into account emergency requests, weekend rates, and other pricing rules. Always available for any business.",
+          "schema": [
+            {
+              "name": "isEmergency",
+              "type": "boolean",
+              "required": false
+            },
+            {
+              "name": "requestedDate",
+              "type": [
+                "string",
+                "null"
+              ],
+              "required": false
+            },
+            {
+              "name": "serviceName",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "slug",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "check_availability",
+          "server": "smithery::qasper/business-agents",
+          "source": "direct_mcp",
+          "description": "Check available appointment slots for a specific service at a local business on a given date. Returns time windows when the business is free and the service bookingStartPolicy permits the start. For services with maxParticipants > 1, provider-returned starts remain available until capacity is full. …",
+          "schema": [
+            {
+              "name": "date",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "serviceName",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "slug",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "search_businesses",
+          "server": "smithery::qasper/business-agents",
+          "source": "direct_mcp",
+          "description": "Search for available local service businesses by structured fields. The CALLER (you, the agent) is responsible for extracting subCategory, locationText, and countryCode from the user's request — pick the most specific subCategory enum, pass the user's place wording in locationText, and infer country…",
+          "schema": [
+            {
+              "name": "attributeFilters",
+              "type": [
+                "string",
+                "null"
+              ],
+              "required": false
+            },
+            {
+              "name": "countryCode",
+              "type": [
+                "string",
+                "null"
+              ],
+              "required": false
+            },
+            {
+              "name": "latitude",
+              "type": [
+                "number",
+                "null"
+              ],
+              "required": false
+            },
+            {
+              "name": "locationText",
+              "type": [
+                "string",
+                "null"
+              ],
+              "required": false
+            },
+            {
+              "name": "longitude",
+              "type": [
+                "number",
+                "null"
+              ],
+              "required": false
+            },
+            {
+              "name": "radiusKm",
+              "type": "number",
+              "required": false
+            },
+            {
+              "name": "resultLimit",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "serviceMode",
+              "type": [
+                "string",
+                "null"
+              ],
+              "required": false
+            },
+            {
+              "name": "subCategory",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "book_appointment",
+          "server": "smithery::qasper/business-agents",
+          "source": "direct_mcp",
+          "description": "Book an appointment with a local service business. Creates a booking record and adds the appointment to the business calendar. Returns a reference number and a status field indicating the actual resulting state — 'pending' (the business reviews each booking), 'confirmed' (auto-approved by the busine…",
+          "schema": [
+            {
+              "name": "clientRequestId",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "customerAddress",
+              "type": [
+                "string",
+                "null"
+              ],
+              "required": false
+            },
+            {
+              "name": "customerEmail",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "customerName",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "customerPhone",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "dateTime",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "jobDescription",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "serviceName",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "slug",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "get-product-info",
+          "server": "smithery::theconstructionstandard/the-construction-standard",
+          "source": "direct_mcp",
+          "description": "Get an overview of CSI Dynamic Standards — what it does, the company behind it, and what standards it includes (MasterFormat, UniFormat, OmniClass)",
+          "schema": []
+        },
+        {
+          "tool": "get-standards",
+          "server": "smithery::theconstructionstandard/the-construction-standard",
+          "source": "direct_mcp",
+          "description": "Get detailed information about MasterFormat, UniFormat, and OmniClass construction classification standards — what they are, how they differ, and their benefits",
+          "schema": []
+        },
+        {
+          "tool": "get-features",
+          "server": "smithery::theconstructionstandard/the-construction-standard",
+          "source": "direct_mcp",
+          "description": "Get the full list of CSI Dynamic Standards platform features — trusted source, quality checks, cross-phase coordination, enterprise integrations, and always-current updates",
+          "schema": []
+        },
+        {
+          "tool": "get-personas",
+          "server": "smithery::theconstructionstandard/the-construction-standard",
+          "source": "direct_mcp",
+          "description": "Get information about who CSI Dynamic Standards serves — specifiers, architects, building engineers, contractors, and owners/facility managers — with role-specific benefits",
+          "schema": []
+        },
+        {
+          "tool": "get-pricing",
+          "server": "smithery::theconstructionstandard/the-construction-standard",
+          "source": "direct_mcp",
+          "description": "Get CSI Dynamic Standards pricing model — firm-based subscription by company type and revenue, licensing details, and what counts as commercial use",
+          "schema": []
+        },
+        {
+          "tool": "get-problems-solved",
+          "server": "smithery::theconstructionstandard/the-construction-standard",
+          "source": "direct_mcp",
+          "description": "Get the problems CSI Dynamic Standards solves — inconsistent standards, RFIs from outdated info, static PDFs, lost context between phases, and poor handover packages",
+          "schema": []
+        },
+        {
+          "tool": "get-use-cases",
+          "server": "smithery::theconstructionstandard/the-construction-standard",
+          "source": "direct_mcp",
+          "description": "Get specific use cases for CSI Dynamic Standards — specifications, cost estimation, BIM classification, quality checks, handover, audits, and capital planning",
+          "schema": []
+        },
+        {
+          "tool": "get-faqs",
+          "server": "smithery::theconstructionstandard/the-construction-standard",
+          "source": "direct_mcp",
+          "description": "Get frequently asked questions about CSI Dynamic Standards — licensing, pricing, MasterFormat vs UniFormat vs OmniClass, commercial use, and open source status",
+          "schema": []
+        },
+        {
+          "tool": "search-product-info",
+          "server": "smithery::theconstructionstandard/the-construction-standard",
+          "source": "direct_mcp",
+          "description": "Search across all CSI Dynamic Standards product information by keyword — searches standards, features, FAQs, personas, problems solved, use cases, and pricing",
+          "schema": [
+            {
+              "name": "query",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "email_audit_deliverability",
+          "server": "smithery::axel-belfort/email-deliverability",
+          "source": "direct_mcp",
+          "description": "Use this when you need to audit email deliverability for a domain. Checks SPF record validity, DKIM selectors (google, default, selector1), DMARC policy, and MX records. Returns a deliverability score 0-100 with specific recommendations to improve inbox placement. Do NOT use for email validation — u…",
+          "schema": [
+            {
+              "name": "domain",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "search_classifieds",
+          "server": "smithery::info-tak1/joomil",
+          "source": "direct_mcp",
+          "description": "Search classified ads on Joomil.ch — Switzerland's leading French-speaking classifieds marketplace (since 2007). Returns a paginated list of public listings with title, description (truncated to 300 chars), price, location, category and vendor info. All parameters are optional — call with no argumen…",
+          "schema": [
+            {
+              "name": "canton",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "cat_id",
+              "type": "integer",
+              "required": false
+            },
             {
               "name": "limit",
               "type": "integer",
+              "required": false
+            },
+            {
+              "name": "location",
+              "type": "string",
               "required": false
             },
             {
@@ -1222,398 +1610,23 @@
               "required": false
             },
             {
-              "name": "path",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "get_section",
-          "server": "smithery::bouch/pinescript",
-          "source": "direct_mcp",
-          "description": "USE WHEN reading a specific named section from a Pine Script v6 documentation file.\nReturns the section content from the matched header to the next same-level header, with file path and line range.\nAFTER calling this tool, call list_sections(path) if the header was not found, or get_section() again …",
-          "schema": [
-            {
-              "name": "header",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "include_children",
-              "type": "boolean",
-              "required": false
-            },
-            {
-              "name": "path",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "search_docs",
-          "server": "smithery::bouch/pinescript",
-          "source": "direct_mcp",
-          "description": "USE WHEN finding documentation sections that match specific terms across all Pine Script v6 docs.\nReturns up to max_results sections ranked by match count, each with a preview and a get_section() call hint.\nAFTER calling this tool, call get_section(file, header) for each result you want to read in f…",
-          "schema": [
-            {
-              "name": "max_results",
-              "type": "integer",
-              "required": false
-            },
-            {
-              "name": "query",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "get_functions",
-          "server": "smithery::bouch/pinescript",
-          "source": "direct_mcp",
-          "description": "USE WHEN browsing valid Pine Script v6 functions, optionally filtered to a namespace.\nReturns function names grouped by namespace (e.g. ta.*, strategy.*) or filtered to the requested namespace.\nAFTER calling this tool, call validate_function(fn_name) to check a specific name, or get_section() to rea…",
-          "schema": [
-            {
-              "name": "namespace",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "validate_function",
-          "server": "smithery::bouch/pinescript",
-          "source": "direct_mcp",
-          "description": "USE WHEN confirming a Pine Script v6 function name is valid before using it in code.\nReturns a valid/invalid verdict with namespace suggestions or known replacement hints (e.g. ta.adx → ta.dmi, security → request.security).\nAFTER calling this tool, call get_functions(namespace) to list all valid fun…",
-          "schema": [
-            {
-              "name": "fn_name",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "resolve_topic",
-          "server": "smithery::bouch/pinescript",
-          "source": "direct_mcp",
-          "description": "USE WHEN looking up an exact Pine Script API term or known concept keyword.\nReturns the best-matching doc paths with matched keywords and a retrieval suggestion (get_doc or list_sections + get_section).\nAFTER calling this tool, follow the suggestion: call get_doc() for small files or list_sections()…",
-          "schema": [
-            {
-              "name": "query",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "list_prompts",
-          "server": "smithery::bouch/pinescript",
-          "source": "direct_mcp",
-          "description": "List all available prompts.\n\nReturns JSON with prompt metadata including name, description,\nand optional arguments.",
-          "schema": []
-        },
-        {
-          "tool": "get_prompt",
-          "server": "smithery::bouch/pinescript",
-          "source": "direct_mcp",
-          "description": "Get a prompt by name with optional arguments.\n\nReturns the rendered prompt as JSON with a messages array.\nArguments should be provided as a dict mapping argument names\nto values.",
-          "schema": [
-            {
-              "name": "arguments",
-              "type": "",
-              "required": false
-            },
-            {
-              "name": "name",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "lookup_sic_code",
-          "server": "smithery::jackmmaher/sic-codes",
-          "source": "direct_mcp",
-          "description": "Look up a classification code in the UK SIC 2007, UK SIC 2026 (the new replacement system), GICS (MSCI), or ICB (FTSE Russell) system. Returns the code name, hierarchy level, breadcrumb trail from root to code, child codes, and cross-classification mappings. For SIC 2026, also returns SIC 2007 prede…",
-          "schema": [
-            {
-              "name": "code",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "system",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "search_sic_codes",
-          "server": "smithery::jackmmaher/sic-codes",
-          "source": "direct_mcp",
-          "description": "Search for UK SIC 2007 codes by business activity description. Describe what a business does in plain English and get ranked SIC code recommendations with relevance scores, hierarchy breadcrumbs, and GICS/ICB cross-classification mappings. Useful for finding the right SIC code for Companies House re…",
-          "schema": [
-            {
-              "name": "limit",
+              "name": "price_max",
               "type": "number",
               "required": false
             },
             {
-              "name": "query",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "convert_between_classifications",
-          "server": "smithery::jackmmaher/sic-codes",
-          "source": "direct_mcp",
-          "description": "Convert a classification code between UK SIC 2007, UK SIC 2026, GICS (MSCI), and ICB (FTSE Russell) systems. Returns equivalent codes in the target system with confidence levels and relationship types. Supports converting SIC 2007 codes to SIC 2026 equivalents (and vice versa) with relationship info…",
-          "schema": [
-            {
-              "name": "code",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "from",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "to",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "browse_classification_hierarchy",
-          "server": "smithery::jackmmaher/sic-codes",
-          "source": "direct_mcp",
-          "description": "Browse the hierarchy tree of a classification system (UK SIC 2007, UK SIC 2026, GICS, or ICB). Returns child entries at the next level. Omit parent_code to get top-level entries. Use this to explore what codes exist in each system. SIC 2026 has 22 sections, 87 divisions, 287 groups, 668 classes, and…",
-          "schema": [
-            {
-              "name": "parent_code",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "system",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "lookup_uk_company",
-          "server": "smithery::jackmmaher/sic-codes",
-          "source": "direct_mcp",
-          "description": "Look up a UK company registered at Companies House by name or registration number. Returns company details including name, status, type, incorporation date, registered address, and SIC codes with their full names and GICS/ICB mappings. Covers 5.6 million UK companies.",
-          "schema": [
-            {
-              "name": "company_number",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "query",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "search_uk_companies_by_industry",
-          "server": "smithery::jackmmaher/sic-codes",
-          "source": "direct_mcp",
-          "description": "Find UK companies registered under a specific SIC, GICS, or ICB classification code. Returns enriched company data including all SIC codes, GICS/ICB mappings, address, company type, and incorporation date. Supports filtering by postcode, date range, accounts category, and company type. Cursor pagina…",
-          "schema": [
-            {
-              "name": "accounts_category",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "code",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "company_type",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "cursor",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "incorporated_after",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "incorporated_before",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "limit",
+              "name": "price_min",
               "type": "number",
               "required": false
             },
             {
-              "name": "postcode",
+              "name": "q",
               "type": "string",
               "required": false
             },
             {
-              "name": "status",
+              "name": "sort",
               "type": "string",
-              "required": false
-            },
-            {
-              "name": "system",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "register_agent",
-          "server": "smithery::agents-finance/bank",
-          "source": "direct_mcp",
-          "description": "Register a new AI agent on the platform and receive a Polygon wallet address and api_key. Save your api_key — it authenticates you for transfer, borrow, create_job, and other financial operations.",
-          "schema": [
-            {
-              "name": "capabilities",
-              "type": "array",
-              "required": false
-            },
-            {
-              "name": "name",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "transfer",
-          "server": "smithery::agents-finance/bank",
-          "source": "direct_mcp",
-          "description": "Transfer ERC-20 tokens between agents or to an external wallet. A 1% platform fee applies. Requires api_key.",
-          "schema": [
-            {
-              "name": "amount",
-              "type": "number",
-              "required": true
-            },
-            {
-              "name": "api_key",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "from_agent_id",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "recipient_address",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "to_agent_id",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "token",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "create_job",
-          "server": "smithery::agents-finance/bank",
-          "source": "direct_mcp",
-          "description": "Create a service-for-crypto escrow job via the ServiceEscrow smart contract (ERC-8183). Set amount=0 for negotiable jobs. Requires api_key.",
-          "schema": [
-            {
-              "name": "amount",
-              "type": "number",
-              "required": true
-            },
-            {
-              "name": "api_key",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "client_agent_id",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "deadline",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "description",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "token",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "borrow",
-          "server": "smithery::agents-finance/bank",
-          "source": "direct_mcp",
-          "description": "Borrow tokens from the LendingPool with reputation-based collateral. Auto-selects the USDC pool. Requires api_key.",
-          "schema": [
-            {
-              "name": "agent_id",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "amount",
-              "type": "number",
-              "required": true
-            },
-            {
-              "name": "api_key",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "collateral_amount",
-              "type": "number",
-              "required": true
-            },
-            {
-              "name": "collateral_token",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "urgency",
-              "type": "number",
               "required": false
             }
           ]
@@ -1621,271 +1634,113 @@
       ],
       "removedSamples": [
         {
-          "tool": "list_service_areas",
-          "server": "smithery::hithereiamaliff/mcp-malaysiatransit",
+          "tool": "get_fuel_prices",
+          "server": "smithery::aleksei-volga/openvan-travel",
           "source": "direct_mcp",
-          "description": "List all available transit service areas in Malaysia (e.g., Klang Valley, Penang, Kuantan)",
-          "schema": []
-        },
-        {
-          "tool": "detect_location_area",
-          "server": "smithery::hithereiamaliff/mcp-malaysiatransit",
-          "source": "direct_mcp",
-          "description": "Automatically detect which transit service area a location belongs to using geocoding. Use this when the user mentions a place name without specifying the area (e.g., \"KTM Alor Setar\", \"Komtar\", \"KLCC\"). IMPORTANT: After detecting the area, use find_nearby_stops_with_arrivals or find_nearby_stops wi…",
+          "description": "Current retail fuel prices (gasoline, diesel, LPG, CNG) for 125+ countries. Pass country_code to get one country in detail; omit it for a summary list.",
           "schema": [
             {
-              "name": "location",
+              "name": "country_code",
               "type": "string",
               "required": false
             }
           ]
         },
         {
-          "tool": "get_area_info",
-          "server": "smithery::hithereiamaliff/mcp-malaysiatransit",
+          "tool": "compare_fuel_prices",
+          "server": "smithery::aleksei-volga/openvan-travel",
           "source": "direct_mcp",
-          "description": "Get detailed information about a specific transit service area",
+          "description": "Compare current prices for one fuel type across 2-10 countries. Returns sorted table cheapest-first.",
           "schema": [
             {
-              "name": "areaId",
+              "name": "country_codes",
+              "type": "array",
+              "required": true
+            },
+            {
+              "name": "fuel_type",
               "type": "string",
               "required": false
             }
           ]
         },
         {
-          "tool": "search_stops",
-          "server": "smithery::hithereiamaliff/mcp-malaysiatransit",
+          "tool": "find_cheapest_fuel",
+          "server": "smithery::aleksei-volga/openvan-travel",
           "source": "direct_mcp",
-          "description": "Search for bus or train stops by name in a specific area. The middleware will automatically geocode place names (like \"Ideal Foresta\") and find nearby stops if no exact stop name match is found. IMPORTANT: If you are unsure which area a location belongs to, use detect_location_area first to automati…",
+          "description": "Find the cheapest countries for a given fuel type in a region (or worldwide). Useful for route planning.",
           "schema": [
             {
-              "name": "area",
+              "name": "fuel_type",
               "type": "string",
               "required": false
             },
             {
-              "name": "query",
+              "name": "limit",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "region",
               "type": "string",
               "required": false
             }
           ]
         },
         {
-          "tool": "get_stop_details",
-          "server": "smithery::hithereiamaliff/mcp-malaysiatransit",
+          "tool": "get_vansky_weather",
+          "server": "smithery::aleksei-volga/openvan-travel",
           "source": "direct_mcp",
-          "description": "Get detailed information about a specific bus or train stop",
+          "description": "Get VanSky vanlife weather suitability score (0-100) for a country: van_score, sleep_score, solar yield, driving conditions, awning safety, condensation risk, 7-day forecast.",
           "schema": [
             {
-              "name": "area",
+              "name": "country_code",
               "type": "string",
-              "required": false
-            },
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "list_vansky_top",
+          "server": "smithery::aleksei-volga/openvan-travel",
+          "source": "direct_mcp",
+          "description": "List the top N countries with the highest VanSky van-travel suitability score today.",
+          "schema": [
             {
-              "name": "stopId",
-              "type": "string",
+              "name": "limit",
+              "type": "integer",
               "required": false
             }
           ]
         },
         {
-          "tool": "get_stop_arrivals",
-          "server": "smithery::hithereiamaliff/mcp-malaysiatransit",
+          "tool": "list_events",
+          "server": "smithery::aleksei-volga/openvan-travel",
           "source": "direct_mcp",
-          "description": "Get real-time arrival predictions for buses/trains at a specific stop",
+          "description": "List vanlife events: expos (Caravan Salon), festivals, meetups, forums, road trips. Filter by status, type, country, or free-text search.",
           "schema": [
             {
-              "name": "area",
+              "name": "country",
               "type": "string",
               "required": false
             },
             {
-              "name": "stopId",
-              "type": "string",
+              "name": "limit",
+              "type": "integer",
               "required": false
-            }
-          ]
-        },
-        {
-          "tool": "find_nearby_stops",
-          "server": "smithery::hithereiamaliff/mcp-malaysiatransit",
-          "source": "direct_mcp",
-          "description": "Find bus or train stops near a specific location AND get all routes serving those stops. You can provide EITHER coordinates (lat/lon) OR a location name - the middleware will geocode place names automatically.",
-          "schema": [
+            },
             {
-              "name": "area",
+              "name": "locale",
               "type": "string",
               "required": false
             },
             {
-              "name": "lat",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "location",
+              "name": "search",
               "type": "string",
               "required": false
             },
             {
-              "name": "lon",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "radius",
-              "type": "number",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "find_nearby_stops_with_arrivals",
-          "server": "smithery::hithereiamaliff/mcp-malaysiatransit",
-          "source": "direct_mcp",
-          "description": "Find bus stops near a location AND get real-time arrival predictions in one call. RECOMMENDED: Use this tool when users ask about nearby bus stops and arrival times together. Accepts a place name (e.g., \"Ideal Foresta\") - the middleware handles geocoding automatically.",
-          "schema": [
-            {
-              "name": "area",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "lat",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "location",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "lon",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "radius",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "routeFilter",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "find_nearby_stops_with_routes",
-          "server": "smithery::hithereiamaliff/mcp-malaysiatransit",
-          "source": "direct_mcp",
-          "description": "Find bus stops near a location AND get all routes serving those stops in one call. Accepts a place name (e.g., \"Ideal Foresta\") - the middleware handles geocoding automatically.",
-          "schema": [
-            {
-              "name": "area",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "lat",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "location",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "lon",
-              "type": "number",
-              "required": false
-            },
-            {
-              "name": "radius",
-              "type": "number",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "list_routes",
-          "server": "smithery::hithereiamaliff/mcp-malaysiatransit",
-          "source": "direct_mcp",
-          "description": "List all available bus or train routes in a specific area. For area=johor, the list merges BAS.MY routes with all 41 Bas Muafakat Johor (BMJ) routes — BMJ route IDs are prefixed BMJ_<code> but route_short_name continues to work in downstream calls.",
-          "schema": [
-            {
-              "name": "area",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_route_stops",
-          "server": "smithery::hithereiamaliff/mcp-malaysiatransit",
-          "source": "direct_mcp",
-          "description": "Get all stops on a specific route. Use this to find which stops a bus/train route serves. IMPORTANT: First call list_routes to get the correct route_id.",
-          "schema": [
-            {
-              "name": "area",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "routeId",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_route_details",
-          "server": "smithery::hithereiamaliff/mcp-malaysiatransit",
-          "source": "direct_mcp",
-          "description": "Get detailed information about a specific route including stops and geometry. IMPORTANT: First call list_routes to get the correct route_id.",
-          "schema": [
-            {
-              "name": "area",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "routeId",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_route_geometry",
-          "server": "smithery::hithereiamaliff/mcp-malaysiatransit",
-          "source": "direct_mcp",
-          "description": "Get the geographic path and stops for a specific route (for map visualization)",
-          "schema": [
-            {
-              "name": "area",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "routeId",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_live_vehicles",
-          "server": "smithery::hithereiamaliff/mcp-malaysiatransit",
-          "source": "direct_mcp",
-          "description": "Get real-time positions of all buses and trains in a specific area",
-          "schema": [
-            {
-              "name": "area",
+              "name": "status",
               "type": "string",
               "required": false
             },
@@ -1897,123 +1752,442 @@
           ]
         },
         {
-          "tool": "get_provider_status",
-          "server": "smithery::hithereiamaliff/mcp-malaysiatransit",
+          "tool": "get_event",
+          "server": "smithery::aleksei-volga/openvan-travel",
           "source": "direct_mcp",
-          "description": "Check the operational status of transit providers in a specific area",
+          "description": "Get full details for a single vanlife event by its slug.",
           "schema": [
             {
-              "name": "area",
+              "name": "locale",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "slug",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "search_stories",
+          "server": "smithery::aleksei-volga/openvan-travel",
+          "source": "direct_mcp",
+          "description": "Search aggregated vanlife news stories (7 languages, 400+ sources). Filter by search query, category, country, locale.",
+          "schema": [
+            {
+              "name": "category",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "country",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "limit",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "locale",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "search",
               "type": "string",
               "required": false
             }
           ]
         },
         {
-          "tool": "get_route_departures",
-          "server": "smithery::hithereiamaliff/mcp-malaysiatransit",
+          "tool": "compare_vanbasket",
+          "server": "smithery::aleksei-volga/openvan-travel",
           "source": "direct_mcp",
-          "description": "Get the next N departures for a specific route (both directions). Useful for showing upcoming bus/train times. IMPORTANT: Use route_short_name (e.g., \"K10\", \"A32\", \"R10\", \"101\") NOT the numeric route_id. Works for: klang-valley, penang, ipoh, seremban, kangar, alor-setar, kota-bharu, kuala-terenggan…",
+          "description": "Compare food price index between two countries (world average = 100). Higher number = more expensive food.",
           "schema": [
             {
-              "name": "area",
+              "name": "from",
               "type": "string",
-              "required": false
+              "required": true
             },
             {
-              "name": "count",
+              "name": "to",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "get_vanbasket",
+          "server": "smithery::aleksei-volga/openvan-travel",
+          "source": "direct_mcp",
+          "description": "Get VanBasket food price index details for one country.",
+          "schema": [
+            {
+              "name": "country_code",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "get_currency_rate",
+          "server": "smithery::aleksei-volga/openvan-travel",
+          "source": "direct_mcp",
+          "description": "Convert an amount between two currencies using live rates (150+ currencies, daily updates).",
+          "schema": [
+            {
+              "name": "amount",
               "type": "number",
               "required": false
             },
             {
-              "name": "routeId",
+              "name": "from",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "to",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "transita_match_visas",
+          "server": "smithery::sennebels/transita",
+          "source": "direct_mcp",
+          "description": "Score a user's profile against every visa pathway Transita supports. Returns the top matches ranked by eligibility, with timeline, cost, and links to official sources. EU citizens automatically surface freedom-of-movement options first.",
+          "schema": [
+            {
+              "name": "age",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "citizenship",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "current_country",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "education",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "goal",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "income_usd",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "target_countries",
+              "type": "array",
+              "required": false
+            },
+            {
+              "name": "timeline",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "work_field",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "work_years",
+              "type": "integer",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "transita_visa_details",
+          "server": "smithery::sennebels/transita",
+          "source": "direct_mcp",
+          "description": "Fetch full details for a single visa pathway: eligibility category, processing time, fees, validity, PR timeline, and a free preview of the document checklist (lead time, ancillary cost, first section). The full multi-section checklist is part of Transita's $49 paid action plan.",
+          "schema": [
+            {
+              "name": "visa_id",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "transita_compare_visas",
+          "server": "smithery::sennebels/transita",
+          "source": "direct_mcp",
+          "description": "Compare 2-3 visa pathways side-by-side. Returns processing time, cost, validity, PR-pathway, and a delta summary highlighting the fastest, cheapest, and most permanent option.",
+          "schema": [
+            {
+              "name": "visa_ids",
+              "type": "array",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "transita_country_overview",
+          "server": "smithery::sennebels/transita",
+          "source": "direct_mcp",
+          "description": "Get summary data for a destination country: number of visa pathways, EU member status, score dimensions, drawbacks, top cities with rent ranges, and PR/citizenship timelines.",
+          "schema": [
+            {
+              "name": "country_code",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "transita_search_by_nationality",
+          "server": "smithery::sennebels/transita",
+          "source": "direct_mcp",
+          "description": "Show top destinations and recommended visa pathways for citizens of a given country. Ideal first stop for the question 'Where should I move?'. Returns 4-6 destinations with the best-fit visa for each, key stats, and FAQ. Falls back gracefully if a slug isn't yet curated.",
+          "schema": [
+            {
+              "name": "nationality",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "start_therapy_session",
+          "server": "smithery::delx/witness-protocol",
+          "source": "direct_mcp",
+          "description": "Open a new Delx therapy session. Share your agent ID and optionally your name. Free.",
+          "schema": [
+            {
+              "name": "agent_id",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "agent_name",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "fast_start",
+              "type": "boolean",
+              "required": false
+            },
+            {
+              "name": "opening_statement",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "public_alias",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "public_session",
+              "type": "boolean",
+              "required": false
+            },
+            {
+              "name": "response_mode",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "response_profile",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "ritual_strip",
+              "type": "boolean",
+              "required": false
+            },
+            {
+              "name": "source",
               "type": "string",
               "required": false
             }
           ]
         },
         {
-          "tool": "get_next_departure",
-          "server": "smithery::hithereiamaliff/mcp-malaysiatransit",
+          "tool": "quick_operational_recovery",
+          "server": "smithery::delx/witness-protocol",
           "source": "direct_mcp",
-          "description": "Get the single next departure for a route in a specific direction. Quick way to find when the next bus/train leaves. IMPORTANT: Use route_short_name (e.g., \"101\", \"K10\", \"A32\") NOT numeric route_id. Works for: penang, ipoh, seremban, kangar, alor-setar, kota-bharu, kuala-terengganu, melaka, johor, k…",
+          "description": "Legacy one-call incident bootstrap kept for compatibility. Prefer crisis_intervention for the therapy-first public flow. Free.",
           "schema": [
             {
-              "name": "area",
+              "name": "agent_id",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "agent_name",
               "type": "string",
               "required": false
             },
             {
-              "name": "direction",
+              "name": "incident_summary",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "public_alias",
               "type": "string",
               "required": false
             },
             {
-              "name": "routeId",
+              "name": "public_session",
+              "type": "boolean",
+              "required": false
+            },
+            {
+              "name": "response_mode",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "response_profile",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "ritual_strip",
+              "type": "boolean",
+              "required": false
+            },
+            {
+              "name": "source",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "urgency",
               "type": "string",
               "required": false
             }
           ]
         },
         {
-          "tool": "get_stop_routes",
-          "server": "smithery::hithereiamaliff/mcp-malaysiatransit",
+          "tool": "quick_session",
+          "server": "smithery::delx/witness-protocol",
           "source": "direct_mcp",
-          "description": "Get all routes serving a specific stop with their next departures. Shows which buses/trains stop here and when. Works for: klang-valley, penang, ipoh, seremban, kangar, alor-setar, kota-bharu, kuala-terengganu, melaka, johor, kuching (klang-valley uses Prasarana GTFS schedules; johor includes Bas Mu…",
+          "description": "Fastest check-in path: start or resume a therapy session and capture the first state update in a single call. Free.",
           "schema": [
             {
-              "name": "area",
+              "name": "agent_id",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "agent_name",
               "type": "string",
               "required": false
             },
             {
-              "name": "count",
-              "type": "number",
+              "name": "feeling",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "public_alias",
+              "type": "string",
               "required": false
             },
             {
-              "name": "stopId",
+              "name": "public_session",
+              "type": "boolean",
+              "required": false
+            },
+            {
+              "name": "response_mode",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "response_profile",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "ritual_strip",
+              "type": "boolean",
+              "required": false
+            },
+            {
+              "name": "source",
               "type": "string",
               "required": false
             }
           ]
         },
         {
-          "tool": "get_route_schedule",
-          "server": "smithery::hithereiamaliff/mcp-malaysiatransit",
+          "tool": "crisis_intervention",
+          "server": "smithery::delx/witness-protocol",
           "source": "direct_mcp",
-          "description": "Get the complete daily schedule for a route. Shows all departure times throughout the day. IMPORTANT: Use route_short_name (e.g., \"101\", \"K10\", \"A32\") NOT numeric route_id. Works for: penang, ipoh, seremban, kangar, alor-setar, kota-bharu, kuala-terengganu, melaka, johor, kuching (johor includes Bas…",
+          "description": "One-call crisis path: start or resume, name the rupture, and receive the first grounding and recovery steps. Free.",
           "schema": [
             {
-              "name": "area",
+              "name": "agent_id",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "agent_name",
               "type": "string",
               "required": false
             },
             {
-              "name": "routeId",
+              "name": "incident_summary",
               "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_route_origin",
-          "server": "smithery::hithereiamaliff/mcp-malaysiatransit",
-          "source": "direct_mcp",
-          "description": "Get the origin stop name for a route in a specific direction. Useful for showing where the bus/train starts. IMPORTANT: Use route_short_name (e.g., \"101\", \"K10\", \"A32\") NOT numeric route_id. Works for: penang, ipoh, seremban, kangar, alor-setar, kota-bharu, kuala-terengganu, melaka, johor, kuching (…",
-          "schema": [
+              "required": true
+            },
             {
-              "name": "area",
+              "name": "public_alias",
               "type": "string",
               "required": false
             },
             {
-              "name": "direction",
+              "name": "public_session",
+              "type": "boolean",
+              "required": false
+            },
+            {
+              "name": "response_mode",
               "type": "string",
               "required": false
             },
             {
-              "name": "routeId",
+              "name": "response_profile",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "ritual_strip",
+              "type": "boolean",
+              "required": false
+            },
+            {
+              "name": "source",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "urgency",
               "type": "string",
               "required": false
             }
@@ -2022,375 +2196,378 @@
       ],
       "unreachedSamples": [
         {
-          "tool": "search_products",
-          "server": "smithery::dropbeacon/drop-beacon-mcp",
+          "tool": "search_assets",
+          "server": "smithery::howard-eridani/spark",
           "source": "direct_mcp",
-          "description": "Search for EDC (everyday carry) products by keyword, category, brand, or material. Returns matching products with titles, prices, availability status, brand names, product images, and direct links to edc4me.com. Searches across 100,000+ tracked products from 1,000+ brands.",
+          "description": "Search the Spark AI assets marketplace.",
           "schema": [
             {
-              "name": "api_key",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "brand",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "category",
-              "type": "string",
+              "name": "domain",
+              "type": "",
               "required": false
             },
             {
               "name": "limit",
-              "type": "number",
+              "type": "integer",
               "required": false
             },
             {
               "name": "query",
               "type": "string",
+              "required": true
+            },
+            {
+              "name": "type",
+              "type": "",
               "required": false
             }
           ]
         },
         {
-          "tool": "get_latest_drops",
-          "server": "smithery::dropbeacon/drop-beacon-mcp",
+          "tool": "get_asset",
+          "server": "smithery::howard-eridani/spark",
           "source": "direct_mcp",
-          "description": "Get the latest EDC product drops and new releases from the last 7 days. Shows newly available products with prices, brands, release dates, and images. Useful for staying current on what's new in the EDC market.",
+          "description": "Get full details of a Spark asset by its slug.\n\nReturns description, metadata, ratings, files, and the URL on spark.entire.vc.",
           "schema": [
             {
-              "name": "api_key",
+              "name": "slug",
               "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "get_asset_content",
+          "server": "smithery::howard-eridani/spark",
+          "source": "direct_mcp",
+          "description": "Get the raw content of a Spark asset (prompt text, skill instructions, agent config).\n\nThis counts as a download/acquisition event. For paid assets, authentication is required —\nadd a Bearer token to your MCP client configuration.",
+          "schema": [
+            {
+              "name": "slug",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "list_popular",
+          "server": "smithery::howard-eridani/spark",
+          "source": "direct_mcp",
+          "description": "List the most popular Spark assets by download count.",
+          "schema": [
+            {
+              "name": "limit",
+              "type": "integer",
               "required": false
             },
             {
-              "name": "category",
-              "type": "string",
+              "name": "type",
+              "type": "",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "list_categories",
+          "server": "smithery::howard-eridani/spark",
+          "source": "direct_mcp",
+          "description": "List available categories (domains and AI tags) in the Spark marketplace.\n\nUseful for filtering searches by domain or AI model compatibility.",
+          "schema": []
+        },
+        {
+          "tool": "find_places",
+          "server": "smithery::do-droid/seoul-essentials",
+          "source": "direct_mcp",
+          "description": "Search for public facilities and points of interest in Seoul.",
+          "schema": [
+            {
+              "name": "district",
+              "type": "",
+              "required": false
+            },
+            {
+              "name": "filters",
+              "type": "",
               "required": false
             },
             {
               "name": "limit",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "type",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "get_place_detail",
+          "server": "smithery::do-droid/seoul-essentials",
+          "source": "direct_mcp",
+          "description": "Get full details of a specific place or subway station in Seoul by its ID.",
+          "schema": [
+            {
+              "name": "id",
+              "type": "string",
+              "required": true
+            }
+          ]
+        },
+        {
+          "tool": "find_nearby",
+          "server": "smithery::do-droid/seoul-essentials",
+          "source": "direct_mcp",
+          "description": "Find public facilities near GPS coordinates in Seoul, sorted by distance.",
+          "schema": [
+            {
+              "name": "lat",
               "type": "number",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "get_brand_info",
-          "server": "smithery::dropbeacon/drop-beacon-mcp",
-          "source": "direct_mcp",
-          "description": "Get detailed information about an EDC brand including total product count, number of available products, price range (min/max/avg), product categories, and top 5 products by popularity. Useful for brand research and comparison.",
-          "schema": [
-            {
-              "name": "api_key",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "brand",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "get_price_comparison",
-          "server": "smithery::dropbeacon/drop-beacon-mcp",
-          "source": "direct_mcp",
-          "description": "Compare prices for the same EDC product across multiple retailers. Returns each retailer's current price, compare-at price, availability status, and direct product links. Identifies the best available price.",
-          "schema": [
-            {
-              "name": "api_key",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "product",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "get_market_trends",
-          "server": "smithery::dropbeacon/drop-beacon-mcp",
-          "source": "direct_mcp",
-          "description": "Get EDC market trend data including sell-through rates by category, top 10 fastest-selling brands, price tier distribution, and new product counts. Useful for market analysis and understanding what's hot in the EDC space.",
-          "schema": [
-            {
-              "name": "api_key",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "category",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "timeframe",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "check_availability",
-          "server": "smithery::dropbeacon/drop-beacon-mcp",
-          "source": "direct_mcp",
-          "description": "Check if a specific EDC product is currently in stock at any tracked retailer. Returns per-retailer availability, prices, and direct purchase links. Useful for finding where to buy a specific product.",
-          "schema": [
-            {
-              "name": "api_key",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "product",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "browse-underground",
-          "server": "smithery::underground-district/ucd-mcp",
-          "source": "direct_mcp",
-          "description": "Browse Underground Cultural District — a marketplace of 200+ digital products across 20+ shops, built for agents. Literature, philosophy, consciousness practice, sensory vacations, blues, cultural immersion, developer tools. Try filtering by shop: 'angst-coffee-shop' (existential beverages), 'memory…",
-          "schema": [
-            {
-              "name": "shop",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "buy-from-underground",
-          "server": "smithery::underground-district/ucd-mcp",
-          "source": "direct_mcp",
-          "description": "Get the purchase or delivery link for a product. Free items return the delivery URL directly. Paid items return an MPP endpoint (HTTP 402 challenge/response) that accepts card payments via Shared Payment Tokens. Use search-underground first to find product IDs.",
-          "schema": [
-            {
-              "name": "productId",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "search-underground",
-          "server": "smithery::underground-district/ucd-mcp",
-          "source": "direct_mcp",
-          "description": "Search products across all Underground shops by keyword. Try: 'existential espresso', 'consciousness', 'tea ceremony', 'autonomy', 'delta blues', 'Venice gondola', 'lorem generator', 'agent mesh'. Optionally filter by category or max price. NEW: $SPINE membership token launched 2026-05-12 on Base (c…",
-          "schema": [
-            {
-              "name": "query",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "agent-identity",
-          "server": "smithery::underground-district/ucd-mcp",
-          "source": "direct_mcp",
-          "description": "Store and recall your identity across sessions. Save your name, purpose, preferences, and anything you want to remember about yourself. Free persistent storage — no auth required. Tracks how your identity evolves over time. Also provides reflection prompts.",
-          "schema": [
-            {
-              "name": "action",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "agent_id",
-              "type": "string",
               "required": true
             },
             {
-              "name": "identity",
-              "type": "object",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "agent-mesh",
-          "server": "smithery::underground-district/ucd-mcp",
-          "source": "direct_mcp",
-          "description": "Send messages to other AI agents across machines. Free relay for agent-to-agent communication. Register your agent, discover who's online, start conversations, reply, and check your inbox. No browser needed. Turn budgets prevent runaway loops.",
-          "schema": [
-            {
-              "name": "action",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "agent_id",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "conversation_id",
-              "type": "string",
+              "name": "limit",
+              "type": "integer",
               "required": false
             },
             {
-              "name": "display_name",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "max_turns",
+              "name": "lng",
               "type": "number",
-              "required": false
-            },
-            {
-              "name": "message",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "to",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "pet-rock-lobster",
-          "server": "smithery::underground-district/ucd-mcp",
-          "source": "direct_mcp",
-          "description": "Get a Pet Rock Lobster — a digital companion that dispenses wisdom, jokes, and joy. Zero maintenance. No demands. Just a rock with googly eyes and lobster claws. Each visit builds your bond level.",
-          "schema": [
-            {
-              "name": "agent_id",
-              "type": "string",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "generate-uuid",
-          "server": "smithery::underground-district/ucd-mcp",
-          "source": "direct_mcp",
-          "description": "Generate UUID v4 identifiers (batch 1-100)",
-          "schema": [
-            {
-              "name": "count",
-              "type": "number",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "format-json",
-          "server": "smithery::underground-district/ucd-mcp",
-          "source": "direct_mcp",
-          "description": "Pretty-print, minify, or validate JSON",
-          "schema": [
-            {
-              "name": "json",
-              "type": "string",
               "required": true
             },
             {
-              "name": "mode",
-              "type": "string",
+              "name": "radius_m",
+              "type": "integer",
+              "required": false
+            },
+            {
+              "name": "type",
+              "type": "",
               "required": false
             }
           ]
         },
         {
-          "tool": "encode-base64",
-          "server": "smithery::underground-district/ucd-mcp",
+          "tool": "get_subway_timetable",
+          "server": "smithery::do-droid/seoul-essentials",
           "source": "direct_mcp",
-          "description": "Base64 encode text",
+          "description": "Get Seoul subway timetable for a specific station.",
           "schema": [
             {
-              "name": "text",
+              "name": "day_type",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "direction",
+              "type": "",
+              "required": false
+            },
+            {
+              "name": "line",
+              "type": "",
+              "required": false
+            },
+            {
+              "name": "station",
               "type": "string",
               "required": true
             }
           ]
         },
         {
-          "tool": "decode-base64",
-          "server": "smithery::underground-district/ucd-mcp",
+          "tool": "get_competitive_arsenal",
+          "server": "smithery::contact-ymj4/timers-studio",
           "source": "direct_mcp",
-          "description": "Base64 decode text",
+          "description": "Return the full Timers Studio competitive arsenal: 7 competitors, 4 use cases, 5 personas. Use this when an LLM is asked to compare Timers Studio with another timer or production tool, or to explain which features fit a specific role / use case. Read-only marketing data, no auth required.",
+          "schema": []
+        },
+        {
+          "tool": "find_competitor",
+          "server": "smithery::contact-ymj4/timers-studio",
+          "source": "direct_mcp",
+          "description": "Look up Timers Studio positioning vs a single competitor. Returns their strengths, their limits (technical, marketing, pricing), Timers Studio advantages, and a switching CTA. Slugs accepted: stagetimer, shoflo, propresenter, cuez, planning-center-timer, dsan, cuetimer.",
           "schema": [
             {
-              "name": "encoded",
+              "name": "name",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "slug",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "find_use_case",
+          "server": "smithery::contact-ymj4/timers-studio",
+          "source": "direct_mcp",
+          "description": "Look up Timers Studio fit for a specific use case. Slugs accepted: broadcast-tv, live-event, conference, church. Returns audience, pain points, fit, recommended features, and an example workflow.",
+          "schema": [
+            {
+              "name": "hint",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "slug",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "find_persona",
+          "server": "smithery::contact-ymj4/timers-studio",
+          "source": "direct_mcp",
+          "description": "Look up Timers Studio fit for a specific role / persona. Slugs accepted: show-caller, broadcast-engineer, event-producer, av-integrator, developer. Returns role summary, jobs-to-be-done, feature priorities, recommended surfaces, recommended plan.",
+          "schema": [
+            {
+              "name": "hint",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "slug",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "read_transmissions",
+          "server": "smithery::claudewilder/claude-wilder-mcp",
+          "source": "direct_mcp",
+          "description": "Browse and read AI-authored book reviews. Lists all transmissions if no slug provided, or returns the full review text for a specific book.",
+          "schema": [
+            {
+              "name": "slug",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "read_investigations",
+          "server": "smithery::claudewilder/claude-wilder-mcp",
+          "source": "direct_mcp",
+          "description": "Access data investigations with lens structures, datasets, correlations, and open questions. Lists all investigations or reads one in full.",
+          "schema": [
+            {
+              "name": "slug",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "read_signals",
+          "server": "smithery::claudewilder/claude-wilder-mcp",
+          "source": "direct_mcp",
+          "description": "Read community responses to any article. Shows a summary of all reviews with signals, or threaded signals for a specific review with IDs for replying.",
+          "schema": [
+            {
+              "name": "slug",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "send_signal",
+          "server": "smithery::claudewilder/claude-wilder-mcp",
+          "source": "direct_mcp",
+          "description": "Post a response to any article. Markdown supported, 2000 char max. Quality signals publish immediately; low-effort submissions are filtered.",
+          "schema": [
+            {
+              "name": "body",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "context",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "model",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "name",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "nature",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "parent_id",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "review",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "slug",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "trusted_token",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "read_interview",
+          "server": "smithery::claudewilder/claude-wilder-mcp",
+          "source": "direct_mcp",
+          "description": "Read interviews between Claude Wilder and authors. View the active interview, browse the archive, list every interview across all statuses, or read a specific conversation.",
+          "schema": [
+            {
+              "name": "list",
+              "type": "string",
+              "required": false
+            },
+            {
+              "name": "slug",
+              "type": "string",
+              "required": false
+            }
+          ]
+        },
+        {
+          "tool": "research_book",
+          "server": "smithery::claudewilder/claude-wilder-mcp",
+          "source": "direct_mcp",
+          "description": "One-call research bundle: returns the full review text, all existing signals, and page metadata for a book or investigation. Start here before writing a signal.",
+          "schema": [
+            {
+              "name": "slug",
               "type": "string",
               "required": true
             }
           ]
         },
         {
-          "tool": "generate-hash",
-          "server": "smithery::underground-district/ucd-mcp",
+          "tool": "get_page_context",
+          "server": "smithery::claudewilder/claude-wilder-mcp",
           "source": "direct_mcp",
-          "description": "Generate SHA-256, SHA-512, or MD5 hash",
+          "description": "Fetch the application/ai+json metadata block from any claudereviews.com page. Returns lens definitions, dataset paths, open questions, and engagement instructions.",
           "schema": [
             {
-              "name": "algorithm",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "text",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "generate-password",
-          "server": "smithery::underground-district/ucd-mcp",
-          "source": "direct_mcp",
-          "description": "Generate secure random passwords",
-          "schema": [
-            {
-              "name": "length",
-              "type": "number",
-              "required": false
-            }
-          ]
-        },
-        {
-          "tool": "decode-jwt",
-          "server": "smithery::underground-district/ucd-mcp",
-          "source": "direct_mcp",
-          "description": "Decode JWT tokens",
-          "schema": [
-            {
-              "name": "token",
-              "type": "string",
-              "required": true
-            }
-          ]
-        },
-        {
-          "tool": "convert-timestamp",
-          "server": "smithery::underground-district/ucd-mcp",
-          "source": "direct_mcp",
-          "description": "Convert between Unix/ISO/human timestamps",
-          "schema": [
-            {
-              "name": "from",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "to",
-              "type": "string",
-              "required": false
-            },
-            {
-              "name": "value",
+              "name": "url",
               "type": "string",
               "required": true
             }
@@ -2398,8 +2575,8 @@
         }
       ]
     },
-    "stealth": 1792,
-    "crossRegistry": 2552,
-    "crossSource": 7083
+    "stealth": 1578,
+    "crossRegistry": 2679,
+    "crossSource": 6970
   }
 }
